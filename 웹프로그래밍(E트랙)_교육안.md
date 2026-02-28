@@ -21,6 +21,7 @@
   1. (사전학습) 매주 제공되는 eCampus 온라인 영상 강의를 통해 예제 중심 웹 프로그래밍 이론을 선행 학습함.
   2. (본수업) 사전 학습 내용을 바탕으로 직관적인 예제 웹 페이지 제작 실습을 수행하며 즉각적인 피드백을 제공.
   3. (코드비평) 복잡한 코딩 대신 AI 도구로 초기 형태를 생성하고, 스스로 예제의 논리 오류를 찾는 훈련 진행.
+  4. (동료평가) 동료 평가를 기본으로 한 상호 코드 리뷰를 통해 학습 결과물을 공유하고 복습의 효과를 극대화함.
 * **전년도 변경·개선사항 (20자 이상, 3개):**
   1. 국제학부생 대다수가 컴퓨터 교육 경험이 없음을 고려해, 높은 진입장벽을 낮춘 '실생활 예제 중심'으로 커리큘럼 개편.
   2. 복잡한 이론이나 마크업 암기 시간을 대폭 줄이고, AI가 생성한 예제 코드를 눈으로 확인하고 고쳐보는 대면 실습 강화.
@@ -76,7 +77,12 @@
 
 ---
 
-## **3. 평가 가이드라인 (가안)**
+## **3. 평가 (Evaluation)**
+* **기말고사/프로젝트 (Final Exam/Project):** 40%
+* **중간고사 (Midterm Exam):** 20%
+* **과제 (Assignments):** 20%
+* **수업 참여도 (Class Participation):** 20%
+* **(합계: 100%)**
 
 국제학부생의 수준을 고려하여 **어려운 암기 위주의 지필 평가보다 '본인이 코드를 어느 정도 이해(이해도)했는가'에 초점**을 맞춥니다. AI 코드 생성은 적극 장려됩니다.
 
@@ -111,6 +117,7 @@ This curriculum is designed primarily for 1st-year International Students in the
   1. (Pre-learning) Learn theory primarily through example-centric online instruction videos on eCampus weekly.
   2. (Main Class) Perform intuitive, visual web page creation exercises using real-world examples with immediate feedback.
   3. (Code Critique) Use AI to skip complex typing; instead, practice finding logic flaws and fixing examples visually.
+  4. (Peer Review) Maximize the effectiveness of review units by implementing structured peer evaluation and mutual code feedback.
 * **Changes/Improvements from Last Year (Max 3 items, 20+ chars each):**
   1. Redesigned to be highly 'Example-Centric' to drastically lower the entry barrier for international students lacking computer backgrounds.
   2. Substituted tedious theory/memorization with visual verification and face-to-face guidance on fixing AI-generated templates.
@@ -166,7 +173,12 @@ This curriculum is designed primarily for 1st-year International Students in the
 
 ---
 
-## **3. Evaluation Guidelines (Draft)**
+## **3. Evaluation**
+* **Final Exam/Project:** 40%
+* **Midterm Exam:** 20%
+* **Assignments:** 20%
+* **Class Participation:** 20%
+* **(Total: 100%)**
 
 Considering the level of international students, **the focus is entirely on 'how well the student understands the code structure' rather than difficult memorization-based written exams.** The use of AI code generation tools is highly encouraged.
 
