@@ -26,7 +26,9 @@
   2. 복잡한 이론이나 마크업 암기 시간을 대폭 줄이고, AI가 생성한 예제 코드를 눈으로 확인하고 고쳐보는 대면 실습 강화.
 * **기타/온라인수업 유의사항:** Flipped Learning 영상 시청 관련 eCampus 장애 시 정보전산원에 즉각 문의 혹은 교수자에게 이메일 요망.
 * **과제물:** 매주 A4 0.5페이지 내외의 '마이크로 과제' 제출 (AI 질의응답 및 자체 검증 결과 포함).
-* **주/부교재:** 별도의 지정 서적 교재 없음 (교수자가 배포하는 직관적인 자체 예제 매뉴얼 및 온라인 레퍼런스 활용).
+* **주/부교재:** 
+  * **주교재:** W3Schools (온라인 무료 제공) - 시각적이고 직관적인 온라인 인터랙티브 예제를 주 레퍼런스로 활용.
+  * **참고도서:** 《HTML and CSS: Design and Build Websites》 (Jon Duckett 저) - 기초 문법의 형태학적·시각적 이해를 돕기 위한 참고 도서.
 
 ---
 
@@ -114,7 +116,9 @@ This curriculum is designed primarily for 1st-year International Students in the
   2. Substituted tedious theory/memorization with visual verification and face-to-face guidance on fixing AI-generated templates.
 * **Online Class Precautions:** In case of eCampus technical issues during Flipped Learning video viewings, promptly contact IT support or the instructor.
 * **Assignments:** Weekly 'Micro-assignments' (max 0.5 A4 page) including AI prompts, self-verification, and final code.
-* **Textbook/Materials:** No mandatory textbook required (utilizing instructor's intuitive example manuals and free online references).
+* **Textbook/Materials:**
+  * **Main Textbook:** W3Schools (Free Online Resource) - Utilized as the primary reference for interactive, visual, and intuitive examples.
+  * **Reference Book:** *HTML and CSS: Design and Build Websites* (by Jon Duckett) - Highly recommended for reading foundational concepts visually and intuitively.
 
 ---
 
