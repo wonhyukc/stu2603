@@ -1,12 +1,43 @@
 # [Week 1] Lab: Environment Setup & Your First Web View
 # [1주차] 실습: 환경 구축 및 첫 번째 웹 뷰어
 
+---
+
+## 👋 Welcome to Web Programming (E-Track)! 
+## 👋 웹프로그래밍(E트랙)에 오신 것을 환영합니다!
+
+Before we start our hands-on session, remember our **AI-Native Mindset**: 
+실습을 시작하기 전에, 우리 수업의 **AI-Native 정신**을 기억해 주세요:
+
+1. **AI is your Co-pilot**: Use it to explore, not just copy. 
+   (AI는 여러분의 부조종사입니다: 따라만 쓰지 말고 탐구하는 데 활용하세요.)
+2. **Understand the Structure**: Focus on 'Why' and 'How', not 'What to memorize'.
+   (구조를 이해하세요: '무엇을 외울까'가 아니라 '왜/어떻게'에 집중하세요.)
+3. **Professional Questioning**: When you get stuck, follow the **"Engineer-style Questioning"** rule.
+   (프로페셔널하게 질문하기: 막혔을 때는 **"엔지니어식 질문법"**을 따르세요.)
+
+---
+
+## 👂 Quick Reminder: How to Get Help (Engineer-Style)
+## 💡 도움을 받는 현명한 방법 (엔지니어식 질문법)
+
+If something doesn't work, don't just say "Help!". Tell us:
+무언가 작동하지 않을 때, 단순히 "도와주세요!"라고 하지 말고 아래 내용을 말씀해 주세요:
+
+1. **Purpose**: What are you trying to do? (무엇을 하려 했나요?)
+2. **Action**: What did you try yourself? (무엇을 스스로 시도해 보았나요?)
+3. **Error**: What is the error message? (에러 메시지가 무엇인가요?)
+4. **AI Output**: What did AI suggest? (AI는 어떻게 답변했나요?)
+
+---
+
 ## 1. Environment Setup (Essential Tools)
 We will install the tools you will use throughout the semester. Follow these steps carefully.
 학기 내내 사용할 도구들을 설치할 것입니다. 각 단계를 주의 깊게 따라와 주세요.
 
 ### Step 1: Python Installation (Python 설치)
-Python is a core language for many tools, even for Web.
+Python is a core language for many tools, even for Web development environment.
+Python은 웹 개발 환경을 비롯한 많은 도구의 핵심 언어입니다.
 1. Download from: [python.org](https://www.python.org/downloads/)
 2. **IMPORTANT**: Check the box: **"Add Python to PATH"** before clicking Install.
    - **중요**: 설치 시 "Add Python to PATH"를 반드시 체크하세요.
