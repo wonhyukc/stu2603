@@ -61,8 +61,8 @@ To focus on 'Logic' instead of wasting time on 'Setup', we will use a **Cloud ID
 No installation is needed! You only need a Chrome browser. StackBlitz looks and works exactly like VS Code, the industry standard. This means you won't have any trouble when we switch to local environments later. Also, you can share your code instantly with a single link.
 어떤 설치도 필요 없습니다! 크롬 브라우저만 있으면 됩니다. 스택블리츠는 전 세계 표준인 VS Code와 똑같이 생겼고 작동합니다. 즉, 나중에 로컬 환경으로 전환하더라도 전혀 어려움이 없을 것입니다. 또한, 단 하나의 링크로 여러분의 코드를 즉시 공유할 수도 있습니다.
 
-*(Instructor Note: Remind students to select the **"Static (HTML/JS/CSS)"** project when creating a new project in StackBlitz!)*
-*(강사 참고: 스택블리츠에서 새 프로젝트를 생성할 때 학생들에게 **"Static (HTML/JS/CSS)"** 프로젝트를 선택하도록 다시 한번 강조해 주세요!)*
+*(Instructor Note: Remind students to click the **"Static (HTML/JS/CSS)"** template with the orange HTML5 shield icon when creating a new project in StackBlitz!)*
+*(강사 참고: 스택블리츠에서 새 프로젝트를 생성할 때 학생들에게 대시보드에서 주황색 방패 아이콘이 있는 **`Static (HTML/JS/CSS)`** 템플릿을 선택하도록 명확히 알려주세요!)*
 
 ---
 

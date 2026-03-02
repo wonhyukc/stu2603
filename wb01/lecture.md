@@ -75,6 +75,9 @@ To keep things simple and focus on 'Logic' instead of 'Setup', we will use a **C
 *   **Instant Shared URL**: You can share your code results instantly with a single link.
     *   **즉각적인 공유**: 링크 하나로 여러분이 만든 결과물을 전 세계 누구에게나 바로 보여줄 수 있습니다.
 
+*(Instructor Note: Remind students to click the **"Static (HTML/JS/CSS)"** template with the orange HTML5 shield icon when creating a project in StackBlitz!)*
+*(강사 참고: 스택블리츠에서 프로젝트를 생성할 때 학생들에게 대시보드에서 주황색 HTML5 방패 아이콘이 있는 **`Static (HTML/JS/CSS)`** 템플릿을 선택하도록 명확히 짚어주세요!)*
+
 ---
 
 ## 6. Seeing text turn into a website (텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기)

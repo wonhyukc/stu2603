@@ -47,9 +47,10 @@ StackBlitz accounts are best linked with GitHub.
 3. (우측 상단의 로그인 버튼을 눌러 GitHub로 계속하기를 선택합니다.)
 
 ### Step 3: Create a Blank HTML Project (새 프로젝트 생성)
-1. On the StackBlitz dashboard, look for **"HTML/JS/CSS"** or **"Static"** project templates.
-2. Click to create a new blank project. You will see a file explorer on the left, an editor in the middle, and a live preview on the right!
-3. (HTML/JS/CSS 기본 템플릿을 선택하여 빈 프로젝트를 생성합니다. 왼쪽에는 파일, 중간에는 코드, 오른쪽에는 실시간 미리보기가 나타납니다!)
+1. On the StackBlitz dashboard, look for the **Popular** or **Vanilla** tab.
+2. Click the **"Static (HTML/JS/CSS)"** template with the orange HTML5 shield icon 🛡️.
+3. You will see a file explorer on the left, an editor in the middle, and a live preview on the right!
+4. (대시보드의 Popular/Vanilla 탭에서 주황색 HTML5 방패 모양 아이콘이 있는 **`Static (HTML/JS/CSS)`** 템플릿을 찾아 클릭합니다. 왼쪽에는 파일, 중간에는 코드, 오른쪽에는 실시간 미리보기가 나타납니다!)
 
 ---
 

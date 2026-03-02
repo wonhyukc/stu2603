@@ -8,8 +8,10 @@ AI(Gemini, ChatGPT, Claude 중 선택)를 학습 파트너로 활용하여 **질
 ---
 
 ## 🚀 Task: "Ask AI: What is the Web?" (AI에게 질문하기: 웹이란 무엇인가?)
-Ask one of the AI tools to explain what the 'Web' is to a 10-year-old child.
-AI에게 '웹(Web)'이 무엇인지 10살 어린이에게 설명해 달라고 요청하세요.
+1. Ask one of the AI tools to explain what the 'Web' is to a 10-year-old child.
+   - AI에게 '웹(Web)'이 무엇인지 10살 어린이에게 설명해 달라고 요청하세요.
+2. To write your assignment, go to [stackblitz.com](https://stackblitz.com/) and create a basic HTML project by clicking the **"Static (HTML/JS/CSS)"** template (the one with the orange HTML5 shield icon 🛡️).
+   - 스택블리츠 대시보드에서 주황색 HTML5 방패 아이콘이 있는 **`Static (HTML/JS/CSS)`** 템플릿을 클릭하여 프로젝트를 생성하고 배운 내용을 실습할 겸 작성해 보세요 (선택 사항).
 
 ### Task Details (과제 설명):
 1. **AI Prompt (AI 질문):** Write down the exact question you asked the AI.
@@ -35,7 +37,11 @@ Keep it short! (Less than 0.5 A4 page).
 ---
 
 ## ✅ Submission (제출 방법)
-Upload your assignment to **eCampus (LMS) > Week 1 Assignment** board by next week's class.
-다음 주 수업 전까지 **eCampus(LMS) > 1주차 과제** 게시판에 업로드하세요.
+Keep it short! Write directly in the email body WITHOUT attachments.
+첨부파일 없이 메일 본문에 직접 작성하여 다음 주 수요일 23:59까지 제출하세요.
+
+*   **Email to:** `myLoveSarah@gmail.com`
+*   **Subject:** `과제 0.1` (Exactly like this / 정확히 이 제목으로)
+*   **Sender Name:** Must be your Korean name. (이메일 보낸 사람 이름이 본인 한글 이름이어야 채점됩니다.)
 
 *AI should not write your 'Critique' and 'Conclusion'. Those must be your own thoughts!* (AI가 '비평'과 '결론'까지 쓰게 하지 마세요. 그것은 여러분의 생각이어야 합니다!)
