@@ -35,18 +35,32 @@ In this class, we do not memorize syntax. AI (Gemini, ChatGPT, Claude) will help
 In the age of sharing, how we communicate is crucial.
 공유의 시대, 소통의 방식이 매우 중요합니다.
 
-*   **Email is for Personal Matters ONLY**: (Ex: Missing class due to illness, private issues).
-    *   **이메일은 개인적인 용도로만 사용하세요**: (예: 질병 결석, 개인적 사정 등).
-*   **All Course Questions MUST go to LMS**: Use the Q&A board.
-    *   **모든 수업 관련 질문은 반드시 LMS(eCampus)에**: 질문 게시판을 사용하세요.
-*   **⚠️ Penalty Alert**: If you send course questions (that should be shared) via email, **-1 point** will be deducted.
-    *   **감점 주의**: 공유되어야 할 수업 질문을 개인 메일로 보낼 경우 **-1점 감점** 처리됩니다.
-*   **Why?**: Post on forums so others can learn from your problem too. Sharing is the core of modern software engineering.
-    *   **이유**: 게시판에 올리면 다른 학생들도 함께 배울 수 있습니다. '공유'는 현대 소프트웨어 공학의 핵심입니다.
+*   **All Course Questions MUST go to LMS Q&A Board.**
+    *   **모든 질문은 LMS '묻고 답하기 게시판'에 올려주세요.**
+*   **⚠️ Penalty Alert**: Do NOT ask any course-related questions via email. If you do, **points will be deducted.** (This was announced in class. Absentees, please check with your friends.)
+    *   **감점 주의**: 메일로는 수업과 관련된 **어떤 질문도 하지 않아야 합니다.** 질문할 경우 **감점 당합니다.** (수업에서 이미 공지한 내용입니다. 불참자들은 친구들에게 물어서 명확히 인지하세요.)
+*   If you have questions while studying, post them on the board. If unanswered by the next class, ask again during the class.
+    *   공부하면서 생기는 질문은 게시판에 올려 주시고, 수업 때까지 답을 얻지 못하면 수업 시간에 다시금 질문해주세요.
+*   **Exception**: Personal concerns or non-course matters can be sent via email.
+    *   단, 개인적인 고민이나 수업과 상관없는 내용은 메일을 보내도 됩니다.
+*   **Emergency Contact (When LMS is unchecked)**
+    *   I will check LMS every **Wednesday and Saturday night**.
+    *   교수자는 매주 **토요일, 수요일 밤**에 LMS를 확인할 예정입니다.
+    *   If you have an urgent question and haven't received an answer, send an email with the exact subject `게시판` and no body content. I will check ASAP. (This is to save your time from writing unnecessary greetings or long texts.)
+    *   혹 급한 질문이 있고 답을 얻지 못했다면 제목에 `게시판`이라고 달고 내용 없이 메일을 보내시면 됩니다. 가능한 빨리 확인하겠습니다. (불필요한 인사나 장황한 글을 적는 시간에 다른 유용한 곳에 시간을 쓰라는 의도입니다.)
+---
+
+## 4. How websites appear? (어떻게 웹사이트가 보일까?)
+Understanding the basic principles of the web through simple analogies.
+(쉬운 비유를 통해 웹의 원리를 소개하고 작동 방식을 이해합니다.)
+
+## 5. Seeing text turn into a website (텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기)
+Experience how a document with only text transforms into a visual website.
+(간단한 텍스트 문서가 시각적인 웹사이트로 변신하는 과정을 가볍게 체험해 봅니다.)
 
 ---
 
-## 4. Computer as a Tool: Mastering the Basics
+## 6. Computer as a Tool: Mastering the Basics
 컴퓨터라는 도구를 다루는 기본기를 익히세요.
 
 *   **Typing Practice**: Practice typing daily. It's your basic tool.
@@ -58,7 +72,7 @@ In the age of sharing, how we communicate is crucial.
 
 ---
 
-## 5. Class Structure (Flipped Learning)
+## 7. Class Structure (Flipped Learning)
 This class runs for **2 hours only**. You must watch the lecture videos BEFORE the class.
 우리 수업은 **2시간만 진행**됩니다. 반드시 수업 전 온라인 영상 강의를 시청하고 오세요.
 
@@ -76,7 +90,27 @@ This class runs for **2 hours only**. You must watch the lecture videos BEFORE t
 
 ---
 
-## 6. Assessment & Exams (Announcement)
+## 7.5. Micro-Assignment (Task 0.x) Submission Rules
+## 7.5. 마이크로 과제 (과제 0.x) 제출 규칙
+
+*   Do not write long assignments. **Write directly in the email body without attachments.**
+    *   과제 0.x는 길게 적을 필요가 없습니다. **첨부 파일을 사용하지 말고 메일 본문에 직접 작성하세요.**
+*   **Grading**: On-time submission earns **2 points**. Late submission earns **1 point**.
+    *   **평가 기준**: 마감 시간 내 제출 자체만으로 **2점**을 획득합니다. 마감 후 제출은 **1점**을 획득합니다.
+*   **Schedule**: Released every Saturday before midnight. Due every **Wednesday 23:59**.
+    *   **일정**: 매주 토요일 자정 전까지 출제되며, 매주 **수요일 23:59까지** 제출하셔야 합니다.
+*   **Submission Details (CRITICAL 🚨)**
+    *   **Email**: Send your assignment to `myLoveSarah@gmail.com`.
+        *   **메일 주소**: 작성하여 `myLoveSarah@gmail.com` 으로 메일을 보냅니다.
+    *   **Subject**: The subject MUST be exactly `과제 0.x` (where x is the week number). This is for grading filters.
+        *   **이메일 제목**: 정확히 `과제 0.x` (x는 해당 주차) 이라고만 적어주세요. 제목으로 필터링하여 채점합니다.
+    *   **Sender Name**: Change your email settings so your **Korean Name** appears as the sender. If it is in English, it may be omitted or delayed. If your name does not appear, your submission will NOT be counted.
+        *   **보낸 사람 설정 (매우 중요)**: 메일 보내는 사람 이름에 **본인 이름(한글)**이 나타나도록 메일 설정을 수정하세요. 영어로 적게 되면 한글로 변환해야 해서 채점에 어려움이 있고 누락되기도 합니다. **메일 보낸 사람 이름이 나타나지 않으면 과제를 제출해도 점수에 반영되지 않습니다.**
+*   **Volunteering to Present**: If you want to present on the week's topic or anything beneficial to the class, write it in your assignment email.
+    *   **추가 발표 자원**: 매주 과제 내용이나 수업 내용 중 나와서 발표하고 싶은 의지가 있는 사람은 무엇을 발표하고 싶은지 제출 메일에 적어주세요. 수업과 상관없어도 학우들에게 유익할 것 같은 내용의 발표도 환영합니다.
+---
+
+## 8. Assessment & Exams (Announcement)
 *   Specific details for Midterm/Final exams are **TBD (Undecided)**.
 *   I have been employed only for **3 days**, so I am still identifying the university systems.
 *   I will announce the finalized assessment plan by **Week 3**.
