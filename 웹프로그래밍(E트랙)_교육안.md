@@ -42,7 +42,7 @@
 * **프로페셔널 커뮤니케이션:**  
   * **이메일 원칙:** 비지니스 이메일 작성 원칙  
   * **게시판/질문 원칙:** '이게 안 돼요' 식의 질문 지양. **[발생 상황 / 본인이 시도해본 것 / 에러 메시지 전문 / AI에게 물어본 결과]**를 포함하여 질문하는 '엔지니어식 질문법' 의무화.  
-* **개발 환경 구축:** Python, VS Code, Git 설치 및 GitHub 계정 연동.
+* **개발 환경 구축:** 클라우드 IDE(StackBlitz) 접속 및 활용, GitHub 계정 연동 (별도의 로컬 프로그램 설치 과정 없음).
 
 ### **[상시 과제] 과제 0.1:** 
 
@@ -138,7 +138,7 @@ This curriculum is designed primarily for 1st-year International Students in the
 *   **Professional Communication:**
     *   **Email Principles:** Guidelines for writing business emails.
     *   **Q&A/Forum Principles:** Discouraging vague questions like "It doesn't work." Enforcing an 'engineer-style questioning method' that must include: **[The situation / What you have tried / Full error message / Results from asking AI]**.
-*   **Dev Environment Setup:** Installing Python, VS Code, Git, and linking GitHub accounts.
+*   **Dev Environment Setup:** Accessing Cloud IDE (StackBlitz) and linking GitHub accounts (No local installations needed).
 
 ### **[Ongoing Assignment] Assignment 0.1:**
 

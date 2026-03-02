@@ -31,27 +31,25 @@ If something doesn't work, don't just say "Help!". Tell us:
 
 ---
 
-## 1. Environment Setup (Essential Tools)
-We will install the tools you will use throughout the semester. Follow these steps carefully.
-학기 내내 사용할 도구들을 설치할 것입니다. 각 단계를 주의 깊게 따라와 주세요.
+## 1. Cloud IDE Setup (클라우드 환경 접속)
+We will use **StackBlitz**, a powerful Cloud IDE that looks and works exactly like VS Code, but runs entirely in your web browser. No installation is needed!
+학기 내내 사용할 클라우드 개발 환경인 **StackBlitz**에 접속할 것입니다. 브라우저에서 실행되며 설치가 필요 없습니다.
 
-### Step 1: Python Installation (Python 설치)
-Python is a core language for many tools, even for Web development environment.
-Python은 웹 개발 환경을 비롯한 많은 도구의 핵심 언어입니다.
-1. Download from: [python.org](https://www.python.org/downloads/)
-2. **IMPORTANT**: Check the box: **"Add Python to PATH"** before clicking Install.
-   - **중요**: 설치 시 "Add Python to PATH"를 반드시 체크하세요.
+### Step 1: Login to GitHub (GitHub 로그인)
+StackBlitz accounts are best linked with GitHub.
+1. Go to: [github.com](https://github.com)
+2. Create an account if you don't have one, or log in.
+3. (GitHub 계정이 없다면 가입하고 로그인하세요.)
 
-### Step 2: VS Code Installation (VS Code 설치)
-The industry-standard code editor.
-1. Download from: [code.visualstudio.com](https://code.visualstudio.com/)
-2. Follow the standard installation wizard.
+### Step 2: Access StackBlitz (StackBlitz 접속)
+1. Go to: [stackblitz.com](https://stackblitz.com/)
+2. Click **"Sign in"** at the top right, and choose **"Continue with GitHub"**.
+3. (우측 상단의 로그인 버튼을 눌러 GitHub로 계속하기를 선택합니다.)
 
-### Step 3: Essential Extensions (필수 확장 프로그램)
-Open VS Code, click the Extensions icon (Cube on the left), and install:
-1. **Live Server**: Allows you to see code changes in real-time.
-   - **Live Server**: 실시간으로 코드 변경 사항을 브라우저에서 볼 수 있게 합니다.
-2. **Prettier**: Automatically formats your code to look neat.
+### Step 3: Create a Blank HTML Project (새 프로젝트 생성)
+1. On the StackBlitz dashboard, look for **"HTML/JS/CSS"** or **"Static"** project templates.
+2. Click to create a new blank project. You will see a file explorer on the left, an editor in the middle, and a live preview on the right!
+3. (HTML/JS/CSS 기본 템플릿을 선택하여 빈 프로젝트를 생성합니다. 왼쪽에는 파일, 중간에는 코드, 오른쪽에는 실시간 미리보기가 나타납니다!)
 
 ---
 
@@ -60,10 +58,10 @@ Let's see how a simple text file becomes a website.
 실제 텍스트 파일이 어떻게 웹사이트로 변하는지 마법 같은 과정을 확인해 봅시다.
 
 ### Task 1: Create a simple text file (텍스트 파일 만들기)
-1. Open VS Code.
-2. Create a new file named `hello.txt`.
+1. In StackBlitz, you will see a default `index.html`. For now, let's create a new file.
+2. Click the **"New File"** icon in the file explorer and name it `hello.txt`.
 3. Type: `Hello, I am [Your Name]. This is my first web page.`
-4. Right-click the file and choose **"Open with Live Server"**.
+4. To view this text file, simply type its name in the URL bar of the preview panel on the right (e.g., `...stackblitz.io/hello.txt`), or right click the file and choose to preview.
 5. **What do you see?** Just a simple text in the browser.
 
 ### Task 2: Rename and Add a Tag (파일 이름 변경 및 태그 추가)
@@ -80,5 +78,5 @@ Let's see how a simple text file becomes a website.
 ---
 
 ## 🚀 Lab Finish!
-Make sure you have VS Code and Python ready for next week.
-다음 주 수업을 위해 VS Code와 Python이 준비되었는지 다시 확인하세요!
+Make sure you can easily log into StackBlitz for next week.
+다음 주 수업을 위해 StackBlitz 로그인이 원활한지 다시 확인하세요!

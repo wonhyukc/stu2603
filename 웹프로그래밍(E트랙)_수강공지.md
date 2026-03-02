@@ -73,9 +73,10 @@ This document contains optimized **HTML code** for the Seoul Theological Univers
                 <td style="padding: 15px 0; vertical-align: top; font-size: 1.2em;">✅</td>
                 <td style="padding: 15px 10px;">
                     <strong>3. Laptop Environment Setup (Critical)</strong><br>
-                    <span style="color: #666; font-size: 0.9em;">Please install the following tool on your personal laptop:</span>
+                    <span style="color: #666; font-size: 0.9em;">We use a browser-based Cloud IDE (StackBlitz). No installation is needed! Please prepare:</span>
                     <ul style="margin: 5px 0 0 0; color: #d84315; font-weight: bold;">
-                        <li>VS Code (Visual Studio Code)</li>
+                        <li>Chrome Browser</li>
+                        <li>GitHub Account (Sign up at github.com)</li>
                     </ul>
                 </td>
             </tr>
