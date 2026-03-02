@@ -60,7 +60,24 @@ Understanding the basic principles of the web through simple analogies.
     *   **CSS**: The interior design and paint. It makes the website look beautiful. (건물의 인테리어와 페인트칠, 즉 디자인 요소와 시각적인 아름다움을 담당합니다.)
     *   **JavaScript**: The electricity and plumbing. It adds functionality and interactive life to the website. (건물의 전기와 수도관처럼, 웹사이트에 기능을 더하고 움직이게 만듭니다.)
 
-## 5. Seeing text turn into a website (텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기)
+    *   **JavaScript**: The electricity and plumbing. It adds functionality and interactive life to the website. (건물의 전기와 수도관처럼, 웹사이트에 기능을 더하고 움직이게 만듭니다.)
+
+---
+
+## 5. Our Tool: StackBlitz (우리의 도구: 스택블리츠)
+To keep things simple and focus on 'Logic' instead of 'Setup', we will use a **Cloud IDE**.
+복잡한 설치 대신 '논리'와 '실무'에 집중하기 위해 **클라우드 개발 환경**을 사용합니다.
+
+*   **No Installation Needed**: You only need a web browser (Chrome recommended).
+    *   **설치 필요 없음**: 웹 브라우저(크롬 권장)만 있으면 됩니다. 컴파일러나 코드 에디터를 설치하느라 시간을 허비하지 마세요.
+*   **VS Code in Browser**: StackBlitz looks and works exactly like VS Code.
+    *   **브라우저 속 VS Code**: StackBlitz는 전 세계 표준인 VS Code의 기술을 그대로 사용하여, 나중에 실제 프로그램을 설치하더라도 이질감이 전혀 없습니다.
+*   **Instant Shared URL**: You can share your code results instantly with a single link.
+    *   **즉각적인 공유**: 링크 하나로 여러분이 만든 결과물을 전 세계 누구에게나 바로 보여줄 수 있습니다.
+
+---
+
+## 6. Seeing text turn into a website (텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기)
 Experience how a document with only text transforms into a visual website.
 (단순한 메모장 텍스트 파일이 어떻게 화려한 웹사이트로 변신하는지 실습을 통해 체험합니다.)
 *   **The Magic of Rendering (렌더링의 마법)**: Web browsers read lines of text codes and 'render' (draw) them as visual elements like buttons, images, and text blocks. This translation process makes the internet beautifully user-friendly.

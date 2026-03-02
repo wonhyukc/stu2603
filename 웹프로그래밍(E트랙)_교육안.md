@@ -66,7 +66,7 @@
 | 6 | 레이아웃 기초 | 화면에 가구 배치하듯 요소 옮기기 (나란히 메뉴 놓기 등) | 세로로 어긋난 메뉴바 규칙을 찾아 가로 정렬로 고치기 |
 | 7 | 중간 복습 및 훈련 | 1~6주차 총정리: 쉬운 조립식 '자기소개서 페이지' 만들기 | 주어진 템플릿에 내 정보 채우고 스스로 간단한 스타일 보완하기 |
 | **8** | **중간고사** | **[시험 주간]** (평가 방식: 오픈북, 간단한 실습 등) | HTML/CSS 예제 코드 구조를 제대로 이해했는지 기초 확인 점검 |
-| 9 | JavaScript 기초 | 자바스크립트로 생명 불어넣기 (예: "클릭하면 팝업 알림 띄우기") | 버튼 눌러도 반응 없는 예제 코드 구조 점검해보기 |
+| 9 | VS Code & JS 기초 | **[로컬 환경 전환]** VS Code 설치, JavaScript로 생명 불어넣기(팝업 알림 등). | 로컬 개발 환경 구축 및 기초 스크립트 실행 |
 | 10 | 조건문 이해 (IF) | 만약 ~라면? (예: 성인이면 "환영", 아니면 "불가" 표시기) | 조건 논리가 반대로 뒤집힌 나이 확인 로직 바로잡기 |
 | 11 | 동적 웹 예제 (1) | 웹 페이지 버튼 조작하기 (클릭 시 화면이 어두워지는 다크모드) | 다크모드 버튼 클릭 시 폰트 색이 변경 안 되는 문제 해결 |
 | 12 | 동적 웹 예제 (2) | 버튼 눌러서 이미지 바꾸기 (Day/Night 그림 교체 예제) | 스크립트 연결이 끊어져 원본과 다르게 동작하는 문제 찾기 |
@@ -162,7 +162,7 @@ This curriculum is designed primarily for 1st-year International Students in the
 | 6 | Layout Basics | Moving elements like arranging furniture (Aligning menus horizontally). | Fixing vertically broken menu bar rules to re-align them horizontally. |
 | 7 | Midterm Review | Weeks 1-6 Review: Creating an easy 'Static Resume Page'. | Filling a provided template with personal info and fixing simple styles. |
 | **8** | **Midterm Exam** | **[Exam Week]** (Evaluation: Open-book, simple practical task, etc.) | Verifying basic understanding of HTML/CSS example structures. |
-| 9 | JS Basics | Breathing life with JavaScript (e.g., "Pop up an alert on click"). | Inspecting example code structure where a button click does nothing. |
+| 9 | VS Code & JS Basics | **[Local Transition]** VS Code Setup, JS Basics (e.g., "Pop up an alert on click"). | Setting up local dev environment and running basic scripts. |
 | 10 | Control (IF) Logic | "What if...?" logic (e.g., Show "Welcome" if adult). | Correcting age-verification logic where condition checks are reversed. |
 | 11 | Dynamic Example (1) | Operating web buttons (Dark Mode background invert on click). | Troubleshooting why font color fails to update during Dark Mode toggle. |
 | 12 | Dynamic Example (2) | Changing images on click (Day/Night picture swap swap example). | Finding a broken script link causing deviations from intended behavior. |

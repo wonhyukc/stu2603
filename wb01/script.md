@@ -49,11 +49,24 @@ To be a great developer, you must master your tools. First, **Typing Practice** 
 훌륭한 개발자가 되기 위해서는 도구를 완벽히 다룰 줄 알아야 합니다. 첫째, **타이핑 연습**이 필수적입니다. 손에 익을 때까지 매일매일 타이핑을 연습하세요.
 
 Also, focus on **Mobile Typing** as well. Find ways to type fast on your phone so you can work and communicate from anywhere. Furthermore, do not hesitate to use **Voice Input** on both computers and phones. In this fast-paced world, speed matters and is a key competitive edge.
-또한, **모바일 타이핑**에도 신경을 쓰세요. 어디서든 일하고 소통할 수 있도록 폰에서도 빠르게 타이핑하는 방법을 찾고 연습하세요. 더불어, 컴퓨터와 폰 모두에서 **음성 입력**을 적극적으로 활용하는 것을 주저하지 마세요. 빠르게 변화하는 세상에서 속도는 곧 중요한 경쟁력입니다.
+또한, 모바일 타이핑에도 신경을 쓰세요. 어디서든 일하고 소통할 수 있도록 폰에서도 빠르게 타이핑하는 방법을 찾고 연습하세요. 더불어, 컴퓨터와 폰 모두에서 **음성 입력**을 적극적으로 활용하는 것을 주저하지 마세요. 빠르게 변화하는 세상에서 속도는 곧 중요한 경쟁력입니다.
 
 ---
 
-## 5. Class Structure: Flipped Learning (수업 진행 방식: 거꾸로 수업)
+## 5. Our Tool: StackBlitz (우리의 도구: 스택블리츠)
+
+To keep things simple and focus on your 'Logic' instead of wasting time on 'Setup', we will use a **Cloud IDE called StackBlitz**.
+복잡한 설치 과정에서 시간을 낭비하는 대신, 여러분의 '논리'에 집중할 수 있도록 우리는 **스택블리츠(StackBlitz)**라는 클라우드 개발 환경을 사용할 것입니다.
+
+The best thing about StackBlitz is that **No Installation is Needed**. You only need a web browser, preferably Chrome. You don't have to worry about complex compilers or error-prone local settings for now.
+스택블리츠의 가장 큰 장점은 **어떠한 설치도 필요 없다**는 것입니다. 크롬 브라우저만 있으면 됩니다. 복잡한 설치 과정이나 로컬 환경 설정 오류 때문에 골치 아파할 필요가 전혀 없습니다.
+
+Even better, StackBlitz is **VS Code in your Browser**. It looks and works exactly like the industry-standard VS Code. This means when we eventually transition to the local version later in the semester, you will feel right at home. It also gives you an **Instant Shared URL**, so you can show your work to anyone with a simple link.
+또한, 스택블리츠는 **브라우저 속의 VS Code**입니다. 업계 표준인 VS Code와 똑같이 생겼고 똑같이 작동합니다. 즉, 학기 후반부에 우리가 로컬 버전으로 전환하더라도 여러분은 이미 익숙한 환경에서 작업하게 될 것입니다. 클릭 한 번으로 생성되는 공유 링크를 통해 여러분의 성과물을 전 세계 누구에게나 바로 보여줄 수도 있습니다.
+
+---
+
+## 6. Class Structure: Flipped Learning (수업 진행 방식: 거꾸로 수업)
 
 This class runs for **2 hours only** in person. Therefore, it is mandatory that you watch the lecture videos BEFORE you come to the classroom. This is what we call **Flipped Learning**.
 우리 오프라인 수업은 **단 2시간** 동안만 진행됩니다. 따라서 교실에 오기 전, 반드시 온라인 강의 영상을 시청하고 와야 합니다. 이것이 바로 우리가 말하는 **거꾸로 수업(Flipped Learning)**입니다.
