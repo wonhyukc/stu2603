@@ -53,10 +53,20 @@ In the age of sharing, how we communicate is crucial.
 ## 4. How websites appear? (어떻게 웹사이트가 보일까?)
 Understanding the basic principles of the web through simple analogies.
 (쉬운 비유를 통해 웹의 원리를 소개하고 작동 방식을 이해합니다.)
+*   **Client and Server (클라이언트와 서버)**: Think of your web browser (Chrome, Safari, Edge) as a customer at a restaurant (Client). The web server is the kitchen (Server). When you type a URL, you are ordering a web page. The kitchen prepares the dish (HTML, CSS, JavaScript) and serves it back to you.
+    *   웹 브라우저(크롬, 사파리 등)는 식당의 손님(클라이언트)이고, 웹 서버는 요리를 만드는 주방(서버)이라고 생각해 보세요. 여러분이 주소를 입력하는 것은 메뉴를 주문하는 것과 같습니다. 주방에서는 웹페이지라는 요리를 만들어서 여러분의 화면으로 서빙해 줍니다.
+*   **The Languages of the Web (웹을 구성하는 3대 언어)**:
+    *   **HTML**: The skeleton or the foundation of a building. It defines the structure of the web page. (건물의 뼈대나 기초 구조를 담당합니다.)
+    *   **CSS**: The interior design and paint. It makes the website look beautiful. (건물의 인테리어와 페인트칠, 즉 디자인 요소와 시각적인 아름다움을 담당합니다.)
+    *   **JavaScript**: The electricity and plumbing. It adds functionality and interactive life to the website. (건물의 전기와 수도관처럼, 웹사이트에 기능을 더하고 움직이게 만듭니다.)
 
 ## 5. Seeing text turn into a website (텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기)
 Experience how a document with only text transforms into a visual website.
-(간단한 텍스트 문서가 시각적인 웹사이트로 변신하는 과정을 가볍게 체험해 봅니다.)
+(단순한 메모장 텍스트 파일이 어떻게 화려한 웹사이트로 변신하는지 실습을 통해 체험합니다.)
+*   **The Magic of Rendering (렌더링의 마법)**: Web browsers read lines of text codes and 'render' (draw) them as visual elements like buttons, images, and text blocks. This translation process makes the internet beautifully user-friendly.
+    *   웹 브라우저는 텍스트로 된 코드 줄을 똑똑하게 읽어내서, 버튼이나 이미지, 글상자 같은 시각적인 요소로 그려냅니다(렌더링). 이 눈부신 번역 과정 덕분에 우리는 편하게 인터넷을 사용할 수 있습니다.
+*   **Hands-on Preview (맛보기 체험)**: In our labs, we will type a few simple tags and instantly see the results on the screen. The immediate visual feedback is the greatest joy and advantage of creating web applications.
+    *   실습 시간에 우리는 아주 간단한 태그 몇 개를 입력하고 그 결과가 화면에 즉각 나타나는 것을 볼 것입니다. 코드를 치는 순간 결과를 바로바로 확인할 수 있다는 것이 웹 프로그래밍이 가진 가장 큰 재미이자 장점입니다.
 
 ---
 
