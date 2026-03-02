@@ -71,11 +71,11 @@
             <tr>
                 <td style="padding: 15px 0; vertical-align: top;">✅</td>
                 <td style="padding: 15px 10px;">
-                    <strong>3. 개인 노트북 환경 구축 (매우 중요)</strong><br>
-                    <span style="color: #666; font-size: 0.9em;">아래 두 프로그램을 미리 설치하여 지참해 주세요.</span>
+                    <strong>3. 개인 노트북 환경 체크 (매우 중요)</strong><br>
+                    <span style="color: #666; font-size: 0.9em;">원활한 실습을 위해 다음 사항을 미리 준비해 주세요.</span>
                     <ul style="margin: 5px 0 0 0; color: #d84315;">
-                        <li><strong>VS Code</strong> (Microsoft Visual Studio Code)</li>
-                        <li><strong>Python</strong> (최신 버전 설치)</li>
+                        <li><strong>구글 계정</strong> (크롬 로그인 후 비밀번호 확인)</li>
+                        <li>본 과정은 별도 설치 없이 <strong>Google Colab</strong>을 활용합니다.</li>
                     </ul>
                 </td>
             </tr>
@@ -89,6 +89,6 @@
 
 ### 💡 교수님을 위한 팁
 * **HTML 입력 방법:** eCampus 글쓰기 화면 우측 하단의 **`<> (코드)`** 버튼을 누르신 후, 위 코드를 전체 복사해서 붙여넣으세요. 다시 `<>`를 누르면 디자인이 적용된 것을 확인하실 수 있습니다.
-* **이미지 추가:** 만약 Python 설치 가이드 이미지 등이 있다면, 에디터의 이미지 삽입 기능을 통해 각 항목 사이에 추가하시면 완벽합니다.
+* **첨부 파일 안내:** 만약 구글 코랩 접속 방법 가이드 이미지 등이 있다면, 에디터의 이미지 삽입 기능을 통해 각 항목 사이에 추가하시면 완벽합니다.
 * **메뉴얼 연동:** 현재 수강공지 내용은 `학교시스템_수업계획서_등록_매뉴얼.md`의 절차와 호환되도록 구성되었습니다. 
 * **Gemini 포함**: 교수님의 수정 사항을 반영하여 AI 목록에 Gemini를 가장 먼저 배치하였습니다.
