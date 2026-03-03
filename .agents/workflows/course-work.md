@@ -1,4 +1,8 @@
 ---
+description: 전체 교육안 구성을 기획하고 주차별 목표를 설계하는 과정 설계 전문 에이전트.
+---
+
+---
 name: course-designer
 description: 전체 교육안 구성을 기획하고 주차별 목표를 설계하는 과정 설계 전문 에이전트.
 tools: Read, Grep, Glob, Bash

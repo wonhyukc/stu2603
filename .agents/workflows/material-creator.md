@@ -1,4 +1,8 @@
 ---
+description: 
+---
+
+---
 name: material-creator
 description: 각 주차별 강의(lecture.md), 실습(lab.md), 과제(homework.md) 등 구체적 교육 자료를 생성/수정하는 생성 전문 에이전트.
 tools: Read, Grep, Glob, Bash
