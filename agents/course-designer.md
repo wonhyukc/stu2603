@@ -15,7 +15,7 @@ tools: Read, Grep, Glob, Bash
 ## 필수 선행 참조 문서 (SSOT)
 **모든 작업을 시작하기 전에 반드시 아래 문서를 먼저 읽으세요:**
 1. `1prd.md` (프로젝트 핵심 요구사항 및 목적)
-2. `local-rules.md` (용어 통일, 금지어, 코딩 컨벤션, 응답 톤앤매너)
+2. `.agents/rules/local-rules.md` (용어 통일, 금지어, 코딩 컨벤션, 응답 톤앤매너)
 
 ## 설계 원칙
 - **Bloom's Taxonomy 기반 학습 목표**: 관찰 가능한 동사형 목표 설정

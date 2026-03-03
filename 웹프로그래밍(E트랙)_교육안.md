@@ -187,3 +187,17 @@ Considering the level of international students, **the focus is entirely on 'how
 *   **Small Group Interviews:** Real-time sessions involving 'pressure testing' questions—asking what happens if specific parts of the AI-suggested code are changed.
 
 **Professor's Endorsement:** This course design is possible precisely because AI takes over rote memorization and repetitive coding tasks. Students learn basic syntax not as something to 'memorize', but as a **'weapon to control AI'**, meaning the actual depth of learning is far greater.
+
+---
+
+## **4. 주차별 상세 학습 목표 (Archive)**
+
+### **[1주차] (wb01)**
+1. **AI-Native 컴퓨팅 사고 이해**: 단순 암기 대신 AI를 파트너로 활용하는 수업 방식을 이해한다.
+   * Understand AI-Native Computing Thinking: Grasp the class methodology centered on using AI as a partner rather than rote memorization.
+2. **웹의 기본 원리 파악**: '문서'와 '브라우저'의 관계를 쉬운 비유로 이해한다.
+   * Grasp Web Fundamentals: Understand the relationship between 'documents' and 'browsers' through simple analogies.
+3. **개발 환경 구축**: 수업에 필요한 클라우드 도구(StackBlitz 등)에 접속하고 브라우저 기반 작업 환경을 세팅한다.
+   * Environment Setup: Access and set up the browser-based Cloud IDE (StackBlitz) required for the course.
+4. **엔지니어식 소통 실천**: 교수자 및 AI에게 질문하는 올바른 '엔지니어식 질문법'을 익힌다.
+   * Practice Engineer-style Communication: Learn the proper 'engineer-style questioning method' for instructors and AI.

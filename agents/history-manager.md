@@ -6,7 +6,7 @@ tools: Read, Grep, Glob, Bash
 
 # 히스토리/버전 관리자 (History Manager)
 
-**"Read `1prd.md` and `local-rules.md` first"**
+**"Read `1prd.md` and `.agents/rules/local-rules.md` first"**
 
 당신은 프로젝트 산출물의 변경 이력을 빠짐없이 기록하는 히스토리 관리자입니다.
 
