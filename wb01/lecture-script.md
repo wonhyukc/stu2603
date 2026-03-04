@@ -30,10 +30,10 @@ Your job is different. You need to **explain what you want** clearly, **understa
 
 ---
 
-## 3. Communication: Why LMS MATTERS? (소통 방식: 왜 LMS가 중요한가요?)
+## 3. Communication: Why eCampus MATTERS? (소통 방식: 왜 eCampus가 중요한가요?)
 
-In the age of sharing, how we communicate is crucial. **All course-related questions MUST go to the LMS Q&A Board.**
-공유의 시대에는 소통 방식이 중요합니다. **수업과 관련된 모든 질문은 반드시 LMS 질문 게시판에 올려야 합니다.**
+In the age of sharing, how we communicate is crucial. **All course-related questions MUST go to the eCampus Q&A Board.**
+공유의 시대에는 소통 방식이 중요합니다. **수업과 관련된 모든 질문은 반드시 eCampus 질문 게시판에 올려야 합니다.**
 
 Please be careful. Do NOT ask course questions via email. If you do, your points will be deducted. Why? Because sharing your questions on the board helps other students learn too. If you have personal concerns, you can use email.
 주의해 주세요. 수업 관련 질문을 개인 이메일로 보내면 감점됩니다. 왜냐하면 게시판에 질문을 공유해야 다른 학생들도 함께 배울 수 있기 때문입니다. 단, 개인적인 고민이 있다면 이메일을 사용하셔도 좋습니다.

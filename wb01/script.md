@@ -30,13 +30,13 @@ Your job is shift. First, you must **explain what you want** through clear promp
 
 ---
 
-## 3. Communication: Why LMS MATTERS? (소통 방식: 왜 LMS가 중요한가요?)
+## 3. Communication: Why eCampus MATTERS? (소통 방식: 왜 eCampus가 중요한가요?)
 
 In the age of sharing, how we communicate is crucial. To ensure everyone learns effectively, we have strict communication rules.
 공유의 시대에 소통하는 방식은 매우 중요합니다. 모든 사람이 효과적으로 배울 수 있도록 우리는 엄격한 소통 규칙을 가지고 있습니다.
 
-First, **Email is for Personal Matters ONLY**. Use it for things like missing class due to illness or other private issues. All course-related questions MUST go to the **LMS (eCampus) Q&A board**.
-첫째, **이메일은 오직 개인적인 용도로만** 사용하십시오. 질병으로 인한 결석이나 기타 개인적인 사정에만 사용하세요. 수업과 관련된 모든 질문은 반드시 **LMS(eCampus) 질문 게시판**을 통해야 합니다.
+First, **Email is for Personal Matters ONLY**. Use it for things like missing class due to illness or other private issues. All course-related questions MUST go to the **eCampus Q&A board**.
+첫째, **이메일은 오직 개인적인 용도로만** 사용하십시오. 질병으로 인한 결석이나 기타 개인적인 사정에만 사용하세요. 수업과 관련된 모든 질문은 반드시 **eCampus 질문 게시판**을 통해야 합니다.
 
 Please note there is a **Penalty Alert**: If you send course-related questions that should be shared via private email, **-1 point** will be deducted from your grade. Why? Because posting on forums allows others to learn from your problems too. Sharing is the core of modern software engineering. 
 **감점 주의** 사항을 알려드립니다: 공유되어야 할 수업 관련 질문을 개인 이메일로 보낼 경우 성적에서 **-1점 감점** 처리됩니다. 이유는 무엇일까요? 게시판에 질문을 올리면 다른 학생들도 여러분의 문제를 통해 함께 배울 수 있기 때문입니다. '공유'는 현대 소프트웨어 공학의 핵심입니다.

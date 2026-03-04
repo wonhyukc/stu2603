@@ -31,21 +31,21 @@ In this class, we do not memorize syntax. AI (Gemini, ChatGPT, Claude) will help
 
 ---
 
-## 3. Communication: Why LMS MATTERS?
+## 3. Communication: Why eCampus MATTERS?
 In the age of sharing, how we communicate is crucial.
 공유의 시대, 소통의 방식이 매우 중요합니다.
 
-*   **All Course Questions MUST go to LMS Q&A Board.**
-    *   **모든 질문은 LMS '묻고 답하기 게시판'에 올려주세요.**
+*   **All Course Questions MUST go to eCampus Q&A Board.**
+    *   **모든 질문은 eCampus '묻고 답하기 게시판'에 올려주세요.**
 *   **⚠️ Penalty Alert**: Do NOT ask any course-related questions via email. If you do, **points will be deducted.** (This was announced in class. Absentees, please check with your friends.)
     *   **감점 주의**: 메일로는 수업과 관련된 **어떤 질문도 하지 않아야 합니다.** 질문할 경우 **감점 당합니다.** (수업에서 이미 공지한 내용입니다. 불참자들은 친구들에게 물어서 명확히 인지하세요.)
 *   If you have questions while studying, post them on the board. If unanswered by the next class, ask again during the class.
     *   공부하면서 생기는 질문은 게시판에 올려 주시고, 수업 때까지 답을 얻지 못하면 수업 시간에 다시금 질문해주세요.
 *   **Exception**: Personal concerns or non-course matters can be sent via email.
     *   단, 개인적인 고민이나 수업과 상관없는 내용은 메일을 보내도 됩니다.
-*   **Emergency Contact (When LMS is unchecked)**
-    *   I will check LMS every **Wednesday and Saturday night**.
-    *   교수자는 매주 **토요일, 수요일 밤**에 LMS를 확인할 예정입니다.
+*   **Emergency Contact (When eCampus is unchecked)**
+    *   I will check eCampus every **Wednesday and Saturday night**.
+    *   교수자는 매주 **토요일, 수요일 밤**에 eCampus를 확인할 예정입니다.
     *   If you have an urgent question and haven't received an answer, send an email with the exact subject `게시판` and no body content. I will check ASAP. (This is to save your time from writing unnecessary greetings or long texts.)
     *   혹 급한 질문이 있고 답을 얻지 못했다면 제목에 `게시판`이라고 달고 내용 없이 메일을 보내시면 됩니다. 가능한 빨리 확인하겠습니다. (불필요한 인사나 장황한 글을 적는 시간에 다른 유용한 곳에 시간을 쓰라는 의도입니다.)
 ---
