@@ -58,22 +58,22 @@
 
 | 주차 | 주제 | 핵심 기강 및 실생활 예제 학습 | 코드 비평 및 실무 활동 파악 |
 | :---- | :---- | :---- | :---- |
-| 1 | 웹과 입문 | **[수업 축소]** 어떻게 웹사이트가 보일까? (쉬운 비유로 웹의 원리 소개) | 텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기 |
-| 2 | HTML 기초 | 나만의 '온라인 명함' 뼈대 만들기 (제목, 글, 사진 넣기) | 완성된 명함 코드에서 빠진 이미지 태그 찾아 넣기 |
-| 3 | 입력 폼(Form) 기초 | 사용자 정보 받기 (예: 간단한 회원가입 폼 만들기) | 회원가입 폼에서 입력창이 안 눌리는 원인 찾기 |
-| 4 | CSS 기초 | 내 명함 꾸미기 (글자 색상, 폰트, 배경색 등 직관적 적용) | 안 보이는 글자색(배경색과 겹치는 색상) 오류 수정하기 |
-| 5 | 박스 모델 여백 | 액자 속 사진처럼 공간 만들기 (Margin, Padding 기본) | 너무 다닥다닥 붙어있는 버튼들의 간격 넓혀보기 |
-| 6 | 레이아웃 기초 | 화면에 가구 배치하듯 요소 옮기기 (나란히 메뉴 놓기 등) | 세로로 어긋난 메뉴바 규칙을 찾아 가로 정렬로 고치기 |
-| 7 | 중간 복습 및 훈련 | 1~6주차 총정리: 쉬운 조립식 '자기소개서 페이지' 만들기 | 주어진 템플릿에 내 정보 채우고 스스로 간단한 스타일 보완하기 |
-| **8** | **중간고사** | **[시험 주간]** (평가 방식: 오픈북, 간단한 실습 등) | HTML/CSS 예제 코드 구조를 제대로 이해했는지 기초 확인 점검 |
-| 9 | VS Code & JS 기초 | **[로컬 환경 전환]** VS Code 설치, JavaScript로 생명 불어넣기(팝업 알림 등). | 로컬 개발 환경 구축 및 기초 스크립트 실행 |
-| 10 | 조건문 이해 (IF) | 만약 ~라면? (예: 성인이면 "환영", 아니면 "불가" 표시기) | 조건 논리가 반대로 뒤집힌 나이 확인 로직 바로잡기 |
-| 11 | 동적 웹 예제 (1) | 웹 페이지 버튼 조작하기 (클릭 시 화면이 어두워지는 다크모드) | 다크모드 버튼 클릭 시 폰트 색이 변경 안 되는 문제 해결 |
-| 12 | 동적 웹 예제 (2) | 버튼 눌러서 이미지 바꾸기 (Day/Night 그림 교체 예제) | 스크립트 연결이 끊어져 원본과 다르게 동작하는 문제 찾기 |
-| 13 | 미니 예제 조립 (1) | '오늘의 투두리스트'나 '간단계산기' 등 실생활 예제 체험 기능 기획 | 완성된 예제의 버튼과 입력창을 살펴보고 동작 흐름 토론 |
-| 14 | 미니 예제 조립 (2) | 실제 조립 완료 후 모바일 화면(반응형) 체크해보기 | 스마트폰 화면 밖으로 삐져나가는 요소의 크기(width) 수정 |
-| **15** | **기말고사** | **[시험 주간]** 예제 결과물 설명 (온라인 화상 구술 등) | 본인이 만들고 수정한 결과물의 부분별 예제 의미 설명하기 |
-| 16 | 보강 주간 | **[학사 일정 지정]** 결손 수업 보강 및 성과 리뷰 | 타국에서 프로그래밍 첫 경험 한 학기 회고 및 상호 피드백 |
+| 1 | 웹과 입문 | **[수업 축소]** 어떻게 웹사이트가 보일까? (쉬운 비유로 웹의 원리 소개) | 텍스트만 있는 문서가 어떻게 웹사이트로 변하는지 구경하기<br>**[실습]** StackBlitz 접속 및 나만의 첫 HTML 텍스트 입력하기 |
+| 2 | HTML 기초 | 나만의 '온라인 명함' 뼈대 만들기 (제목, 글, 사진 넣기) | 완성된 명함 코드에서 빠진 이미지 태그 찾아 넣기<br>**[실습]** 본인의 프로필 사진을 웹에 업로드하고 `<img>` 태그로 표시하기 |
+| 3 | 입력 폼(Form) 기초 | 사용자 정보 받기 (예: 간단한 회원가입 폼 만들기) | 회원가입 폼에서 입력창이 안 눌리는 원인 찾기<br>**[실습]** 친구 정보를 입력받을 수 있는 간단한 취미/연락처 설문 폼 만들기 |
+| 4 | CSS 기초 | 내 명함 꾸미기 (글자 색상, 폰트, 배경색 등 직관적 적용) | 안 보이는 글자색(배경색과 겹치는 색상) 오류 수정하기<br>**[실습]** CSS 컬러 코드를 변경해보고, 좋아하는 색 조합으로 명함 테마 바꾸기 |
+| 5 | 박스 모델 여백 | 액자 속 사진처럼 공간 만들기 (Margin, Padding 기본) | 너무 다닥다닥 붙어있는 버튼들의 간격 넓혀보기<br>**[실습]** 버튼 테두리와 패딩을 조절하여 클릭하기 편한 UI 만들기 |
+| 6 | 레이아웃 기초 | 화면에 가구 배치하듯 요소 옮기기 (나란히 메뉴 놓기 등) | 세로로 어긋난 메뉴바 규칙을 찾아 가로 정렬로 고치기<br>**[실습]** Flexbox를 이용해 헤더에 메뉴(Home, About, Contact) 나란히 배치하기 |
+| 7 | 중간 복습 및 훈련 | 1~6주차 총정리: 쉬운 조립식 '자기소개서 페이지' 만들기 | 주어진 템플릿에 내 정보 채우고 스스로 간단한 스타일 보완하기<br>**[실습]** 배운 HTML/CSS를 조립해 '나만의 랜딩 페이지' 초안 완성하기 |
+| **8** | **중간고사** | **[시험 주간]** (평가 방식: 오픈북, 간단한 실습 등) | HTML/CSS 예제 코드 구조를 제대로 이해했는지 기초 확인 점검<br>**[평가]** 오픈북 형태의 미니 퀴즈 및 AI 프롬프트 분석 리포트 제출 |
+| 9 | VS Code & JS 기초 | **[로컬 환경 전환]** VS Code 설치, JavaScript로 생명 불어넣기(팝업 알림 등). | 로컬 개발 환경 구축 및 기초 스크립트 실행<br>**[실습]** VS Code의 Live Server를 켜고 첫 JS `console.log` 찍어보기 |
+| 10 | 조건문 이해 (IF) | 만약 ~라면? (예: 성인이면 "환영", 아니면 "불가" 표시기) | 조건 논리가 반대로 뒤집힌 나이 확인 로직 바로잡기<br>**[실습]** prompt 창으로 나이를 입력받아 20세 이상일 때만 환영 알림 띄우기 |
+| 11 | 동적 웹 예제 (1) | 웹 페이지 버튼 조작하기 (클릭 시 화면이 어두워지는 다크모드) | 다크모드 버튼 클릭 시 폰트 색이 변경 안 되는 문제 해결<br>**[실습]** 버튼 클릭으로 문서의 배경색을 밝은 색↔어두운 색으로 전환하기 |
+| 12 | 동적 웹 예제 (2) | 버튼 눌러서 이미지 바꾸기 (Day/Night 그림 교체 예제) | 스크립트 연결이 끊어져 원본과 다르게 동작하는 문제 찾기<br>**[실습]** 스위치 버튼을 눌러 낮과 밤 이미지(또는 두 가지 프로필) 서로 교체하기 |
+| 13 | 미니 예제 조립 (1) | '오늘의 투두리스트'나 '간단계산기' 등 실생활 예제 체험 기능 기획 | 완성된 예제의 버튼과 입력창을 살펴보고 동작 흐름 토론<br>**[실습]** 계산기 예제 로직을 분석하고, 덧셈/뺄셈 외에 곱셈 버튼 기능 추가하기 |
+| 14 | 미니 예제 조립 (2) | 실제 조립 완료 후 모바일 화면(반응형) 체크해보기 | 스마트폰 화면 밖으로 삐져나가는 요소의 크기(width) 수정<br>**[실습]** 브라우저 개발자 도구를 열어 자신의 스마트폰 기종 모델로 뷰포트 확인하기 |
+| **15** | **기말고사** | **[시험 주간]** 예제 결과물 설명 (온라인 화상 구술 등) | 본인이 만들고 수정한 결과물의 부분별 예제 의미 설명하기<br>**[평가]** 완성한 기말 프로젝트 및 AI 활용 과정을 녹화하여 최종 제출 |
+| 16 | 보강 주간 | **[학사 일정 지정]** 결손 수업 보강 및 성과 리뷰 | 타국에서 프로그래밍 첫 경험 한 학기 회고 및 상호 피드백<br>**[평가/리뷰]** 동료들의 프로젝트 결과물을 열람하고 칭찬 및 피드백 댓글 달기 |
 
 ---
 
@@ -154,22 +154,22 @@ This curriculum is designed primarily for 1st-year International Students in the
 
 | Week | Topic | Core Example-Based Learning | Code Critique & Practical Check |
 | :---- | :---- | :---- | :---- |
-| 1 | Intro to Web | **[Reduced]** How does a website appear? (Easy analogies for web principles) | Visually observing how plain text transforms into a website. |
-| 2 | HTML Basics | Building the skeleton of my 'Online Business Card' (Titles, text, images). | Finding and inserting a missing image tag in a finished business card code. |
-| 3 | Input Forms | Receiving user info (e.g., Simple Sign-up Form). | Finding the root cause of an unclickable input box in a sign-up form. |
-| 4 | CSS Basics | Decorating my business card (Colors, fonts, backgrounds intuitively). | Fixing invisible text errors (text color blending with the background). |
-| 5 | Box Model (Space) | Creating space like a photo frame (Margin, Padding basics). | Widening the gaps between buttons that appear too cramped together. |
-| 6 | Layout Basics | Moving elements like arranging furniture (Aligning menus horizontally). | Fixing vertically broken menu bar rules to re-align them horizontally. |
-| 7 | Midterm Review | Weeks 1-6 Review: Creating an easy 'Static Resume Page'. | Filling a provided template with personal info and fixing simple styles. |
-| **8** | **Midterm Exam** | **[Exam Week]** (Evaluation: Open-book, simple practical task, etc.) | Verifying basic understanding of HTML/CSS example structures. |
-| 9 | VS Code & JS Basics | **[Local Transition]** VS Code Setup, JS Basics (e.g., "Pop up an alert on click"). | Setting up local dev environment and running basic scripts. |
-| 10 | Control (IF) Logic | "What if...?" logic (e.g., Show "Welcome" if adult). | Correcting age-verification logic where condition checks are reversed. |
-| 11 | Dynamic Example (1) | Operating web buttons (Dark Mode background invert on click). | Troubleshooting why font color fails to update during Dark Mode toggle. |
-| 12 | Dynamic Example (2) | Changing images on click (Day/Night picture swap swap example). | Finding a broken script link causing deviations from intended behavior. |
-| 13 | Mini Example (1) | Planning features for a 'Daily To-Do List' or 'Simple Calculator' example. | Examining buttons & inputs of a finished layout to discuss flow. |
-| 14 | Mini Example (2) | Completing assembly and checking mobile screen (responsiveness). | Fixing the width of elements that overflow outside the smartphone screen. |
-| **15** | **Final Exam** | **[Exam Week]** Explaining example results (Online verbal presentation, etc.). | Explaining the logical meaning of various parts of the completed work. |
-| 16 | Make-up Week | **[Academic Schedule]** Make-up classes and performance review. | Retrospective & feedback on the first programming experience in a foreign country. |
+| 1 | Intro to Web | **[Reduced]** How does a website appear? (Easy analogies for web principles) | Visually observing how plain text transforms into a website.<br>**[Task]** Access StackBlitz and type your first personal HTML text. |
+| 2 | HTML Basics | Building the skeleton of my 'Online Business Card' (Titles, text, images). | Finding and inserting a missing image tag in a finished business card code.<br>**[Task]** Upload your own profile picture and display it using the `<img>` tag. |
+| 3 | Input Forms | Receiving user info (e.g., Simple Sign-up Form). | Finding the root cause of an unclickable input box in a sign-up form.<br>**[Task]** Create a simple hobby/contact survey form to collect friends' info. |
+| 4 | CSS Basics | Decorating my business card (Colors, fonts, backgrounds intuitively). | Fixing invisible text errors (text color blending with the background).<br>**[Task]** Change CSS color codes to apply your favorite color palette to your business card. |
+| 5 | Box Model (Space) | Creating space like a photo frame (Margin, Padding basics). | Widening the gaps between buttons that appear too cramped together.<br>**[Task]** Adjust button borders and padding to create a click-friendly UI. |
+| 6 | Layout Basics | Moving elements like arranging furniture (Aligning menus horizontally). | Fixing vertically broken menu bar rules to re-align them horizontally.<br>**[Task]** Use Flexbox to align header menus (Home, About, Contact) horizontally. |
+| 7 | Midterm Review | Weeks 1-6 Review: Creating an easy 'Static Resume Page'. | Filling a provided template with personal info and fixing simple styles.<br>**[Task]** Combine HTML/CSS learned so far to complete a draft of a 'Personal Landing Page'. |
+| **8** | **Midterm Exam** | **[Exam Week]** (Evaluation: Open-book, simple practical task, etc.) | Verifying basic understanding of HTML/CSS example structures.<br>**[Exam]** Open-book mini-quiz and submission of AI prompt analysis report. |
+| 9 | VS Code & JS Basics | **[Local Transition]** VS Code Setup, JS Basics (e.g., "Pop up an alert on click"). | Setting up local dev environment and running basic scripts.<br>**[Task]** Run code in VS Code using Live Server and print a `console.log` message. |
+| 10 | Control (IF) Logic | "What if...?" logic (e.g., Show "Welcome" if adult). | Correcting age-verification logic where condition checks are reversed.<br>**[Task]** Use prompt to ask for age and show a welcome alert only if 20 or older. |
+| 11 | Dynamic Example (1) | Operating web buttons (Dark Mode background invert on click). | Troubleshooting why font color fails to update during Dark Mode toggle.<br>**[Task]** Implement a toggle button that switches the page background color. |
+| 12 | Dynamic Example (2) | Changing images on click (Day/Night picture swap swap example). | Finding a broken script link causing deviations from intended behavior.<br>**[Task]** Swap the display from Animal Photo A to B when clicking a switch. |
+| 13 | Mini Example (1) | Planning features for a 'Daily To-Do List' or 'Simple Calculator' example. | Examining buttons & inputs of a finished layout to discuss flow.<br>**[Task]** Analyze calculator logic and add a multiplication button alongside add/subtract. |
+| 14 | Mini Example (2) | Completing assembly and checking mobile screen (responsiveness). | Fixing the width of elements that overflow outside the smartphone screen.<br>**[Task]** Open browser DevTools with your smartphone model to check the viewport constraint. |
+| **15** | **Final Exam** | **[Exam Week]** Explaining example results (Online verbal presentation, etc.). | Explaining the logical meaning of various parts of the completed work.<br>**[Exam]** Record and submit a presentation video of the final project / AI usage. |
+| 16 | Make-up Week | **[Academic Schedule]** Make-up classes and performance review. | Retrospective & feedback on the first programming experience in a foreign country.<br>**[Review]** View peers' projects and leave encouraging comments and feedback. |
 
 ---
 
