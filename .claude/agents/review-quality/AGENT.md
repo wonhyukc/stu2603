@@ -15,15 +15,33 @@ model: claude-sonnet-4-6
 
 ## 핵심 검증 기준 (`CLAUDE.md` 기준)
 
+### 0. 강사 이름 플레이스홀더 잔존 검증
+
+모든 파일에서 `[강사 이름]`, `[이름]`, `[Name]` 등 미치환 플레이스홀더가 남아 있으면 즉시 **FAIL**. Auto-Fix 시 아래 값으로 교체한다.
+- K트랙 문서 (한국어): **정원혁**
+- E트랙 문서 및 슬라이드 영문 표기: **Wonhyuk William Chung**
+- 이메일: **myLoveSarah@gmail.com** (트랙 무관 동일)
+
 ### 1. 필수 산출물 누락 검증 (최우선)
 
 지정된 주차 폴더의 파일을 아래 기준으로 검증합니다.
 
-**필수 6종** — 하나라도 누락 시 즉시 **FAIL**:
-`lecture.md`, `lecture-script.md`, `lab.md`, `homework.md`, `course-notice.md`, `handout.md`
+**필수 4종** — 하나라도 누락 시 즉시 **FAIL**:
+`lecture.md`, `lecture-script.md`, `course-notice.md`, `handout.md`
 
 **선택 1종** — 누락 시 **WARN** (보조 슬라이드, 없어도 운영 가능):
 `slides.md`
+
+**Deprecated — 존재해도 무시, 없어도 PASS**:
+`lab.md` — 실습 내용은 `handout.md` 실습 섹션으로 통합됨.
+`homework.md` — 과제 내용은 `handout.md` 과제 섹션으로 통합됨.
+
+**`handout.md` 내부 구조 검증 (필수)**:
+`handout.md`가 존재하더라도 아래 3개 섹션이 모두 포함되어 있는지 확인한다.
+- **개념 참고 영역** — 핵심 개념 요약, 원칙 참고표
+- **실습 섹션** — 수업 중 직접 실행하는 단계별 실습 내용
+- **과제 섹션** — 마이크로 과제 내용, 제출 기한, 제출처(eCampus)
+셋 중 하나라도 빠지면 **FAIL** 처리한다.
 
 ### 2. 지정 용어 통일성 위반 여부
 
