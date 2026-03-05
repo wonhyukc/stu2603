@@ -1,3 +1,5 @@
 .env*
 archive/
 make-it-better/
+tmp/
+health-report/
