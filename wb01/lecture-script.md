@@ -17,6 +17,10 @@ Welcome to Web Programming. I'm Wonhyuk William Chung, and I'll be your instruct
 
 웹프로그래밍 수업에 오신 걸 환영합니다. 저는 이 수업을 담당하는 강사 정원혁입니다. 앞으로 한 학기 동안 함께하게 됩니다.
 
+정원혁 소개
+
+모국어 아니다. 양해를 구한다.
+
 Today is orientation week, which means we are not going to write a complete webpage. We will write exactly one HTML tag — just one. The rest of this session is entirely dedicated to answering two questions: What is the web, really? And how does this course expect you to approach it?
 
 오늘은 오리엔테이션 주차입니다. 완전한 웹 페이지를 만들지는 않습니다. HTML 태그를 딱 하나만 씁니다. 나머지 시간은 두 가지 질문에 답하는 데 씁니다. 웹이란 정말 무엇인가? 그리고 이 수업이 여러분에게 기대하는 것은 무엇인가?
