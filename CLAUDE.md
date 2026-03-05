@@ -46,11 +46,9 @@ stu2603c/
 ├── wb01/                                  # 웹프로그래밍 1주차
 │   ├── lecture.md                         # 강사용 진행 가이드/구조
 │   ├── lecture-script.md                  # 대본형 강의 스크립트 (Bilingual)
-│   ├── lab.md                             # 실습 워크시트
-│   ├── homework.md                        # 과제 안내
 │   ├── course-notice.md                   # eCampus 공지 본문 (복사-붙여넣기용)
-│   ├── handout.md                         # 학생 배포용 핸드아웃 (인쇄/공유용 요약본)
-│   └── slides.md                          # 강의 보조 슬라이드 개요 (PPT 제작 기준)
+│   ├── handout.md                         # 학생 배포용 유일한 문서 (개념+실습+과제 통합)
+│   └── slides.md                          # 강의 보조 슬라이드 개요 (PPT 제작 기준, 선택)
 ├── py01/                                  # Python 1주차 (동일 구조)
 ```
 
@@ -63,9 +61,6 @@ stu2603c/
 | `course-notice.md` | 강사→학생 | eCampus 공지 복사-붙여넣기용 원문 | **필수** |
 | `handout.md` | 학생 | **학생 배포용 유일한 문서** — 개념 요약 + 실습 + 과제 3섹션 전부 포함 | **필수** |
 | `slides.md` | 강사 | 슬라이드 구성 개요 (PPT/Canva 제작 기준) | 선택 |
-| `lab.md` | — | **Deprecated** — 실습 내용은 `handout.md`의 실습 섹션으로 통합 | 사용 안 함 |
-| `homework.md` | — | **Deprecated** — 과제 내용은 `handout.md`의 과제 섹션으로 통합 | 사용 안 함 |
-
 **`handout.md` 구성 규칙 (3섹션 필수)**
 
 `handout.md`는 학생이 수업 당일 받는 **유일한 학생 배포 문서**다. 반드시 아래 3개 섹션을 순서대로 포함해야 한다.
@@ -78,7 +73,7 @@ stu2603c/
 
 **네이밍 규칙**
 - 주차별 폴더: `wb` (웹) 또는 `py` (파이썬) + 2자리 주차 번호 (예: `wb01`, `py05`)
-- 파일명: 영문 ASCII kebab-case 또는 소문자 명사 결합 (예: `lecture-script.md`, `homework.md`)
+- 파일명: 영문 ASCII kebab-case 또는 소문자 명사 결합 (예: `lecture-script.md`, `handout.md`)
 - **커리큘럼 변경 시**: 반드시 해당 과목의 `*_교육안.md` 마스터 파일을 먼저 수정한 후 주차별 하위 문서를 수정/생성한다.
 
 ---

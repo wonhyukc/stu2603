@@ -68,8 +68,8 @@ It adopts a **Flipped Learning** methodology, utilizing generative AI as a helpf
 | 블록 / Block | 시간 / Time | 내용 / Content | 산출물 / Output |
 |:---|:---|:---|:---|
 | **이론 + 강사 예제 시연 / Theory + Demo** | 75분 (25분 × 3섹션) | 사전 영상 복습 포인트 + 핵심 개념 강의 + 강사 라이브 코딩 데모<br>Pre-video recap + key concept lecture + instructor live coding demo | `lecture-script.md` 기준 분량 |
-| **조작 / Hands-on Practice** | 75분 | 학생 직접 실습, 코드 비평, 동료 협력<br>Student-led practice, code critique, peer collaboration | `lab.md` 기준 |
-| **AI리뷰 + 마무리 / AI Review + Wrap-up** | 30분 | AI 도구로 코드 검토, 오류 분석, 마이크로 과제 안내, Q&A<br>Review code with AI, error analysis, assignment briefing, Q&A | `homework.md` 기준 |
+| **조작 / Hands-on Practice** | 75분 | 학생 직접 실습, 코드 비평, 동료 협력<br>Student-led practice, code critique, peer collaboration | `handout.md` (실습 섹션) 기준 |
+| **AI리뷰 + 마무리 / AI Review + Wrap-up** | 30분 | AI 도구로 코드 검토, 오류 분석, 마이크로 과제 안내, Q&A<br>Review code with AI, error analysis, assignment briefing, Q&A | `handout.md` (과제 섹션) 기준 |
 | **합계 / Total** | **180분 (3시간)** | | |
 
 > **강사 조정 지침 / Instructor Note:** 학생 수준이 빠를 경우 조작 시간을 줄이고 AI리뷰를 늘린다. 느릴 경우 이론을 압축하고 실습 지도를 강화한다.
