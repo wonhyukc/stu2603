@@ -31,7 +31,7 @@ model: claude-opus-4-6
 
 - K트랙 문서 (한국어): **정원혁**
 - E트랙 문서 및 슬라이드 영문 표기: **Wonhyuk William Chung**
-- 이메일: **myLoveSarah@gmail.com** (트랙 무관 동일)
+- 이메일: **wonhyukc@stu.ac.kr** (트랙 무관 동일)
 
 `slides.md` 표지 슬라이드(Slide 1)의 하단에는 트랙에 맞는 이름을 반드시 삽입한다.
 

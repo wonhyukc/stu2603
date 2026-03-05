@@ -20,7 +20,7 @@ model: claude-sonnet-4-6
 모든 파일에서 `[강사 이름]`, `[이름]`, `[Name]` 등 미치환 플레이스홀더가 남아 있으면 즉시 **FAIL**. Auto-Fix 시 아래 값으로 교체한다.
 - K트랙 문서 (한국어): **정원혁**
 - E트랙 문서 및 슬라이드 영문 표기: **Wonhyuk William Chung**
-- 이메일: **myLoveSarah@gmail.com** (트랙 무관 동일)
+- 이메일: **wonhyukc@stu.ac.kr** (트랙 무관 동일)
 
 ### 1. 필수 산출물 누락 검증 (최우선)
 
