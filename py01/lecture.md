@@ -39,10 +39,10 @@
    - 새 노트북 생성 → 코드 셀에 `print("안녕하세요!")` 입력 → 실행 (Shift+Enter)
    - 결과 확인 후 강사 드라이브에 저장 실습
 
-2. **GitHub 계정 생성** (25분)
-   - [github.com](https://github.com) → Sign up
-   - 아이디는 실명 기반 영문 권장 (포트폴리오 활용 목적 설명)
-   - 프로필 사진 설정 권장
+2. **GitHub 계정 생성 및 과제용 Repository 세팅** (25분)
+   - [github.com](https://github.com) → Sign up (아이디 실명 기반 영문 권장)
+   - 계정 생성 직후 **과제 제출용 Private Repository** (`stu2603c-assignments` 등) 생성 시연
+   - **강사 아이디(`wonhyukc`)를 Collaborator로 초대하는 과정 반드시 함께 실습**
 
 3. **eCampus 수강 등록 확인 + AI 계정 생성** (25분)
    - eCampus 접속 → 이 과목 수강 목록 확인
@@ -67,8 +67,10 @@
 
 - eCampus 1주차 제출함 열어서 화면에 보여준다.
 - `handout.md` 과제 섹션 기준 두 가지 과제를 구두로 설명한다.
-  - **과제 A**: 강사 이메일로 자기소개 이메일 보내기 — 제목 형식, 비즈니스 이메일 5원칙 재강조
-  - **과제 B**: 계정 인증샷 3장 (Colab, GitHub, AI 도구)
+  - **과제 A**: 강사 이메일로 자기소개 이메일 보내기 — 비즈니스 이메일 중요성 재강조, 5원칙 숙지
+  - **과제 B**: 실습 때 만든 GitHub Repository에 `week01.md` 파일을 올리고 그 안에 3가지 인증 내용(URL/텍스트) 정리.
+  - **제출 방법**: 이미지 캡처/첨부 절대 금지. eCampus 텍스트 입력창에 `week01.md`의 **GitHub 링크(URL) 단 하나만 복사해서 제출**.
+- 강사(`wonhyukc`)가 Collaborator로 초대 안 되어 있으면 자동 채점 불가능하어 0점 처리됨을 강조.
 - 제출 기한 명시: 다음 수업 전날 23:59
 
 #### 3단계: 예고 및 마무리 Q&A (5분)
