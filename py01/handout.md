@@ -155,7 +155,7 @@ GitHub는 코드를 저장하고 공유하는 공간입니다. 이번 학기에 
 **Step 3: 강사 초대하기 (Collaborator)**
 - 방금 만든 Repository 화면에서 보조 메뉴의 `Settings` 탭 클릭
 - 왼쪽 메뉴에서 `Collaborators` 클릭 (`Add people` 버튼)
-- 강사 아이디 **`wonhyukc`** 검색 후 클릭 → `Add wonhyukc to this repository` 클릭
+- 강사 아이디 **`wonhyukc`** (또는 이메일 `myLoveSarah@gmail.com`) 검색 후 클릭 → `Add to this repository` 클릭
 - 강사가 초대를 수락하면 채점이 가능해집니다.
 
 > **확인 사항**: 내 저장소 화면 주소창(예: github.com/내아이디/저장소이름)을 잘 기억해둡니다.
