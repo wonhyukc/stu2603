@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Hello Demo</title>
+    <title>My First Lesson</title>
     <style>
-        .highlight {
-            color: blue;
-            cursor: pointer;
-            transition: color 0.3s;
+        .green {
+            color: green;
         }
 
-        .highlight:hover {
-            color: red;
+        .purple {
+            /* Corrected syntax: property: value unit; */
+            color: purple;
+            font-size: 25px;
+        }
+
+        .clickable {
+            cursor: pointer;
+            user-select: none;
         }
     </style>
 </head>
 
 <body>
 
-    <h1 class="highlight" id="helloBtn">hello</h1>
-    <h1 class="highlight" id="worldBtn">world</h1>
+    <h1 id="helloBtn" class="clickable">hello</h1>
+
+    <h2 id="head2Btn" class="green clickable">head2</h2>
+    <p>This is the first body section.</p>
+
+    <br /><br /><br /><br /><br />
+
+    <h2 class="green">head2 again</h2>
+    <p class="purple" id="purpleText">
+        This text is now purple and 15px large!
+    </p>
 
     <script>
-        // 자바스크립트를 이용한 클릭 이벤트 추가
+        // Add JavaScript to handle click events
         document.getElementById('helloBtn').addEventListener('click', function () {
-            alert('Hello를 클릭했습니다!');
-            this.style.color = 'green';
+            alert('You clicked Hello!');
+            this.style.color = 'blue';
         });
 
-        document.getElementById('worldBtn').addEventListener('click', function () {
-            alert('World를 클릭했습니다!');
-            this.style.color = 'orange';
+        document.getElementById('head2Btn').addEventListener('click', function () {
+            // Change class name on click
+            this.className = 'purple clickable';
+            this.innerText = 'head2 (Color changed!)';
         });
     </script>
 
