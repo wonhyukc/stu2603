@@ -28,7 +28,7 @@
 |:---|:---|:---|:---|
 | **Section 1** | 25분 | Python과 AI 시대의 개발자 | Python 시연, Flipped Learning 방식, 한 학기 로드맵 |
 | **Section 2** | 25분 | 프로페셔널 커뮤니케이션 | 비즈니스 이메일 원칙, 엔지니어식 질문법, eCampus 사용법 |
-| **Section 3** | 25분 | AI 파트너 소개 | ChatGPT/Gemini 역할, AI는 틀린다, Micro-Assignment 형식 소개 |
+| **Section 3** | 25분 | AI 파트너 소개 | Gemini/ChatGPT 등 AI 역할, AI는 틀린다, Micro-Assignment 형식 소개 |
 
 ### 조작 블록 (75분)
 
