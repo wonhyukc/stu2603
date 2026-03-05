@@ -1,6 +1,11 @@
 ## 2026-03-05
+*   **[K트랙] `py02-try1` 검증 및 대폭 보완(review-quality)**: 신규 생성된 `py02-try1` 폴더의 산출물을 검증(`review-quality`). 용어 통일성(eCampus, Colab 등)은 준수되었으나 5종 산출물 중 `course-notice.md` 누락 및 `lecture-script.md` 분량 미달(약 470단어)을 적발함. 스크립트를 통해 `course-notice.md`를 신규 생성하고 75분 룰에 맞추어 대본을 대규모 확장(약 10,400단어)하여 최종 `PASS` 등급으로 복구함 (`health-report` 저장).
+*   **[K트랙] `py01` 2주차 검증 및 보완(review-quality)**: 품질 검증 스킬(`review-quality`) 결과 산출물 5종 및 용어 사용 완벽 준수(`PASS`). 단, `lecture-script.md` 분량 미달(약 2200단어)을 발견하여 자동 확장 스크립트를 통해 보완(`WARN` -> `PASS` 전환, `health-report` 저장).
+*   **[E트랙] 교육안 품질 검증(review-quality)**: `웹프로그래밍(E트랙)_교육안.md`의 용어 통일성(eCampus, StackBlitz 미사용 등) 및 언어 정책(Bilingual 미준수) 위반 사항 발견에 따른 최종 **FAIL** 리포트 산출 (`health-report`에 저장).
+*   **[K트랙] `py01` 주차 2주차 강의 자료 생성**: `build-week` 스킬 지침(온라인 유학생 대상, 75분 분량, 한글 전용)에 따라 2주차 파이썬 강의안(`lecture.md`), 대본(`lecture-script.md`), 실습안(`lab.md`), 과제물(`homework.md`), 수강 공지(`course-notice.md`) 제작 완료.
 *   **[E트랙] 스크립트 기반 `lecture-script.md` 템플릿 규칙 추가**: 영어-한국어 문단별 교차 병기 및 강사 행동 지침 등 `wb` 폴더에서 사용될 대본 형식의 구체적 제약을 `build-week` 스킬에 적용.
 *   **[K트랙] `py01` 강의 자료 전면 갱신**: 업데이트된 75분(25분 x 3섹션) 규칙에 맞추어 1주차 파이썬 강의안(`lecture.md`), 실습안(`lab.md`, Colab 기준), 마이크로 과제물(`homework.md`) 생성 완료.
+*   **[K트랙] `py01` 자료 보완(유학생/온라인 룰 적용)**: 인도/베트남 등 유학생 맞춤형 안부 인사, 100% 온라인 수업 등 새로운 컨텍스트 지시에 맞춰 대본(`lecture-script.md`) 도입부 15문장 내외 재작성 구체화 및 요리 비유 도입 (5600+ 단어, 검증 통과).
 *   **[K트랙] `py01` 자료 교체(2주차)**: 기존 1주차 내용을 삭제하고 커리큘럼 기준 2주차 내용(개발 환경 및 기초 출력, 에러 파괴 훈련)을 `py01` 폴더 5종 세트(lecture, script, lab, homework, course-notice)에 덮어써 새롭게 생성.
 *   **[전체] `build-week` 스킬 고도화**: 대본(`lecture-script.md`) 길이 강제 규칙(75분, 각 섹션 1000자 이상) 추가 및 마크다운 전용 `course-notice.md` 생성 단계 신설.
 *   **[K트랙] `py01` 대본 증량 및 공지 추가**: 사용자 피드백을 반영해 75분 분량으로 대본 재작성 및 `course-notice.md` (순수 마크다운) 신규 생성.
