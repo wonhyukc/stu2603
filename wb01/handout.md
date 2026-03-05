@@ -403,6 +403,31 @@ Instead of uploading screenshots to eCampus, use the GitHub repository you creat
 
 ---
 
+### Assignment C: Web History Experience / 과제 C: 웹의 역사 체험
+
+Visit the first website in history and experience the evolution of the web, then write your impressions.
+역사상 최초의 웹사이트를 방문하고 웹의 진화 과정을 체험한 후 소감을 작성합니다.
+
+**Step 1: Visit the First Website / 최초의 웹사이트 방문**
+- Go to [info.cern.ch](https://info.cern.ch/).
+  최초의 웹사이트인 [info.cern.ch](https://info.cern.ch/)에 접속합니다.
+- Browse the simple text and hyperlinks.
+  텍스트와 하이퍼링크만 있는 단순한 구조를 살펴봅니다.
+
+**Step 2: Experience Web History / 웹 역사 체험**
+- Go to [Web Rewind](https://www.web-rewind.com/?utm_source=opcom&utm_medium=internal&utm_campaign=web-rewind&utm_content=homepage-banner).
+  [Web Rewind](https://www.web-rewind.com/?utm_source=opcom&utm_medium=internal&utm_campaign=web-rewind&utm_content=homepage-banner)에 접속합니다.
+- Look around to see how web design and technology have evolved.
+  과거부터 현재까지 웹 디자인과 기술이 어떻게 변해왔는지 살펴봅니다.
+
+**Step 3: Write Your Impressions / 소감 작성**
+- In your `week01.md` file from Assignment B, add a new section for Assignment C at the bottom.
+  과제 B에서 만든 `week01.md` 파일 하단에 과제 C 섹션을 추가합니다.
+- Write a short paragraph (3-4 sentences) about how the web has changed and what you felt.
+  과거 웹과 현재 웹의 차이점, 느낀 점 등 짧은 소감(3~4문장)을 작성하여 추가합니다.
+
+---
+
 ### Grading Notes & Tips / 평가 기준 및 팁
 
 - If the instructor account (`wonhyukc`) is not invited as a Collaborator, the Private repository is inaccessible → **0 points**. (Recheck Lab 2)

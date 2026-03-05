@@ -69,9 +69,10 @@ Ask 2–3 students to read their AI response aloud. Lead a short discussion:
 #### Step 2: Assignment Briefing (10 min) / 과제 안내
 
 - Open the Week 1 submission box on eCampus and show it on screen.
-- Briefly explain both assignments from `handout.md`:
+- Briefly explain all assignments from `handout.md`:
   - **Assignment A**: Self-introduction email to instructor — reinforce business email principles.
   - **Assignment B**: Create `week01.md` in GitHub repo with 3 verification items (StackBlitz URL / GitHub profile URL / AI conversation text), then submit the GitHub file link on eCampus.
+  - **Assignment C**: Visit the first website (`info.cern.ch`) and `Web Rewind`, then write 3-4 sentences of impressions in `week01.md`.
 - **Emphasize**: Instructor (`wonhyukc`) must be invited as Collaborator, otherwise the submission cannot be accessed → **0 points**.
 
 #### Step 3: Preview & Q&A (5 min) / 예고 및 마무리 Q&A

@@ -67,6 +67,13 @@ Complete both tasks below and submit via the Week 1 submission box on eCampus.
 - **Important**: If the instructor (`wonhyukc`) is not added as a Collaborator, the private repository is inaccessible → **0 points**.
   **중요**: 강사(`wonhyukc`)가 Collaborator로 초대되지 않으면 Private 저장소 접근 불가 → **0점** 처리됩니다.
 
+**Assignment C: Web History Experience / 과제 C: 웹 역사 체험**
+
+- Visit the first website at [info.cern.ch](https://info.cern.ch/) and explore the [Web Rewind](https://www.web-rewind.com/?utm_source=opcom&utm_medium=internal&utm_campaign=web-rewind&utm_content=homepage-banner) site to experience web evolution.
+  최초의 웹사이트(`info.cern.ch`)를 방문하고 `Web Rewind` 사이트를 탐색하며 웹의 진화를 체험합니다.
+- In your `week01.md` file (from Assignment B), add a short paragraph (3-4 sentences) with your impressions.
+  과제 B의 `week01.md` 파일 하단에 느낀 점을 3~4문장으로 작성하여 추가합니다.
+
 ---
 
 **Course Methodology (Important) / 수업 방식 안내 (중요)**

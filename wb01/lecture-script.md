@@ -426,9 +426,9 @@ Length target: approximately **0.5 pages of A4**. The goal is not quantity — i
 
 분량 목표: **A4 0.5페이지** 내외. 목표는 분량이 아닙니다 — AI 상호작용과의 진정한 비판적 참여입니다. AI Critique에 한 문장, Final Result에 테스트된 코드 한 블록, 프롬프트의 명확한 기록. 전체 형식이 그것입니다.
 
-Week 1 is an exception to this format. This week's tasks — the self-introduction email and the GitHub account verification file — do not follow the three-part structure. Starting Week 2, this format applies every week without exception for the entire semester.
+Week 1 is an exception to this format. This week's tasks — the self-introduction email, the GitHub account verification file, and the web history impressions — do not follow the three-part structure. Starting Week 2, this format applies every week without exception for the entire semester.
 
-1주차는 이 형식에서 예외입니다. 이번 주 과제 — 자기소개 이메일과 GitHub 계정 인증 파일 — 는 세 부분 구조를 따르지 않습니다. 2주차부터 이 형식은 학기 내내 매주 예외 없이 적용됩니다.
+1주차는 이 형식에서 예외입니다. 이번 주 과제 — 자기소개 이메일, GitHub 계정 인증 파일, 웹 역사 소감 — 는 세 부분 구조를 따르지 않습니다. 2주차부터 이 형식은 학기 내내 매주 예외 없이 적용됩니다.
 
 ### [Closing / 마무리 — 2 min]
 

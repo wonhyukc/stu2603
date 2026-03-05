@@ -9,12 +9,12 @@ theme: default
 > **Instructor PPT reference document. / 강사용 PPT 제작 기준 문서입니다.**
 > Each slide defines the title and key bullets. Visual assets are marked with `[IMAGE]`.
 > 각 슬라이드의 제목과 핵심 bullet을 정의합니다. 시각 자료는 `[이미지]` 태그로 표시합니다.
-> Total slides: **20** | Total lecture time: 75 min (25 min × 3 sections)
-> 총 슬라이드: **20장** | 총 강의 시간: 75분 (25분 × 3섹션)
+> Total slides: **21** | Total lecture time: 75 min (25 min × 3 sections)
+> 총 슬라이드: **21장** | 총 강의 시간: 75분 (25분 × 3섹션)
 
 ---
 
-## Section 1 — The Web & Course Introduction / 웹 입문과 강의 소개 (25 min, Slides 1–8)
+## Section 1 — The Web & Course Introduction / 웹 입문과 강의 소개 (25 min, Slides 1–9)
 
 ---
 
@@ -51,7 +51,14 @@ theme: default
 
 ---
 
-### Slide 4 — The Client-Server Model / 클라이언트-서버 모델
+### Slide 4 — Brief Web History Timeline / 웹 역사 타임라인
+
+**Title**: 30 Years in 30 Seconds / 30년을 30초에
+
+| Year | Event |
+|:---
+
+### Slide 5 — The Client-Server Model / 클라이언트-서버 모델
 
 **Title**: How a Webpage Reaches You / 웹 페이지가 화면에 나타나기까지
 
@@ -66,7 +73,7 @@ Browser RENDERS HTML → You see the page
 
 ---
 
-### Slide 5 — AI in 2025 / AI 시대의 현실
+### Slide 6 — AI in 2025 / AI 시대의 현실
 
 **Title**: AI writes code. So why are we here? / AI가 코드를 씁니다. 그러면 왜 배워야 할까요?
 
@@ -81,12 +88,7 @@ Browser RENDERS HTML → You see the page
 
 ---
 
-### Slide 6 — Brief Web History Timeline / 웹 역사 타임라인
-
-**Title**: 30 Years in 30 Seconds / 30년을 30초에
-
-| Year | Event |
-|:---|:---|
+---|:---|
 | 1989 | Tim Berners-Lee proposes the web |
 | 1991 | First public website |
 | 1995 | JavaScript invented (10 days!) |
@@ -126,7 +128,7 @@ Flipped:       Home → Watch video   /  Classroom → Hands-on + Q&A
 
 ---
 
-## Section 2 — Professional Communication / 프로페셔널 커뮤니케이션 (25 min, Slides 9–14)
+## Section 2 — Professional Communication / 프로페셔널 커뮤니케이션 (25 min, Slides 10–15)
 
 ---
 
@@ -210,7 +212,7 @@ Flipped:       Home → Watch video   /  Classroom → Hands-on + Q&A
 
 ---
 
-## Section 3 — AI Partner & Developer Tools / AI 파트너와 개발 도구 (25 min, Slides 15–20)
+## Section 3 — AI Partner & Developer Tools / AI 파트너와 개발 도구 (25 min, Slides 16–21)
 
 ---
 
@@ -306,5 +308,5 @@ Flipped:       Home → Watch video   /  Classroom → Hands-on + Q&A
 
 ---
 
-*Total slides: 20 | Section 1: 8 / Section 2: 6 / Section 3: 6*
-*총 슬라이드: 20장 | 섹션 1: 8장 / 섹션 2: 6장 / 섹션 3: 6장*
+*Total slides: 21 | Section 1: 9 / Section 2: 6 / Section 3: 6*
+*총 슬라이드: 21장 | 섹션 1: 9장 / 섹션 2: 6장 / 섹션 3: 6장*
