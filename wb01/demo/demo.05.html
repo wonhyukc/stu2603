@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Demo</title>
+    <style>
+        .highlight {
+            color: blue;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .highlight:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="highlight" id="helloBtn">hello</h1>
+    <h1 class="highlight" id="worldBtn">world</h1>
+
+    <script>
+        // 자바스크립트를 이용한 클릭 이벤트 추가
+        document.getElementById('helloBtn').addEventListener('click', function () {
+            alert('Hello를 클릭했습니다!');
+            this.style.color = 'green';
+        });
+
+        document.getElementById('worldBtn').addEventListener('click', function () {
+            alert('World를 클릭했습니다!');
+            this.style.color = 'orange';
+        });
+    </script>
+
+</body>
+
+</html>
