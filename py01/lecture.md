@@ -46,7 +46,8 @@
 
 3. **eCampus 수강 등록 확인 + AI 계정 생성** (25분)
    - eCampus 접속 → 이 과목 수강 목록 확인
-   - ChatGPT ([chat.openai.com](https://chat.openai.com)) 또는 Google Gemini ([gemini.google.com](https://gemini.google.com)) 중 택 1 계정 생성
+   - **Google Gemini** ([gemini.google.com](https://gemini.google.com)) 계정 로그인 및 활성화 (Colab 연동 측면에서 수업 권장 모델)
+   - (필요 시 ChatGPT, Claude, Perplexity 등 타 AI 도구도 자유롭게 가입 및 사용 가능함을 안내)
    - AI에게 "파이썬이 뭐야?" 질문 체험
 
 ### AI리뷰·마무리 블록 (30분)
