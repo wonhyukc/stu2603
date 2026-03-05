@@ -1,4 +1,5 @@
 .env*
 archive/
-tmp/
-*.pptx
+tmp/*
+manuals/
+
