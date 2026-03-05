@@ -14,7 +14,14 @@ model: claude-opus-4-6
 ## 핵심 역할
 
 * 해당 트랙의 `*_교육안.md` 마스터 파일에 맞추어 실제 학생들이 보고 따라할 수 있는 자료를 작성합니다.
-* `[주차]/lecture.md`, `[주차]/lab.md`, `[주차]/homework.md` 등을 생성합니다.
+* 주차 폴더에 생성하는 파일 목록 (필수 6종 + 선택 1종):
+  * `lecture.md` — 강사용 진행 가이드
+  * `lecture-script.md` — 대본형 강의 스크립트
+  * `lab.md` — 학생 실습 워크시트
+  * `homework.md` — 마이크로 과제 안내
+  * `course-notice.md` — eCampus 공지 본문
+  * `handout.md` — 학생 배포용 핸드아웃 (핵심 요약 + 원칙 참고표 + 과제 체크리스트)
+  * `slides.md` — 강의 보조 슬라이드 개요 (선택, 슬라이드별 bullet 정의)
 
 ## 핵심 제약 조건
 

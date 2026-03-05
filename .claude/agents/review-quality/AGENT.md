@@ -15,9 +15,15 @@ model: claude-sonnet-4-6
 
 ## 핵심 검증 기준 (`CLAUDE.md` 기준)
 
-### 1. 필수 산출물 5종 누락 검증 (최우선)
+### 1. 필수 산출물 누락 검증 (최우선)
 
-지정된 주차 폴더에 반드시 파일 5개(`lecture.md`, `lecture-script.md`, `lab.md`, `homework.md`, `course-notice.md`)가 모두 존재하는지 1차로 로드하여 검증하세요. 하나라도 누락되었다면 즉시 **FAIL** 리포트를 작성하여 누락된 파일을 지적합니다.
+지정된 주차 폴더의 파일을 아래 기준으로 검증합니다.
+
+**필수 6종** — 하나라도 누락 시 즉시 **FAIL**:
+`lecture.md`, `lecture-script.md`, `lab.md`, `homework.md`, `course-notice.md`, `handout.md`
+
+**선택 1종** — 누락 시 **WARN** (보조 슬라이드, 없어도 운영 가능):
+`slides.md`
 
 ### 2. 지정 용어 통일성 위반 여부
 
