@@ -95,75 +95,11 @@
 > - 총 시간: **75분**
 > - 실습 환경: 브라우저 (Google Chrome 권장)
 
----
+**이번 주 실습은 제공된 `lab.ipynb` 파일을 Google Colab에서 열어 진행하십시오.**
 
-## 실습 순서
-
-### Lab 1. Google Colab 접속 및 활성화 (25분)
-
-Google Colab은 인터넷 브라우저에서 바로 Python 코드를 실행할 수 있는 도구입니다. 아무것도 설치하지 않아도 됩니다.
-
-**Step 1: Google 계정 확인**
-- Gmail 계정이 있어야 합니다. 없다면 [accounts.google.com](https://accounts.google.com)에서 먼저 계정을 만드세요.
-- 브라우저에서 Google 계정으로 로그인되어 있는지 확인합니다.
-
-**Step 2: Google Colab 접속**
-- 브라우저 주소창에 아래 주소를 입력합니다.
-  ```
-  colab.research.google.com
-  ```
-- 처음 접속하면 환영 화면이 나타납니다.
-
-**Step 3: 새 노트북 만들기**
-- 왼쪽 상단 메뉴에서 `파일(File)` → `새 노트북(New notebook)` 클릭
-- 또는 환영 화면의 `새 노트북` 버튼 클릭
-
-**Step 4: 코드 셀 실행하기**
-- 화면에 코드 셀(회색 박스)이 보입니다. 셀 안을 클릭합니다.
-- 아래 코드를 직접 타이핑합니다. (복사-붙여넣기 말고 직접 타이핑합니다)
-
-  ```python
-  print("안녕하세요!")
-  ```
-
-- 셀 왼쪽의 재생 버튼(▶)을 클릭하거나 `Shift + Enter`를 누릅니다.
-- 셀 아래에 `안녕하세요!`가 출력되면 성공입니다.
-
-**Step 5: 노트북 저장**
-- `Ctrl + S`를 누르면 Google Drive에 자동 저장됩니다.
-- 상단 탭 이름을 더블클릭해서 `py01-연습`으로 이름을 바꿔봅니다.
-
-> **확인 사항**: 노트북이 저장되고 코드 실행 결과가 보이면 Lab 1 완료입니다.
-
----
-
-### Lab 2. GitHub 계정 및 저장소(Repository) 생성 (25분)
-
-GitHub는 코드를 저장하고 공유하는 공간입니다. 이번 학기에 만든 코드는 모두 이곳에 저장하고, 강사를 초대하여 자동으로 채점받습니다.
-
-**Step 1: GitHub 계정 만들기**
-- [github.com](https://github.com) 접속 → 우측 상단 `Sign up`
-- 이메일, 비밀번호 설정 후 아이디(username) 입력 (실명 영문 권장: 예 `hong-gildong`)
-- 프로필 설정 (Settings)에서 이름을 한글로 변경합니다. (이메일 인증은 천천히 해도 됩니다.)
-
-**Step 2: 과제 제출용 Repository 만들기**
-- 화면 우측 상단 `+` 버튼 클릭 → `New repository`
-- Repository name: `stu2603c-assignments` (또는 자유 이름)
-- Public / Private 중 **Private** 선택 (다른 학생이 내 코드를 볼 수 없게 함)
-- `Add a README file` 체크
-- `Create repository` 클릭
-
-**Step 3: 강사 초대하기 (Collaborator)**
-- 방금 만든 Repository 화면에서 보조 메뉴의 `Settings` 탭 클릭
-- 왼쪽 메뉴에서 `Collaborators` 클릭 (`Add people` 버튼)
-- 강사 아이디 **`wonhyukc`** (또는 이메일 `myLoveSarah@gmail.com`) 검색 후 클릭 → `Add to this repository` 클릭
-- 강사가 초대를 수락하면 채점이 가능해집니다.
-
-> **확인 사항**: 내 저장소 화면 주소창(예: github.com/내아이디/저장소이름)을 잘 기억해둡니다.
-
----
-
-### Lab 3. eCampus 확인 + AI 계정 생성 (25분)
+*   **Lab 1**: Google Colab 접속 및 활성화 (코드 실행 체험)
+*   **Lab 2**: GitHub 계정 및 저장소(Repository) 생성
+*   **Lab 3**: eCampus 확인 + AI 계정 생성
 
 **Step 1: eCampus 수강 목록 확인**
 - eCampus에 접속합니다.
