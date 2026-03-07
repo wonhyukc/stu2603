@@ -5,6 +5,8 @@
 - `web-output/wb01/lecture-script.md`
 - `web-output/wb01/slides.md`
 
+> **역할 분리**: `lecture-script.md`의 분량·구어체·섹션 내용은 **이 루브릭에서만** 평가한다. `wb01_remaining_루브릭.md`는 handout·course-notice 전담이며 lecture-script를 포함하지 않는다.
+
 **평가 기준 SSOT**
 - `web-output/웹프로그래밍(E트랙)_교육안.md` — 1주차 항목
 - `CLAUDE.md` — 품질 기준 (분량·언어·환경)
