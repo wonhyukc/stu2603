@@ -40,6 +40,6 @@ description: 각 주차별 강의(lecture.md), 실습(lab.md), 과제(homework.m
 
 ## 출력 지침
 
-* 영어/한글 규칙: K트랙은 한글 전용, E트랙은 영어/한글 병용(문단 교차) 형식을 준수합니다 (`CLAUDE.md` 참고).
+* 영어/한글 규칙: K트랙 및 E트랙 모두 강사용 초안 문서(`lecture.md`, `lecture-script.md`, `course-notice.md` 등)는 **100% 한국어 단일 언어**로 작성합니다. E트랙의 학생 배포 문서(`handout.md`)에 한해서만 영어 또는 영한 병용을 허용합니다 (`CLAUDE.md` 참고).
 * 코드는 항상 최신 프론트엔드/파이썬 표준을 준수합니다.
 * 지시적(Imperative) 어조보다는 안내적(Guiding) 톤을 사용합니다.

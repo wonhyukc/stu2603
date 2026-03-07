@@ -16,7 +16,7 @@ This document is intended to override some of the user's Global AI Rules. AI age
 
 ## 2. Language Guidelines (Overriding Global Rules)
 
-*   **E-Track (Web Programming)**: Write all documentation in both English and Korean (alternating paragraph by paragraph) unless specified otherwise. This project-specific rule overrides any global policies.
+*   **E-Track (Web Programming)**: 1~8주차 강사용 문서(`lecture.md`, `lecture-script.md`, `course-notice.md`, `slides.md` 등) 초안 작성 시 **반드시 한국어 100% 단일 언어**로만 작성해야 합니다. `CLAUDE.md`의 언어 정책을 최우선으로 따르며, 영어 병기는 향후 별도 워크플로우로 진행하므로 에이전트 생성 시 절대 영한 병기를 적용하지 마세요. 학생 배포 문서인 `handout.md` 등은 영어 우선(또는 영한 병기)으로 작성합니다.
 *   **K-Track (Computing Thinking & Coding)**: Write all documentation **exclusively in Korean**. Do not use the bilingual format for K-Track materials.
 
 *(For detailed track-specific language policies, refer to `CLAUDE.md`)*
