@@ -34,3 +34,8 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 
 **교육안 QA (qa-ktrack 커맨드 사용):**
 > "`python-output/컴퓨팅적사고와코딩(K트랙)_교육안.md`를 `/qa-ktrack`으로 평가해. 90점 미만이면 `/ralph-loop` 워크플로우로 보완 항목을 직접 수정하고, 90점 이상이 될 때까지 반복한 뒤 결과만 보고해."
+
+**주차 핵심 산출물 QA (qa-py-materials 커맨드 사용):**
+> "py02의 lecture-script, lab.ipynb, handout, course-notice를 `/qa-py-materials py02`로 평가해.
+> 85점 미만이면 `/ralph-loop` 워크플로우로 보완 항목을 직접 수정하고, 85점 이상이 될 때까지
+> 반복한 뒤 결과만 보고해."
