@@ -40,24 +40,21 @@ model: claude-opus-4-6
     * **스크립트 포맷(E트랙)**: 본문 영어 문단 먼저 → 바로 아랫줄에 한국어 번역 문단. 제목(Heading)도 번역 병기.
 * **행동 지침(공통)**: 강사의 행동 지시문은 `*(Instructor Note: ...)*` 및 `*(강사 참고: ...)*` 이탤릭체 괄호 처리.
 
-### Step 2: 실습 가이드 제작 (lab.md)
+### Step 2: 학생 배포 자료 제작 (handout.md + lab.ipynb)
 
-* 강의안에서 다룬 내용을 실습할 수 있는 핸즈온(Hands-on) 가이드를 `lab.md`로 분리하여 작성합니다.
-* **환경 제한**: 1~8주차는 StackBlitz(웹) 또는 Google Colab(파이썬)에서 바로 실행 가능한 내용이어야 합니다.
+* **`handout.md`** — 학생 배포용 통합 문서. 반드시 아래 3섹션을 순서대로 포함해야 합니다:
+  1. **개념 참고 영역**: 핵심 개념 요약, 참고표 (강의 내용 기반 정리)
+  2. **실습 섹션**: `lab.ipynb`(K트랙) 또는 StackBlitz 링크(E트랙)를 Google Colab/StackBlitz에서 열라는 안내 문구만 기재. 스텝·코드 나열 금지.
+  3. **과제 섹션**: 마이크로 과제 내용, 제출 형식(AI Prompt / Critique / Result), 기한, 제출처(eCampus)
+* **`lab.ipynb`** (K트랙 `py**` 폴더만 필수): Google Colab에서 바로 실행 가능한 실습 노트북 파일. 1~8주차는 Colab 전용, 9주차~는 로컬 Python 환경 기준으로 작성.
+* **환경 제한**: 1~8주차는 클라우드 환경(E트랙: StackBlitz / K트랙: Google Colab)에서 바로 실행 가능한 내용이어야 합니다.
+* **금지**: `lab.md`, `homework.md` 생성 금지 — 해당 내용은 모두 `handout.md` 안에 작성합니다.
 
-### Step 3: 과제 안내서 제작 (homework.md)
+### Step 3: 수강 공지사항 제작 (course-notice.md)
 
-* 해당 주차 실습에 기반하되 약간의 응용이 들어간 'Micro-Assignment(마이크로 과제)'를 작성합니다.
-
-### Step 4: 수강 공지사항 제작 (course-notice.md)
-
-* eCampus 공지 게시판 등록용 주간 안내 사항을 `course-notice.md`로 분리하여 작성합니다.
-* 이번 주 학습 목표, 지난주 복습 요약, 학생들의 필수 실천 사항(체크리스트)을 포함합니다.
+* eCampus 공지 게시판 등록용 주간 안내 사항을 `course-notice.md`로 작성합니다.
+* 공지 고유 정보(기한·제출처·제목 형식)만 Full content로 유지하고, `handout.md`와 중복되는 상세 내용은 `핸드아웃 N섹션 참고` 포인터로 대체합니다.
 * **포맷 제한**: HTML 태그 절대 사용 금지, 순수 마크다운(Markdown)만 사용합니다.
-
-### Step 5: 통합 기록
-
-* 모든 파일 생성이 끝나면, 프로젝트 루트의 `3history.md` 파일에 "X주차 강의안, 실습안, 과제물, 공지사항 제작 완료" 내역을 한글로 업데이트하세요.
 
 ## 작업 완료 후 보고
 
