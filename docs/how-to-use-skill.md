@@ -7,15 +7,17 @@
 
 ## 전체 워크플로우 한눈에 보기
 
+### K트랙 (py0N)
+
 ```
-[교안 제작]
+[교안 제작] — 전체 한국어
   교육안 초안 작성
       ↓
   /qa-ktrack  ← 교육안 품질 채점 (90점 기준)
       ↓ FAIL
   /ralph-loop ← 자동 보완 반복 → PASS
 
-[주차별 산출물 제작]
+[주차별 산출물 제작] — 전체 한국어
   루브릭 파일 생성 (py0N_remaining_루브릭.md)
       ↓
   build-week 에이전트로 산출물 초안 제작
@@ -26,6 +28,31 @@
       ↓ FAIL
   /ralph-loop ← 자동 보완 반복 → PASS
 ```
+
+### E트랙 (wb0N)
+
+```
+[교안 제작] — 초안은 한국어
+  교육안 초안 작성 (한국어)
+      ↓
+  /qa-ktrack 또는 자체 검토
+      ↓ PASS 후 최종화
+  /to-bilingual 교육안  ← 한국어 → 한국어/영어 Bilingual 변환
+
+[주차별 산출물 제작]
+  강사용 문서 초안 작성 (lecture.md, lecture-script.md, slides.md, course-notice.md) — 한국어
+  학생 배포 문서 초안 작성 (handout.md, lab 파일) — 영어
+      ↓
+  review-quality 에이전트로 형식·용어 검증
+      ↓
+  내용 채점 / QA 완료 → PASS
+      ↓ PASS 후 최종화
+  /to-bilingual wb0N  ← 강사용 문서 4종을 한국어/영어 Bilingual 형식으로 변환
+```
+
+> **E트랙 핵심 규칙**:
+> - 학생 배포 문서(handout, lab)는 **처음부터 영어**, QA 후에도 영어 유지
+> - 강사용 문서는 **초안~QA까지 한국어**, QA PASS 후 `/to-bilingual`로만 Bilingual 변환
 
 ---
 
@@ -238,6 +265,7 @@ py03의 lecture-script, lab.ipynb, handout, course-notice를
 | `/qa-py-materials` | K트랙 주차 산출물 채점 | 85점 PASS | `/qa-py-materials py02` |
 | `/ralph-loop` | Auto-Fix 반복 루프 | PASS까지 | `/ralph-loop` + 지시 프롬프트 |
 | `/to-html` | Markdown → HTML 변환 | — | `/to-html py02/handout.md` |
+| `/to-bilingual` | E트랙 강사용 문서 Bilingual 변환 (QA PASS 후) | — | `/to-bilingual wb01` |
 | `/translate-english` | 한국어 → 영어 번역 | — | `/translate-english` |
 | `/optimize-docs` | CLAUDE.md/README.md 최적화 | — | `/optimize-docs` |
 
