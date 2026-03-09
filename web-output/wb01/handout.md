@@ -448,3 +448,21 @@ Topic / 주제: **HTML Basics — Building an Online Business Card**
 `<h1>`, `<p>`, `<img>` tags | Finding and fixing missing tags
 
 > Watch the **wb02 lecture video on eCampus** before class. / 수업 전에 eCampus에서 **wb02 강의 영상**을 반드시 시청해 오세요.
+
+---
+
+## Appendix: Cross-Platform Compatibility Issues (macOS vs. Windows)
+
+**1. Broken Filenames (NFD vs. NFC Normalization)**
+macOS typically uses the **NFD (Normalization Form Canonical Decomposition)** method for handling Unicode, which separates characters into base letters and combining marks (e.g., separating Korean characters into distinct consonants and vowels). Windows, however, uses the **NFC (Normalization Form Canonical Composition)** method, storing characters as a single, precomposed block. Consequently, when a file created on a Mac is moved to a Windows system, the filename may render improperly, appearing as separated phonetic components.
+
+**2. Broken Text Content (UTF-8 vs. ANSI / Windows-1252)**
+Modern macOS and Linux environments, along with most of the web, default to **UTF-8**, a comprehensive global standard for character encoding. Conversely, legacy Windows applications (like Notepad on older systems) often rely on limited system-specific encodings such as **Windows-1252 (ANSI)** in Western regions or **CP949 (EUC-KR)** in Korea. If a UTF-8 encoded document created on a Mac is opened in a Windows editor expecting ANSI or CP949, the bytes are misinterpreted, resulting in garbled text or "gibberish."
+
+**3. Line Endings Mismatch (CRLF vs. LF)**
+Different operating systems record the action of advancing to a new line differently, a holdover from the era of mechanical typewriters. Windows systems use a two-character sequence, **CRLF (`\r\n`)**—Carriage Return followed by Line Feed. In contrast, Unix-based systems like macOS and Linux use a single character, **LF (`\n`)**. Due to this difference, code written on a Mac may appear as a single, unbroken line when opened in older Windows text editors, while files created on Windows may display unexpected hidden characters (like `^M`) at the end of each line when executed in Mac or Linux terminal environments, potentially causing script errors.
+
+* https://www.revk.uk/2022/02/crlf-has-long-history.html
+* https://youtu.be/-qH3XO9nKtk?si=hbqZsBGUE5qHsqvw
+
+
