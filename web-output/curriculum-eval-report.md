@@ -1,7 +1,7 @@
 # 웹프로그래밍(E트랙) 교육안 QA 평가 리포트
 
-**평가 대상 파일**: `web-output/웹프로그래밍(E트랙)_교육안.md`
-**평가 기준**: `web-output/교육안_QA_루브릭.md`
+**평가 대상 파일**: `web-output/e-track-curriculum.md`
+**평가 기준**: `web-output/curriculum-qa-rubric.md`
 
 ## 종합 평가 결과 (Ralph Loop 1회차 보완 후)
 

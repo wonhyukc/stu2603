@@ -36,12 +36,12 @@ description: QA가 완료된 E트랙 강사용 문서를 한국어/영어 Biling
 ```
 /to-bilingual 교육안
 ```
-→ `web-output/웹프로그래밍(E트랙)_교육안.md` 변환
+→ `web-output/e-track-curriculum.md` 변환
 
 ## 실행 절차
 
 1. `$ARGUMENTS` 파싱
-   - `교육안` → `web-output/웹프로그래밍(E트랙)_교육안.md` 단일 파일
+   - `교육안` → `web-output/e-track-curriculum.md` 단일 파일
    - `wb0N` 형태 → `web-output/wb0N/` 폴더의 강사용 파일 4종
 2. 대상 파일을 순서대로 읽고, 문단별 교차 Bilingual 형식으로 변환해 덮어쓴다
 3. 변환 완료 후 변경된 파일 목록과 각 파일의 섹션 수를 요약 보고한다

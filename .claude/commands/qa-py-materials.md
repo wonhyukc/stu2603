@@ -9,7 +9,7 @@ allowed-tools: Read, Glob, Bash
 
 1. **ARGUMENTS에서 폴더명 파싱** (예: `py02`)
 2. **루브릭 읽기**: `python-output/{week}_remaining_루브릭.md`
-3. **교육안 읽기** (SSOT 검증용): `python-output/컴퓨팅적사고와코딩(K트랙)_교육안.md` — 해당 주차 내용 확인
+3. **교육안 읽기** (SSOT 검증용): `python-output/k-track-curriculum.md` — 해당 주차 내용 확인
 4. **4개 파일 읽기 및 채점**:
    - `python-output/{week}/lecture-script.md`
    - `python-output/{week}/lab.ipynb`
