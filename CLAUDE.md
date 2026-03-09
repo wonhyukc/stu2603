@@ -36,6 +36,7 @@
 | `lecture.md` | 강사 | 진행 순서, 시간 배분, 체크리스트 | **필수** |
 | `lecture-script.md` | 강사 | 영상 제작 기준 전체 대본 | **필수** |
 | `handout.md` | 학생 | 개념 요약 + 실습 안내 + 과제 통합 문서 | **필수** |
+| `peer-eval-lubric.md` | 강사/학생 | eCampus 상호평가용 3문항 객관적 채점 기준 | **필수** |
 | `lab.ipynb` | 학생 | K트랙 전용 실습 파일 | K트랙만 필수 |
 | `slides.md` | 강사 | Google Slides 제작 기준 개요 | 선택 |
 
