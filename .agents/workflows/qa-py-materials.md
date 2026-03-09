@@ -8,7 +8,7 @@ description: K트랙 특정 주차의 핵심 산출물(lecture-script, lab.ipynb
 
 1. **ARGUMENTS에서 폴더명 파싱** (예: `py02`)
 2. **루브릭 읽기**: `python-output/공통_remaining_루브릭.md`
-3. **교육안 읽기** (SSOT 검증용): `python-output/k-track-curriculum.md` — 해당 주차의 학습 목표, S1/S2/S3 세션 내용, 과제 내용 확인
+3. **교육안 읽기** (SSOT 검증용): `python-output/python-curriculum.md` — 해당 주차의 학습 목표, S1/S2/S3 세션 내용, 과제 내용 확인
 4. **4개 파일 읽기 및 채점**:
    - `python-output/{week}/lecture-script.md`
    - `python-output/{week}/lab.ipynb`
@@ -19,7 +19,7 @@ description: K트랙 특정 주차의 핵심 산출물(lecture-script, lab.ipynb
 
 ## 채점 기준
 
-해당 주차 교육안(`k-track-curriculum.md`)의 세션별(S1, S2, S3) 세부 내용을 단일 SSOT(Single Source of Truth)로 삼는다.
+해당 주차 교육안(`python-curriculum.md`)의 세션별(S1, S2, S3) 세부 내용을 단일 SSOT(Single Source of Truth)로 삼는다.
 루브릭 문서(`공통_remaining_루브릭.md`)의 품질 기준 및 지표에 따라 각 산출물이 **"해당 주차 교육안의 내용을 빠짐없이 그리고 정확하게 담고 있는지"** 검증하며, 누락 시 엄격하게 감점한다.
 
 ## 보고 형식

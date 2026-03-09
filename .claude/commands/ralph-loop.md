@@ -33,7 +33,7 @@ allowed-tools: Read, Write, Edit, Bash, Glob, Grep
 > "새로 생성한 `py02` 폴더에 대해 `review-quality` 에이전트로 검증해 줘. 실패 시에는 `/ralph-loop` 워크플로우에 따라 완벽해질 때까지 스스로 뜯어고치고 결과만 보고해."
 
 **교육안 QA (qa-ktrack 커맨드 사용):**
-> "`python-output/k-track-curriculum.md`를 `/qa-ktrack`으로 평가해. 90점 미만이면 `/ralph-loop` 워크플로우로 보완 항목을 직접 수정하고, 90점 이상이 될 때까지 반복한 뒤 결과만 보고해."
+> "`python-output/python-curriculum.md`를 `/qa-ktrack`으로 평가해. 90점 미만이면 `/ralph-loop` 워크플로우로 보완 항목을 직접 수정하고, 90점 이상이 될 때까지 반복한 뒤 결과만 보고해."
 
 **주차 핵심 산출물 QA (qa-py-materials 커맨드 사용):**
 > "py02의 lecture-script, lab.ipynb, handout, course-notice를 `/qa-py-materials py02`로 평가해.

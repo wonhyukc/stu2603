@@ -7,7 +7,7 @@
 > **1단계 목적**: 강의 계획과 슬라이드 구성이 교육안과 일치하는지 검증한다. PASS 후 2단계(lecture-script.md · lab.ipynb · handout.md) 작업을 시작한다.
 
 **평가 기준 SSOT**
-- `python-output/k-track-curriculum.md` — 해당 주차 학습 목표 및 S1·S2·S3 구성
+- `python-output/python-curriculum.md` — 해당 주차 학습 목표 및 S1·S2·S3 구성
 - `CLAUDE.md` — 품질 기준 (언어·실습환경)
 
 **만점**: 100점

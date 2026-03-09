@@ -7,7 +7,7 @@
 > **2단계 목적**: 1단계 PASS 이후 작업한 강의 대본·학생 배포 문서의 품질을 검증한다.
 
 **평가 기준 SSOT**
-- `web-output/e-track-curriculum.md` — 해당 주차 S1·S2·S3 내용 및 마이크로 과제
+- `web-output/web-curriculum.md` — 해당 주차 S1·S2·S3 내용 및 마이크로 과제
 - `CLAUDE.md` — 파일별 언어 규정, handout 3섹션 구성 규칙
 
 **만점**: 100점

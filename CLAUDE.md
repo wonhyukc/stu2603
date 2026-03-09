@@ -52,7 +52,7 @@
 **네이밍 규칙**
 - 폴더: `wb` (웹) 또는 `py` (파이썬) + 2자리 주차 번호 (예: `wb01`, `py05`)
 - 파일명: 영문 ASCII kebab-case (예: `lecture-script.md`, `lab.ipynb`)
-- **커리큘럼 변경 시**: `web-output/e-track-curriculum.md` 또는 `python-output/k-track-curriculum.md` 마스터 파일을 먼저 수정한 후 주차별 파일을 수정/생성한다.
+- **커리큘럼 변경 시**: `web-output/web-curriculum.md` 또는 `python-output/python-curriculum.md` 마스터 파일을 먼저 수정한 후 주차별 파일을 수정/생성한다.
 
 ---
 
@@ -67,7 +67,7 @@
 |---|---|---|---|
 | 초안~QA | 학생 배포 문서 | `handout.md`, `lab` (HTML/JS 등) | **영어** |
 | 초안~QA | 강사용 문서 | `lecture.md`, `lecture-script.md`, `slides.md` | **한국어** |
-| 초안~QA | E트랙 교육안 | `e-track-curriculum.md` | **한국어** |
+| 초안~QA | E트랙 교육안 | `web-curriculum.md` | **한국어** |
 | QA PASS 후 | 강사용 문서 + 교육안 | 위 강사용 파일 전체 | `/to-bilingual` 커맨드로 **한국어/영어 Bilingual** 문단별 교차 형식으로 변환 |
 
 > **규칙**: QA가 완전히 끝나기 전에는 강사용 문서를 Bilingual로 변환하지 않는다. 변환은 사용자가 명시적으로 `/to-bilingual wb0N` 또는 `/to-bilingual 교육안`을 실행할 때만 수행한다.

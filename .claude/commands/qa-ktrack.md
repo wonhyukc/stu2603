@@ -6,7 +6,7 @@ allowed-tools: Read, Glob
 # K트랙 교육안 QA 평가
 
 아래 두 파일을 읽어라:
-1. `python-output/k-track-curriculum.md` — 평가 대상
+1. `python-output/python-curriculum.md` — 평가 대상
 2. `python-output/curriculum-qa-rubric.md` — 평가 기준
 
 ## 평가 지침

@@ -1,6 +1,6 @@
 # 컴퓨팅적사고와코딩(K트랙) 교육안 QA 루브릭
 
-**평가 대상 파일**: `python-output/k-track-curriculum.md`
+**평가 대상 파일**: `python-output/python-curriculum.md`
 **만점**: 100점
 **작성 목적**: 교육안 자체 품질 검증 (QA) 및 Python 커리큘럼의 충실도와 난이도 조절 평가
 

@@ -26,11 +26,11 @@ stu2603/
 ├── CLAUDE.md                          # Claude Code 운영 지침
 ├── README.md                          # 이 파일
 ├── web-output/                        # E트랙 강의 자료
-│   ├── e-track-curriculum.md    # 커리큘럼 마스터 (SSOT)
+│   ├── web-curriculum.md    # 커리큘럼 마스터 (SSOT)
 │   ├── wb01/                          # 1주차
 │   └── wb02/                          # 2주차
 ├── python-output/                     # K트랙 강의 자료
-│   ├── k-track-curriculum.md  # 커리큘럼 마스터 (SSOT)
+│   ├── python-curriculum.md  # 커리큘럼 마스터 (SSOT)
 │   ├── py-labs/                       # 주차별 실습 노트북
 │   ├── py01/                          # 1주차
 │   └── py02/                          # 2주차

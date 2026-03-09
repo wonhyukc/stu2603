@@ -61,7 +61,7 @@
 | 파일 | 역할 |
 |:-----|:-----|
 | `CLAUDE.md` | 전체 운영 지침 (언어·파일 규칙·Git 정책 등) |
-| `python-output/k-track-curriculum.md` | K트랙 커리큘럼 마스터 |
+| `python-output/python-curriculum.md` | K트랙 커리큘럼 마스터 |
 | `python-output/curriculum-qa-rubric.md` | K트랙 교육안 채점 기준 |
 | `python-output/py0n-remaining-rubric.md` | 주차별 산출물 채점 기준 |
 
@@ -75,7 +75,7 @@
 
 ```
 K트랙 교육안을 새로 작성해줘.
-파일 경로: python-output/k-track-curriculum.md
+파일 경로: python-output/python-curriculum.md
 
 작성 기준:
 - CLAUDE.md의 핵심 제약 조건 전부 준수
@@ -87,7 +87,7 @@ K트랙 교육안을 새로 작성해줘.
 기존 교육안을 특정 주차만 수정할 때:
 
 ```
-python-output/k-track-curriculum.md 의 3주차 내용을 수정해줘.
+python-output/python-curriculum.md 의 3주차 내용을 수정해줘.
 [수정 내용 구체적으로 기술]
 수정 후 /qa-ktrack 으로 재채점해서 점수 변화를 알려줘.
 ```
@@ -97,7 +97,7 @@ python-output/k-track-curriculum.md 의 3주차 내용을 수정해줘.
 ### 1-2. 교육안 QA — `/qa-ktrack`
 
 **용도**: 교육안이 루브릭 기준(100점 만점, 90점 PASS)을 충족하는지 채점
-**대상 파일**: `python-output/k-track-curriculum.md`
+**대상 파일**: `python-output/python-curriculum.md`
 **루브릭 파일**: `python-output/curriculum-qa-rubric.md`
 
 호출 방법:
@@ -125,7 +125,7 @@ python-output/k-track-curriculum.md 의 3주차 내용을 수정해줘.
 `/qa-ktrack` 결과가 FAIL(90점 미만)일 때 자동으로 보완하고 재채점합니다.
 
 ```
-python-output/k-track-curriculum.md 를 /qa-ktrack 으로 평가해.
+python-output/python-curriculum.md 를 /qa-ktrack 으로 평가해.
 90점 미만이면 /ralph-loop 워크플로우로 보완 항목을 직접 수정하고,
 90점 이상이 될 때까지 반복한 뒤 결과만 보고해.
 ```
@@ -172,7 +172,7 @@ build-week py03
 또는 특정 파일만 생성할 때:
 
 ```
-python-output/k-track-curriculum.md 의 3주차 내용을 보고
+python-output/python-curriculum.md 의 3주차 내용을 보고
 python-output/py03/lecture-script.md 를 작성해줘.
 - 3섹션 × 25분, 총 4,500단어 이상
 - 구어체, 볼드체·문단 구분 충분
@@ -217,7 +217,7 @@ review-quality 에이전트로 python-output/py03/lecture-script.md 의
 
 **용도**: 루브릭 기준으로 4개 파일의 내용 완전성을 파트별로 채점 (100점, 85점 PASS)
 **루브릭**: `python-output/py0n-remaining-rubric.md`
-**교차 검증**: `python-output/k-track-curriculum.md` 해당 주차와 대조
+**교차 검증**: `python-output/python-curriculum.md` 해당 주차와 대조
 
 호출 방법:
 
@@ -293,7 +293,7 @@ py03의 lecture-script, lab.ipynb, handout을
 
 ```
 [ ] 1. 교육안에서 해당 주차 내용 확인
-        → python-output/k-track-curriculum.md
+        → python-output/python-curriculum.md
 
 [ ] 2. 루브릭 파일 생성
         → python-output/py03-remaining-rubric.md
