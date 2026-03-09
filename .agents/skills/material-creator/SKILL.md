@@ -18,7 +18,7 @@ description: 각 주차별 강의(lecture.md), 실습(lab.md), 과제(homework.m
   * `handout.md` — **학생 배포용 유일한 문서**. 반드시 아래 3섹션을 모두 포함해야 한다:
     1. **개념 참고 영역** — 핵심 개념 요약, 원칙 참고표
     2. **실습 섹션 (Lab Assignment)** — `lecture.md`를 바탕으로 한 수업 중 실습 진행 가이드 및 결과물의 **eCampus 제출** 안내 (상호평가 대상).
-    3. **과제 섹션 (Micro-Assignment)** — 마이크로 과제 지시사항 (수업 소감 + 주차별 추가 항목 + AI 사용 경험). **이메일 제출(`wonhyuk@stu.ac.kr`)** 및 자동 필터링 제목 규칙(`과제[주차] 학번`) 엄수 안내.
+    3. **과제 섹션 (Micro-Assignment)** — 마이크로 과제 지시사항 (수업 소감 + 주차별 추가 항목 + AI 사용 경험). **이메일 제출(`wonhyuk@stu.ac.kr`)** 및 자동 필터링 제목 규칙(`과제0.[주차] 학번` - **항상 소수점 포함**, 예: 2주차는 `과제0.2 학번`) 엄수 안내.
   * `peer-eval-rubric.md` — eCampus 상호평가 기준표. 별도의 타이틀, 설명, 개요(Overview) 부분은 모두 생략하고, `common-peer-eval-rubric.md` 형식을 기본으로 적용해 해당 주차 실습물 판별을 위한 명백한 3문항 채점 기준표(Yes/No 각 1점, 총 3점)와 특별 가이드라인만 간결하게 생성한다.
   * `slides.md` — 강의 보조 슬라이드 개요 (선택, 슬라이드별 bullet 정의)
 * **`lab.md` · `homework.md` 생성 금지**: 해당 내용은 모두 `handout.md` 안에 작성한다.
