@@ -1,68 +1,112 @@
-# Week 2 Handout: Introduction to HTML
+# 2주차 핸드아웃: HTML 기초
 
-**Instructor:** Wonhyuk William Chung (wonhyukc@stu.ac.kr)
+**강사:** Wonhyuk William Chung (wonhyukc@stu.ac.kr)
 
-Welcome to Week 2! This week, we will learn the basics of HTML, the skeleton of every website. You will build your very first web page—a personal digital business card.
+웹프로그래밍 2주차에 오신 것을 환영합니다! 이번 주에는 모든 웹사이트의 뼈대가 되는 HTML의 기본을 배웁니다. 나만의 디지털 명함이라는 첫 웹페이지를 만들어 볼 것입니다.
 
 ---
 
-## 1. Core Concepts Reference
+## 1. 핵심 개념 정리
 
-HTML (HyperText Markup Language) is the standard markup language used to create web pages. It provides the structure of the page, much like the skeleton of the human body.
+HTML(HyperText Markup Language)은 웹페이지를 만드는 데 사용되는 표준 마크업 언어입니다. 사람의 뼈대와 같이 페이지의 구조를 제공합니다.
 
-### Essential HTML Structure
+### 필수 HTML 구조
 
-- `<html>`: The root element that wraps everything.
-- `<head>`: Contains metadata, title, and invisible settings (like the brain — important but not visible).
-- `<body>`: Contains the visible content of your web page (everything users actually see).
+- `<html>`: 모든 것을 감싸는 루트(최상위) 요소입니다.
+- `<head>`: 메타데이터, 제목, 보이지 않는 설정들을 포함합니다. (뇌와 같이 중요하지만 보이지 않습니다.)
+- `<body>`: 웹페이지의 보이는 콘텐츠를 포함합니다. (사용자가 실제로 보는 모든 것)
 
-### Commonly Used Tags
+### 자주 사용하는 태그
 
-| Tag | Description | Example |
+| 태그 | 설명 | 예시 |
 |---|---|---|
-| `<h1> ~ <h6>` | Headings. `<h1>` is the largest, most important. | `<h1>Hello</h1>` |
-| `<p>` | A paragraph of text. | `<p>My name is ...</p>` |
-| `<img>` | Embeds an image. **No closing tag** (empty/self-closing tag). | `<img src="url">` |
+| `<h1> ~ <h6>` | 제목. `<h1>`이 가장 크고 중요합니다. | `<h1>안녕하세요</h1>` |
+| `<p>` | 텍스트 문단입니다. | `<p>제 이름은 ...</p>` |
+| `<img>` | 이미지를 삽입합니다. **닫는 태그가 없습니다** (빈 태그). | `<img src="url">` |
 
-### Image Paths: Absolute vs. Relative
+### 이미지 경로: 절대경로 vs 상대경로
 
-| Type | When to Use | Example |
+| 유형 | 사용 시기 | 예시 |
 |---|---|---|
-| **Absolute Path** | Link to an image on the internet | `https://example.com/photo.jpg` |
-| **Relative Path** | Link to an image in the same folder | `./images/photo.jpg` |
+| **절대경로** | 인터넷 상의 이미지 링크 | `https://example.com/photo.jpg` |
+| **상대경로** | 같은 폴더 내의 이미지 링크 | `./images/photo.jpg` |
 
-> **Tip:** A typo in the `src` URL causes the dreaded broken image icon (the "X-box"). Always double-check your path!
-
----
-
-## 2. Lab Section
-
-During the class, open **StackBlitz** (stackblitz.com) in your browser and follow along with the instructor's live coding demonstrations — no installation required.
+> **팁:** `src` URL에 오타가 있으면 깨진 이미지 아이콘('엑스박스')이 나타납니다. 항상 경로를 다시 한 번 확인하세요!
 
 ---
 
-## 3. Micro-Assignment
+## 2. 실습: 첫 HTML 코드 작성해보기
 
-**Task:** Create and modify the basic skeleton of your online digital business card using AI, and submit the results.
+수업 중에는 브라우저에서 **StackBlitz** (stackblitz.com)를 열고 강사의 라이브 코딩 시연을 따라 해보세요. 별도의 설치가 필요 없습니다.
 
-### Assignment Format
+### 단계별 실습 가이드
 
-Your submission must fit within half an A4 page and include the following three parts:
+1. **StackBlitz 열기:** [stackblitz.com](https://stackblitz.com)에 접속하여 "Blank Project" -> "Static (HTML/JS/CSS)"를 클릭합니다.
 
-1. **AI Prompt**
-   - Exactly what you asked the AI.
-   - Example: *"Please generate a basic HTML skeleton for my personal digital business card."*
+2. **기본 뼈대 살펴보기:** `index.html` 파일을 열어보세요. 표준 HTML 구조(`<html>`, `<head>`, `<body>`)를 확인할 수 있습니다.
 
-2. **AI Critique**
-   - Analyze the AI's response in one sentence. What is correct and what is annoying or wrong?
-   - Example: *"The structure was well-organized, but there were too many unnecessary styling tags that made the code look complicated."*
+3. **내용 추가하기:** `<body>` 태그 안에 다음 내용을 지우고 자기소개를 입력해 보세요. **취미, 고향의 좋은 점, 컴퓨터 사용 경험**을 포함해 보세요:
+   ```html
+   <h1>안녕하세요, 저는 [이름]입니다!</h1>
+   <p>제 디지털 명함에 오신 것을 환영합니다. 저는 [취미]를 좋아하고, 제 고향은 [고향 명소/특징]로 유명한 [고향]입니다. 저는 컴퓨터 사용 경험이 [거의 없습니다/어느 정도 있습니다].</p>
+   ```
 
-3. **Final Result**
-   - Delete or modify at least **one** tag from the AI's output. Take a screenshot of your final version running in StackBlitz.
-   - Example: Remove a complicated `<h2>` or add your own `<img>` with a photo you chose.
+4. **이미지 추가하기:** `<img>` 태그를 사용하여 프로필 사진을 추가해 보세요. 온라인에서 원하는 이미지 URL을 복사해 `src` 속성에 붙여넣습니다.
+   ```html
+   <img src="https://example.com/your-image.jpg" width="200">
+   ```
+   홈페이지니까 공개 되는게 원칙입니다. 공개하면 안되는 내용을 올리지 마세요.
 
-### Deadline & Submission
+5. **실시간 미리보기:** 코드를 입력하면서 오른쪽 Preview 패널이 즉시 업데이트되는 것을 확인하세요! 이것이 바로 첫 웹 페이지입니다.
 
-- **Deadline:** 23:59 on the day before Week 3 class.
-- **Where to submit:** Upload your assignment file (MS Word or PDF) to the **eCampus** "Week 2 Micro-Assignment" board.
-- **Title format:** `[wb02] 학번_이름` (e.g., `[wb02] 20240001_홍길동`)
+6. **AI와 함께 버전 관리 학습하기:** AI에게 다음 개념들을 물어보고 학습하세요: Git과 GitHub은 무엇이고 왜 사용하는가? 커밋(Commit)이란 무엇인가? 리포지토리(Repository)란 무엇인가? Public 리포지토리와 Private 리포지토리의 차이점은 무엇인가? 오늘 다 몰라도 됩니다. 앞으로 이건 평생 친구하며 사용하고, 계속 알아갈 겁니다.
+   
+   1주차에 과제로 제출한 repo와는 다른, 새로운 gitrepo를 만드세요. 이름을 my-intro 라고 합시다. 공개 repo를 만들어야합니다. 
+
+7. **GitHub에 업로드하기:** 작성한 HTML 코드를 자신의 GitHub 리포지토리에 올리세요. 자신의 GitHub 리포지토리를 반드시 **Public(공개)**으로 설정해야 합니다.
+
+8. **커밋 제출하기:** 이 올렸던 커밋의 해쉬와 URL을 함께 제출해 주세요. 주소 표시줄을 복사하면 됩니다.
+   - 예시: `https://github.com/wonhyukc/web-stu/commit/00312a6507c850ddbe778fd843fcc375f6788807` (또는 비슷한 커밋 URL)
+   이 내용은 채점할 때까지 제대로 접근 가능해야 합니다.
+
+---
+
+## 3. 마이크로 과제
+
+### 과제 0.1: 전체 제출 내용 정리
+
+제출물은 A4 용지 절반(1/2) 분량이면 충분합니다. 길게 적지 않아도 됩니다. 다음 항목들을 포함해야 합니다:
+
+1. **수업 소감**
+   - 수업을 들은 소감, 건의 사항 또는 자유로운 코멘트를 작성해 주세요.
+
+2. **자신의 사진 첨부**
+   - 여러분을 기억하고자 하는 의도이니 본인의 사진을 첨부해 주세요.
+   - 사진의 크기는 500Kb를 넘지 않도록 합니다. 너무 큰 사진은 크기를 줄여서 보내주세요. 잘 모르면 '사진 크기 줄이기'로 구글링해서 이번 기회에 직접 배워봅니다.
+   - 사진의 이름은 자신의 이름으로만 지정해 주세요 (학번, 학과는 적지 않습니다). 예시: `정원혁.jpg`
+   - 사진은 가능하면 실물과 비슷한 것으로 해주세요. 지나친 포토샵으로 실제 얼굴을 알아볼 수 없으면 나중에 기억하기 어렵습니다.
+
+3. **eCampus에 자신의 사진 등록**
+   - 현대에는 온라인에서 많은 활동이 일어납니다. 그곳에서 익명으로만 지내는 것은 오히려 손해를 가져올 때가 많습니다. 내성적인 성격이시더라도 꼭 등록해 보세요.
+   - 아울러 eCampus에 등록된 정보(특히 메일 주소)가 틀리다면 올바르게 수정해 주세요. 모두에게 공개할 필요는 없습니다. (메일에는 등록완료 라고만 적으면 됩니다.)
+
+4. **크롬 및 AdBlock 사용 소감**
+   - 크롬(Chrome)을 설치하고 로그인하여 사용해 보세요. 
+   - 그 후 AdBlock 확장 프로그램을 설치 및 사용해 보고 소감을 적어주세요. (확장 프로그램을 확실히 보고 유사한 악성 확장을 설치하지 않도록 조심하세요.)
+
+5. **단축키 공부**
+   - 윈도우 단축키 및 크롬 단축키를 스스로 찾아 다섯 개 이상 공부하고 그 목록과, 소감을 적어주세요.
+
+6. **AI 사용 경험**
+   - **AI 프롬프트:** AI에게 질문한 정확한 내용을 기재합니다. (예: *"git이란 무엇이야?"*)
+   - **AI 결과물 비평:** AI의 답변을 한 문장으로 분석하세요. (예: *"설명이 어려웠다. 그래서 쉽게 다시 설명해달라고 했다."*)   
+
+---
+
+### 마이크로 과제 제출 안내
+
+이 마이크로 과제는 email로 제출합니다. 
+
+- **제출처:** `wonhyuk@stu.ac.kr`
+- **제목:** `과제0.1 학번` (예: `과제0.1 20240001`)
+- **⚠️ 주의사항:** 코드로 메일을 자동 필터링하기 때문에 규칙을 지키지 않으면 채점에서 누락됩니다. 반드시 지킵니다. 제목에는 "과제0.1", 하나 이상의 빈칸, 그리고 "학번" 이렇게만 적어야 합니다. 다른 어떠한 문자도 포함하지 마세요.
