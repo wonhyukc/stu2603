@@ -29,4 +29,4 @@ allowed-tools: Read, Write, Edit, Bash, Glob
 
 5. **커밋**
    - `git add CLAUDE.md README.md` 및 삭제 파일 스테이징 후 커밋.
-   - 커밋 메시지: `docs: 폴더 구조 변경 반영 및 문서 최적화`
+   - 커밋 메시지: `docs: 폴더 구조 변경 반영 및 문서 최적화 (#이슈번호)`
