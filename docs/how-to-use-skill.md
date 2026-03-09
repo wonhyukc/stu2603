@@ -40,7 +40,7 @@
   /to-bilingual 교육안  ← 한국어 → 한국어/영어 Bilingual 변환
 
 [주차별 산출물 제작]
-  강사용 문서 초안 작성 (lecture.md, lecture-script.md, slides.md, course-notice.md) — 한국어
+  강사용 문서 초안 작성 (lecture.md, lecture-script.md, slides.md) — 한국어
   학생 배포 문서 초안 작성 (handout.md, lab 파일) — 영어
       ↓
   review-quality 에이전트로 형식·용어 검증
@@ -154,14 +154,13 @@ py03 용 루브릭을 python-output/py03_remaining_루브릭.md 로 생성해줘
 | A | lecture-script.md | 45 | 38 |
 | B | lab.ipynb | 25 | 20 |
 | C | handout.md | 20 | 16 |
-| D | course-notice.md | 10 | 8 |
-| **합계** | | **100** | **85** |
+| **합계** | | **90** | **75** |
 
 ---
 
 ### 2-2. 산출물 초안 제작 — `build-week`
 
-**용도**: 특정 주차의 전체 산출물(lecture.md, lecture-script.md, handout.md, lab.ipynb, course-notice.md)을 교육안 기반으로 초안 생성
+**용도**: 특정 주차의 전체 산출물(lecture.md, lecture-script.md, handout.md, lab.ipynb)을 교육안 기반으로 초안 생성
 **에이전트**: `.agents/skills/build-week/SKILL.md`
 
 호출 방법:
@@ -188,7 +187,6 @@ python-output/py03/lecture-script.md 를 작성해줘.
 | `lecture.md` | 강사 (진행 순서·체크리스트) | ✅ |
 | `lecture-script.md` | 강사 (75분 대본) | ✅ |
 | `handout.md` | 학생 (개념 요약+실습 안내+과제) | ✅ |
-| `course-notice.md` | eCampus 공지 원문 | ✅ |
 | `lab.ipynb` | 학생 실습 노트북 | ✅ |
 | `slides.md` | 슬라이드 개요 | 선택 |
 
@@ -247,7 +245,7 @@ PASS 조건: 총점 89 ≥ 85 ✅ / A 43 ≥ 38 ✅ / ...
 `/qa-py-materials` 결과가 FAIL(85점 미만 또는 파트 하한 미달)일 때 사용합니다.
 
 ```
-py03의 lecture-script, lab.ipynb, handout, course-notice를
+py03의 lecture-script, lab.ipynb, handout을
 /qa-py-materials py03 으로 평가해.
 85점 미만이면 /ralph-loop 워크플로우로 보완 항목을 직접 수정하고,
 85점 이상이 될 때까지 반복한 뒤 결과만 보고해.

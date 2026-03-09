@@ -36,19 +36,17 @@
 | `lecture.md` | 강사 | 진행 순서, 시간 배분, 체크리스트 | **필수** |
 | `lecture-script.md` | 강사 | 영상 제작 기준 전체 대본 | **필수** |
 | `handout.md` | 학생 | 개념 요약 + 실습 안내 + 과제 통합 문서 | **필수** |
-| `course-notice.md` | 강사→학생 | eCampus 공지 복사-붙여넣기 원문 | **필수** |
 | `lab.ipynb` | 학생 | K트랙 전용 실습 파일 | K트랙만 필수 |
 | `slides.md` | 강사 | Google Slides 제작 기준 개요 | 선택 |
 
 **`handout.md` 구성 (3섹션 필수, 순서 고정)**
 
 1. **개념 참고 영역** — 핵심 개념 요약, 참고표
-2. **실습 섹션** — `lab.ipynb`를 Google Colab에서 열라는 안내 문구만 기재. 스텝·코드 나열 금지.
-3. **과제 섹션** — 마이크로 과제 내용, 제출 형식, 기한, 제출처(eCampus)
+2. **실습 섹션 (Lab Assignment)** — 주차별 `lecture.md`를 바탕으로 도출된 실습 항목 나열. (이 결과물은 eCampus에 제출하며, 동료 상호평가 대상임)
+3. **과제 섹션 (Micro-Assignment)** — 매주 이메일(`wonhyuk@stu.ac.kr`) 지정 제출.
+   - [필수 항목]: 수업 소감 + 주차별 실습/추가 미션 + AI 사용 경험 (프롬프트 및 분석 비평)
+   - [필수 규칙]: 이메일 제목 필터링 엄수 (`과제[주차번호] 학번` 예: `과제0.2 20240001`)
 
-**`course-notice.md` 정책**
-
-공지 고유 정보(기한·제출처·제목형식)만 Full content로 유지. `handout.md`와 중복되는 상세 내용은 `핸드아웃 N섹션 참고` 포인터로 대체.
 
 **네이밍 규칙**
 - 폴더: `wb` (웹) 또는 `py` (파이썬) + 2자리 주차 번호 (예: `wb01`, `py05`)
@@ -67,7 +65,7 @@
 | 단계 | 문서 유형 | 대상 파일 | 언어 |
 |---|---|---|---|
 | 초안~QA | 학생 배포 문서 | `handout.md`, `lab` (HTML/JS 등) | **영어** |
-| 초안~QA | 강사용 문서 | `lecture.md`, `lecture-script.md`, `slides.md`, `course-notice.md` | **한국어** |
+| 초안~QA | 강사용 문서 | `lecture.md`, `lecture-script.md`, `slides.md` | **한국어** |
 | 초안~QA | E트랙 교육안 | `웹프로그래밍(E트랙)_교육안.md` | **한국어** |
 | QA PASS 후 | 강사용 문서 + 교육안 | 위 강사용 파일 전체 | `/to-bilingual` 커맨드로 **한국어/영어 Bilingual** 문단별 교차 형식으로 변환 |
 
@@ -81,7 +79,8 @@
 | 교육 관리 시스템 | **eCampus** |
 | E트랙 실습 환경 (1~8주차) | **StackBlitz** |
 | K트랙 실습 환경 (1~8주차) | **Google Colab** |
-| 매주 제출 과제 | **Micro-Assignment (마이크로 과제)** |
+| 매주 제출 과제 (이메일) | **Micro-Assignment (마이크로 과제)** |
+| 주차별 실습 (eCampus) | **Lab Assignment (실습 과제 - 상호평가 대상)** |
 | 질문 및 답변 규칙 | **엔지니어식 질문법** |
 
 ---

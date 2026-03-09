@@ -47,6 +47,5 @@ stu2603/
 | `lecture.md` | 강사용 진행 가이드 |
 | `lecture-script.md` | 영상 제작용 대본 |
 | `handout.md` | 학생 배포용 문서 |
-| `course-notice.md` | eCampus 공지 원문 |
 | `slides.md` | 슬라이드 개요 (선택) |
 | `lab.ipynb` | K트랙 전용 실습 파일 |

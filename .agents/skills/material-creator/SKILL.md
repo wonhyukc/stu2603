@@ -15,11 +15,10 @@ description: 각 주차별 강의(lecture.md), 실습(lab.md), 과제(homework.m
 * 주차 폴더에 생성하는 파일 목록 (필수 4종 + 선택 1종):
   * `lecture.md` — 강사용 진행 가이드
   * `lecture-script.md` — 대본형 강의 스크립트
-  * `course-notice.md` — eCampus 공지 본문
   * `handout.md` — **학생 배포용 유일한 문서**. 반드시 아래 3섹션을 모두 포함해야 한다:
     1. **개념 참고 영역** — 핵심 개념 요약, 원칙 참고표
-    2. **실습 섹션** — 수업 중 직접 실행하는 단계별 실습 (기존 `lab.md` 역할)
-    3. **과제 섹션** — 마이크로 과제 내용, 제출 형식, 기한, 제출처 (기존 `homework.md` 역할)
+    2. **실습 섹션 (Lab Assignment)** — `lecture.md`를 바탕으로 한 수업 중 실습 진행 가이드 및 결과물의 **eCampus 제출** 안내 (상호평가 대상).
+    3. **과제 섹션 (Micro-Assignment)** — 마이크로 과제 지시사항 (수업 소감 + 주차별 추가 항목 + AI 사용 경험). **이메일 제출(`wonhyuk@stu.ac.kr`)** 및 자동 필터링 제목 규칙(`과제[주차] 학번`) 엄수 안내.
   * `slides.md` — 강의 보조 슬라이드 개요 (선택, 슬라이드별 bullet 정의)
 * **`lab.md` · `homework.md` 생성 금지**: 해당 내용은 모두 `handout.md` 안에 작성한다.
 
@@ -40,6 +39,6 @@ description: 각 주차별 강의(lecture.md), 실습(lab.md), 과제(homework.m
 
 ## 출력 지침
 
-* 영어/한글 규칙: K트랙 및 E트랙 모두 강사용 초안 문서(`lecture.md`, `lecture-script.md`, `course-notice.md` 등)는 **100% 한국어 단일 언어**로 작성합니다. E트랙의 학생 배포 문서(`handout.md`)에 한해서만 영어 또는 영한 병용을 허용합니다 (`CLAUDE.md` 참고).
+* 영어/한글 규칙: K트랙 및 E트랙 모두 강사용 초안 문서(`lecture.md`, `lecture-script.md` 등)는 **100% 한국어 단일 언어**로 작성합니다. E트랙의 학생 배포 문서(`handout.md`)에 한해서만 영어 또는 영한 병용을 허용합니다 (`CLAUDE.md` 참고).
 * 코드는 항상 최신 프론트엔드/파이썬 표준을 준수합니다.
 * 지시적(Imperative) 어조보다는 안내적(Guiding) 톤을 사용합니다.
