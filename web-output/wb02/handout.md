@@ -61,13 +61,23 @@ During class, open **StackBlitz** (stackblitz.com) in your browser and follow al
 
 6. **Learn Version Control with AI:** Ask AI to explain the following concepts and learn them: What are Git and GitHub, and why do we use them? What is a Commit? What is a Repository? What is the difference between Public and Private repositories? You don't need to understand everything today. You will use these like lifelong friends and continue to learn about them.
    
-   Create a new git repo, different from the one you submitted as an assignment in Week 1. Let's name it `my-intro`. You must create a public repo.
+   Create a new git repo, different from the one you submitted as an assignment in Week 1. Let's name it `my-intro`. You must create a **Public** repo so others can evaluate it.
 
-7. **Upload to GitHub:** Upload your HTML code to your GitHub repository. You must set your GitHub repository to **Public**.
+7. **Upload to GitHub:** Upload your HTML code to your newly created GitHub repository (`my-intro`). Double-check that your repository is set to **Public**.
 
-8. **Submit the Commit:** Please submit the hash and URL of the commit you just uploaded. You can simply copy it from the address bar.
-   - Example: `https://github.com/wonhyukc/web-stu/commit/00312a6507c850ddbe778fd843fcc375f6788807` (or a similar commit URL)
-   This link must be accessible until grading is complete.
+8. **Submit for Peer Evaluation (Important):** 
+   - Copy the link and hash of the commit you just uploaded.
+      - Example Link: `https://github.com/wonhyukc/my-intro/blob/main/index.html`
+      - Example Hash: `a06b10558bc9741a48f18819d0baf0dea9de9964`
+   - Submit this text (Link and Hash) to the **[Week 2 Lab Assignment]** board on eCampus.
+   - **Deadline:** You must submit before **March 20, 0:00**. Submissions will be closed after this time.
+
+9. **Conduct Peer Evaluation:**
+   - **Period:** March 20, 0:00 ~ March 22, 0:00
+   - After the submission deadline, the instructor will announce a **Peer Evaluation Matching Table** and a **Google Form Link for Grading**.
+   - Check the matching table and open the links of the 3 peers assigned to you.
+   - Review their code and submit your grading scores via the provided Google Form based on the rubric (3 points: O/X).
+   - **Warning:** You must complete the evaluations for all 3 assigned peers to receive your own participation points for peer evaluation.
 
 ---
 
