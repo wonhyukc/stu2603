@@ -36,7 +36,7 @@
 - **Lab Assignment (eCampus 제출)**:
   - 제공된 `lab.ipynb` 파일 다운로드 및 Colab 실행.
   - 오늘 라이브 코딩한 자기소개 프로그램 완성 및 결과 화면 캡처 제출. (상호평가 대상, 3문항 루브릭 확인)
-- **Micro-Assignment (이메일 제출: wonhyukc@stu.ac.kr)**:
+- **email로 제출 과제 (wonhyukc@stu.ac.kr)**:
   - 수업 소감 작성.
   - 이름 외의 다른 정보를 추가로 입력받도록 코드를 변형한 내역 증빙. 코드가 어떻게 바뀌었는지 현실의 비유(예: 레시피 수정)를 들어 설명.
   - 변형한 코드에 대한 AI 분석 및 본인의 비평(Critique) 추가.

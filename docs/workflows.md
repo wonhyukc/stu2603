@@ -13,7 +13,7 @@ These are predefined workflows and instructions to interact with the project rep
 eCampus(Moodle) 시스템의 '가져오기(Import)' 기능을 사용 시, 다른 주차 영상이나 불필요한 파일이 함께 복사되는 문제를 방지하기 위해 AI(브라우저 에이전트)에게 수작업과 동일한 게시판 생성을 위임하는 지시어 가이드.
 
 **When to use:** 
-특정 주차(예: 3주차) 실습 과제 제출 및 상호평가(대안 B: 링크+해시값 기반)를 위한 eCampus Assign(과제) 모듈을 새로 만들어야 할 때.
+특정 주차(예: 3주차) eCampus에 제출 후 상호평가(대안 B: 링크+해시값 기반)를 위한 eCampus Assign(과제) 모듈을 새로 만들어야 할 때.
 
 **How to Instruct the AI:**
 복사해서 프롬프트에 붙여넣고 `[ ]` 안의 내용만 변경하여 지시하세요.

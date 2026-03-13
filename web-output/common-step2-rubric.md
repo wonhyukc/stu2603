@@ -7,7 +7,7 @@
 > **2단계 목적**: 1단계 PASS 이후 작업한 강의 대본·학생 배포 문서의 품질을 검증한다.
 
 **평가 기준 SSOT**
-- `web-output/web-curriculum.md` — 해당 주차 S1·S2·S3 내용 및 마이크로 과제
+- `web-output/web-curriculum.md` — 해당 주차 S1·S2·S3 내용 및 email로 제출 과제
 - `CLAUDE.md` — 파일별 언어 규정, handout 3섹션 구성 규칙
 
 **만점**: 100점
@@ -74,8 +74,8 @@
 
 | 항목 | 배점 | 평가 기준 |
 |:-----|-----:|:---------|
-| 마이크로 과제 3단 형식 | 4 | AI Prompt / AI Critique / Final Result 항목이 명시되어 있다 |
-| 해당 주차 과제 내용 정확성 | 3 | 교육안 해당 주차 마이크로 과제 내용이 정확히 기술되어 있다 |
+| email로 제출 과제 3단 형식 | 4 | AI Prompt / AI Critique / Final Result 항목이 명시되어 있다 |
+| 해당 주차 과제 내용 정확성 | 3 | 교육안 해당 주차 email로 제출 과제 내용이 정확히 기술되어 있다 |
 | eCampus 제출 안내 | 2 | 제출처(eCampus), 제출 기한, 제목 형식이 명시되어 있다 |
 
 
