@@ -15,6 +15,7 @@ description: 각 주차별 강의(lecture.md), 실습(lab.md), 과제(homework.m
 * 주차 폴더에 생성하는 파일 목록:
   * `lecture.md` — 강사용 진행 가이드
   * `lecture-script.md` — 대본형 강의 스크립트
+  * `lecture-demo.ipynb` (K트랙) 또는 `lecture-demo/` 폴더 (E트랙) — **라이브 코딩용 데모 파일**. `lecture-script.md` 대본 안에 작성된 모든 파이썬 또는 웹(HTML/CSS/JS) 코드 예제들을 강사가 시연하기 좋게 추출해 놓은 완성본 파일.
   * `handout.md` — **학생 배포용 유일한 문서**. 반드시 아래 3섹션을 모두 포함해야 한다:
     1. **개념 참고 영역** — 핵심 개념 요약, 원칙 참고표
     2. **실습 섹션 (Lab Assignment)** — `lecture.md`를 바탕으로 한 수업 중 실습 진행 가이드 및 결과물의 **eCampus 제출** 안내 (상호평가 대상).

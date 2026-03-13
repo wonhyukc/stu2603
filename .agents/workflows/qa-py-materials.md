@@ -9,11 +9,11 @@ description: K트랙 특정 주차의 핵심 산출물(lecture-script, lab.ipynb
 1. **ARGUMENTS에서 폴더명 파싱** (예: `py02`)
 2. **루브릭 읽기**: `python-output/공통_remaining_루브릭.md`
 3. **교육안 읽기** (SSOT 검증용): `python-output/python-curriculum.md` — 해당 주차의 학습 목표, S1/S2/S3 세션 내용, 과제 내용 확인
-4. **4개 파일 읽기 및 채점**:
+4. **파일 읽기 및 채점**:
    - `python-output/{week}/lecture-script.md`
    - `python-output/{week}/lab.ipynb`
    - `python-output/{week}/handout.md`
-   - `python-output/{week}/course-notice.md`
+   - `python-output/{week}/lecture-demo.ipynb`
 5. **결과 표 출력 + PASS/FAIL 판정**
 6. **FAIL 시 보완 항목 목록** (우선순위순) 출력
 
@@ -40,8 +40,7 @@ description: K트랙 특정 주차의 핵심 산출물(lecture-script, lab.ipynb
 | C-1  | 개념 참고 영역 | 8 | ? | ... |
 | C-2  | 실습 섹션 | 5 | ? | ... |
 | C-3  | 과제 섹션 | 7 | ? | ... |
-| D-1  | 고유 정보 완결성 | 5 | ? | ... |
-| D-2  | 포맷 및 중복 방지 | 5 | ? | ... |
+| D-1  | 라이브 코딩 추출 완전성 | 10 | ? | ... |
 | **합계** | | **100** | **?** | |
 
 ### PASS 조건 달성 여부
@@ -52,7 +51,7 @@ description: K트랙 특정 주차의 핵심 산출물(lecture-script, lab.ipynb
 | A (lecture-script) | 38+ | ? |
 | B (lab.ipynb) | 20+ | ? |
 | C (handout) | 16+ | ? |
-| D (course-notice) | 8+ | ? |
+| D (lecture-demo) | 8+ | ? |
 
 ### 최종 판정: PASS / FAIL
 
