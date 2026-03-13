@@ -393,13 +393,26 @@ Instead of uploading screenshots to eCampus, use the GitHub repository you creat
 - Click **"Commit changes..."** to save. (Commit message: `Create week01.md`)
   하단 **"Commit changes..."** 클릭하여 저장. (커밋 메시지: `Create week01.md`)
 
-**Step 2: Submit the GitHub URL on eCampus [Final Step]**
+**Step 2: Submit for Peer Evaluation / eCampus 제출 및 상호평가 준비**
 - Open the `week01.md` file you just created and copy the **full URL from the browser address bar**.
   방금 만든 `week01.md` 파일 화면의 **브라우저 주소창 전체 URL**을 복사합니다.
-- In the eCampus Week 1 submission text box, **paste only that URL and submit**.
-  eCampus 1주차 제출함(텍스트 입력란)에 **해당 URL만 붙여넣고 제출**합니다.
-- Because you already invited the instructor as a Collaborator, submitting one URL is all that is needed for grading.
-  강사(`wonhyukc`)를 이미 Collaborator로 초대했으므로 URL 하나만 제출해도 강사가 접근해서 채점합니다.
+- Copy the **commit hash** of your latest change to the repository.
+  저장소에 반영된 최신 **커밋 해시값(hash)**도 복사합니다.
+- In the eCampus Week 1 submission board, **paste the URL and the hash and submit**.
+  eCampus 1주차 과제 게시판 텍스트 입력란에 **해당 URL과 해시값을 붙여넣고 제출**합니다.
+  - **Deadline:** Submit before 23:59 the day before the next class.
+    **제출 기한:** 다음 수업 전날 23:59까지
+
+**Step 3: Conduct Peer Evaluation / 동료 상호평가 수행**
+- **Period / 평가 기간**: The day of the next class ~ for 48 hours / 다음 수업 당일 0:00부터 48시간 동안
+- After the submission deadline, the instructor will announce a **Peer Evaluation Matching Table** and a **Google Form Link for Grading**.
+  제출 마감 이후, 교수님이 **'상호평가 대상자 매칭표'**와 **'채점용 구글 폼 링크'**를 공지합니다.
+- Check the table, open the `week01.md` links of the 3 peers assigned to you.
+  매칭표를 확인하여 자신에게 배정된 동료 학생 3명의 `week01.md` 링크를 엽니다.
+- Review their repository setup and submit your grading scores via the provided Google Form based on the rubric (3 points: O/X).
+  저장소 세팅을 확인한 후, 채점용 구글 폼에 접속하여 루브릭(O/X 3점 기준)에 따라 점수를 입력하고 제출합니다.
+- **Warning:** You must complete the evaluations for all 3 assigned peers to receive your own participation points.
+  **주의:** 지정된 세 명의 친구 과제를 기한 내에 구글 폼으로 모두 채점해야만 본인의 채점(참여) 점수를 받을 수 있습니다.
 
 ---
 
