@@ -72,31 +72,26 @@ During class, open **StackBlitz** and resume working on the `my-intro` repositor
 
 ---
 
-## 3. Micro-Assignment
+## 3. Micro-Assignment (Email Submission)
 
-### Assignment 0.3: Form Building and AI Collaboration
+This is the most important part of the semester! Every week, you will have a micro-assignment to submit via email.
 
-Submit your assignment via email following the exact format. Keep your writing concise (half an A4 page).
+Please complete the following four items for this week's assignment (Assignment 0.3) and send them via email.
 
-1. **Class Reflection**
-   - Write your thoughts on the Week 3 class: What was the most interesting part of building forms?
+1. **[Class Feedback]**: Feel free to share your thoughts and impressions about today's lecture and lab session.
+2. **[Attach Your Photo]**: Please attach a recent photo of yourself to the email. This is to help me put a face to the name.
+   - The photo size must **not exceed 500Kb**. If it is too large, please reduce its size. If you don't know how, Google "how to reduce image file size" and learn how to do it.
+   - Please rename the image file to **your name**. You do not need to include your student ID or major. (Example: `William_Chung.jpg`)
+   - Please ensure the photo realistically resembles your actual appearance. Avoid excessive Photoshop or filters so I can recognize you in person.
+3. **[Upload Photo to eCampus]**: Please also upload your photo to your eCampus profile. Many activities occur online today, and remaining completely anonymous can often work to your disadvantage.
+4. **[Shortcut Keys Study]**: Research and learn useful keyboard shortcuts for Windows (or your OS) and the Chrome browser, and write a short summary of what you have learned and your thoughts on using them.
 
-2. **AI Assistance for Forms**
-   - Use an AI (ChatGPT or Gemini) to generate a customized contact form for your specific hobby or interest (e.g., a form to book a tennis game, a form to order custom coffee).
-   - Apply the AI's code to your StackBlitz project and take a screenshot of the working form. Attach this screenshot.
 
-3. **Form Validation AI Critique**
-   - Experiment: Change the input type in the AI's code to `<input type="email">`. Try submitting the form by typing just regular text instead of an email address.
-   - Take a screenshot of the warning message the browser shows. Attach it.
 
-4. **AI Usage Experience**
-   - **AI Prompt:** "Write a short HTML form for booking a [your hobby] session."
-   - **AI Critique:** Evaluate the form the AI provided. Did it use the right input types? Was there a mistake? Write one sentence of critique.
 
----
 
 ### Micro-Assignment Submission Guide
 
 - **Submit to:** `wonhyukc@stu.ac.kr`
-- **Subject:** `과제0.3 학번` (Example: `과제0.3 20240001`)
-- **⚠️ Warning:** Do not add spaces un-necessarily or any extra words in the subject line! Automated email filters will miss your homework if you fail to strictly follow the `과제0.3 학번` format.
+- **Subject:** `homework0.3 학번` (Example: `homework0.3 20240001`)
+- **⚠️ Warning:** Do not add spaces un-necessarily or any extra words in the subject line! Automated email filters will miss your homework if you fail to strictly follow the `homework0.3 학번` format.
