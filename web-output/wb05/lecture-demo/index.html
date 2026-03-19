@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5: Box Model Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* [S1] Box Model Anatomy */
+        .picture-frame {
+            background-color: white;
+            /* CONTENT: Implicit sizing based on inner text */
+            
+            /* PADDING: Space between content and border */
+            padding: 30px; 
+            
+            /* BORDER: The visible frame */
+            border: 10px solid #saddlebrown; 
+            
+            /* MARGIN: Space outside the frame */
+            margin: 50px auto; 
+            
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* [S2] Element Alignment & Padding vs Margin */
+        .box-container {
+            background-color: #ddd;
+            padding: 10px;
+        }
+
+        .box-padding-demo {
+            background-color: #3498db;
+            color: white;
+            padding: 10px; /* Expands inward */
+            margin: 20px;  /* Expands outward */
+        }
+
+        /* [S3] Margin Collapsing Bug Demo */
+        .button {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            /* BUG: To demonstrate they stick together, we omit margin initially */
+            margin-bottom: 20px;
+        }
+
+        .button-collapsing {
+            margin-top: 20px; /* Notice how the 20px bottom and 20px top collapse into just 20px! */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- [S1] The Anatomy Demo -->
+    <div class="picture-frame" style="border-color: #8B4513;">
+        <h2>My Photo Content</h2>
+        <p>Notice the space inside the brown border? That's PADDING. The space pushing this box to the middle of the screen is MARGIN.</p>
+    </div>
+
+    <!-- [S2] Alignment Demo -->
+    <div class="box-container">
+        <div class="box-padding-demo">I have 10px padding and 20px margin.</div>
+        <div class="box-padding-demo">Inspect me with DevTools!</div>
+    </div>
+
+    <hr style="margin: 40px 0;">
+
+    <!-- [S3] Margin Collapsing Demo -->
+    <h3>Margin Collapsing Demo</h3>
+    <button class="button">Submit Button 1</button>
+    <br>
+    <button class="button button-collapsing">Submit Button 2</button>
+
+</body>
+</html>

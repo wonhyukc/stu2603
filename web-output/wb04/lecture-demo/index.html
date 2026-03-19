@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Internal CSS Demo */
+    h1 {
+      color: blue;
+      font-size: 24px;
+    }
+    
+    .card-title {
+      color: darkred;
+    }
+
+    #my-name {
+      background-color: yellow;
+    }
+    
+    /* Bug Demo: Invisible text due to same background color */
+    .invisible-bug {
+      background-color: black;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="color: green;">Inline, Internal, External Style Demo</h1>
+
+  <div class="card-title">
+    <h2 id="my-name">Wonhyuk Chung</h2>
+    <p>Software Engineer</p>
+  </div>
+
+  <div class="invisible-bug">
+    <p>You can't see this text!</p>
+  </div>
+
+</body>
+</html>
