@@ -22,7 +22,7 @@ CSS (Cascading Style Sheets) is the code that styles web content. Think of HTML 
 4. Experiment with different colors and fix any text readability issues.
 5. Submit the completed StackBlitz URL or a screenshot of your styled card to eCampus for Peer Review.
 
-## 3. Weekly Homework (0.4 Assignment)
+## 3. Micro-Assignment (마이크로 과제) (0.4 Assignment)
 Please complete the items below and send them via **email to wonhyukc@stu.ac.kr**.
 - **Email Subject Format**: `과제0.4 20240001` (Replace `20240001` with your Student ID)
 - **Length**: Approximately half an A4 page.
