@@ -2,37 +2,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Internal CSS Demo -->
   <style>
-    /* Internal CSS Demo */
-    h1 {
-      color: blue;
-      font-size: 24px;
-    }
-    
-    .card-title {
-      color: darkred;
-    }
-
-    #my-name {
-      background-color: yellow;
-    }
-    
-    /* Bug Demo: Invisible text due to same background color */
-    .invisible-bug {
-      background-color: black;
-      color: black;
+    /* This is an internal style sheet */
+    p { 
+      font-family: sans-serif;
+      /* color: blue; */ /* Un-commenting this would change all p tags */
     }
   </style>
+  
+  <!-- External CSS Demo -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-color: lightgray;">
 
-  <h1 style="color: green;">Inline, Internal, External Style Demo</h1>
+  <!-- Inline Style Demo -->
+  <h1 style="color: blue;">제목입니다</h1>
 
-  <div class="card-title">
-    <h2 id="my-name">Wonhyuk Chung</h2>
-    <p>Software Engineer</p>
+  <div class="highlight">
+    <h2 id="main-title">Main Title</h2>
+    <h3 id="my-name">Wonhyuk Chung</h3>
+    <p class="card-desc">Software Engineer</p>
+    <p class="card-desc">Seoul, South Korea</p>
   </div>
 
+  <!-- Bug Demo: Invisible text due to same background color -->
   <div class="invisible-bug">
     <p>You can't see this text!</p>
   </div>

@@ -1,41 +1,74 @@
 # Week 4 Handout: CSS Basics and Selection
 
-## 1. Concept Reference
-### What is CSS?
-CSS (Cascading Style Sheets) is the code that styles web content. Think of HTML as the skeleton or structure of a house, while CSS is the paint, decorations, and furniture.
+## 1. Concept Reference (Key Takeaways from Slides)
 
-### Ways to Add CSS
-1. **Inline CSS**: Placed directly inside HTML tags using the `style` attribute. Good for quick tests, but not recommended for large projects.
-2. **Internal CSS**: Placed inside the `<style>` tag within the HTML `<head>` section.
-3. **External CSS**: Placed in a separate `.css` file and linked to the HTML. This is the best practice!
+### 🎯 Learning Goals Checklist
+- Apply CSS selectors and properties to style HTML.
+- Design a personal business card with custom colors and fonts.
+- Experience styling inheritance and debug collision errors.
+
+### What is CSS? (The Clothing Metaphor)
+- **HTML**: The skeleton structure (dividing regions).
+- **CSS**: The flesh and clothes (design and layout).
+- **Advantage of Separation**: Maintains design consistency across the website and makes future modifications much easier.
+
+### 3 Ways to Apply CSS
+1. **Inline**: Written inside the HTML tag (e.g., `<h1 style="...">`). *Not recommended.*
+2. **Internal**: Written inside a `<style>` block within the `<head>` section.
+3. **External**: Linked to a separate `.css` file. *Best practice!*
+
+### Essential CSS Properties
+- `color`: Changes text color.
+- `background-color`: Changes the background color of an element.
+- `font-size`: Adjusts the size of the text.
 
 ### CSS Selectors
-- **Tag Selector**: Selects all elements of a specific HTML tag (e.g., `p { color: red; }`).
-- **Class Selector**: Selects elements with a specific class group using a dot `.` (e.g., `.highlight { background-color: yellow; }`).
-- **ID Selector**: Selects a single, unique element using a hash `#` (e.g., `#main-title { font-size: 24px; }`).
+- **Tag Selector**: Selects all elements of a specific HTML tag (e.g., `div { }`).
+- **Class Selector (`.`)**: Used for multiple, repetitive elements (e.g., `.highlight`).
+- **ID Selector (`#`)**: Used for a single, unique element (e.g., `#main-title`).
+
+### 🐞 Debugging Techniques
+- **Invisible Text?**: Suspect that the text color and the background color might be identical.
+- **Inheritance Awareness**: Remember that styles applied to a parent element (like `<body>`) are inherited down to its child elements.
+- **Style Collisions**: When multiple styles compete for the same element, understand how priority (specificity) determines the winner (ID > Class > Tag).
 
 ## 2. Lab Assignment
-*Open the provided StackBlitz link on eCampus.*
-1. Review the initial HTML structure of the business card.
-2. Add a `style.css` file and link it to your HTML file.
-3. Use class and ID selectors to apply background colors, text colors, and adjust font sizes.
-4. Experiment with different colors and fix any text readability issues.
-5. Submit the completed StackBlitz URL or a screenshot of your styled card to eCampus for Peer Review.
+*Open the provided StackBlitz link on eCampus. This lab should take you approximately 25-30 minutes to complete.*
 
-## 3. Micro-Assignment (마이크로 과제) (0.4 Assignment)
-Please complete the items below and send them via **email to wonhyukc@stu.ac.kr**.
-- **Email Subject Format**: `과제0.4 20240001` (Replace `20240001` with your Student ID)
+**Step 1. Link Your Stylesheet (3 min)** 
+Review the initial HTML structure. Create a new file named `style.css` and link it inside the `<head>` of your `index.html` file using the `<link>` tag.
+
+**Step 2. Global Styling (5 min)** 
+In your `style.css`, use the `body` tag selector to apply a global background color. Test 3 different HTML color names (e.g., `aliceblue`, `lightgray`, `lavender`) and pick your favorite. Also, change the global `font-family` to `sans-serif`.
+
+**Step 3. Unique Element Styling using IDs (7 min)** 
+Identify the main heading of your business card (e.g., your name). Give it an `id` like `#main-title`. In your CSS, style this ID by giving it a unique text color, a larger `font-size` (e.g., `36px`), and text underline.
+
+**Step 4. Group Styling using Classes (5 min)** 
+Identify repetitive elements like your job title, location, or skills. Give them all the same class name, like `.card-desc`. Style this class to have a subtle text color (e.g., `gray` or `#555`) and make them *italic*.
+
+**Step 5. Fix the "Invisible Text" Bug (5 min)** 
+Scroll down to the bottom of the HTML where there is an `<div class="invisible-bug">`. The text inside is black, and the background is also set to black. In your CSS, target `.invisible-bug` and change the text `color` to `white` or `yellow` so it becomes readable again.
+
+**Step 6. Final Submission** 
+Submit the completed StackBlitz URL or a screenshot of your styled business card to eCampus for peer review.
+
+## 3. Assignment
+Please complete the items below and send them via email to **wonhyukc@stu.ac.kr**.
+- **Deadline**: Please refer to the specific deadline posted on eCampus.
+- **Email Subject Format**: `Assignment 0.4 20240001` (Replace `20240001` with your Student ID)
 - **Length**: Approximately half an A4 page.
 
-### Required Contents:
+### Required Contents
+
 **[1. Class Reflection]**
-- What did you learn this week? Was CSS easier or harder than HTML?
+Briefly reflect on what you learned this week. How does CSS differ from HTML in terms of coding experience?
 
 **[2. Try It Out (Build-up)]**
-- Ask an AI to provide you with the CSS code (specifically HEX color codes) to apply the brand colors of your favorite athletic brand or company to your business card. Apply it on StackBlitz and capture a screenshot. 
+Use AI to find the brand colors of your favorite company and apply them to your business card on StackBlitz.
 
 **[3. AI Usage Experience]**
-Provide the text format:
-- **Prompt**: What did you ask the AI? (e.g., "Give me the CSS code to color my business card like Nike.")
-- **Result**: Did the AI give you a correct answer immediately?
-- **Critique**: Was there any issue where the background color made the text invisible? How did you ask the AI to fix it?
+Provide the text format exactly as follows:
+- **AI Prompt**: What did you ask the AI? (e.g., "Give me the CSS HEX color code for the Nike logo.")
+- **AI Critique**: Did you face any issues such as invisible text due to identical background and foreground colors? How did the AI help you debug it?
+- **Final Result**: Were you able to successfully apply the designated style? Attach a link or screenshot.

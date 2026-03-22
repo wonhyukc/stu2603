@@ -1,0 +1,31 @@
+/* style.css */
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  color: navy;
+  font-size: 30px;
+}
+
+#main-title {
+  text-decoration: underline; /* unique ID styling */
+}
+
+.highlight {
+  font-weight: bold; /* group class styling */
+}
+
+#my-name {
+  background-color: yellow;
+}
+
+.card-desc {
+  color: gray;
+}
+
+.invisible-bug {
+  background-color: black;
+  color: white; /* Fixed by AI */
+}
