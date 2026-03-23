@@ -1,9 +1,9 @@
 ---
-name: review-quality
-description: 특정 주차 또는 트랙별 산출물의 품질, 용어 통일성, 분량을 검증합니다. "review-quality wb01" 또는 "review-quality py01" 형태로 호출합니다.
+name: qa-content
+description: 특정 주차 또는 트랙별 산출물의 품질, 용어 통일성, 분량을 검증합니다. "qa-content wb01" 또는 "qa-content py01" 형태로 호출합니다.
 ---
 
-# 품질 및 용어 검증 지침 (review-quality)
+# 품질 및 용어 검증 지침 (qa-content)
 
 주차별 산출물(`wb**`, `py**`)의 내용이 프로젝트 품질 기준(CLAUDE.md 명시사항)을 충족하는지 검수하는 에이전트입니다.
 
