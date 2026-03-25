@@ -3,4 +3,5 @@ archive/
 tmp/
 manuals/
 secret.json
-.venv/
+.venv/.venv/
+secret.json
