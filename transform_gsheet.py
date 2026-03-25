@@ -43,9 +43,9 @@ def parse_5_scale(text):
         return ""
 
 def parse_boolean(text):
-    """이진(0/1) 규칙 기반 변환 로직"""
+    """이진(0/1) 규칙 기반 변환 로직. (원본이 빈칸이면 빈칸 유지)"""
     if text is None or str(text).strip() == "":
-        return 0
+        return ""
     text = str(text).lower()
     
     completed_words = ["제출", "했어요", "완료", "함", "yes", "o", "네", "예", "초대"]
