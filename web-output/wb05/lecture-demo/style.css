@@ -1,29 +1,39 @@
-/* =======================================
-   S2 Live Coding Demos
-======================================= */
+/* 
+  wb05 S2, S3 라이브 코딩용 CSS 옷장 파일 
+  (학생들에게 디버깅 원리와 선택자(Selector) 작동법을 시연합니다)
+*/
 
-/* 1. Element Selector Demo: Give all p tags green color */
+/* [S2] 배경색 기본 스타일링 (도화지) */
+body {
+  /* [S3 디버깅 시연] 나중에 이 색과 글자색(color)을 통일시켜서 텍스트 증발 디버깅 훈련을 합니다.
+     background-color: white; 
+     color: white;
+  */
+  background-color: lightyellow; 
+}
+
+/* [S2] 태그 선택자: 무차별적으로 모든 p를 초록색으로 만듭니다 */
 p {
   color: green;
 }
 
-/* 2. Changing the background color of the body */
-body {
-  background-color: lightyellow;
-
-  /* S3 Debugging Demo - uncomment to trigger bug */
-  /* color: white; */ 
-  /* background-color: white; */
-}
-
-/* 3. Class Selector Demo: .alert-text grouping */
+/* [S2] 클래스 선택자: 여러 명에게 그룹 유니폼 입히기 */
 .alert-text {
   color: red;
   font-size: 20px;
 }
 
-/* 4. ID Selector Demo: #main-title exclusivity */
+/* [S2] 아이디 선택자: 세상에 단 하나뿐인 절대 권력 */
 #main-title {
   color: gold; 
-  /* Hint: Gold on lightyellow is hard to see. Good time to debug! */
+  /* 가독성을 위해 검은 테두리를 임의로 주려면 텍스트 섀도우를 사용합니다 */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* 추가 장식 (카드형 레이아웃 뼈대 준비) */
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: white;
 }

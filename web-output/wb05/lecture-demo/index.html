@@ -1,36 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lecture Demo - Online Business Card (Week 5)</title>
-    <!-- [S1] External Style Link -->
+    <title>William's Online Business Card</title>
+    <!-- CSS 옷장 연결 (S1 데모 핵심) -->
     <link rel="stylesheet" href="style.css">
-    
-    <!-- [S1] Internal Style Demo -->
-    <style>
-        /* internal styling logic */
-        /* h1 { font-family: sans-serif; } */
-    </style>
 </head>
 <body>
 
-    <!-- [S2] ID Selector Demo / [S1] Inline Style Demo -->
-    <h1 id="main-title" style="/* color: blue; (Inline demo) */">Wonhyuk William Chung</h1>
+    <h1 id="main-title">😎 William 의 프로필</h1>
+    
+    <p class="alert-text"><strong>공지:</strong> 제 온라인 명함에 오신 것을 환영합니다!</p>
 
-    <!-- [S2] Element Selector Demo -->
-    <p>Welcome to my awesome online business card. I am learning CSS!</p>
-    <p>Notice how multiple paragraph tags react to the same CSS selector.</p>
-
-    <!-- [S2] Class Selector Demo -->
-    <p class="alert-text">Warning: This student's design skills are rapidly improving!</p>
-    <p class="alert-text">This is another alert message belonging to the same class group.</p>
-
-    <div>
-        <!-- Previous week's elements -->
-        <h3>Contact Form</h3>
-        <input type="email" placeholder="Enter your email">
-        <button>Send Message</button>
+    <div class="card">
+        <img src="https://via.placeholder.com/150" alt="profile photo">
+        <h2>William Chung</h2>
+        <p>저는 웹 프로그래밍 세계를 탐험 중인 코딩 입문자입니다.</p>
+        <p>아래에서 제게 이메일을 보낼 수 있습니다.</p>
+        
+        <form>
+            <label for="visitor-email">이메일 주소:</label>
+            <input type="email" id="visitor-email" placeholder="example@stu.ac.kr">
+            <button type="submit">나에게 연락하기</button>
+        </form>
     </div>
 
 </body>
