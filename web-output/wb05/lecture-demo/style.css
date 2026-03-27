@@ -1,0 +1,29 @@
+/* =======================================
+   S2 Live Coding Demos
+======================================= */
+
+/* 1. Element Selector Demo: Give all p tags green color */
+p {
+  color: green;
+}
+
+/* 2. Changing the background color of the body */
+body {
+  background-color: lightyellow;
+
+  /* S3 Debugging Demo - uncomment to trigger bug */
+  /* color: white; */ 
+  /* background-color: white; */
+}
+
+/* 3. Class Selector Demo: .alert-text grouping */
+.alert-text {
+  color: red;
+  font-size: 20px;
+}
+
+/* 4. ID Selector Demo: #main-title exclusivity */
+#main-title {
+  color: gold; 
+  /* Hint: Gold on lightyellow is hard to see. Good time to debug! */
+}
