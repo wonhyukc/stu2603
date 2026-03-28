@@ -78,14 +78,14 @@
 
 **통일 용어** (아래 외 표현 사용 금지)
 
-| 의미 | 통일 용어 |
+| 통일 용어 | 의미 |
 |---|---|
-| 교육 관리 시스템 | **eCampus** |
-| E트랙 실습 환경 (1~8주차) | **StackBlitz** |
-| K트랙 실습 환경 (1~8주차) | **Google Colab** |
-| 매주 제출 과제 (이메일 제출) | **email로 제출 (0.x 과제)** |
-| 주차별 실습 (eCampus 제출) | **eCampus에 제출 후 상호평가** |
-| 질문 및 답변 규칙 | **엔지니어식 질문법** |
+| **eCampus** | 교육 관리 시스템 |
+| **StackBlitz** | E트랙 실습 환경 (1~8주차) |
+| **Google Colab** | K트랙 실습 환경 (1~8주차) |
+| **이메일 과제 (Microassignment)** | email로 제출 (0.x 과제) |
+| **실습 과제 (Assignment)** | eCampus/구글폼에 제출 후 상호평가 |
+| **엔지니어식 질문법 (Engineer-style Question)** | 질문 및 답변 규칙 |
 
 ---
 
@@ -106,3 +106,13 @@
 - **75분 외 배제 항목**: 학생 실습(Lab), 과제 안내 — 영상 시간에 포함하지 않고 자율 학습 영역으로 분리.
 - **분량 어뷰징 금지**: 스크립트를 이용한 기계적 반복 생성 절대 금지. 순수 자연어 작성만 허용.
 - **난이도**: Phase 1~2 기초 → Phase 3 AI 활용 → Phase 4 프로젝트 적용
+
+
+
+## 성적 및 학생 관리 (Grade Management)
+- **성적 관리 통합 구글 시트**: [학생 성적부(Google Sheets)](https://docs.google.com/spreadsheets/d/1F69Wtmrr3MYMJI8jgjPKBWh3m8tDaX6QyBVDSHH4vEc/edit?gid=1293028310#gid=1293028310)
+- **운영 반**: 학생 성적 관리는 **웹(영어) 분반**과 **파이썬(한국어) 분반** 총 두 반으로 분리하여 해당 시트를 통해 통합 관리합니다.
+
+## 프로젝트 진행 및 작업 이력
+- `py03` (변수와 문자열 조작, f-string) 주차 관련 교육 자료(lecture, lecture-script, handout, lab.ipynb, peer-eval-rubric) 생성 및 검수 완수.
+- QA 루브릭의 모든 평가 항목(1학년 적합성, 강사 정보 반영, 100% 한국어[강사용], Colab 환경 등) 및 audit-structure 금지어 점검을 완료함.
