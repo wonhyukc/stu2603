@@ -60,30 +60,27 @@ This week's lab will exclusively take place on your browser, requiring no local 
 
 You have two mandatory submissions for this week. Please carefully follow the instructions below.
 
-### [Task A] Assignment: Google Form Submission via GitHub (Peer Evaluation)
-* **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub.
+### Assignment: Google Form Submission via GitHub (Peer Evaluation)
+* **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub, along with your personal shortcut keys document.
 * **Submission Requirements:** 
   Instead of StackBlitz or eCampus, we are now migrating to the global standard: **GitHub**.
-  1. Create a **Public Repository** on your GitHub account for Week 5.
-  2. Upload/Commit your HTML and CSS files to this repository.
-  3. Copy your latest **Commit Hash** (the unique alphanumeric code representing your commit).
+  1. **Personal Shortcut Keys Google Doc**: Create a Google Doc containing a list of your personal essential shortcut keys (including at least 10 Windows shortcut keys and 10 Chrome shortcut keys). Set the share permissions exactly to **'Anyone with the link can view'** and copy the link. (You must grant read permission. Verify it yourself by opening the link in Incognito mode to ensure it is readable.)
+  2. Create a **Public Repository** on your GitHub account for Week 5.
+  3. Upload/Commit your HTML and CSS files to this repository. Please make sure to include your **Google Doc Link** inside your repository (e.g., inside a `README.md` file or as an HTML comment).
+  4. Copy your latest **Commit Hash** (the unique alphanumeric code representing your commit).
 * **Where to Submit:** 
   Submit your **Repository Link** and **Commit Hash** to the **designated Google Form** (link provided in class/eCampus). 
   *Note: The time of your Google Form submission is strictly recorded. If your Commit Hash does not exist in the repo or if you overwrite it after the deadline, it will be considered assignment manipulation and will result in a 0 score.*
-* **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, find their Commit Hash, and verify their webpage properly loads without errors.
+* **Assignment Acknowledgment:** 
+  To indicate that you have read this assignment, enter 1 in the `homework 05 ping` column of the Google Sheet.
+* **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, verify their webpage properly loads without errors, find their Commit Hash, and check if their Google Doc link is accessible.
 
-### [Task B] Microassignment 0.5: Email Submission 
-* **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. **Do not add any other words to the title and submit exactly like this. This rule must be strictly followed.** Failure to use this format exactly will result in a 0 score as the automatic email filter will skip your submission).
+### Microassignment 0.5: Email Submission 
+* **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. The number of spaces before the student ID does not matter. **Do not add any other words to the title and submit exactly like this. This rule must be strictly followed.** Failure to use this format exactly will result in a 0 score as the automatic email filter will skip your submission).
 * **Where to Submit:** `wonhyukc@stu.ac.kr`
 * **Content Guidelines:**
 
-### 1. Assignment Acknowledgment
-
-To indicate that you have read the assignment, enter 1 in the `homework 05 ping` column of the Google Sheet.
-
----
-
-### 2. Class Reflection
+### 1. Class Reflection
 
 Write your thoughts on the class in 3 lines or less.
 
