@@ -60,7 +60,7 @@ This week's lab will exclusively take place on your browser, requiring no local 
 
 You have two mandatory submissions for this week. Please carefully follow the instructions below.
 
-### [Task A] Google Form Submission via GitHub (Peer Evaluation)
+### [Task A] Assignment: Google Form Submission via GitHub (Peer Evaluation)
 * **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub.
 * **Submission Requirements:** 
   Instead of StackBlitz or eCampus, we are now migrating to the global standard: **GitHub**.
@@ -72,11 +72,53 @@ You have two mandatory submissions for this week. Please carefully follow the in
   *Note: The time of your Google Form submission is strictly recorded. If your Commit Hash does not exist in the repo or if you overwrite it after the deadline, it will be considered assignment manipulation and will result in a 0 score.*
 * **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, find their Commit Hash, and verify their webpage properly loads without errors.
 
-### [Task B] Email Submission (Self-Reflection & AI Critique)
-* **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. Failure to use this exact format will result in a 0 score as the automatic email filter will skip your submission).
+### [Task B] Microassignment 0.5: Email Submission 
+* **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. **Do not add any other words to the title and submit exactly like this. This rule must be strictly followed.** Failure to use this format exactly will result in a 0 score as the automatic email filter will skip your submission).
 * **Where to Submit:** `wonhyukc@stu.ac.kr`
-* **Content Guidelines (Approx. half an A4 page as email body):**
-  1. **[AI Prompt]:** Ask an AI to generate CSS code that changes your HTML online business card to match your favorite brand's HEX colors. Provide the exact text prompt you used. (e.g., "Give me the CSS code for a Spotify brand theme with a dark background and bright green text for my HTML profile.")
-  2. **[AI Critique]:** Analyze the AI's response. Did it give you an incorrect color? Did it explain where to paste the code accurately? Were the selectors matching your actual HTML? Did it make a mistake regarding inheritance?
-  3. **[Final Result]:** Attach a small screenshot of your final working code and the visual output in the browser.
-* **Deadline:** 11:59 PM on the night before the next class.
+* **Content Guidelines:**
+
+### 1. Assignment Acknowledgment
+
+To indicate that you have read the assignment, enter 1 in the `homework 05 ping` column of the Google Sheet.
+
+---
+
+### 2. Class Reflection
+
+Write your thoughts on the class in 3 lines or less.
+
+---
+
+### 3. Campus Exploration
+
+Explore every corner of the campus. Visit two places you haven't been to before, spend at least 5 minutes there, and write down where you went in the body of your email.
+
+---
+
+### 4. Pomodoro Technique Practice
+
+Search for GTD (Getting Things Done) and the Pomodoro Technique, and actually try using a Pomodoro timer. Briefly describe how it felt.
+
+---
+
+### 5. Hour of Code Certificate
+
+Complete the 'Hour of Code' and take a photo of yourself with your certificate (containing your name) displayed on the monitor, then attach it to the email.
+
+---
+
+### 6. 30-Day Challenge Resolution
+
+Watch the TED talk 'Matt Cutts: Try something new for 30 days' and write down your own 30-day challenge resolution.
+
+---
+
+### 7. English Typing Practice
+
+Continue the English typing practice you did in last week's Assignment 0.4 for at least 5 more minutes. Enter your measured results in the `0.5 type: word per min` column of the Google Sheet.
+
+---
+
+### 8. Advanced Learning (Optional)
+
+If the above assignments are too easy for your level, independently find the next suitable topic for this course and study it with Gemini. Write down what you studied in 3 lines or less in the body of your email.
