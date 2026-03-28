@@ -52,9 +52,9 @@ Mac 사용자는 `Ctrl` 대신 `Command(Cmd)` 키를 사용합니다.
 
 ### **[신규 필수 룰 적용] 과제 제출 방법 (GitHub 1단계 적응 훈련)** 
 기존의 eCampus 파일 첨부 방식이 전면 금지되고, 대신 GitHub과 구글 폼을 활용하여 과제를 제출합니다.
-1. **Gemini와 대화하며 학습 및 요약**: 구글 검색 대신 **AI 비서(Gemini)**에게 "GitHub이 무엇인가?", "개발자에게 GitHub은 왜 필요한가?"를 질문하세요. 한 번에 끝내지 말고, 본인이 완벽히 이해할 수 있는 수준이 될 때까지 모르는 단어나 개념에 대해 꼬리를 물고 반복적으로 질문하여 요약합니다.
-2. **Public Repository 생성 및 작성**: 전 세계 개발자들의 표준 플랫폼인 [GitHub.com](https://github.com/)에 가입 후, 이번 5주차 과제를 올릴 **전체 공개(Public) 레포지토리**를 새롭게 생성하세요. 그리고 그 안에 본인의 요약 내용과 **Gemini 대화 공유 링크**를 함께 담은 마크다운(`.md`) 파일을 하나 생성(Commit)합니다.
-3. **구글 폼 제출**: 완성된 GitHub `.md` 파일의 링크를 복사하여 아래 **과제 제출용 구글 폼**으로 마감 기한 전까지 제출합니다.
+1. **Gemini와 대화하며 학습 및 요약**: 구글 검색 대신 **AI 비서(Gemini)**에게 "GitHub이 무엇인가?", "현대 AI 사회에서 대학생에게 GitHub을 알면 어떤 도움이 되는가?"를 질문하세요. 한 번에 끝내지 말고, 본인이 완벽히 이해할 수 있는 수준이 될 때까지 모르는 단어나 개념에 대해 꼬리를 물고 반복적으로 질문하여 요약합니다. 대화가 끝난 후 **제미니와의 대화 전체를 공개 링크로 만듭니다**.
+2. **Public Repository 생성 및 작성**: 전 세계 개발자들의 표준 플랫폼인 [GitHub.com](https://github.com/)에 가입 후, 이번 5주차 과제를 올릴 **전체 공개(Public) 레포지토리**를 새롭게 생성하세요. 그리고 그 안에 본인의 요약 내용과 **Gemini 대화 공개 링크**를 함께 담은 마크다운(`.md`) 파일을 하나 생성(Commit)합니다.
+3. **구글 폼 제출**: 완성된 GitHub `.md` 파일의 링크와 함께, 해당 커밋의 **해시(Hash)값**을 복사하여 아래 **과제 제출용 구글 폼**으로 마감 기한 전까지 제출합니다.
    - 📌 **과제 제출 구글 폼 URL**: [https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform)
 
 ---
