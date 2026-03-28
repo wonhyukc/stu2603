@@ -39,6 +39,10 @@ HTML provides the bare content and structural "bones" of a webpage. **CSS (Casca
 ## 2. Lab Section
 
 This week's lab will exclusively take place on your browser, requiring no local installations. This exercise is designed to take at least **25 minutes** of deep focus. 
+For clear instructions, assignment terminology and submission methods are newly classified into two types:
+* **Assignment**: The main lab exercise based on class content, submitted via Google Form, followed by peer evaluation between students.
+* **Microassignment**: A simple sub-assignment submitted via email according to a designated format, same as the previous 0.x assignments.
+
 
 **Platform:** **StackBlitz**
 
@@ -61,6 +65,7 @@ This week's lab will exclusively take place on your browser, requiring no local 
 You have two mandatory submissions for this week. Please carefully follow the instructions below.
 
 ### Assignment: Google Form Submission via GitHub (Peer Evaluation)
+* **Deadline:** Every Friday by Midnight (23:59)
 * **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub, along with your personal shortcut keys document.
 * **Submission Requirements:** 
   Instead of StackBlitz or eCampus, we are now migrating to the global standard: **GitHub**.
@@ -76,6 +81,7 @@ You have two mandatory submissions for this week. Please carefully follow the in
 * **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, verify their webpage properly loads without errors, find their Commit Hash, and check if their Google Doc link is accessible.
 
 ### Microassignment 0.5: Email Submission 
+* **Deadline:** Every Friday by Midnight (23:59)
 * **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. The number of spaces before the student ID does not matter. **Do not add any other words to the title and submit exactly like this. This rule must be strictly followed.** Failure to use this format exactly will result in a 0 score as the automatic email filter will skip your submission).
 * **Where to Submit:** `wonhyukc@stu.ac.kr`
 * **Content Guidelines:**
@@ -86,36 +92,36 @@ Write your thoughts on the class in 3 lines or less.
 
 ---
 
-### 3. Campus Exploration
+### 2. Campus Exploration
 
 Explore every corner of the campus. Visit two places you haven't been to before, spend at least 5 minutes there, and write down where you went in the body of your email.
 
 ---
 
-### 4. Pomodoro Technique Practice
+### 3. Pomodoro Technique Practice
 
 Search for GTD (Getting Things Done) and the Pomodoro Technique, and actually try using a Pomodoro timer. Briefly describe how it felt.
 
 ---
 
-### 5. Hour of Code Certificate
+### 4. Hour of Code Certificate
 
 Complete the 'Hour of Code' and take a photo of yourself with your certificate (containing your name) displayed on the monitor, then attach it to the email.
 
 ---
 
-### 6. 30-Day Challenge Resolution
+### 5. 30-Day Challenge Resolution
 
 Watch the TED talk 'Matt Cutts: Try something new for 30 days' and write down your own 30-day challenge resolution.
 
 ---
 
-### 7. English Typing Practice
+### 6. English Typing Practice
 
 Continue the English typing practice you did in last week's Assignment 0.4 for at least 5 more minutes. Enter your measured results in the `0.5 type: word per min` column of the Google Sheet.
 
 ---
 
-### 8. Advanced Learning (Optional)
+### 7. Advanced Learning (Optional)
 
 If the above assignments are too easy for your level, independently find the next suitable topic for this course and study it with Gemini. Write down what you studied in 3 lines or less in the body of your email.
