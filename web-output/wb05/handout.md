@@ -60,14 +60,17 @@ This week's lab will exclusively take place on your browser, requiring no local 
 
 You have two mandatory submissions for this week. Please carefully follow the instructions below.
 
-### [Task A] eCampus Submission (Peer Evaluation)
-* **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3).
+### [Task A] Google Form Submission via GitHub (Peer Evaluation)
+* **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub.
 * **Submission Requirements:** 
-  You must submit a text document or direct entry containing:
-  1. The direct **Share URL** from StackBlitz. (Make sure your project is public or accessible via link).
-  2. The link **MUST NOT return a 404 Error**. It must properly display your HTML/CSS code when clicked.
-* **Where to Submit:** eCampus "Week 5 Assignment" Board.
-* **Peer Evaluation Rule:** You will be assigned another student's submission. You must award 1 point for a valid URL format, 1 point for an accessible link/hash, and 1 point if the page loads correctly without an error.
+  Instead of StackBlitz or eCampus, we are now migrating to the global standard: **GitHub**.
+  1. Create a **Public Repository** on your GitHub account for Week 5.
+  2. Upload/Commit your HTML and CSS files to this repository.
+  3. Copy your latest **Commit Hash** (the unique alphanumeric code representing your commit).
+* **Where to Submit:** 
+  Submit your **Repository Link** and **Commit Hash** to the **designated Google Form** (link provided in class/eCampus). 
+  *Note: The time of your Google Form submission is strictly recorded. If your Commit Hash does not exist in the repo or if you overwrite it after the deadline, it will be considered assignment manipulation and will result in a 0 score.*
+* **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, find their Commit Hash, and verify their webpage properly loads without errors.
 
 ### [Task B] Email Submission (Self-Reflection & AI Critique)
 * **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. Failure to use this exact format will result in a 0 score as the automatic email filter will skip your submission).
