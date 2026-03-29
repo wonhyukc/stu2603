@@ -1,38 +1,44 @@
-# 5주차 강사용 대본 (lecture-script.md)
-
-*(강사 참고: 본 강의는 총 75분으로 구성되며, CSS의 기초 조작부터 컴맹 탈출을 위한 "생존 훈련"까지 포괄하는 매우 심층적이고 중요한 세션입니다. 수강생 대다수가 컴퓨터 기본 조작에 익숙하지 않은 유학생 및 비전공자 대상이므로, 전문 용어를 절대 그대로 쓰지 마시고 천천히, 끊임없는 실생활 은유(건축, 인테리어, 패션 등)와 쉬운 언어로 반복 설명하시길 강력히 권장합니다. 각 세션 S1, S2, S3는 각각 25분씩 철저히 배분하여 진행됩니다.)*
+# 5주차 강사용 대본 (lecture-script.md) / Week 5 Instructor Script (lecture-script.md)
 
 ---
 
-## [오프닝: 환영 인사 및 전주차 회고] (약 5분)
+## [오프닝: 환영 인사 및 전주차 회고] (약 5분) / [Opening: Welcome & Previous Week Review] (Approx. 5 mins)
 
-안녕하세요, 학생 여러분! 5주차 수업에 오신 것을 진심으로 환영합니다. 한 주 동안 다들 평안히 잘 지내셨는지요? 요새 한국의 날씨가 갈수록 변덕스러워지고 있습니다. 적도 부근 따뜻한 나라에서 오신 우리 유학생 여러분들께서는 특별히 아침저녁 일교차로 인해 감기에 걸리지 않도록 항상 옷차림에 신경 써 주시기를 당부드립니다. 타지에서 공부하면서 가장 중요한 것은 무엇보다 여러분의 건강입니다. 다들 식사는 꼭 잘 챙겨 드시고, 아프면 언제든지 저에게, 혹은 조교들에게 망설이지 말고 도움을 꼭 요청하세요. 여러분은 혼자가 아닙니다.
 
 자, 본격적인 수업에 앞서 다들 지난주 강의 내용을 한 번 천천히 떠올려봅시다. 지난주 우리는 무엇을 했었나요? 맞습니다. 웹의 "뼈대"를 세우는 작업, 바로 HTML(HyperText Markup Language) 태그의 기본을 다루어 보았습니다. 다들 태어나서 처음 보는 `<h1>`, `<p>`, `<img>` 같은 낯선 외계어(기호)들을 더듬더듬 키보드로 쳐보면서 꽤나 고생이 많았죠? "열쇠 수식어", "꺾쇠 기호" 등 오타도 많이 났을 겁니다. 
+Now, before we officially begin the class, let's take a moment to slowly recall last week's lecture. What did we do last week? That's right. We covered the basics of building the "skeleton" of the web, specifically HTML (HyperText Markup Language) tags. Many of you probably had a hard time clumsily typing in strange, alien-like symbols (tags) like `<h1>`, `<p>`, and `<img>` for the first time in your lives, right? You probably made a lot of typos with things like "angle brackets" and attributes.
 
 하지만 여러분이 그 낯선 기호들을 한 땀 한 땀 정성껏 입력하고, 떨리는 마음으로 브라우저를 새로고침했을 때, 여러분의 멋진 이름, 고향에서 찍은 예쁜 사진, 그리고 누군가 여러분에게 글을 남길 수 있는 네모난 입력 창(방명록)이 화면에 툭 하고 기적처럼 튀어나왔던 그 빛나는 순간을 결코 잊지 마시기 바랍니다. 그것은 여러분 스스로의 손으로 "아무것도 없는 빈 디지털 공간에서 나만의 명함을 창조해낸" 위대한 첫걸음이었습니다. 제가 주말 내내 여러분 한 분 한 분이 제출한 이메일 과제와 eCampus 게시물을 꼼꼼히 리뷰해 보았는데, 다들 기대 이상으로 너무나 훌륭하게 뼈대 구조를 잡아주었어요. 처음 해보는 코딩이라 두려움과 막막함이 컸을 텐데 포기하지 않고 끝까지 구조를 완성해준 모든 분들께 다시 한번 큰 박수를 보냅니다! (강사 주도하에 박수 유도: 짝짝짝)
+However, please never forget that brilliant moment when you painstakingly typed those unfamiliar symbols one by one, nervously refreshed the browser, and miraculously saw your cool name, a pretty photo taken in your hometown, and a square input box (guestbook) where someone could leave you a message pop up on the screen. It was your great first step in "creating your own business card in an empty digital space" with your own hands. Over the weekend, I carefully reviewed the email assignments and eCampus posts submitted by each and every one of you, and everyone built the skeleton structure wonderfully, far exceeding my expectations. I know the fear and frustration of coding for the first time must have been immense, but I give another big round of applause to everyone who didn't give up and completed the structure! (Instructor leads applause: clap clap clap)
 
 하지만 말입니다, 지난주에 만든 우리의 자랑스러운 '온라인 명함', 솔직하게 우리끼리 평가해 봅시다. 냉정하게 말해서 그 디자인, 여러분 마음에 쏙 드셨습니까? 솔직해져 봅니다. 아니죠? 전부 흰색 바탕에 까만 글씨의 흑백이고, 여백의 미라고 하기엔 바탕화면은 너무 텅 비어있고, 텍스트는 옛날 옛적 1990년대 초기 대학 연구소 인터넷 사이트처럼 밋밋하고 투박하고, 아무런 생동감이 없었잖아요. 명함이란 자고로 나를 세상에 알리는 가장 매력적이고 중요한 무기인데, 이렇게 흑백의 건조한 공문서 같은 종이를 다른 사람에게 선뜻 보여주고 싶진 않을 겁니다. 그렇다면 우리는 뼈대만 앙상한 이 황량한 집에 무언가 생명력을 불어넣는 조치를 취해야만 합니다.
+But tell me honestly, let's evaluate our proud 'online business card' we made last week among ourselves. Objectively speaking, did you completely love the design? Let's be honest. No, right? It was all black and white with black text on a white background, the background was too empty to be called the beauty of blank space, and the text was flat and plain like an early 1990s university lab internet site, completely lacking in liveliness. A business card is intuitively your most attractive and important weapon for introducing yourself to the world, but you probably wouldn't readily want to show such a dry, official document-like paper to others. If so, we must take measures to breathe some life into this bleak house that only has a bare skeleton.
 
 그래서 오늘 5주차의 수업 주제가 바로 여기에 있습니다. 오늘은 여러분이 지난주에 정성 들여 지은 그 뼈대 위에 예쁘고 멋진 색을 칠하고, 여러분이 가장 좋아하는 화려한 폰트 글씨체를 골라서 우아하게 단장을 해줄 겁니다. 웹 사이트에 생명과 패션을 불어넣어 주는 마법의 인테리어 도구, 즉 **CSS(Cascading Style Sheets)**의 기초를 완벽하게 정복해 보겠습니다. 
+So, this is exactly the topic of today's Week 5 class. Today, we're going to paint pretty and cool colors on that skeleton you carefully built last week, pick your favorite fancy fonts, and elegantly decorate it. We will completely master the basics of **CSS (Cascading Style Sheets)**, the magical interior decorating tool that breathes life and fashion into websites.
 
 더불어, 강의 후반부 시간(S3)에는 당장의 코딩 지식만큼이나, 아니 어쩌면 그보다 훨씬 더 중요할 수 있는 "컴퓨터와 친해지는 방법" — 제가 거창하게 이름 붙인 "[생존 기본기 훈련 특강]"을 진행할 예정이니까, 끝까지 눈을 반짝이며 집중해 주시길 엎드려 부탁드립니다! 자, 다들 준비되셨나요? 굳게 닫힌 마음의 창을 열고, 본격적으로 즐거운 인테리어 마법 수업을 시작해 봅시다!
+In addition, in the later part of the lecture (S3), we will conduct what I grandiosely named the "[Basic Survival Skills Training Special Lecture]"—"how to become friends with computers," which might be just as important or perhaps even more important than immediate coding knowledge. So I humbly ask you all to keep your eyes shining and stay focused until the very end! Well, is everyone ready? Open the tightly closed windows of your minds, and let's fully begin this joyful interior magic class!
 
 ---
 
-## [S1] CSS란 무엇인가? 웹의 '인테리어' 패션쇼 (25분)
+## [S1] CSS란 무엇인가? 웹의 '인테리어' 패션쇼 (25분) / [S1] What is CSS? The Web's 'Interior' Fashion Show (25 mins)
 
 *(강사 참고: PPT 슬라이드 메인에 기둥과 콘크리트 구조만 앙상하게 남은 짓다 만 집과, 동일한 구조 위에 예쁜 벽지와 가구가 완벽히 배치된 따뜻한 인테리어가 완성된 집의 사진을 좌우로 나란히 비교하여 크게 띄웁니다.)*
+*(Instructor Note: Display prominently side-by-side on the main PPT slide a photo of a half-built house left with only bare pillars and concrete structure, and a photo of a house with a warm, fully completed interior with pretty wallpaper and furniture perfectly arranged on the same structure.)*
 
-### 1. CSS의 개념과 비유: "건축과 인테리어"
+### 1. CSS의 개념과 비유: "건축과 인테리어" / 1. Concept and Analogy of CSS: "Architecture and Interior"
 
 여러분, 앞에 띄워놓은 거대한 프로젝터 스크린 화면을 봐주십시오. 왼쪽에 있는 흑백 톤의 사진은 어떤가요? 막 시멘트 양생이 끝난 콘크리트 골조만 덩그러니 있는 집입니다. 튼튼한 기둥이 서 있고, 두꺼운 벽이 서 있고, 비를 막아줄 지붕이 올라가 있죠. 구조적으로는 완벽합니다. 하지만 이 집에서 당장 여러분이 오늘 밤 사랑하는 가족과 함께 잠을 자고 살 수는 없습니다. 너무 차갑고, 거칠고, 황량하니까요. 문짝도 없고 유리창도 없습니다. 바로 이것이 우리가 지난주까지 땀 흘려 만들었던 `HTML`의 완벽하지만 앙상한 상태입니다. 
+Everyone, please look at the giant projector screen displayed up front. What about the black-and-white tone photo on the left? It's a house with just the concrete skeletal frame left bare, right after the cement curing is finished. Sturdy pillars are standing, thick walls are up, and a roof to block the rain is in place. Structurally, it's perfect. But you cannot sleep and live in this house right away tonight with your beloved family. Because it's too cold, rough, and bleak. There are no doors and no glass windows. This is exactly the perfect but barebone state of `HTML` that we sweat to build until last week.
 
 자, 이번엔 눈을 돌려 오른쪽 사진을 볼까요? 방금 전 그 차가운 콘크리트 벽 위에 따뜻한 파스텔톤 꽃무늬 벽지가 일제히 발라졌습니다. 딱딱한 시멘트 바닥에는 푹신하고 세련된 우드톤 카펫이 빈틈없이 깔렸고, 거실 천장 한가운데에는 우아한 모양의 샹들리에 간접 조명이 은은하게 빛나며 포근한 분위기를 연출하고 있습니다. 이 마법 같은 극적인 변화, 즉 차가운 뼈대 위에 예쁜 재질감과 색상, 여백과 장식을 더하는 이 예술적인 행위가 바로 **CSS (Cascading Style Sheets)**가 하는 일입니다. 정리하자면, 웹 프로그래밍의 관점에서 CSS는 단순히 복잡한 기계 코드가 아닙니다. 그것은 예술이자 디자인이며, 무미건조한 화면을 매력적인 시각적 작품으로 탈바꿈시키는 위대한 "인테리어 디자이너"입니다. 
+Now, let's turn our eyes and look at the photo on the right. Warm pastel floral wallpaper has just been uniformly applied all over those cold concrete walls from a moment ago. A plush, stylish wood-toned carpet has been laid seamlessly over the hard cement floor, and an elegantly shaped indirect chandelier lighting faintly shines in the center of the living room ceiling, creating a cozy atmosphere. This magical, dramatic transformation—this artistic act of adding pretty textures, colors, margins, and decorations over an icy skeleton—is exactly what **CSS (Cascading Style Sheets)** does. To summarize, from the perspective of web programming, CSS isn't simply complicated machine code. It's art and design, and it is a great "interior designer" that transforms a dry, tasteless screen into an attractive visual artwork.
 
 한 번 더 완전히 다른 실생활 비유를 들어볼게요. 우리가 사람, 즉 인간이라면, HTML은 우리의 뼈와 근육, 그리고 장기입니다. 눈은 얼굴 상단에, 코는 중앙에, 다리는 몸통 아래에 위치하도록 자리를 잡아주는 필수적인 요소죠. 반면에 CSS는 우리가 오늘 학교에 올 때 입고 나온 이 멋진 옷, 반짝이는 신발, 개성 있는 모자, 심지어 화려한 헤어스타일과 메이크업입니다. 여러분이 주말 나이트클럽이나 파티에 갈 때는 화려한 드레스나 턱시도를 입고(이건 파티용 CSS겠죠?), 체육관에 땀을 흘리러 갈 때는 편안한 트레이닝복을 입는(이건 운동용 CSS입니다) 것처럼, 속 알맹이(인간, HTML)는 똑같더라도 이 CSS라는 옷을 어떻게 갈아입히느냐에 따라 겉보기 느낌이 완전히, 극적으로 달라지게 됩니다. 놀랍지 않나요? 똑같은 뼈대도 옷장(CSS)에 따라 180도 다른 사이트로 보일 수 있다는 것입니다! HTML은 사실 이 CSS를 입기 위해 태어난 마네킹에 불과할지도 모릅니다.
+Let me give you another entirely different real-life analogy. If we are people—humans—HTML is our bones, muscles, and organs. It's the essential element that places eyes at the top of the face, a nose in the middle, and legs below the torso. On the other hand, CSS is the cool clothes, shiny shoes, distinctive hats, and even fancy hairstyles and makeup we put on when we came to school today. Just like you wear a glamorous dress or a tuxedo when heading to a weekend nightclub or party (this would be party CSS, right?), and wear comfortable tracksuits when going to the gym to sweat (this is workout CSS), even if the inner core (the human, HTML) is exactly the same, the outward appearance drastically and entirely changes depending on how you switch out these CSS clothes. Isn't it amazing? The exact same skeleton can look like a 180-degree different site depending on the wardrobe (CSS)! HTML might actually be nothing more than a mannequin born just to wear this CSS.
 
-### 2. 옷을 입히는 3가지 방식: 인라인, 내부, 외부
+### 2. 옷을 입히는 3가지 방식: 인라인, 내부, 외부 / 2. Three Ways to Dress Up: Inline, Internal, External
 
 자, 그렇다면 우리는 컴퓨터에게 도대체 어떻게 "내 명함의 이 글자에는 강렬한 빨간색 셔츠를 입혀라!"라고 명령할 수 있을까요? 입으로 외친다고 되지 않겠죠. CSS를 HTML 요소에 가져다 붙이는 방식, 즉 '옷을 입혀주는' 물리적인 방법론은 웹 개발 역사상 크게 세 가지가 존재합니다. 각각의 차이점과 왜 세 번째 방법이 가장 중요한지 아주 쉽게 설명해 드리겠습니다.
 
