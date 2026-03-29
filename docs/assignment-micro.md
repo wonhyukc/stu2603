@@ -94,43 +94,9 @@
 
 ## 과제 0.5 (Assignment 0.5)
 
-**제출처 (Submit to):** `wonhyukc@stu.ac.kr`
+규칙 리마인드
 
-**메일 제목 규칙 엄수 (Strict Email Subject Rule):**
-* `과제0.5 학번` (예시: `과제0.5 20240001` 또는 `homework0.5 20240001`)
-* `Assignment0.5 StudentID` (Example: `과제0.5 20240001` or `homework0.5 20240001`)
-* ⚠️ **만약 이 규칙을 어기면 이메일 자동 필터링 시스템을 통과하지 못해 0점 처리됩니다! (제목의 중요성을 다시 한번 강력히 상기시킵니다. 매번 필터링 누락으로 감점되는 학생이 다수 발생합니다.)**
-* ⚠️ **If you break this rule, your email will fail the automatic filtering system and you will receive a score of 0! (We strongly emphasize the importance of the subject line again. Many students lose points every week due to incorrect titles.)**
 
-**주의 사항 (Important Notices):**
-* 1주차 비즈니스 이메일에 관한 영상과 내용을 반드시 리뷰하세요.
-* Please make sure to review the week 1 video and content about business emails.
-* 질문에 관한 규칙을 다시 복습하세요. 어떤 내용도 수업에 관련된 질문은 메일로 보내서는 안 됩니다.
-* Review the rules regarding questions. You must not send any class-related questions via email.
-* 구글 시트, 혹은 eCampus Q&A에서만 질문하고 답합니다.
-* Questions and answers should only be posted on Google Sheets or eCampus Q&A.
-
-**과제 내용 (Assignment Content):**
-
-1. **학교 탐험 (Explore the Campus)**
-   * 학교 안 구석 구석을 누비세요. 안 가본 곳 두 곳을 가 보고 5분 이상 거기서 시간을 보낸 후 어디를 다녀왔는지 적어주세요.
-   * Explore every corner of the campus. Visit two places you haven't been to before, spend at least 5 minutes there, and write down where you went.
-
-2. **포모도로 기법 실습 (Practice Pomodoro Technique)**
-   * GTD(Get things done), 포모도로 기법을 검색해보고 포모도로 시계를 사용해 보세요.
-   * Search for GTD (Getting Things Done) and the Pomodoro technique, and try using a Pomodoro timer.
-
-3. **Hour of Code 진행 (Hour of Code Progress)**
-   * 'hour of code' 를 진행해 보세요. 다 못해도 괜찮습니다. 그렇다면 어디까지 했는지만 적어서 내세요. 이 과제는 이후에도 계속 나올 예정입니다. 만약 완료했다면 자신의 얼굴이 같이 나오게 수료증을 사진 찍어 첨부하세요.
-   * Try the 'Hour of Code'. It's okay if you couldn't finish it all. In that case, just write down how far you got and submit it. This assignment will continue in the future. If you have already completed it, please attach a photo showing your face with the completion certificate.
-
-4. **30일의 도전 결심 (30-Day Challenge Decision)**
-   * TED 강연 'Matt Cutts: 30일의 도전'을 듣고, 자신의 30일 도전 결심을 적어 보세요.
-   * Watch the TED talk 'Matt Cutts: Try something new for 30 days', and write down your own 30-day challenge resolution.
-
-5. **과제 숙지 확인 (Assignment Confirmation)**
-   * 과제를 읽었다는 표시로 `homework 05 ping` 컬럼에 1을 표시하세요.
-   * As a sign that you have read the assignment, please mark 1 in the `homework 05 ping` column.
 
 6. **수업 소감 (Class Reflection)**
    * 수업 소감을 3줄 이내로 적어 보내세요.
@@ -148,6 +114,18 @@
    * 어떤 것을 공부했는지 메일 본문에 3줄 이내로 적어 보내주세요.
    * Please write what you studied in your email body in 3 lines or less.
 
+디버깅에 대해 찾아보기. 뭘 말하는지, 왜 이런 이름이 붙었는지. 세줄정도로 자신이 이해한바를 제출하기.
+
+
+
+위의 내용, 지난 수업과 이번 수업 내용 중에 내가 나와서 발표 하고 싶다는 의지가 있는 사람은 무엇을 발표하고 싶은지 여기에 적어주세요. 수업과 상관 없는 내용이지만, 학우들에게 유익할 것 같은 내용의 발표도 환영합니다.
+공부하면서 생기는 질문은 게시판에 올려주시고, 수업 때까지 답을 얻지 못하면 수업시간에 다시금 질문해주세요. (이 내용은 매주 동일합니다)
+
+커피숍 옆자리에 앉은 사람은 도대체 무슨 일을 저렇게 열심히 하고 있는 걸까? 
+아바타의 여행기
+이 모든 것이 아이폰을 잃어버려서 생긴 일
+
+
 
 
 
@@ -159,19 +137,10 @@
 
 ## 과제 0.1
 
-위의 내용, 지난 수업과 이번 수업 내용 중에 내가 나와서 발표 하고 싶다는 의지가 있는 사람은 무엇을 발표하고 싶은지 여기에 적어주세요. 수업과 상관 없는 내용이지만, 학우들에게 유익할 것 같은 내용의 발표도 환영합니다.
-공부하면서 생기는 질문은 게시판에 올려주시고, 수업 때까지 답을 얻지 못하면 수업시간에 다시금 질문해주세요. (이 내용은 매주 동일합니다)
-
 아카운터 희망자는 메일 주세요. 
 수업 내용 중에 내가 나와서 발표 하고 싶다는 의지가 있는 사람은 무엇을 발표하고 싶은지 여기에 적어주세요. 수업과 상관 없는 내용이지만, 학우들에게 유익할 것 같은 내용의 발표도 환영합니다. 공부하면서 생기는 질문은 게시판에 올려주시고, 수업 때까지 답을 얻지 못하면 수업시간에 다시금 질문해주세요. (이 내용은 매주 동일합니다)
-GTD(Get things done), 포모도로 기법을 검색해보고 포모도로 시계를 사용해 보세요.
-code.org 를 마치고 자신의 이름이 들어간 수료증을 모니터에 나타나게 하고 자신의 얼굴이 같이 나오게 사진을 찍어 첨부하세요.
-
-## 과제 0.5
-학교 안 구석 구석을 누비세요. 안 가본 곳 두 곳을 가 보고 5분 이상 거기서 시간을 보낸 후 어디를 다녀왔는지 적어주세요.
-GTD(Get things done), 포모도로 기법을 검색해보고 포모도로 시계를 사용해 보세요.
-hour of code 를 마치고 자신의 이름이 들어간 수료증을 모니터에 나타나게 하고 자신의 얼굴이 같이 나오게 사진을 찍어 첨부하세요.
-TED Matt Cutts 30일의 도전을 듣고, 자신의 30일 도전 결심을 적어 보세요.
+best job 2016을 비롯한 연도별 best job과 worst job을 적어도 4년 이상 찾아보고 소감
+4차 산업 혁명에 대해 찾아보고 소감, Humans need not apply 시청 후 소감
 
 
 ## 과제 0.4
