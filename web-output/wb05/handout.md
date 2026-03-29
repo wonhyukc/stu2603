@@ -39,6 +39,10 @@ HTML provides the bare content and structural "bones" of a webpage. **CSS (Casca
 ## 2. Lab Section
 
 This week's lab will exclusively take place on your browser, requiring no local installations. This exercise is designed to take at least **25 minutes** of deep focus. 
+For clear instructions, assignment terminology and submission methods are newly classified into two types:
+* **Assignment**: The main lab exercise based on class content, submitted via Google Form, followed by peer evaluation between students.
+* **Microassignment**: A simple sub-assignment submitted via email according to a designated format, same as the previous 0.x assignments.
+
 
 **Platform:** **StackBlitz**
 
@@ -60,23 +64,64 @@ This week's lab will exclusively take place on your browser, requiring no local 
 
 You have two mandatory submissions for this week. Please carefully follow the instructions below.
 
-### [Task A] Google Form Submission via GitHub (Peer Evaluation)
-* **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub.
+### Assignment: Google Form Submission via GitHub (Peer Evaluation)
+* **Deadline:** Every Friday by Midnight (23:59)
+* **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub, along with your personal shortcut keys document.
 * **Submission Requirements:** 
   Instead of StackBlitz or eCampus, we are now migrating to the global standard: **GitHub**.
-  1. Create a **Public Repository** on your GitHub account for Week 5.
-  2. Upload/Commit your HTML and CSS files to this repository.
-  3. Copy your latest **Commit Hash** (the unique alphanumeric code representing your commit).
+  1. **Personal Shortcut Keys Google Doc**: Create a Google Doc containing a list of your personal essential shortcut keys **(including at least 5 new Windows shortcut keys and 5 new Chrome shortcut keys that you did not know before)**. Set the share permissions exactly to **'Anyone with the link can view'** and copy the link. (You must grant read permission. Verify it yourself by opening the link in Incognito mode to ensure it is readable.)
+  2. Create a **Public Repository** on your GitHub account for Week 5.
+  3. Upload/Commit your HTML and CSS files to this repository. Please make sure to include your **Google Doc Link** inside your repository (e.g., inside a `README.md` file or as an HTML comment).
+  4. Copy your latest **Commit Hash** (the unique alphanumeric code representing your commit).
 * **Where to Submit:** 
   Submit your **Repository Link** and **Commit Hash** to the **designated Google Form** (link provided in class/eCampus). 
   *Note: The time of your Google Form submission is strictly recorded. If your Commit Hash does not exist in the repo or if you overwrite it after the deadline, it will be considered assignment manipulation and will result in a 0 score.*
-* **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, find their Commit Hash, and verify their webpage properly loads without errors.
+* **Assignment Acknowledgment:** 
+  To indicate that you have read this assignment, enter 1 in the `homework 05 ping` column of the Google Sheet.
+* **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, verify their webpage properly loads without errors, find their Commit Hash, and check if their Google Doc link is accessible.
 
-### [Task B] Email Submission (Self-Reflection & AI Critique)
-* **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. Failure to use this exact format will result in a 0 score as the automatic email filter will skip your submission).
+### Microassignment 0.5: Email Submission 
+* **Deadline:** Every Friday by Midnight (23:59)
+* **Email Title Format:** `Assignment0.5 20240001` (Replace with your actual student ID. The number of spaces before the student ID does not matter. **Do not add any other words to the title and submit exactly like this. This rule must be strictly followed.** Failure to use this format exactly will result in a 0 score as the automatic email filter will skip your submission).
 * **Where to Submit:** `wonhyukc@stu.ac.kr`
-* **Content Guidelines (Approx. half an A4 page as email body):**
-  1. **[AI Prompt]:** Ask an AI to generate CSS code that changes your HTML online business card to match your favorite brand's HEX colors. Provide the exact text prompt you used. (e.g., "Give me the CSS code for a Spotify brand theme with a dark background and bright green text for my HTML profile.")
-  2. **[AI Critique]:** Analyze the AI's response. Did it give you an incorrect color? Did it explain where to paste the code accurately? Were the selectors matching your actual HTML? Did it make a mistake regarding inheritance?
-  3. **[Final Result]:** Attach a small screenshot of your final working code and the visual output in the browser.
-* **Deadline:** 11:59 PM on the night before the next class.
+* **Content Guidelines:**
+
+### 1. Class Reflection
+
+Write your thoughts on the class in 3 lines or less.
+
+---
+
+### 2. Campus Exploration
+
+Explore every corner of the campus. Visit two places you haven't been to before, spend at least 5 minutes there, and write down where you went in the body of your email.
+
+---
+
+### 3. Pomodoro Technique Practice
+
+Search for GTD (Getting Things Done) and the Pomodoro Technique, and actually try using a Pomodoro timer. Briefly describe how it felt.
+
+---
+
+### 4. Hour of Code Certificate
+
+Complete the 'Hour of Code' and take a photo of yourself with your certificate (containing your name) displayed on the monitor, then attach it to the email.
+
+---
+
+### 5. 30-Day Challenge Resolution
+
+Watch the TED talk 'Matt Cutts: Try something new for 30 days' and write down your own 30-day challenge resolution.
+
+---
+
+### 6. English Typing Practice
+
+Continue the English typing practice you did in last week's Assignment 0.4 for at least 5 more minutes. Enter your measured results in the `0.5 type: word per min` column of the Google Sheet.
+
+---
+
+### 7. Advanced Learning (Optional)
+
+If the above assignments are too easy for your level, independently find the next suitable topic for this course and study it with Gemini. Write down what you studied in 3 lines or less in the body of your email.
