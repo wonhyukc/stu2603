@@ -4,14 +4,14 @@
 
 ---
 ## [목차] / [Table of Contents]
-1. S1: What is CSS? (Interior and Fashion)
-2. S2: Basic Styling and Distinguishing Selectors
-3. S3: Color Error Debugging and Style Inheritance
-4. [Special Lecture] Escaping Computer Illiteracy: Magic Editing Shortcut Drill
-5. [Basic Survival Training] Browser Control and Physical Manipulation
+1. S1: CSS란 무엇인가? 웹의 '인테리어' 패션쇼 / S1: What is CSS? The Web's 'Interior' Fashion Show
+2. S2: 기본 스타일링 속성과 "선택자(Selector)" / S2: Basic Styling and Selectors
+3. S3: CSS 디버깅 원리와 생존 기본기 훈련 / S3: CSS Debugging and Basic Survival Training
+4. [특강] 오류 대처법과 기적의 단축키 7선 / [Special Lecture] Error Handling and 7 Magic Shortcuts
+5. [훈련] 브라우저 완벽 통제권 수복 / [Training] Restoring Browser Control
 
 ---
-## [S1] 웹의 인테리어: CSS의 등장 / [S1] The Web's Interior: The Advent of CSS
+## [S1] CSS란 무엇인가? 웹의 '인테리어' 패션쇼 / [S1] What is CSS? The Web's 'Interior' Fashion Show
 * **HTML is the skeleton, CSS is dressing it up!**
   - The interior design process of arranging pretty wallpaper and furniture over a bare concrete house.
 * **3 ways to apply CSS**
@@ -20,7 +20,7 @@
   3. External: **Professional method**, creating and linking a separate `.css` wardrobe file!
 
 ---
-## [S2] 누구에게 입힐 것인가? 선택자(Selector) 완전 정복 / [S2] Who to Dress? Complete Mastery of Selectors
+## [S2] 기본 스타일링 속성과 "선택자(Selector)" / [S2] Basic Styling Properties and Selectors
 * **Properties and values**: `color: red;` (What to change and how?)
 * **The Big 3 Selectors**
   - **Tag Selector (`p`, `h1`)**: Applies broadly to all matching tags
@@ -28,7 +28,7 @@
   - **ID Selector (`#`)**: The absolute, one-and-only name tag in the world
 
 ---
-## [S3] 패닉은 금물: 시각적 오류와 상속 / [S3] No Panicking: Visual Errors and Inheritance
+## [S3] CSS 디버깅 원리와 상속 / [S3] CSS Debugging Principles and Inheritance
 * **The text has disappeared from the screen!**
   - Cause: The background color and text color were set to be identical. (e.g., blank paper and white pen)
   - The computer is foolishly honest: It merely executes exactly as instructed!
@@ -53,19 +53,15 @@
 
 ---
 
-## [생존 기본기 훈련] 파일 구조 및 크롬 활용 원리 / [Basic Survival Training] File Structure and Chrome Utilization Principles
+## [특강] 생존 기본기 "쫄지 마, 컴퓨터!" / [Special Lecture] Basic Survival "Don't Panic!"
 
-### 디렉토리(폴더) 저장의 나무 구조 / The Tree Structure of Directory (Folder) Storage
-- **Conceptual Visual Diagram**: 
-  - 🌳 Desktop (Root)
-    - 📂 My Report Archive
-      - 📄 1st Semester Info Report
-- If you don't divide folders structurally, your screen becomes like a trash can!
-
-### 기적의 시간 단축키 트리오 / The Miracle Time Shortcut Trio
-- **`Ctrl + C`** : Copy text or files
-- **`Ctrl + V`** : Paste at the designated location
-- **`Ctrl + Z`** : Undo the previous action (Life's most precious save point!)
+### 기적의 시간 단축키 7선 / The 7 Miracle Time Shortcuts
+- **`Ctrl + A`** : Select All (전체 선택)
+- **`Ctrl + C` / `Ctrl + V`** : Copy / Paste (복사 / 붙여넣기)
+- **`Ctrl + X`** : Cut (잘라내기)
+- **`Ctrl + Z`** : Undo (실행 취소, 타임머신)
+- **`Ctrl + F` / `Ctrl + H`** : Find / Replace (찾기 / 바꾸기)
+- **`Ctrl + Shift + T`** : Restore Closed Tab (닫은 탭 부활)
 
 ### 크롬 브라우저 생존 스킬 / Chrome Browser Survival Skills
 - **Incognito Mode (Ctrl+Shift+N)**: A survival technique to search secretly on a public PC without leaving your Google login history.
