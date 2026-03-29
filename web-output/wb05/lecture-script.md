@@ -240,25 +240,35 @@ Later, during the Lab time where you'll practice directly with your hands after 
 
 ---
 
-## [S3] CSS 디버깅 원리와 [특강] 생존 기본기 훈련 "쫄지 마, 컴퓨터!" (25분)
+## [S3] CSS 디버깅 원리와 [특강] 생존 기본기 훈련 "쫄지 마, 컴퓨터!" (25분) / [S3] Principles of CSS Debugging and [Special Lecture] Basic Survival Skills Training "Don't Be Scared, Computer!" (25 mins)
 
-### 1. 오류의 원인 규명: 컴퓨터가 고장 난 게 아니라 정직한 것이다 (디버깅)
+### 1. 오류의 원인 규명: 컴퓨터가 고장 난 게 아니라 정직한 것이다 (디버깅) / 1. Identifying the Cause of Errors: The Computer is Not Broken, it's Just Honest (Debugging)
 
 자, 이제 오늘 강의 중 저 개인적으로 가장 목숨 걸고 중요하게 생각하는, 수억 원짜리 철학이 담긴 하이라이트 후반부 부분으로 넘어가 봅시다. 눈 크게 뜨세요. 여러분 조으시면 큰일 납니다!
+Now, let's move on to the latter half, the climax portion that I personally consider to be a matter of life and death in today's lecture, containing a philosophy worth hundreds of millions of won. Open your eyes wide. If you doze off now, you're in big trouble!
 
 여러분은 앞으로 이 수업뿐만 아니라 취업해서 코딩을 하다 보면, "난 분명히 교재대로 똑같이 쳤고, 절대 틀리지 않았어!"라고 굳은 믿음으로 확신했는데 브라우저 화면이 와장창 깨져서 괴물이 되거나 내용물 텍스트가 아예 몽땅 안 나오는 끔찍하고 등골 서늘한 공포의 순간을 수도 없이, 과장 안 보태고 수천 번 맞닥뜨리게 될 것입니다. 저도 어제 밤에 세 번 겪었습니다.
+In the future, not just in this class but when you get a job and code, you will encounter countless—and without exaggeration, thousands of—terrifying, spine-chilling moments of sheer terror where you are firmly convinced, "I definitely typed it exactly like the textbook, and I am absolutely not wrong!" only to see the browser screen shatter into a monster, or the content text completely fail to appear. I experienced it three times myself just last night.
 백 마디 말보다 시범을 하나 보여드리겠습니다. 잘 보세요.
+Instead of a hundred words, let me show you one demonstration. Watch closely.
 
 *(강사 참고: StackBlitz 화면에서 body의 글자색(color)과 동일한 색상값을 배경색(background-color)에 의도적으로 똑같이 지정하는 라이브 데모 진행. CSS 저장 순간 화면 우측 글자가 순식간에 증발한 것처럼 보이도록 극적으로 연출합니다.)*
+*(Instructor Note: Conduct a live demonstration on the StackBlitz screen where you intentionally set the background color (`background-color`) to the exact same color value as the body's text color (`color`). Dramatically stage it so that the moment you save the CSS, the text on the right side of the screen appears to evaporate instantly.)*
 
 자, 코드에 색상을 통일하고 저장(`Ctrl+S`) 버튼을 눌렀습니다. 짠! 
+Alright, I've unified the colors in the code and pressed the save (`Ctrl+S`) button. Ta-da!
 어엇? 스크린을 보세요. 다들 입이 떡 벌어졌네요. 방금 전까지 아주 예쁘게 옹기종기 모여있던 제 프로필 텍스트, 내용들이 모조리 마법 부린 것처럼 화면에서 싹 사라져버렸습니다. 흔적도 없어요. 화면이 그냥 눈부시게 하얗게 텅 비어 있습니다. 귀신이 곡할 노릇이죠.
+Uh oh? Look at the screen. Everyone's jaws have dropped. My profile text and contents, which were beautifully huddled together just a moment ago, have all completely vanished from the screen as if by magic. There's not a trace left. The screen is just blindingly, stark white and empty. It's truly baffling.
 
 이 순간, 상상해 봅시다. 만약 여러분이 내일 아침 9시 제출 마감을 앞둔 오늘 일요일 늦은 밤, 아무도 도와줄 사람이 없는 기숙사 방에서 혼자 과제를 수놓고 있다가 이런 현상을 처음 겪었다면 어떨까요?
+In this moment, let's imagine. What if you were alone in your dorm room with no one to help you, embroidering your assignment late this Sunday night right before the 9 AM submission deadline tomorrow, and you experienced this phenomenon for the first time?
 심장이 쿵쾅거리고 등짝을 타고 식은땀이 쭉 흐르며 패닉 멘붕에 빠질 겁니다. 
+Your heart would pound, cold sweat would stream down your back, and you would fall into a panicked mental breakdown.
 "으아악! 내가 도대체 뭘 잘못 만진 거지? 컴퓨터가 맛이 갔나? 해킹당했나? 밤새 친 내 소중한 코드를 홀라당 다 날려먹었나? 아, 이번 학기 수강 철회 기간 언제까지였지? 엄마 보고 싶어..." 온갖 파멸적인 생각이 눈앞을 스칠 겁니다. 이 공포심, 잘 압니다.
+"Argh! What on earth did I touch incorrectly? Did the computer go crazy? Was I hacked? Did I just wipe out all my precious code that I spent all night typing? Ah, when was the course withdrawal deadline for this semester? I miss my mom..." All sorts of catastrophic thoughts will flash before your eyes. I know this fear very well.
 
 하지만 심호흡 한 번 크게 하시고, 제발 침착하시길 바랍니다. 우리 이성적으로 방금 제가 친 코드를 천천히 다시 읽어보죠.
+But take a deep breath, and please calm down. Let's rationally and slowly re-read the code I just typed.
 ```css
 body {
   background-color: white;
@@ -266,22 +276,34 @@ body {
 }
 ```
 여러분 중에 똑똑한 분은 벌써 오류를 눈치챘을 겁니다. 무엇이 잘못되었나요? 맞습니다! 
+The smart ones among you have probably already noticed the error. What went wrong? That's right!
 저기 맨 뒷줄에 앉은 학생이 벌써 정답을 픽 웃으며 읊조리셨네요. 
+That student sitting in the very back row already smirked and muttered the correct answer.
 배경색, 즉 밑바탕이 되는 거대한 도화지 바탕 색깔(`background-color`)을 하얀색(`white`) 락카로 칠해 달라고 컴퓨터한테 윽박질러 명령해 놓고, 동시에 텍스트 글자를 그리는 물감 색깔(`color`)마저도 하얀색(`white`)으로 셋팅해서 글씨를 쓰라고 우주의 폭군처럼 지시했습니다. 
+I yelled and commanded the computer to paint the background color—the massive canvas background (`background-color`)—with white spray paint (`white`), and at the same time, acting like a tyrant of the universe, I set the paint color for writing text letters (`color`) to white (`white`) as well and ordered it to write.
 쉽게 비유하자면 12월의 하얀색 눈밭 한가운데에서 하얀 털을 가진 투명한 북극곰을 눈으로 찾아내라는 아주 악질적인 미션을 컴퓨터에게 던진 격이지요!
+To put it simply, it's tantamount to handing the computer the highly malicious mission of visually locating a white-furred, transparent polar bear in the middle of a white snowfield in December!
 
 가장 중요한 사실을 선포합니다. **컴퓨터가 미치거나 고장 난 게 결코 아닙니다.** 기계는 아무런 도덕적 죄가 없어요. 기계는 우리 인간, 주인이 내린 한없이 바보 같은 논리의 명령을 전 세계 어느 뛰어난 충신보다도 '아주 아주 아주 충실하게 토 달지 않고 정확히 0.001초 만에' 100퍼센트 정직하게 실행에 옮겼을 뿐입니다. 
+I hereby declare the most important fact. **The computer absolutely did not go crazy or break down.** The machine has no moral guilt whatsoever. The machine simply and entirely executed the infinitely foolish logical command given by its master, us humans, 'very, very, very faithfully without talking back, in exactly 0.001 seconds,' far more honestly than any outstanding loyal subject in the world.
 
 코딩하다가 무언가 화면에서 사라졌을 때, 예쁘던 레이아웃 뼈대가 미친 듯이 틀어지고 박살 나서 폭격 맞은 도시처럼 변했을 때, 의자를 차고 절망하는 대신 여러분의 머릿속 뇌 구조, 즉 사고 패러다임을 지금 이 순간 이렇게 완전히 뒤집어 엎어야 합니다. 
+When something vanishes from the screen while coding, or when your beautiful layout skeleton crazily twists and shatters, turning into a bombed-out city, instead of kicking your chair and despairing, you must completely flip your brain structure—your thinking paradigm—upside down right at this moment like this:
 "아하! 위대하신 내 컴퓨터 노트북 님은 내버려둬도 알아서 척척 해주는 천재가 아니라, 그냥 빛보다 빠른 계산 속도를 가진 세상에서 가장 솔직하고 바보 같은 일꾼 녀석일 뿐이야. 그렇다면 대체 위대한 인간인 내가 방금 전 내린 지시문, 내 명령어, 즉 내 생각의 '원초적 논리'에 도대체 어떤 모순된 오류가 숨어 있었길래 얘가 이렇게 바보 같은 하얀색 눈밭 결과를 너무나도 정직하게 보여주고 있는 걸까? 스무고개처럼 단서를 찾아 역추적하자!" 
+"Aha! My glorious computer notebook is not a genius that just automatically figures things out on its own if left alone; it's simply the most honest and foolish worker in the world armed with faster-than-light calculation speeds. If so, what contradictory error was hidden in the instruction I, a great human being, just issued—in my command, or the 'primal logic' of my thoughts—that caused it to so honestly display this idiotic white snowfield result? Let's backtrack using clues like a game of twenty questions!"
 
 이 탐정 같은 추론의 과정, 범인을 찾아나가는 인내심이 제가 과정 내내 100번이고 1000번이고 강조하는 **디버깅(Debugging)**, 즉 버그라는 벌레를 때려잡는 눈부신 예술적인 사고 훈련 과정입니다. 여러분이 코드를 타이핑하는 시간은 10분이지만, 이 에러의 원닝을 고민하며 버그를 잡는 시간은 1시간, 10시간이 걸릴 수도 있습니다. 그리고 진짜 실력은 바로 후자의 디버깅 시간에서 무섭게 성장합니다. 오류를 사랑하십시오! 오류가 나야 비로소 성장합니다.
+This detective-like deduction process, this patience in tracking down the culprit, is exactly what I emphasize a hundred or a thousand times throughout the course: **Debugging**, the brilliantly artistic mental training process of squishing bugs. Your code typing time might be 10 minutes, but mulling over the cause of this error and catching the bug could take 1 hour, or 10 hours. And true skill grows terrifyingly fast precisely during the latter debugging time. Love your errors! You only truly grow once you make errors.
 
-*(추가 조언: 상속의 마법)*
+*(추가 조언: 상속의 마법)* / *(Bonus Tip: The Magic of Inheritance)*
 이때 실무 힌트를 하나 드리자면, 가끔 내가 전혀 핑크색 컬러업 속성을 주지도 않았는데, 어떤 자식 태그 요소가 부모 태그(예를 들어 박스 요소)의 폰트나 색상을 유전자 물려받듯 스멀스멀 그대로 물려받아버리는 현상, 이른바 **'상속(Inheritance)' 원리** 때문에 여러분의 섬세한 디자인이 전혀 의도치 않게 대참사를 겪거나 와장창 틀어지기도 한답니다. 부모가 입은 핑크색 잠바를 자식이 억지로 입게 되는 거죠. 
+If I may give you a practical tip here, sometimes a child tag element creepily inherits the font or color of a parent tag (like a box element) exactly as if passing down DNA, even when you never gave it a pink color property. Because of this phenomenon called the **principle of 'Inheritance'**, your delicate design might suffer an entirely unintended catastrophe or shatter to pieces. It's like a child being forced to wear the pink jacket that their parent is wearing.
 만약 이런 미스터리 현상이 계속 생겨서 "왜 이 자식 녀석은 속성도 안줬는데 핑크색이야?!"하고 혈압이 오른다면, 영문도 모른 채 구글을 헤매지 말고 언제든 여러분 옆에 상주하는 만능 개인 과외 선생님, 든든한 AI 파트너인 챗GPT 나 구글 제미나이(Gemini)에게 브라우저 탭을 열고 즉각 이렇게 사람처럼 속 시원히 질문하세요. 
+If this mystery phenomenon keeps occurring and your blood pressure rises thinking, "Why is this child guy pink when I didn't even give it a property?!", don't wander Google blindly; instead, open a browser tab to ChatGPT or Google Gemini—the all-knowing personal tutor and reliable AI partner always residing by your side—and immediately ask a refreshingly clear question like a human:
 *"저기 AI 선생님, 내가 뼈대 코드는 이런데 CSS에서 자꾸 자식 태그 색이 변해. 도대체 상속(Inheritance)의 개념이 뭐야? 내가 코딩 유치원생이니까 10살짜리 아이도 단박에 이해할 수 있게 기가 막힌 일상생활 비유로 좀 친절히 설명해 줘."* 
+*"Hey AI teacher, my skeleton code is like this, but the child tag color keeps changing in CSS. What on earth is the concept of Inheritance? I'm a coding kindergartener, so gently explain it to me using an amazing real-life analogy so even a 10-year-old child could understand it instantly."*
 이렇게 AI에게 찰떡같이 주문(Prompt)을 빙의하듯 넣으면, 놀라울 정도로 소름 돋게 기가 막힌 명쾌한 해결책을 1초 만에 뱉어줄 겁니다. 이것이 바로 우리가 이번 학기 배우는 진정한 AI 리터러시이자 프롬프트 통제력입니다.
+If you feed a perfectly crafted prompt to the AI like this as if channeling a spirit, it will spit out a shockingly and phenomenally clear solution in a single second. This is exactly the true AI literacy and prompt control power we are learning this semester.
 
 ---
 
