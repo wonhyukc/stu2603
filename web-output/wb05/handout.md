@@ -69,7 +69,7 @@ You have two mandatory submissions for this week. Please carefully follow the in
 * **Objective:** Submit your fully styled, brand-themed Online Business Card (Build-up Phase 3) using GitHub, along with your personal shortcut keys document.
 * **Submission Requirements:** 
   Instead of StackBlitz or eCampus, we are now migrating to the global standard: **GitHub**.
-  1. **Personal Shortcut Keys Google Doc**: Create a Google Doc containing a list of your personal essential shortcut keys (including at least 10 Windows shortcut keys and 10 Chrome shortcut keys). Set the share permissions exactly to **'Anyone with the link can view'** and copy the link. (You must grant read permission. Verify it yourself by opening the link in Incognito mode to ensure it is readable.)
+  1. **Personal Shortcut Keys Google Doc**: Create a Google Doc containing a list of your personal essential shortcut keys **(including at least 5 new Windows shortcut keys and 5 new Chrome shortcut keys that you did not know before)**. Set the share permissions exactly to **'Anyone with the link can view'** and copy the link. (You must grant read permission. Verify it yourself by opening the link in Incognito mode to ensure it is readable.)
   2. Create a **Public Repository** on your GitHub account for Week 5.
   3. Upload/Commit your HTML and CSS files to this repository. Please make sure to include your **Google Doc Link** inside your repository (e.g., inside a `README.md` file or as an HTML comment).
   4. Copy your latest **Commit Hash** (the unique alphanumeric code representing your commit).

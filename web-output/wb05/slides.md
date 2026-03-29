@@ -1,77 +1,77 @@
-# 5주차 슬라이드: CSS 기초 및 생존 기본기
+# 5주차 슬라이드: CSS 기초 및 생존 기본기 / Week 5 Slides: CSS Basics and Basic Survival Skills
 
-**강사명: Wonhyuk William Chung**
-
----
-## [목차]
-1. S1: CSS란 무엇인가? (인테리어와 패션)
-2. S2: 기본 스타일링과 선택자 구별법
-3. S3: 색상 오류 디버깅과 스타일 상속
-4. [특강] 컴맹 탈출: 마법의 편집 단축키 훈련
-5. [생존 기본기 훈련] 브라우저 통제 및 물리적 조작
+**강사명: Wonhyuk William Chung / Instructor: Wonhyuk William Chung**
 
 ---
-## [S1] 웹의 인테리어: CSS의 등장
-* **HTML은 뼈대, CSS는 옷입히기!**
-  - 앙상한 콘크리트 집 위에 예쁜 벽지와 가구를 배치하는 인테리어 과정.
-* **CSS 적용의 3가지 방법**
-  1. 인라인 (Inline): 태그 속에 직접 `style` 작성 (권장 안 함)
-  2. 내부 (Internal): `<head>` 영역에 `<style>` 선언
-  3. 외부 (External): **전문가 방식**, 별도 `.css` 파일 옷장을 만들어 연결하기!
+## [목차] / [Table of Contents]
+1. S1: What is CSS? (Interior and Fashion)
+2. S2: Basic Styling and Distinguishing Selectors
+3. S3: Color Error Debugging and Style Inheritance
+4. [Special Lecture] Escaping Computer Illiteracy: Magic Editing Shortcut Drill
+5. [Basic Survival Training] Browser Control and Physical Manipulation
 
 ---
-## [S2] 누구에게 입힐 것인가? 선택자(Selector) 완전 정복
-* **속성과 값**: `color: red;` (무엇을 어떻게 바꿀 것인가?)
-* **선택자 3대장**
-  - **태그 선택자 (`p`, `h1`)**: 광범위하게 모든 태그에 몽땅 적용
-  - **클래스 선택자 (`.`)**: 그룹 지정 (여러 명에게 같은 유니폼 이름표 달아주기)
-  - **아이디 선택자 (`#`)**: 이 세상에 단 하나뿐인 절대적인 이름표
+## [S1] 웹의 인테리어: CSS의 등장 / [S1] The Web's Interior: The Advent of CSS
+* **HTML is the skeleton, CSS is dressing it up!**
+  - The interior design process of arranging pretty wallpaper and furniture over a bare concrete house.
+* **3 ways to apply CSS**
+  1. Inline: Writing `style` directly inside a tag (Not recommended)
+  2. Internal: Declaring `<style>` within the `<head>` section
+  3. External: **Professional method**, creating and linking a separate `.css` wardrobe file!
 
 ---
-## [S3] 패닉은 금물: 시각적 오류와 상속
-* **화면에서 글씨가 사라졌어요!**
-  - 원인: 배경색과 글자색이 동일하게 설정되었기 때문. (예: 백지와 백색 펜)
-  - 컴퓨터는 바보같이 솔직하다: 지시한 대로 정확히 수행할 뿐!
-* **상속(Inheritance)의 마법**
-  - 부모 태그에 디자인을 주면 자식 태그가 그대로 물려받는 현상.
-  - 문제가 생겼을 때 항상 AI에게 "상속의 원리"를 물어보며 원인을 좁히세요!
+## [S2] 누구에게 입힐 것인가? 선택자(Selector) 완전 정복 / [S2] Who to Dress? Complete Mastery of Selectors
+* **Properties and values**: `color: red;` (What to change and how?)
+* **The Big 3 Selectors**
+  - **Tag Selector (`p`, `h1`)**: Applies broadly to all matching tags
+  - **Class Selector (`.`)**: Group designation (giving the same uniform name tag to multiple elements)
+  - **ID Selector (`#`)**: The absolute, one-and-only name tag in the world
 
 ---
-## [특강] 문제 상황 직면 및 에러 대처법
+## [S3] 패닉은 금물: 시각적 오류와 상속 / [S3] No Panicking: Visual Errors and Inheritance
+* **The text has disappeared from the screen!**
+  - Cause: The background color and text color were set to be identical. (e.g., blank paper and white pen)
+  - The computer is foolishly honest: It merely executes exactly as instructed!
+* **The Magic of Inheritance**
+  - The phenomenon where child tags inherit the design given to a parent tag as is.
+  - When a problem arises, always ask AI about the "principles of inheritance" to narrow down the cause!
 
-### 실생활 문제 상황 1
-- **상황**: 내일 아침 9시가 파일 제출 마감인데, 실수로 내용을 지워버렸습니다! 멘붕에 빠지시나요?
-- **비교 화면**:
-    - [X] 뒤통수 잡고 책상에 엎드린 인간
-    - [O] 차분하게 키보드의 `Ctrl + Z` (실행 취소)를 두 번 눌러서 복원하는 멋진 대학생
+---
+## [특강] 문제 상황 직면 및 에러 대처법 / [Special Lecture] Facing Problem Situations and Error Coping Methods
 
-### 실생활 문제 상황 2
-- **상황**: 알 수 없는 영어 경고창(Error)이 화면 한가운데에 떴습니다.
-- **플로우 다이어그램**:
-    - [일반인] "영어가 떴네?" ➔ 무서우니까 창의 [X] 버튼 클릭 ➔ 다음날 더 심각한 오류 발생
-    - [생존자] 경고창 내용 드래그 복사 또는 폰 렌즈 사진 찍기 ➔ 번역기에 텍스트 붙여넣기 ➔ 구글에 원인 검색 후 "확인" 클릭
+### 실생활 문제 상황 1 / Real-Life Problem Scenario 1
+- **Situation**: It's due tomorrow at 9 AM, but I accidentally deleted the contents! Do you panic?
+- **Comparison Screen**:
+    - [X] A human burying their face in the desk holding the back of their head
+    - [O] A cool college student calmly pressing `Ctrl + Z` (Undo) on the keyboard twice to restore it
+
+### 실생활 문제 상황 2 / Real-Life Problem Scenario 2
+- **Situation**: An unknown English warning pop-up (Error) appeared in the middle of the screen.
+- **Flow Diagram**:
+    - [Ordinary Person] "It's in English?" ➔ Clicks the [X] button out of fear ➔ A more serious error occurs the next day
+    - [Survivor] Drag-copies the warning text or takes a picture with phone lens ➔ Pastes text into translator ➔ Searches Google for the cause and clicks "OK"
 
 ---
 
-## [생존 기본기 훈련] 파일 구조 및 크롬 활용 원리
+## [생존 기본기 훈련] 파일 구조 및 크롬 활용 원리 / [Basic Survival Training] File Structure and Chrome Utilization Principles
 
-### 디렉토리(폴더) 저장의 나무 구조
-- **개념 시각도표**: 
-  - 🌳 바탕화면(Root)
-    - 📂 내 리포트 보관함
-      - 📄 1학기 정보 리포트
-- 폴더를 구조적으로 나누지 않으면 화면은 쓰레기통과 같아집니다!
+### 디렉토리(폴더) 저장의 나무 구조 / The Tree Structure of Directory (Folder) Storage
+- **Conceptual Visual Diagram**: 
+  - 🌳 Desktop (Root)
+    - 📂 My Report Archive
+      - 📄 1st Semester Info Report
+- If you don't divide folders structurally, your screen becomes like a trash can!
 
-### 기적의 시간 단축키 트리오
-- **`Ctrl + C`** : 텍스트나 파일 복사 (카피)
-- **`Ctrl + V`** : 지정된 위치에 붙여넣기 (페이스트)
-- **`Ctrl + Z`** : 직전 행동 뒤로 되돌리기 (가장 소중한 인생의 세이브 포인트!)
+### 기적의 시간 단축키 트리오 / The Miracle Time Shortcut Trio
+- **`Ctrl + C`** : Copy text or files
+- **`Ctrl + V`** : Paste at the designated location
+- **`Ctrl + Z`** : Undo the previous action (Life's most precious save point!)
 
-### 크롬 브라우저 생존 스킬
-- **시크릿 모드 (Ctrl+Shift+N)**: 공용 PC에서 내 구글 로그인 기록을 남기지 않고 은밀하게 검색하는 생존술.
-- **언어 환경 설정**: 영어로만 적혀 나오는 외국 웹사이트를 즉시 한국판 메인 화면으로 전환하는 법.
+### 크롬 브라우저 생존 스킬 / Chrome Browser Survival Skills
+- **Incognito Mode (Ctrl+Shift+N)**: A survival technique to search secretly on a public PC without leaving your Google login history.
+- **Language Settings**: How to instantly convert foreign websites written only in English to the Korean main screen.
 
 ---
-## 마무리 (Q&A)
-* 여러분은 첫 인테리어를 훌륭히 마쳤습니다.
-* 이제 단축키를 무기 삼아 가장 화려한 나만의 색상을 온라인 명함에 입혀주세요!
+## 마무리 (Q&A) / Conclusion (Q&A)
+* You have successfully finished your first interior design.
+* Now, using shortcuts as your weapon, please coat your online business card with your own most vibrant colors!
