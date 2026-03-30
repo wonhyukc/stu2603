@@ -13,9 +13,9 @@ Evaluators must grade the following five items simply and clearly according to t
 | No. / 번호 | Objective Evaluation Criteria (Yes/No) / 단답형 객관적 평가 기준 | Points / 배점 |
 |:---:|:---|:---:|
 | **1** | Is the actual timestamp of the final submitted form within the deadline? <br>*(3 points if within deadline, otherwise 0 points. No partial credit. If late, the remaining items are graded normally)*<br><br>구글 폼으로 제출된 최종 결과물의 실제 기록이 마감 기한 이내인가? <br>*(지각할 경우 나머지 항목은 정상 채점)* | 3 / 0 |
-| **2** | Is the submitted link in the correct **GitHub URL** or **StackBlitz link** format?<br><br>제출된 답안의 링크가 올바른 **GitHub 링크(URL)** 혹은 **StackBlitz 링크** 형식인가? | 1 |
+| **2** | Is the submitted link in the correct **GitHub URL** format?<br><br>제출된 답안의 링크가 올바른 **GitHub 링크(URL)** 형식인가? | 1 |
 | **3** | Does the submitted link clearly include a unique identifier or account name? (Assignment accessibility)<br><br>제출된 링크 주소에 고유한 식별자나 계정명이 분명하게 포함되어 있는가? (과제물 접근성) | 1 |
-| **4** | When the submitted link is clicked, does the **actual written code (HTML/CSS, etc.)** display normally on the screen without errors (e.g., 404)?<br><br>제출된 링크를 클릭하여 열었을 때, 에러(404 등) 없이 **실제 작성된 코드(HTML/CSS 등)** 가 화면에 정상적으로 나타나는가? | 1 |
+| **4** | When the submitted link is clicked, does the page open without errors and clearly show that **CSS was successfully applied (e.g., brand colors, styling via Class/ID selectors)**?<br><br>제출된 링크를 클릭하여 열었을 때, 에러 없이 화면이 열리며 **CSS 스타일링(예: 브랜드 컬러 적용, Class/ID 선택자를 활용한 꾸미기 등)**이 정상적으로 적용되어 있는가? | 1 |
 | **5** | Does the **Google Doc shortcut link** included in the submitted repository (or code) open immediately without requiring additional permissions (login, etc.), and does it contain a list of at least **5 new Windows shortcuts and 5 Chrome shortcuts** that the student did not previously know?<br><br>제출된 레포지토리(또는 코드) 내에 포함된 **단축키 구글 문서 링크(Google Doc)**가 별도의 권한 요청(로그인 등) 없이 즉시 정상적으로 열리고, **그동안 본인이 모르던 새로운 윈도우 단축키 5개 이상 및 크롬 단축키 5개 이상**이 포함된 목록이 존재하는가? | 1 |
 
 ## 2. Special Guidelines for Evaluators (Feedback Writers)
