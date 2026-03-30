@@ -384,3 +384,74 @@ eCampus(Moodle) 시스템의 '가져오기(Import)' 기능을 사용 시, 다른
 8. `저장하고 돌아가기` 클릭 후 생성된 게시판 URL 보고
 
 > **Note:** 분반이 2개(예: E트랙 1분반, 2분반)인 경우, 각각의 강좌 URL을 명시하여 두 번 지시하거나 한 번에 두 URL을 모두 포함해 요청할 수 있습니다.
+
+---
+
+### eCampus 전원 출석 자동 처리 (`/ecampus-attendance`)
+
+**Description:** 
+매주 eCampus에서 각 분반의 3개 교시에 대해 일일이 "전체 학생 표시 -> 일괄 출석 처리 -> 저장"을 반복해야 하는 수고를 덜어주는 워크플로우입니다. 브라우저 에이전트가 이를 대신 수행합니다.
+
+**When to use:** 
+매주 주차별로 정해진 수업 시간(Python: 1,2,3교시, Web02: 5,6,7교시, Web01: 8,9,10교시)에 대해 전원 출석 처리가 필요할 때.
+
+**How to Instruct the AI:**
+복사해서 프롬프트에 붙여넣고 `[ ]` 안의 내용만 변경하여 지시하세요.
+
+```text
+/ecampus-attendance
+접속 URL: [해당 반의 Offline attendance 페이지 URL]
+대상 교시: [1, 2, 3] (웹반은 [5,6,7] 혹은 [8,9,10])
+```
+
+**AI's Background Behavior (What the Agent Will Do):**
+지시를 받은 AI는 입력된 배열(예: 1, 2, 3)의 각 교시에 대해 아래 절차를 세 번(해당 교시 수만큼) 자동 반복합니다.
+1. 지시받은 출결 관리 URL에 접속
+2. `Week` 드롭다운에서 첫 번째 대상 교시(예:`1Class`) 선택
+3. `Number of list` 드롭다운의 값을 `All` 로 변경 (학생 전체 목록 로드)
+4. 일괄 처리 메뉴에서 `Attendance` 라디오 버튼 선택
+5. 우측의 `Batch processing status` 버튼 클릭
+6. 페이지 하단의 `Save` 버튼 클릭하여 저장
+7. 다음 교시에 대해 항목 2~6 반복
+8. 3개 교시 완료 후 최종 보고
+
+---
+
+### [Bonus] 북마크릿(Bookmarklet) 1초 수동 출석 꿀팁
+
+AI 에이전트의 확인 절차(권한 허용 창 등)가 번거로우신 경우, 브라우저 상단에서 북마크 버튼만 누르면 화면의 모든 학생을 출석 처리하고 즉시 'Save(저장)'까지 눌러주는 1초 스크립트입니다. 일괄 처리 버튼의 오류("No student/s were selected.")를 우회하여 개별 학생의 출석 버튼을 자동으로 0.1초만에 다 눌러줍니다.
+
+**설정 방법:**
+1. 브라우저 북마크(즐겨찾기)를 하나 새로 생성합니다. (예: `⭐ 출석 완료`)
+2. 해당 북마크의 URL 주소란에 아래 코드를 복사해서 붙여넣습니다.
+
+```javascript
+javascript:(function(){
+    var count = 0;
+    var allRadios = document.querySelectorAll('input[type="radio"]');
+    var processedNames = {};
+    
+    // 1. 모든 학생의 첫 번째 상태(출석) 버튼만 골라서 광클릭
+    allRadios.forEach(function(r) {
+        if (r.name && !processedNames[r.name]) {
+            r.click(); 
+            processedNames[r.name] = true;
+            count++;
+        }
+    });
+    
+    // 2. 출석 체크가 1명이라도 완료되었다면 0.3초 뒤 즉시 Save 완료!
+    if(count > 0) {
+        setTimeout(function(){
+            var saveBtn = document.querySelector('input[value="Save"]') || document.querySelector('input[type="submit"]');
+            if(saveBtn) saveBtn.click();
+            else alert("출석 처리는 모두 완료되었으나 하단의 Save 버튼을 누르지 못했습니다. 직접 눌러주세요!");
+        }, 300);
+    } else {
+        alert("학생 목록을 찾지 못했습니다. 출석 화면이 맞는지 확인해주세요.");
+    }
+})();
+```
+
+**사용 방법:**
+출석 페이지 접속 -> `Number of list`를 `All`로 설정 -> 만들어둔 **`⭐ 출석 완료` 북마크 클릭** -> 자동으로 전체 출석 처리 후 저장 완료. (다음 탭으로 이동해서 연속으로 반복 가능)
