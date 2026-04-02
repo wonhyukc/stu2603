@@ -64,8 +64,18 @@ def lint_week(week_dir):
         ssot_content = get_micro_assignment_ssot(week_num)
         if ssot_content:
             # Extract items from SSOT
-            items = re.findall(r"\d+\.\s+\*\*([^*]+)\*\*", ssot_content)
-            for item in items:
+            ssot_items = re.findall(r"\d+\.\s+\*\*([^*]+)\*\*", ssot_content)
+            
+            # Extract items from handout (Section 3)
+            handout_assignment_section = re.search(r"## Section 3: Assignment.*?(\d+\.\s+\*\*.*?)($|##)", content, re.DOTALL | re.IGNORECASE)
+            handout_items_count = 0
+            if handout_assignment_section:
+                handout_items_count = len(re.findall(r"\d+\.\s+\*\*", handout_assignment_section.group(1)))
+            
+            if len(ssot_items) != handout_items_count:
+                errors.append(f"handout.md 과제 개수 불일치: SSOT({len(ssot_items)}개) vs 핸드아웃({handout_items_count}개)")
+
+            for item in ssot_items:
                 if item.strip() not in content:
                     # Looser check if bolding is different
                     if item.strip().split()[0] not in content:
