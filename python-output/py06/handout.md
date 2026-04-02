@@ -12,6 +12,8 @@
 | **특정 파일 형식 검색** | `filetype:확장자` | PDF 논문, HWP 기획서, PPT 문서 등 지정한 파일 형태의 공식 자료만 건져냅니다. (예: `스마트시티 동향 filetype:pdf`) |
 | **구글 시트 - 값만 붙여넣기** | `Ctrl` + `Shift` + `V` (Windows)<br>`Cmd` + `Shift` + `V` (Mac) | 웹사이트에서 표를 복사할 때, 깨진 폰트나 지저분한 서식은 다 버리고 오직 텍스트/숫자 데이터만 붙여넣습니다. |
 
+* **수업 보조 슬라이드**: [6주차 강의 참고 자료 (Google Slides)](https://docs.google.com/presentation/d/1BnAUatFM9tZnyc-HK3_bCRX0WHDEXxO4CjV6ZpRBH_4/edit?usp=sharing)
+
 ---
 
 ## 2. 실습 섹션 (Google Sheets 구조화 미션)
