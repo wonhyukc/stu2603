@@ -98,5 +98,5 @@ This training focuses on strengthening practical digital survival skills beyond 
 * **Lab Environment:** StackBlitz (Cloud IDE)
 * **과제 지시 (AI 활용):** AI 파트너(ChatGPT 또는 Gemini)에게 "margin과 padding의 차이를 10살 아이에게 설명해줘"라고 질문합니다. AI가 비유를 들어 설명해 준 부분에 대해 어떻게 생각하는지 짧은 비평안(Critique)을 더하여 이메일 과제로 제출하도록 가이드합니다.
 * **Assignment Instructions (AI Usage):** Ask your AI partner (ChatGPT or Gemini), "Explain the difference between margin and padding to a 10-year-old." Add a short critique of its analogy-based explanation, and submit the response as an email assignment.
-  - **이메일 제목 형식 (필수):** `과제0.6 학번`
-  - **Email Subject Format (Mandatory):** `과제0.6 학번` (Example: 과제0.6 20240001)
+  - **이메일 제목 형식 (필수):** `Assignment 0.6 학번`
+  - **Email Subject Format (Mandatory):** `Assignment 0.6 학번` (Example: Assignment 0.6 20240001)

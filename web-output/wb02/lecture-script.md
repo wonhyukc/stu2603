@@ -254,8 +254,8 @@ When we meet next week, we will introduce HTML forms and buttons, giving you the
 우리가 다음 주 3주 차에 다시 만나게 될 때, 우리는 비로소 HTML 폼(Forms)과 버튼(Buttons)의 세계를 새롭게 도입할 것입니다. 이는 여러분들에게 단순히 정보를 보여주는 것을 넘어, 현장에 있는 방문자들과 본격적으로 데이터를 주고받고 맞소통할 수 있는 거대한 권력을 쥐여주게 될 것입니다. 바야흐로 지루하고 정적인 신문지에 불과했던 여러분의 웹페이지가, 놀랍도록 상호작용적이고 역동적인 대화의 플랫폼으로 진화하는 순간이죠. 그날이 올 때까지 부디 세 가지만 확실하게 기억해 주십시오. 여러분의 태그 문을 확실히 닫을 것, 절대경로를 타이핑할 때 눈을 크게 뜨고 오타를 경계할 것, 그리고 영원히 디버깅을 두려워하지 말 것! 그럼 모두 아름답고 경이로운 주말 보내시기를 바랍니다!
 
 
-*(Instructor Note: Remind them one last time about the assignment deadline. Emphasize that reading the AI's tags carefully is the key to mastering this week's material. Remind them to submit everything via email (`wonhyuk@stu.ac.kr`) on time, with the exact title format `과제0.1 학번`.)*
-*(강사 참고: 마지막으로 한 번 더 과제 마감 기한을 확실히 상기시킵니다. 인공지능이 생성해 낸 태그들을 주의 깊게 읽어보는 것만이 이번 주차의 핵심 내용을 완벽히 내 것으로 만드는 비결임을 힘주어 강조하세요. 제출은 반드시 기한 내에 이메일(`wonhyuk@stu.ac.kr`)로, 제목은 `과제0.1 학번` 형식을 지켜 제출하도록 당부합니다.)*
+*(Instructor Note: Remind them one last time about the assignment deadline. Emphasize that reading the AI's tags carefully is the key to mastering this week's material. Remind them to submit everything via email (`wonhyuk@stu.ac.kr`) on time, with the exact title format `Assignment 0.1 학번`.)*
+*(강사 참고: 마지막으로 한 번 더 과제 마감 기한을 확실히 상기시킵니다. 인공지능이 생성해 낸 태그들을 주의 깊게 읽어보는 것만이 이번 주차의 핵심 내용을 완벽히 내 것으로 만드는 비결임을 힘주어 강조하세요. 제출은 반드시 기한 내에 이메일(`wonhyuk@stu.ac.kr`)로, 제목은 `Assignment 0.1 학번` 형식을 지켜 제출하도록 당부합니다.)*
 
 One absolute final reminder before we close: Please ensure you submit your Micro-Assignment with the Prompt, the Critique, and your Final Result. Submitting just the HTML file will result in a zero. We want to see your analytical thought process above all else. See you all soon!
 수업을 마치기 전 마지막 필수 공지사항입니다. 마이크로 과제를 제출하실 때 반드시 여러분이 작성한 인공지능 프롬프트(질문)와 그에 대한 비평, 그리고 직접 수정한 최종 결과물 캡처 이 세 가지를 모두 포함했는지 점검해 주세요. 달랑 뼈대 HTML 파일만 띡하고 제출하는 행위는 0점 처리될 것입니다. 우리가 가장 보고 싶은 것은 그 무엇보다도 여러분의 날카롭고 분석적인 사고 과정 자체입니다. 그럼 모두 곧 다시 뵙겠습니다!
