@@ -68,12 +68,26 @@ Everyone, let me give you a very important tip here. Just like we wear a top, bo
 So, that's the basics of the Box Model. If the slogan "Inner is Padding, Outer is Margin!" is stuck in your head, we now have powerful magic in our hands to freely place all elements of a web page in the positions we want.
 자, 여기까지가 박스 모델의 기초입니다. "안쪽은 패딩, 바깥쪽은 마진!" 이 구호가 머릿속에 박혔다면 이제 우리는 웹페이지의 모든 요소들을 우리가 원하는 위치에 자유자재로 배치할 수 있는 강력한 마법을 손에 넣은 것입니다.
 
-To wrap up session S2, I'll give you a **magical line of code** that will reduce your layout stress by 90% before we move on to practice. When working with the box model, you often find the box size growing every time you add padding or borders, causing it to overflow to the right or drop to the next line. The magic property that 'forces' padding and borders to be included within your specified box size so the size never changes is `box-sizing: border-box;`.
-수업 S2의 마지막으로, 레이아웃을 잡을 때 여러분의 스트레스를 90% 줄여줄 **마법의 코드 한 줄**을 선물로 드리고 실습으로 넘어가겠습니다. 박스 모델을 다루다 보면 패딩이나 테두리를 줄 때마다 상자의 전체 크기가 자꾸 커져서 오른쪽으로 삐져나가거나 아랫줄로 툭 떨어지는 현상이 생깁니다. 내가 지정한 박스 크기 안에 패딩과 테두리를 모두 '강제로' 포함시켜서 크기가 절대 변하지 않게 고정하는 마법의 속성, 바로 `box-sizing: border-box;`.
+Before we move on to practice, I'll introduce the most important "Layout Solver" in CSS to wrap up session S2. It's a **magical line of code** that will reduce your layout stress by 90%.
+수업 S2의 마지막으로, 레이아웃을 잡을 때 여러분의 스트레스를 90% 줄여줄 가장 중요한 "레이아웃 해결사(Layout Solver)"를 소개하며 넘어가겠습니다. 바로 **마법의 코드 한 줄**입니다.
 
-*(Instructor action: Demonstrate applying the property to the `*` selector at the top of the code)*
-The moment you write this one line, you will be liberated from the mathematical hell of box size calculation. Please make sure to remember this magic spell.
+First, let's talk about the problem. When you create a layout, if you set the width and then add `padding` or `border`, the actual box size gets bigger, overflowing to the right or dropping to the next line. This is because the initial width only counts the "content area," so the padding and border are added outwardly.
+먼저, 박스가 자꾸 커지는 문제에 대해 이야기해 보겠습니다. 레이아웃을 잡을 때 너비(`width`)를 지정하고 `padding`이나 `border`를 추가하면 실제 박스 크기가 자꾸 커져서 오른쪽으로 삐져나가거나 아랫줄로 툭 떨어지는 현상이 생깁니다. 기본적으로 너비는 "콘텐츠(내용물) 영역"만을 의미하므로, 패딩과 단단한 테두리가 바깥쪽으로 덧붙기 때문입니다.
+
+To solve this, we use the property `box-sizing: border-box;`. This "forces" both the padding and the border to be included inside the width you defined. No matter how thick your padding or border is, the external width of the box stays fixed, and only the internal space for the content shrinks.
+이를 해결하는 구원 투수가 바로 `box-sizing: border-box;` 속성입니다. 이 속성은 패딩과 테두리를 여러분이 지정한 너비 안에 "강제로" 포함되도록 만듭니다. 즉, 패딩이나 테두리를 아무리 두껍게 주어도 상자의 전체 외부 너비는 고정되고 내부 콘텐츠가 들어갈 공간만 줄어들게 됩니다.
+
+*(Instructor action: Scroll down to the newly added 'Box Model Lab' section in the bottom of index.html and demonstrate the visual difference between content-box and border-box)*
+Now, please look at the 'Box Model Lab' area I added below in your index.html. Both boxes are set to 300px width. But watch what happens when we add bold padding. The upper box, which uses the default setting, grew way beyond its container! However, the lower solver box safely maintained its exact width.
+*(강사 액션: index.html 하단에 새로 추가한 'Box Model Lab' 영역으로 스크롤하여, 화면에서 직접 content-box와 border-box의 시각적 차이를 시연)*
+자, 이제 여러분의 index.html 하단에 제가 추가해 둔 'Box Model Lab' 영역을 보세요. 두 박스 모두 똑같이 300픽셀 너비를 주었습니다. 그런데 두꺼운 패딩과 테두리를 추가했더니 어떻게 되었나요? 기본 설정인 위쪽 박스는 뚱뚱해져서 삐져나갔지만, 아래쪽 해결사 박스는 원래 지정한 너비를 안전하게 유지하고 있습니다.
+
+*(Instructor action: Demonstrate applying the property to the `*` selector at the top of the code to fix everything)*
+Because this setting makes layout calculations extremely intuitive, it has become an essential declaration for almost all modern web developers. When starting a project, they apply `* { box-sizing: border-box; }` to everything first. 
 *(강사 액션: 코드 최상단 `*` 선택자에 해당 속성을 적용하는 시연)*
+레이아웃 수치 계산을 아주 직관적으로 만들어주기 때문에, 현대의 모든 웹 개발자들에게 이것은 "필수 선언"이나 다름없습니다. 프로젝트를 시작할 때 모든 요소(`*`)에 `box-sizing: border-box;`를 가장 먼저 적용하고 출발하는 것이 정석입니다.
+
+The moment you write this one line, you will be liberated from the mathematical hell of box size calculation. Please make sure to remember this magic spell.
 이 한 줄을 적는 순간, 여러분은 박스 크기 계산이라는 수학적 지옥에서 해방될 것입니다. 이 마법의 주문을 꼭 기억해 두세요.
 
 Now, let's apply these skills we just learned to our 'Personal Business Card' project that we've been upgrading since last week. You've all made things like 'Guestbook' or 'Send Email' buttons at the bottom, right? But how are those buttons looking right now? They're sticking too close to each other, like they're joined at the hip. They're so close that you might click the wrong one. Let's do some **'Live Debugging'** together using the box model and developer tools we just learned to give these buttons some breathing room.

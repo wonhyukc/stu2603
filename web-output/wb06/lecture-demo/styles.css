@@ -1,0 +1,71 @@
+/* 
+   Week 6 Practice Baseline (Reset Code) 
+   (Based on Week 5 final state)
+*/
+
+/* Background Styling */
+body {
+  background-color: lightyellow; 
+}
+
+/* Tag Selector: All paragraphs to green */
+p {
+  color: green;
+}
+
+/* Class Selector: Group Uniform */
+.alert-text {
+  color: red;
+  font-size: 20px;
+}
+
+/* ID Selector: Absolute Power */
+#main-title {
+  color: gold; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Card Layout Structure (Week 5 Final State) */
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: white;
+}
+
+/* --- Box Model Lab --- */
+
+/* The Layout Solver Magic (Uncomment to apply to everything!) */
+/* * {
+  box-sizing: border-box;
+} */
+
+.box-model-lab {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border: 2px dashed #008080;
+  border-radius: 8px;
+}
+
+.box-container {
+  width: 300px;
+  padding: 30px;
+  border: 5px solid darkgreen;
+  margin-bottom: 20px;
+  background-color: #98fb98;
+  color: #333;
+}
+
+/* Default Box: No solver applied -> actual width: 370px */
+.default-box {
+  /* Default is content-box */
+  box-sizing: content-box;
+}
+
+/* Solver Box: padding/border inside width -> exact 300px */
+.solver-box {
+  box-sizing: border-box;
+  background-color: #ffebcd;
+  border-color: darkorange;
+}
