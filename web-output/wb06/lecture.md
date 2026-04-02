@@ -1,102 +1,63 @@
-# 6주차 강의 가이드 (lecture): 박스 모델 및 고급 정보 검색
-# Week 6 Lecture Guide: Box Model & Advanced Information Search
+# [주간 교육안] 6주차: CSS 박스 모델 및 정보 검색 전문 역량
 
-**강의명:** 웹프로그래밍(E트랙)
-**Course:** Web Programming (E-Track)
-**주차:** 6주차
-**Week:** Week 6
-**강사:** Wonhyuk William Chung
-**Instructor:** Wonhyuk William Chung
-**이메일:** wonhyukc@stu.ac.kr
-**Email:** wonhyukc@stu.ac.kr
+## 1. 기본 정보
 
-## 1. 수업 목표 및 개요
-## 1. Class Objectives & Overview
+| 항목 | 내용 |
+|:---|:---|
+| **트랙** | 웹프로그래밍(E트랙) |
+| **주차** | 6주차 |
+| **주제** | CSS 박스 모델 이해 및 고급 정보 검색 기법 |
+| **실습환경** | **StackBlitz** |
+| **총 시간** | **75분 (25분 × 3섹션)** |
 
-### 1.1. 이번 주 핵심 목표
-### 1.1. Key Objectives for This Week
-1. CSS 박스 모델(margin, border, padding) 구조를 명확히 이해합니다.
-1. Clear understanding of the CSS Box Model structure (margin, border, padding).
-2. [Build-up] 기존에 제작한 명함 요소들의 간격을 보기 좋게 조절하고 정돈합니다.
-2. [Build-up] Adjust and align the spacing of elements in the previously created digital business card for better aesthetics.
-3. 겹친 요소 사이에서 발생하는 마진 상쇄 (Margin Collapsing) 현상을 이해하고 해결 방법을 배웁니다.
-3. Understand Margin Collapsing between overlapping elements and learn how to resolve it.
-4. **[생존 기본기 훈련]** 구글 렌즈 번역 및 고급 구글링 연산자를 활용한 정보 탐색 능력을 배양합니다.
-4. **[Survival Basics Training]** Develop information gathering skills using Google Lens translation and advanced Google search operators.
+## 2. 학습 목표 (이번 주 미션)
+
+1. CSS 박스 모델(margin, border, padding)의 구조와 역할을 파악한다.
+2. [Build-up] 지난주 만든 명함 요소들의 간격을 조절하여 시각적으로 정돈한다.
+3. 요소들이 겹치거나 간격이 벌어지는 레이아웃 오류를 디버깅하고 해결한다.
+4. **[특강]** 구글 고급 검색 연산자를 활용하여 필요한 데이터를 정확하게 찾아 구조화한다.
 
 ---
 
-## 2. 블록별 강의 진행 가이드 (총 75분)
-## 2. Block-by-Block Lecture Guide (75 Minutes Total)
+## 3. 섹션별 상세 시나리오 (스크립트급 구체성)
 
-### **[S1] 순수 이론 강의: 박스 모델 해부학 (25분)**
-### **[S1] Pure Theory: Anatomy of the Box Model (25 Mins)**
-- **주제:** 요소 주변의 공백 다루기. 박스 모델 기초.
-- **Topic:** Managing spacing around elements. Box Model basics.
-- **주요 내용:**
-- **Main Contents:**
-  - 개발자 관점에서의 웹 페이지 요소는 모두 네모난 액자(박스)라는 점을 시각적으로 설명합니다 (액자와 사진 비유).
-  - Visually explain that from a developer's perspective, every web page element is a rectangular frame (box) (using the analogy of a picture frame).
-  - 테두리(border), 안쪽 여백(padding), 바깥쪽 여백(margin)의 개념과 위치 관계를 설명합니다.
-  - Explain the concepts and positional relationships of borders, inner spacing (padding), and outer spacing (margin).
-  - StackBlitz에 띄워진 샘플 요소에 border를 주어 눈에 보이게 만들고, margin과 padding 수치를 변경할 때 박스의 위치와 크기가 어떻게 달라지는지 라이브 데모로 보여줍니다.
-  - Apply a border to a sample element in StackBlitz to make it visible, and provide a live demo showing how changing margin and padding values affects the box's position and size.
+### [S1] 25분: 박스 모델 - 웹의 모든 요소는 '상자'다 (비유와 기초)
+- **박스 모델 비유 설명: '택배 상자'와 '선물 포장' (10분)**
+  - **강사 액션**: 화면에 예쁘게 포장된 선물 상자 이미지를 띄운다.
+  - **설명 요지**: "웹페이지의 모든 글자와 그림은 보이지 않는 상자에 담겨 있습니다. **내용물(Content)**, 내용물을 보호하는 **뽁뽁이(Padding)**, 상자의 **두께(Border)**, 그리고 상자 사이의 **거리(Margin)**가 박스 모델의 전부입니다."
+  - **시각화**: 슬라이드를 통해 Content -> Padding -> Border -> Margin 순서의 겹층 구조를 색상별로 구분하여 강조.
+- **실전 코드 시연: 테두리와 여백 주기 (15분)**
+  - **강사 액션**: StackBlitz에서 간단한 `<div>` 박스를 하나 만든다.
+  - **강사 액션**: `border: 5px solid black;`을 주어 상자의 실체를 먼저 보여준다.
+  - **강사 액션**: `padding: 20px;`를 추가하여 글자와 테두리 사이가 벌어지는 것을 확인시킨다.
+  - **강사 액션**: `margin: 50px;`를 주어 상자 자체가 주변으로부터 멀어지는 물리적 거리를 시연한다.
+  - **강사 참고**: 학생들에게 "패딩은 안쪽 살집, 마진은 사회적 거리두기"라고 비유하면 이해가 빠름.
 
-### **[S2] 실습 시연: 요소 정렬 및 개발자 도구 (25분)**
-### **[S2] Practical Demo: Element Alignment and Developer Tools (25 Mins)**
-- **주제:** 마진과 패딩을 이용해 여백 주도하기.
-- **Topic:** Taking control of spacing using margin and padding.
-- **주요 내용:**
-- **Main Contents:**
-  - 패딩(`padding: 10px`)과 마진(`margin: 20px`)의 극명한 차이를 눈으로 보여줍니다.
-  - Visually demonstrate the stark difference between padding (`padding: 10px`) and margin (`margin: 20px`).
-  - 브라우저의 개발자 도구(F12)를 열어, 'Computed(계산됨)' 탭에 있는 박스 모델 시각화 도구를 보여줌으로써 브라우저가 요소를 어떻게 해석하고 있는지 눈으로 확인하는 방법을 설명합니다.
-  - Open the browser's Developer Tools (F12) and use the Box Model visualization under the 'Computed' tab to explain how to visually check how the browser interprets spacing.
-  - 여백 요소들의 값을 콘솔에서 바꿔가며 실시간으로 간격이 조절되는 데모를 진행합니다.
-  - Perform a demo adjusting margin/padding values via the console to observe real-time spacing changes.
+### [S2] 25분: 요소 정렬 및 개발자 도구 디버깅 실전
+- **개발자 도구(F12)의 마법: 박스 모델 확인 (10분)**
+  - **강사 액션**: 크롬 브라우저에서 '검사(Inspect)'를 눌러 개발자 도구를 연다.
+  - **강사 액션**: 'Computed' 탭에 있는 박스 모델 다이어그램을 마우스로 가리키며 실제 `margin`, `padding` 값이 어떻게 계산되는지 실시간으로 보여준다.
+  - **설명 요지**: "코드를 수정하기 전에, 브라우저가 이 상자를 어떻게 보고 있는지 먼저 확인하는 것이 일류 개발자의 습성입니다."
+- **박스 사이의 충돌: 마진 상쇄(Margin Collapse) 시연 (15분)**
+  - **강사 액션**: 두 개의 상자를 위아래로 배치하고, 위 상자에 `margin-bottom: 20px`, 아래 상자에 `margin-top: 20px`를 준다.
+  - **강사 액션**: 간격이 40px가 아니라 20px로 합쳐지는 현상을 보여주며 학생들의 호기심을 유도한다.
+  - **설명 요지**: "이웃한 상자끼리는 서로의 공간을 존중하며 더 큰 마진 쪽으로 합쳐집니다. 이것이 '마진 상쇄'라는 박스 모델의 규칙입니다."
 
-### **[S3] 코드 비평 및 디버깅: 마진 상쇄 및 버그 수정 (25분)**
-### **[S3] Code Critique & Debugging: Margin Collapsing and Bug Fixes (25 Mins)**
-- **주제:** 실전 레이아웃 오류 원인 분석
-- **Topic:** Root cause analysis of practical layout errors.
-- **주요 내용:**
-- **Main Contents:**
-  - 버튼 두 개가 여백 없이 찰싹 붙어 있는 버그 상황을 시연합니다.
-  - Demonstrate a bug scenario where two buttons are stuck together with zero spacing.
-  - 여유 공간을 주기 위해 학생들과 함께 마진 값을 부여해 보고, 기대한 값과 달라지는 현상(마진 상쇄 문제 등)을 살펴봅니다.
-  - Apply a margin value along with students to create space, and observe the phenomenon where it behaves differently than expected (e.g., margin collapsing issue).
-  - 이를 해결하기 위한 구체적이고 안전한 CSS 속성 부여 및 라이브 코딩을 통해 수정을 완료합니다.
-  - Resolve the issue through live coding by assigning specific, robust CSS properties as a workaround.
+### [S3] 25분: 버튼 간격 버그 수정 및 고급 구글링 특강
+- **[라이브 디버깅] 버튼 간 정렬 오류 해결 (10분)**
+  - **강사 액션**: 지난주 만든 '방명록' 버튼들이 서로 딱 붙어 있어 답답해 보이는 화면을 보여준다.
+  - **강사 액션**: `margin-right`를 사용하여 버튼 사이의 숨통을 틔워주는 과정을 라이브로 코딩한다.
+  - **강사 액션**: `box-sizing: border-box;` 속성을 적용하기 전과 후를 비교하며, 테두리 때문에 상자 크기가 늘어나 레이아웃이 깨지는 문제를 해결하는 '마법의 코드'로 소개한다.
+- **[특강] 정보 사냥꾼: 구글 고급 검색 연산자 활용 (15분)**
+  - **강사 액션**: 단순 키워드 검색 대신 `site:stackoverflow.com "CSS margin collapse"` 와 같이 특정 사이트 내 검색 명령어를 시연한다.
+  - **설명 요지**: "검색은 운이 아니라 기술입니다. `filetype:pdf`나 `-` (제외 단어) 연산자를 쓰면 AI보다 더 정확한 원본 데이터를 찾을 수 있습니다."
+  - **실습 안내**: "지금 즉시 구글에서 `site:w3schools.com "css box-sizing"`를 검색하여 박스 모델의 공식 문서를 찾아보세요."
 
 ---
 
-## 3. 생존 기본기 훈련 가이드 (특강: 정보 사냥꾼)
-## 3. Survival Basics Training Guide (Special Lecture: Information Hunter)
+## 4. 강사 체크리스트 (수업 전 확인)
 
-이 훈련은 코딩 역량을 넘어선 실전 디지털 생존 능력 강화에 집중합니다. 정규 강의 외 별도 실습 시간 또는 Flipped Learning 세션 시 적극 지도합니다.
-This training focuses on strengthening practical digital survival skills beyond coding ability. Continually instruct students during extra lab sessions or Flipped Learning periods.
-
-* **[외국어 장벽 허물기]**: 구글 렌즈(Google Lens)를 활용하여 원서 및 기사를 캡처 혹은 스캔하여 텍스트로 추출합니다. 추출한 텍스트를 크롬에서 복사해, AI 번역 툴(Gemini 등)을 거쳐 자연스러운 한국어 문장으로 바로 교정하는 워크플로우를 반복 연습합니다.
-* **[Breaking Down the Language Barrier]**: Use Google Lens to capture or scan foreign textbooks and articles to extract digital text. Copy this text via Chrome, run it through AI translation tools (like Gemini), and correct it into natural Korean sentences. Practice this workflow repeatedly.
-* **[정보 쓰레기 걸러내기]**: 구글 검색 연산자를 익힙니다.
-* **[Filtering Out Information Trash]**: Master Google Search Operators.
-  - 정확한 문장 단위 검색(쌍따옴표 `""`)
-  - Exact sentence matching using quotation marks (`""`)
-  - 관련 없는 내용 제외하기(빼기 기호 `-`)
-  - Excluding irrelevant terms using the minus sign (`-`)
-  - 특정 신뢰성 있는 사이트 내 검색(`site:`) 기능을 조합하여 구글링 속도와 퀄리티를 비약적으로 상승시키는 검색 시연을 진행합니다.
-  - Conduct a search demo combining the `site:` operator to quickly boost search speed and quality by targeting reliable websites.
-  - 무의미한 낚시성 페이지를 육안으로 배제하는 원칙을 지도합니다.
-  - Teach the principle of visually identifying and filtering out meaningless clickbait pages.
-
----
-
-## 4. 실습 및 과제 진행 안내 
-## 4. Lab and Assignment Instructions
-
-* **실습 환경:** StackBlitz (클라우드 환경)
-* **Lab Environment:** StackBlitz (Cloud IDE)
-* **과제 지시 (AI 활용):** AI 파트너(ChatGPT 또는 Gemini)에게 "margin과 padding의 차이를 10살 아이에게 설명해줘"라고 질문합니다. AI가 비유를 들어 설명해 준 부분에 대해 어떻게 생각하는지 짧은 비평안(Critique)을 더하여 이메일 과제로 제출하도록 가이드합니다.
-* **Assignment Instructions (AI Usage):** Ask your AI partner (ChatGPT or Gemini), "Explain the difference between margin and padding to a 10-year-old." Add a short critique of its analogy-based explanation, and submit the response as an email assignment.
-  - **이메일 제목 형식 (필수):** `Assignment 0.6 학번`
-  - **Email Subject Format (Mandatory):** `Assignment 0.6 학번` (Example: Assignment 0.6 20240001)
+- [ ] StackBlitz에 6주차용 베이스 프로젝트(상자 2개 배치된 상태)가 준비되었는가?
+- [ ] 크롬 개발자 도구 창이 학생들에게 잘 보이도록 폰트 크기가 조절되었는가?
+- [ ] '마진 상쇄' 현상을 설명할 때 사용할 직관적인 비유(기차 칸 연결 등)를 숙지했는가?
+- [ ] 구글 고급 검색 시연 시 검색 결과에 부적절한 광고나 내용이 나오지 않는지 사전 키워드 점검을 마쳤는가?
