@@ -37,9 +37,9 @@
 - [ ] **20점**: 1단계 `lecture.md`의 시나리오를 학생 관점의 단계별 지침으로 완벽히 변환함. 실습 시간이 최소 **25분 이상** 소요될 수 있는 충분한 난이도와 분량임.
 - [ ] **10점**: 지침이 부실하거나 분량이 너무 적음.
 
-### A-3. 마이크로 과제 SSOT 일치 (20점)
-- [ ] **20점**: `docs/assignment-micro.md`의 해당 주차 내용 및 Boilerplate가 정확히 반영됨. 이메일 제목 형식 및 제출처 안내 포함.
-- [ ] **0점**: SSOT와 다른 개별 과제를 부여함.
+### A-3. 마이크로 과제 SSOT 일치 및 필수 규칙 포함 (20점)
+- [ ] **20점**: `docs/assignment-micro.md`의 해당 주차 내용 및 Boilerplate가 정확히 반영됨. 또한, **Assignment Acknowledgment**(Google Sheet ping 기재) 및 **Peer Evaluation Rule**(상호 평가 시 확인할 내용) 항목이 이메일 과제가 아닌, 온라인 과제(예: 위 Mission 3 등 구글폼 제출처) 제출 안내 영역에 명시적으로 추가되어야 함.
+- [ ] **0점**: SSOT와 다른 개별 과제를 부여하거나, 필수 규칙(Acknowledgment, Peer Eval) 누락됨.
 
 ---
 

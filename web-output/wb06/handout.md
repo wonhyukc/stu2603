@@ -57,6 +57,8 @@ Similar to Week 05, submit via GitHub to practice real-world developer workflows
 3. **Commit Sheet Link**: Include your **Google Sheet Link** from Mission 2 inside your repository (e.g., inside a `assignment06.md` file).
 4. **Final Submission**: Copy your latest **Commit Hash** and Repository Link, and submit them to the **designated Google Form**. 
    *(Note: Overwriting commits after the deadline, or providing broken links, will result in a 0 score. Always double-check your links in Chrome Incognito Mode!)*
+5. **Assignment Acknowledgment:** To indicate that you have read this assignment, enter 1 in the `homework 06 ping` column of the Google Sheet.
+6. **Peer Evaluation Rule:** You will be assigned another student's submission. You must evaluate if their GitHub link is accessible, verify their webpage properly loads without errors, find their Commit Hash, and check if their Google Doc link is accessible.
 
 ---
 
