@@ -90,7 +90,8 @@ Similar to Week 05, submit via GitHub to practice real-world developer workflows
 *   **Deep Learning (Self-directed)**: If today's assignment was too easy, find a more advanced topic with Gemini and include a 3-line summary.
 *   **Presentation Application**: If you want to present something helpful to the class, mention it here for extra points.
 *   **Q&A Board**: Post any questions you have in the community forum.
-*   **30-Day Typing Challenge**: Continue practicing your English typing for at least 5 minutes. Record your WPM (Words Per Minute) here.
+*   **English Typing Practice**: Continue practicing your English typing for at least 5 minutes. Record your WPM (Words Per Minute) in the designated column of the Weekly Google Sheet.
+*   **30-Day Challenge Progress**: Briefly share the progress and feelings of your 30-day challenge (which you started in Week 5).
 
 ---
 *Teacher: Wonhyuk William Chung (wonhyukc@stu.ac.kr)*
