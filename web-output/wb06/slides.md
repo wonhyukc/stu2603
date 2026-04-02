@@ -4,157 +4,157 @@ theme: default
 class: lead
 ---
 
-# 6주차: 박스 모델과 정보 사냥꾼
-## CSS 레이아웃의 기초와 데이터 구조화
-**웹프로그래밍 (E-Track)**
+# Week 06: Box Model & Information Hunter
+## Foundations of CSS Layout & Data Structuring
+**Web Programming (E-Track)**
 
 ---
 
-# 📌 이번 주 핵심 목표
+# 📌 Core Learning Objectives
 
-- **박스 모델의 정석**: 마진, 보더, 패딩의 물리적 구조 완벽 이해
-- **디테일의 완성**: 요소의 간격과 사회적 거리두기(여백) 조절
-- **정보 사냥꾼**: 구글 고급 검색 연산자로 1초 만에 정답 찾기
-- **데이터 분석 전문성**: 피벗 테이블을 활용한 다차원 데이터 요약
+- **The Box Model Mastery**: Understand the physical structure of Margin, Border, and Padding.
+- **Precision Spacing**: Control element intervals and "Social Distancing" (White space).
+- **Information Hunter**: Use advanced Google Search operators to find answers in 1 second.
+- **Data Analysis Expertise**: Summarize multi-dimensional data using Pivot Tables.
 
 ---
 
-# 📦 웹의 모든 요소는 '상자'다
-### 고정관념 깨기
-- 둥근 버튼, 뾰족한 로고도 컴퓨터 눈에는 모두 **사각형 상자**
-- 이 상자들의 배치가 곧 **레이아웃(Layout)** 디자인입니다.
+# 📦 Everything on the Web is a "Box"
+### Break Your Stereotypes
+- Round buttons, sharp logos—all are **rectangular boxes** to the computer.
+- The arrangement of these boxes is what we call **Layout** design.
 - **[Content] - [Padding] - [Border] - [Margin]**
 
 ---
 
-# 🚚 택배 상자 비유로 이해하기
+# 🚚 The Delivery Box Analogy
 
-1. **내용물 (Content)**: 주문한 진짜 물건 (텍스트, 이미지)
-2. **패딩 (Padding)**: 상자 안의 **뽁뽁이** (내용물과 상자 사이 여백)
-3. **테두리 (Border)**: **종이 상자** 그 자체 (경계선과 두께)
-4. **마진 (Margin)**: 옆집 상자와의 **사회적 거리두기** (상자 바깥 여백)
-
----
-
-# 🕵️ 전문가의 비밀 도구: 개발자 도구 (F12)
-
-### "왜 내가 생각한 대로 화면이 안 나오지?"
-- **검사 (Inspect)**: 마우스를 대면 영역별 색상 표시
-- **하늘색**: Content (내용) / **초록색**: Padding (뽁뽁이) / **주황색**: Margin (거리두기)
-- **Computed 탭**: 브라우저가 계산한 최종 박스 수치 확인
+1. **Content**: The actual item you ordered (Text, Image).
+2. **Padding**: The **Bubble Wrap** inside the box (Space between content and box wall).
+3. **Border**: The **Cardboard Box** itself (The boundary line and thickness).
+4. **Margin**: **Social Distancing** from the next-door box (Space outside the border).
 
 ---
 
-# ✨ 레이아웃 해결사: border-box
+# 🕵️ Expert's Secret Tool: Developer Tools (F12)
 
-- 패딩과 테두리를 주면 상자가 자꾸 커지는 문제 해결
+### "Why doesn't it look like I intended?"
+- **Inspect**: Hover to see color-coded areas.
+- **Blue**: Content / **Green**: Padding (Bubble wrap) / **Orange**: Margin (Social distancing).
+- **Computed Tab**: Verify the final box dimensions calculated by the browser.
+
+---
+
+# ✨ Layout Solver: `border-box`
+
+- Solve the problem where the box keeps growing when adding padding or borders.
 - **`box-sizing: border-box;`**
-- 테두리와 패딩을 상자 크기(width) 안에 강제로 포함시킵니다.
-- **모든 웹 개발자의 필수 선언문 (`* { box-sizing: border-box; }`)**
+- Forces the border and padding to be included *inside* the defined width.
+- **Essential declaration for all web developers (`* { box-sizing: border-box; }`)**
 
 ---
 
-# 🛡️ [특강] 정보 사냥꾼: 고급 구글링 (1)
-### 단어 제외 연산자: `-` (마이너스)
-- 검색 결과에서 불필요한 단어를 배제
-- 광고나 낚시성 기사를 거를 때 유용
-- **예시**: `CSS 박스 모델 -광고 -쇼핑몰`
+# 🛡️ [Special] Information Hunter: Advanced Google (1)
+### Exclusion Operator: `-` (Minus)
+- Exclude unnecessary words from search results.
+- Useful for filtering out ads or click-bait.
+- **Example**: `CSS Box Model -ads -shopping`
 
 ---
 
-# 🛡️ [특강] 정보 사냥꾼: 고급 구글링 (2)
-### 출처 지정 연산자: `site:`
-- 특정 사이트, 도메인에서만 검색
-- 공식 문서나 공신력 있는 커뮤니티 자료만 추출
-- **예시**: `box-sizing site:developer.mozilla.org`
+# 🛡️ [Special] Information Hunter: Advanced Google (2)
+### Source Operator: `site:`
+- Search only within a specific site or domain.
+- Extract data from official docs or reliable communities.
+- **Example**: `box-sizing site:developer.mozilla.org`
 
 ---
 
-# 🛡️ [특강] 정보 사냥꾼: 고급 구글링 (3)
-### 파일 지정 연산자: `filetype:`
-- 특정 확장자 형태의 파일만 검색
-- 논문이나 공식 발표 형태인 PDF 탐색에 절대적
-- **예시**: `web design trend 2024 filetype:pdf` 
+# 🛡️ [Special] Information Hunter: Advanced Google (3)
+### File Operator: `filetype:`
+- Search only for specific file extensions.
+- Absolute tool for finding original PDF reports or research.
+- **Example**: `web design trend 2024 filetype:pdf` 
 
 ---
 
-# 💡 [특강] 데이터 사냥: 외부 데이터 가져오기
+# 💡 [Special] Data Hunting: Importing External Data
 
-1. **단순 웹 표 복사**: `Ctrl+Shift+V` (값만 붙여넣기)
-   - 웹사이트의 지저분한 서식(색상, 폰트)을 제거하고 순수 데이터만 추출
-2. **CSV 파일 업로드**: 방대한 데이터 변환
-   - **[파일] - [가져오기] - [업로드]**
-   - 쉼표 데이터가 마법처럼 분할됨! (구분자: '자동 감지')
-3. **엑셀(.xlsx) 파일 호환**: 구글 드라이브 업로드 후 **[Google Sheets로 열기]**
-
----
-
-# 🏗️ 데이터를 한 눈에: 뼈대 잡기
-
-### `틀 고정` 활용하기
-- 데이터의 제목(Header)이 되는 1행을 고정
-- **[보기] - [틀 고정] - [행 1개]**
-- 방대한 데이터를 스크롤해도, 어떤 항목인지 길을 잃지 않음
+1. **Plain Web Table Copy**: `Ctrl+Shift+V` (Paste Values Only).
+   - Extract pure data by removing messy formatting (colors, fonts) from websites.
+2. **CSV File Import**: Convert massive data chunks.
+   - **[File] - [Import] - [Upload]**
+   - Comma-separated data is split like magic! (Separator: 'Detect automatically').
+3. **Excel (.xlsx) Compatibility**: Upload to Google Drive and **[Open with Google Sheets]**.
 
 ---
 
-# 🔍 시각적 정렬 1단계: 정렬(Sort)
+# 🏗️ Data at a Glance: Structuring
 
-- 무작위 데이터를 특정 기준에 맞게 재배열
-- 알파벳 열 클릭 ➡️ **시트 정렬**
-  - `오름차순 (A-Z)`: 작은 것부터 큰 것으로
-  - `내림차순 (Z-A)`: 큰 것부터 작은 것으로
-- 순위표 구조를 수초 만에 완성
-
----
-
-# 🎨 시각적 정렬 2단계: 조건부 서식
-
-### 색으로 말하는 데이터
-- 범위 선택 후 **[서식] - [조건부 서식] - [색상 스케일]**
-- 수치의 높고 낮음에 따라 열화상 카메라처럼 그라데이션 적용
-- 문법적 코딩 한 줄 없이, 훌륭한 **데이터 시각화** 구현!
+### Use `Freeze Panes`
+- Lock the 1st row (the Header) of your data.
+- **[View] - [Freeze] - [1 Row]**
+- Don't lose track of which column is which, even when scrolling through thousands of rows.
 
 ---
 
-# ✨ 스마트 전처리: 스마트 자동 채우기
-- 수많은 텍스트 뭉치에서 원하는 패턴만 빠르게 쏙 골라내기
-- 옆 칸에 직접 3번 정도 반복해서 적으면, 시트가 패턴을 파악하여 전체 빈칸을 자동으로 채워줌 (**회색 미리보기 시 엔터!**)
+# 🔍 Visual Sorting Step 1: Sorting
+
+- Rearrange random data based on specific criteria.
+- Click Column Header (A, B, C) ➡️ **Sort Sheet**.
+  - `Ascending (A-Z)`: Smallest to Largest.
+  - `Descending (Z-A)`: Largest to Smallest.
+- Build a leaderboard structure in seconds.
 
 ---
 
-# 📊 피벗 테이블 다차원 분석 기초
+# 🎨 Visual Sorting Step 2: Conditional Formatting
 
-### 클릭 몇 번으로 끝내는 데이터 요약
-- **[삽입] - [피벗 테이블]** ➡️ '새 시트'
-- 거대한 데이터의 총합, 평균, 중앙값을 복잡한 수학 함수 없이 단숨에 도출
-- **사용법**: 값(Values) 영역에 데이터 추가 후 기준 변경(개수 ➡️ 평균)
-
----
-
-# 🧩 교차 집계표 완성하기 (피벗 심화)
-
-### 다차원 데이터 비교 분석
-- 행(Row)과 값(Values)을 교차하여 새로운 인사이트 발견
-- **예시**: 성별/지역별 매출 또는 브라우저별 점유율 등
-- ➡️ 입체적 교차 분석표 완성!
+### Data that Speaks with Color
+- Select Range ➡️ **[Format] - [Conditional formatting] - [Color Scale]**.
+- Apply gradients like a thermal camera based on the values.
+- Implement stunning **Data Visualization** without a single line of syntax!
 
 ---
 
-# 🏗️ [Build-up] 실습 미션: 명함 정돈하기
-
-1. **지난주 명함 열기**: StackBlitz에서 5주차 최종 코드 로드
-2. **테두리 가시화**: `.card` 요소에 `border`를 주어 상자 확인
-3. **여백의 미**: `padding`으로 내용물에 숨통 틔워주기
-4. **버튼 정렬**: `margin-right`로 딱 붙은 버튼들 떼어놓기
-5. **데이터 사냥**: 구글 연산자를 써서 원본 데이터를 찾고, 구글 시트에 **정렬/조건부 서식/피벗 테이블**을 적용해 데이터 지도 만들기
+# ✨ Smart Pre-processing: Flash Fill (Auto-fill)
+- Quickly pick out desired patterns from a massive bunch of text.
+- Type the pattern manually in the next cell about 3 times; the sheet identifies the pattern and previews the rest in gray (**Press Enter to auto-fill!**).
 
 ---
 
-# 마무리 (Q&A)
+# 📊 Pivot Table Analysis Foundations
 
-- **박스 모델**: 웹 디자인의 가장 강력한 물리적 기초
-- **디버깅**: 눈이 아닌 개발자 도구의 수치를 믿으세요.
-- **데이터 분석**: 정보의 바다에서 사냥한 데이터를 지식으로 바꾸는 기술
+### Summarize Data with a Few Clicks
+- **[Insert] - [Pivot table]** ➡️ 'New Sheet'.
+- Derive sum, average, or median of huge data instantly without complex math functions.
+- **How-to**: Add data to 'Values' area and change criteria (Count ➡️ Average).
 
-**"이제 여러분의 명함과 데이터에 전문가의 숨결을 불어넣으세요!"**
+---
+
+# 🧩 Completing Cross-Tabulation (Advanced Pivot)
+
+### Multi-dimensional Comparison Analysis
+- Intersection of Rows and Values to discover new insights.
+- **Example**: Sales by Gender/Region or Market Share by Browser.
+- ➡️ Realistic Cross-Analysis Table Completed!
+
+---
+
+# 🏗️ [Build-up] Mission: Polishing Your Card
+
+1. **Load Previous Project**: Open your final code from Week 05 in StackBlitz.
+2. **Visualize Box**: Add a `border` to the `.card` element to see the box.
+3. **Add Breathing Space**: Use `padding` to let the content breathe.
+4. **Align Buttons**: Separate stuck buttons using `margin-right`.
+5. **Data Hunter Mission**: Use Google operators to find original data, and create a "Data Map" in Google Sheets using **Sort/Conditional Formatting/Pivot Tables**.
+
+---
+
+# Wrap-up (Q&A)
+
+- **Box Model**: The most powerful physical foundation of web design.
+- **Debugging**: Trust the Developer Tools, not just your eyes.
+- **Data Analysis**: The skill to turn "hunted" data into knowledge in a sea of information.
+
+**"Now, breathe life into your business card and data like a pro!"**
