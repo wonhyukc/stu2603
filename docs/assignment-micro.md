@@ -1,182 +1,105 @@
+
+# [공통/상시] 심화 및 발표 관련 (Boilerplate)
+* **심화 학습 (자율)**: 만약 위의 과제가 자신의 수준에 너무 쉽다면, 스스로 이 과목에 적합한 다음 진도를 찾아서 제미니(Gemini)와 함께 공부하고 메일 본문에 3줄 이내로 요약해 제출하세요.
+* **발표 신청**: 수업 내용 또는 학우들에게 유익할 내용(생활 팁 등)을 발표하고 싶은 사람은 신청해 주세요. 가산점이 부여됩니다.
+* **질문 게시판**: 공부 중 생기는 질문은 게시판에 올려주시고, 답을 얻지 못하면 수업 시간에 다시 질문해 주세요. 수업 내용 중 추가로 이런 건 내가 강의해보고 싶다는 내용도 신청해 주세요. 가산점이 부여됩니다.
+* **30일 도전, 타이핑 연습**은 꾸준히 계속합니다. 별도 언급이 없어도 이에 관한 내용을 자신이 실천했다면 메일 본문에 3줄 이내로 요약해 제출하세요.
+
+
+
+
 # 출제한 내용
 
+## 과제 0.1 (Assignment 0.1)
+**제출처**: `wonhyukc@stu.ac.kr` 및 eCampus
+**내용**:
+1. **강사 자기소개 메일**: 비즈니스 이메일 양식에 맞춰 자기소개 메일 보내기.
+2. **GitHub 설정 인증**: `week01.md` 파일을 생성하여 Colab URL, GitHub 프로필 주소, AI 대화 로그 제출.
+
+## 과제 0.2 (Assignment 0.2)
+**제출처**: `wonhyukc@stu.ac.kr`
+**메일 제목**: `과제0.2 학번`
+**내용**:
+1. **의도적 에러 발생**: 수업 내용 관련 에러를 의도적으로 발생시키고 캡처.
+2. **AI 디버깅**: 에러 메시지를 AI에게 질문하고 `Prompt / Critique / Result` 3단 형식으로 정리.
+
+## 과제 0.3 (Assignment 0.3)
+**제출처**: `wonhyukc@stu.ac.kr`
+**메일 제목**: `과제0.3 학번`
+**내용**:
+1. **수업 소감**: 3줄 이내.
+2. **사진 첨부**: 자신의 이름으로 된 500KB 이하 사진 파일 첨부.
+3. **eCampus 사진 등록**: 프로필 사진 등록 인증.
+4. **단축키 학습**: 윈도우/크롬 단축키 찾아보고 소감 작성.
+
 ## 과제 0.4 (Assignment 0.4)
+**제출처**: `wonhyukc@stu.ac.kr`
+**메일 제목**: `과제0.4 학번`
+**내용**:
+1. **과제 숙지 확인**: 구글 시트 `homework 04 ping` 컬럼에 1 표시.
+2. **수업 소감**: 3줄 이내.
+3. **단축키 공부**: 새로운 단축키 목록 및 소감.
+4. **증명사진 첨부**: 500KB 이하, 파일명 본인 이름.
+5. **발표 신청 (자율)**: 가산점 3점.
+6. **eCampus 사진 등록**: 등록 여부 확인용 문구 기재.
+7. **영어 타이핑 실력 측정**: 제미니 추천 사이트 활용, WPM 기록.
+8. **맞춤형 타이핑 연습**: 자신의 수준에 맞는 연습 사이트 선정 및 기록.
+9. **심화 학습 (자율)**: 스스로 정한 주제 공부 및 요약.
+10. **대학 생활 안내**: 능동적인 대학 생활 다짐.
 
-**제출처 (Submit to):** `wonhyukc@stu.ac.kr`
+## 과제 0.5 (Assignment 0.5)
+**제출처**: `wonhyukc@stu.ac.kr`
+**메일 제목**: `과제0.5 학번`
+**내용**:
+1. **수업 소감**: 3줄 이내.
+2. **학교 탐험**: 안 가본 곳 2곳 방문 후 소감.
+3. **포모도로 기법 실습**: GTD와 포모도로 타이머 사용 경험.
+4. **Hour of Code 수료증**: 자신의 얼굴과 수료증이 함께 나온 사진 첨부.
+5. **30일의 도전 결심**: TED 영상 시청 후 도전 과제 설정.
+6. **영어 타이핑 연습**: 5분 이상 연습 후 WPM 기록.
+7. **심화 학습 (자율)**: 스스로 정한 주제 공부 및 요약.
 
-**메일 제목 규칙 엄수 (Strict Email Subject Rule):**
-* `과제0.4 학번` (예시: `과제0.4 20240001` 또는 `homework0.4 20240001`)
-* `Assignment0.4 StudentID` (Example: `과제0.4 20240001` or `homework0.4 20240001`)
-* ⚠️ 만약 이 규칙을 어기면 이메일 자동 필터링 시스템을 통과하지 못해 0점 처리됩니다!
-* ⚠️ If you break this rule, your email will fail the automatic filtering system and you will receive a score of 0!
-
-**주의 사항 (Important Notices):**
-* 1주차 비즈니스 이메일에 관한 영상과 내용을 반드시 리뷰하세요.
-* Please make sure to review the week 1 video and content about business emails.
-* 질문에 관한 규칙을 다시 복습하세요. 어떤 내용도 수업에 관련된 질문은 메일로 보내서는 안 됩니다.
-* Review the rules regarding questions. You must not send any class-related questions via email.
-* 구글 시트, 혹은 eCampus Q&A에서만 질문하고 답합니다.
-* Questions and answers should only be posted on Google Sheets or eCampus Q&A.
-
-**과제 내용 (Assignment Content):**
-
-1. **과제 숙지 확인 (Assignment Confirmation)**
-   * 과제를 읽었다는 표시로 `homework 04 ping` 컬럼에 1을 표시하세요.
-   * As a sign that you have read the assignment, please mark 1 in the `homework 04 ping` column.
-
-2. **수업 소감 (Class Reflection)**
-   * 수업 소감을 3줄 이내로 적어 보내세요.
-   * Please write your thoughts about the class in 3 lines or less.
-
-3. **단축키 공부 (Study Shortcut Keys)**
-   * 윈도우(Windows) 또는 크롬(Chrome) 단축키를 찾아 공부하세요.
-   * Search for and study Windows or Chrome shortcut keys.
-   * 어떤 것을 공부했는지 목록과 3줄 이내의 소감을 적어주세요.
-   * Please list what you studied and add a brief reflection in 3 lines or less.
-
-4. **증명사진 첨부 (Attach Your Photo)**
-   * 여러분을 잘 기억하기 위해 자신의 사진을 첨부해 주세요.
-   * Please attach a photo of yourself so I can remember you better.
-   * **조건 (Requirements):**
-     * 크기 (Size): 500KB 이하 (Under 500KB). 너무 크면 구글링해서 크기를 줄이는 법을 배워보세요. (If it's too big, try Googling how to resize images—it's a good learning opportunity.)
-     * 파일명 (File Name): 본인의 이름표기 (예: `wonhyuk.jpg`). 동명이인이 없으므로 학번이나 학과는 적지 않아도 됩니다. (Your name only, e.g., `wonhyuk.jpg`. No need to add your student ID or major since there are no duplicate names.)
-     * 가급적 현실과 비슷한 사진을 사용해 주세요. 지나친 보정은 나중에 얼굴을 알아보지 못하게 만듭니다. (Please use a photo that looks like reality. Heavy Photoshop makes it difficult to recognize you later.)
-
-5. **발표 신청 (자율) (Presentation Application - Optional)**
-   * 다음 수업에서 자신의 지식, 경험, 생각을 나누고 싶은 사람은 신청해 주세요 (수업 내용과 무관해도 좋습니다. 예: 한국 생활 팁 공유 등).
-   * Apply if you want to share your knowledge, experience, or thoughts in the next class (It doesn't have to be related to the class topic. e.g., sharing tips for living in Korea).
-   * 5분 (신청자가 적으면 10분)의 시간이 주어집니다.
-   * You will be given 5 minutes (or 10 minutes if there are few applicants).
-   * 발표자에게는 가산점 3점을 부여합니다.
-   * Presenters will receive 3 bonus points.
-
-6. **eCampus 사진 등록 (eCampus Photo Registration)**
-   * eCampus 프로필에 본인의 사진을 등록하세요.
-   * Please register your photo on your eCampus profile.
-   * **이유 (Reason):** 현대 사회는 온라인 활동이 많아 익명으로만 지내는 것은 손해가 될 수 있습니다. 내성적이더라도 꼭 진행해 주세요. (In modern society, many activities take place online. Staying fully anonymous can often be disadvantageous. Please do this even if you are introverted.)
-   * 메일 본문에 "eCampus에 사진을 등록했습니다"라고만 적어주세요 (스크린샷 첨부 불필요).
-   * Just mention "I registered my photo on eCampus" in your email (No screenshot needed).
-   * 다음 주 수업 시간에 제가 직접 등록 여부를 확인할 예정입니다.
-   * I will personally check if it's registered during next week's class.
-
-
-7. **영어 타이핑 실력 측정 (Measure English Typing Speed)**
-   * 제미니(Gemini)에게 물어서 자신의 영어 타이핑 실력을 측정할 수 있는 사이트를 알아내세요.
-   * Ask Gemini to recommend a website where you can measure your English typing speed.
-   * 해당 사이트에서 우선 1분 이상 타이핑을 한 후 자신의 실력을 측정합니다.
-   * Type on the site for at least 1 minute and measure your typing speed.
-   * 이 측정 결과를 `type: word per min` 컬럼(항목)에 꼭 입력해 주세요.
-   * Please be sure to enter this measurement result in the `type: word per min` column.
-
-8. **맞춤형 타이핑 연습 사이트 찾기 및 연습 (Find a Customized Typing Practice Site & Practice)**
-   * 측정한 자신의 WPM(Word Per Min)을 제미니에게 알려주고, 현재 자신의 실력에 맞는 타이핑 연습을 할 수 있는 곳을 알려달라고 요청하세요.
-   * Tell Gemini your measured WPM (Words Per Minute) and ask it to recommend a typing practice site suitable for your current level.
-   * 추천받은 곳 중 한 곳을 선택하여 틈나는 대로 타이핑 연습을 해 오세요.
-   * Choose one of the recommended sites and practice typing whenever you have free time.
-   * 자신이 선택한 연습 사이트를 `my typing site` 컬럼(항목)에 입력해 주세요.
-   * Please enter the practice site you selected in the `my typing site` column.
-
-9. **심화 학습 (자율) (Advanced Study - Optional)**
-   * 만약 위의 과제가 자신의 수준에 너무 쉽다면, 스스로 이 과목에 적합한 다음 진도를 찾아서 제미니(Gemini)와 함께 공부하세요.
-   * If the above assignment is too easy for your level, find the next appropriate topic for this course on your own and study it with Gemini.
-   * 어떤 것을 공부했는지 메일 본문에 3줄 이내로 적어 보내주세요.
-   * Please write what you studied in your email body in 3 lines or less.
-
-10. **능동적인 대학 생활 안내 (Proactive University Life Guide)**
-    * 한국 생활 및 대학 생활은 그간 여러분이 살아왔던 것과 많이 다릅니다. 수동적으로 임하지 말고 능동적으로 살아가세요.
-    * Life in Korea and university life are very different from what you have experienced so far. Do not be passive; live proactively.
-    * 학교의 여러 시설을 최대한 활용하세요. 실습실은 비어 있기만 하면 언제든 가서 실습해도 될 겁니다. 국제학부 사무실에 문의해 보세요.
-    * Make the most of the various school facilities. You can probably use the practice rooms anytime they are empty. Please ask the International Office.
-    * 저는 학교 관련자가 아닌 강사일 뿐입니다. 여러분의 문의 사항은 적절한 학교 담당자에게 문의하세요.
-    * I am just an instructor, not an administrative staff member. Please direct your inquiries to the appropriate school officials.
+## 과제 0.6 (Assignment 0.6)
+**제출처**: `wonhyukc@stu.ac.kr`
+**메일 제목**: `과제0.6 학번`
+**내용**:
+1. **수업 소감**: 정보 사냥 및 시각화 훈련 소감.
+2. **지정 아티클 읽기**: 
+   - 커피숍 옆자리 사람 이야기
+   - 아이폰 분실 사건 이야기
+   - 페루 한국 빙수 청년들 이야기
+   - 고구마 마케팅 전국 최고가 이야기
+3. **비디오 시청 및 적정기술 탐구**: 
+   - 세바시(우아한 형제들, 하용호, 이준행 등) 시청
+   - 적정기술 키워드(liter of light, lifestraw 등) 검색 및 소감.
 
 ------------------
 
-## 과제 0.5 (Assignment 0.5)
-
-규칙 리마인드
-
-
-
-6. **수업 소감 (Class Reflection)**
-   * 수업 소감을 3줄 이내로 적어 보내세요.
-   * Please write your thoughts about the class in 3 lines or less.
-
-7. **영어 타이핑 연습 (English Typing Practice)**
-   * 지난 주 과제 0.4에서 연습한 영어 타이핑 연습을 5분 이상 이어서 하세요.
-   * Continue practicing your English typing for at least 5 minutes, as you did in assignment 0.4 last week.
-   * 이 측정 결과를 `0.5 type: word per min` 컬럼(항목)에 꼭 입력해 주세요.
-   * Please be sure to enter this measurement result in the `0.5 type: word per min` column.
-
-8. **심화 학습 (자율) (Advanced Study - Optional)**
-   * 만약 위의 과제가 자신의 수준에 너무 쉽다면, 스스로 이 과목에 적합한 다음 진도를 찾아서 제미니(Gemini)와 함께 공부하세요.
-   * If the above assignment is too easy for your level, find the next appropriate topic for this course on your own and study it with Gemini.
-   * 어떤 것을 공부했는지 메일 본문에 3줄 이내로 적어 보내주세요.
-   * Please write what you studied in your email body in 3 lines or less.
-
-디버깅에 대해 찾아보기. 뭘 말하는지, 왜 이런 이름이 붙었는지. 세줄정도로 자신이 이해한바를 제출하기.
-
-
-
-위의 내용, 지난 수업과 이번 수업 내용 중에 내가 나와서 발표 하고 싶다는 의지가 있는 사람은 무엇을 발표하고 싶은지 여기에 적어주세요. 수업과 상관 없는 내용이지만, 학우들에게 유익할 것 같은 내용의 발표도 환영합니다.
-공부하면서 생기는 질문은 게시판에 올려주시고, 수업 때까지 답을 얻지 못하면 수업시간에 다시금 질문해주세요. (이 내용은 매주 동일합니다)
-
-커피숍 옆자리에 앉은 사람은 도대체 무슨 일을 저렇게 열심히 하고 있는 걸까? 
-아바타의 여행기
-이 모든 것이 아이폰을 잃어버려서 생긴 일
-
-
-
-
-
-
-
-
-
 # 아직 출제 안한 내용
 
-## 과제 0.1
-
-아카운터 희망자는 메일 주세요. 
-수업 내용 중에 내가 나와서 발표 하고 싶다는 의지가 있는 사람은 무엇을 발표하고 싶은지 여기에 적어주세요. 수업과 상관 없는 내용이지만, 학우들에게 유익할 것 같은 내용의 발표도 환영합니다. 공부하면서 생기는 질문은 게시판에 올려주시고, 수업 때까지 답을 얻지 못하면 수업시간에 다시금 질문해주세요. (이 내용은 매주 동일합니다)
-best job 2016을 비롯한 연도별 best job과 worst job을 적어도 4년 이상 찾아보고 소감
-4차 산업 혁명에 대해 찾아보고 소감, Humans need not apply 시청 후 소감
 
 
-## 과제 0.4
-수업 소감
-뇌 손상, 멀티 태스킹 관련 검색 후 읽어보고 소감
-다음 두 글을 검색하여 읽고 소감:
-내가 좋아하는 일을 미래로 만드는 방법
-닭장 밖으로 나온 청년 NGO대표가 되다
-니즈를 파악하는 힘, 관찰력
-PREP 기법을 찾아보고 공부한 후 소감
-youtube 나무심는 여인 을 검색하고 시청 후 소감
-집단 지성과 biomimetics 를 구글링하여 공부해 보기. 간단한 소감.
+## 과제 0.1 (추가 항목)
+* 아카운터 희망자는 메일 주세요.
 
-## 과제 0.5 
+## 과제 0.4 (추가 항목)
+* best job 2016을 비롯한 연도별 best job과 worst job을 적어도 4년 이상 찾아보고 소감.
+* 4차 산업 혁명에 대해 찾아보고 소감, Humans need not apply 시청 후 소감.
+* 뇌 손상, 멀티 태스킹 관련 검색 후 읽어보고 소감.
+* 내가 좋아하는 일을 미래로 만드는 방법 / 닭장 밖으로 나온 청년 NGO대표가 되다 / 니즈를 파악하는 힘, 관찰력 (각각 검색 후 소감).
+* PREP 기법을 찾아보고 공부한 후 소감.
+* YouTube "나무 심는 여인" 검색 및 시청 후 소감.
+* 집단 지성과 biomimetics 를 구글링하여 공부해 보기. 간단한 소감.
 
-이스라엘 가석방 심사 와 decision fatigue 를 검색해보고 소감
-거꾸로 자전거/ The Backwards Brain Bicycle 영상 시청 후 소감 
-best job 2016을 비롯한 연도별 best job과 worst job을 적어도 4년 이상 찾아보고 소감
-4차 산업 혁명에 대해 찾아보고 소감, Humans need not apply 시청 후 소감
+## 과제 0.5 (추가 항목)
+* 디버깅에 대해 찾아보기: 무엇을 말하는지, 왜 이런 이름이 붙었는지 세 줄 정도로 자신이 이해한 바 제출하기.
+* 이스라엘 가석방 심사와 decision fatigue 를 검색해보고 소감.
+* 거꾸로 자전거/ The Backwards Brain Bicycle 영상 시청 후 소감.
 
-## 과제 0.6 
-다음 찾아 읽고 소감
-커피숍 옆자리에 앉은 사람은 도대체 무슨 일을 저렇게 열심히 하고 있는 걸까? 
-아바타의 여행기
-이 모든 것이 아이폰을 잃어버려서 생긴 일
-
-페루에서 '한국 빙수'로 대박난 두 청년 이야기
-부모님이 헐값에 팔아넘기던 고구마, 딸의 마케팅 전략으로 경매에서 전국 최고가
-
-다음 청취 후 혹은 검색 후 소감 (다 안해도 됩니다. 재미있으면 다 해보세요)
-세바시 우아한 형제들
-나꿈소 여행박사
-꼴통쇼 여행박사
-
-적정기술에 대해 검색하고 공부. 소감.
-liter of light, lifestraw, TED filthy water, Q drum, 와카워터 등을 검색하여 살펴보고 소감
+## 과제 0.6 (추가 항목)
+* **아바타의 여행기** (읽고 소감).
+* 나꿈소 여행박사 / 꼴통쇼 여행박사 (청취 후 소감).
+* 적정기술 심화: liter of light, lifestraw, TED filthy water, Q drum, 와카워터 등을 상세히 살펴보고 소감.
 
 ## 과제 0.7
 수업 소감
@@ -195,7 +118,7 @@ http://www.evernote.com/l/AHbQTnatiglK_5FKlJC3BVsoLPaAoUMgWh4/
 시청 소감: TED 마시멜로 게임, 톰 워젝 / 동기유발, 다니엘 핑크
 시청 소감: 꿈의 목록, 고다드
 직장인은 시간제 노예다 https://brunch.co.kr/@bang1999/1 
-lastpass, 크롬 암호 저장 체험해보기: 사용 여부는 각자 결정
+lastpass, 크롬 암호 저장 체험해보기: 사용 여자는 각자 결정
 시청 소감: https://youtu.be/8FbWb3f-jLQ 혹은 이와 비슷한 영상
 
 ## 과제 0.9
@@ -219,6 +142,7 @@ youtube 엄마라고 불러도 돼요 or How Youth Today Differ From Pre-Digital
 
 TED Jessica Jackley: Poverty, money — and love
 TED The cheap all-terrain wheelchair
+
 ## 과제 0.a
 
 수업 소감
