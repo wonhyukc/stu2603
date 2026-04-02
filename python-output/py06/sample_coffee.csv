@@ -1,0 +1,9 @@
+랭킹,생산국 (Country),주요 대륙,연간 커피 생산량 (톤),수출 상위 품종,시장 점유율 (%)
+1,Brazil,South America,3000000,아라비카 (Arabica),37.4
+2,Vietnam,Asia,1840000,로부스타 (Robusta),17.1
+3,Colombia,South America,850000,아라비카 (Arabica),8.4
+4,Indonesia,Asia,600000,로부스타 (Robusta),7.1
+5,Ethiopia,Africa,380000,아라비카 (Arabica),4.3
+6,Honduras,North America,340000,아라비카 (Arabica),3.6
+7,India,Asia,310000,혼합 (Mixed),3.4
+8,Uganda,Africa,280000,로부스타 (Robusta),3.3
