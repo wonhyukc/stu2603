@@ -1,0 +1,34 @@
+/* 
+   Week 6 Practice Baseline (Reset Code) 
+   (Based on Week 5 final state)
+*/
+
+/* Background Styling */
+body {
+  background-color: lightyellow; 
+}
+
+/* Tag Selector: All paragraphs to green */
+p {
+  color: green;
+}
+
+/* Class Selector: Group Uniform */
+.alert-text {
+  color: red;
+  font-size: 20px;
+}
+
+/* ID Selector: Absolute Power */
+#main-title {
+  color: gold; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Card Layout Structure (Week 5 Final State) */
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: white;
+}
