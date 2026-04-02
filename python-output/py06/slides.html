@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6주차: 정보 사냥꾼과 팩트 체크</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Poppins:wght@600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* 1. 기본 스타일 설정 */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            margin: 0;
+            padding: 20px 0;
+            display: grid;
+            gap: 40px;
+            place-items: center;
+        }
+
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #ffffff;
+            color: #1e293b;
+            font-family: 'Noto Sans KR', sans-serif;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 배경 데코레이션 */
+        .slide-container::before {
+            content: "";
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        .slide-container::after {
+            content: "";
+            position: absolute;
+            bottom: 30px;
+            right: 60px;
+            font-size: 14px;
+            color: #94a3b8;
+            font-family: 'Poppins';
+            content: "Computing Thinking & Coding | K-Track";
+        }
+
+        /* 2. 타이포그래피 */
+        h1,
+        h2,
+        h3 {
+            font-family: 'Poppins', 'Noto Sans KR';
+            margin: 0;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 72px;
+            font-weight: 800;
+            color: #0f172a;
+            line-height: 1.1;
+        }
+
+        .slide-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 40px;
+            border-left: 8px solid #3b82f6;
+            padding-left: 20px;
+        }
+
+        p,
+        li {
+            font-size: 24px;
+            line-height: 1.6;
+            color: #475569;
+            z-index: 1;
+        }
+
+        strong {
+            color: #2563eb;
+            font-weight: 700;
+        }
+
+        /* 3. 레이아웃 컴포넌트 */
+        .content-area {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* 이미지 스타일 */
+        .image-wrapper {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e2e8f0;
+            height: 450px;
+            background: #f8fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .placeholder-box {
+            text-align: center;
+            color: #94a3b8;
+        }
+
+        .placeholder-box i {
+            font-size: 80px;
+            margin-bottom: 20px;
+            color: #cbd5e1;
+        }
+
+        /* 불렛 포인트 리스트 */
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bullet-list li {
+            position: relative;
+            padding-left: 50px;
+            margin-bottom: 25px;
+        }
+
+        .bullet-list li i {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            color: #3b82f6;
+            font-size: 28px;
+        }
+
+        /* 타일형 텍스트 */
+        .tiled-content {
+            display: flex;
+            gap: 30px;
+            width: 100%;
+        }
+
+        .tile {
+            flex: 1;
+            background: #f8fafc;
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .tile .icon {
+            font-size: 50px;
+            color: #3b82f6;
+            margin-bottom: 20px;
+        }
+
+        .tile h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 20px;
+        }
+
+        td {
+            padding: 18px 20px;
+            border-bottom: 1px solid #e2e8f0;
+            font-size: 18px;
+        }
+
+        tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        /* 차트 스타일 */
+        .chart-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 20px;
+        }
+
+        .bar {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .bar-label {
+            width: 250px;
+            font-weight: 700;
+            text-align: right;
+        }
+
+        .bar-inner {
+            flex-grow: 1;
+            height: 40px;
+            background: #e2e8f0;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #60a5fa);
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        /* 4. 특정 레이아웃: Bleed_Image_Right */
+        .bleed-image-layout {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            padding: 0;
+            align-items: start;
+        }
+
+        .bleed-image-layout .content-container {
+            padding: 80px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .bleed-image-layout .image-container {
+            height: 720px;
+            width: 100%;
+            background: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bleed-image-layout .image-container img {
+            width: 100%;
+            height: 720px;
+            object-fit: cover;
+        }
+
+        /* 5. 타이틀 슬라이드 전용 */
+        .title-layout {
+            text-align: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .title-layout h2 {
+            color: #3b82f6;
+            font-size: 32px;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .title-layout hr {
+            width: 100px;
+            border: 2px solid #3b82f6;
+            margin: 40px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Slide 1: Title_Slide -->
+    <div class="slide-container" id="slide1">
+        <div class="title-layout content-area">
+            <h2>Week 6 Lecture</h2>
+            <h1>정보 사냥꾼과 팩트 체크</h1>
+            <hr>
+            <p style="font-size: 32px; color: #334155;">고급 구글 검색과 데이터 구조화</p>
+            <p style="margin-top: 50px; font-weight: 300;">컴퓨팅적 사고와 코딩 (K-Track)</p>
+        </div>
+    </div>
+
+    <!-- Slide 2: Styled_Bullet_Points -->
+    <div class="slide-container" id="slide2">
+        <h2 class="slide-title">📌 이번 주 핵심 목표</h2>
+        <div class="content-area">
+            <ul class="bullet-list">
+                <li><i class="fa-solid fa-shield-check"></i> <strong>진짜 팩트 찾아내기</strong>: 정보 쓰레기 속 신뢰도 높은 자료 발굴</li>
+                <li><i class="fa-solid fa-table-columns"></i> <strong>구글 시트 구조화</strong>: 파편화된 데이터와 CSV를 깔끔한 표로 조립</li>
+                <li><i class="fa-solid fa-wand-magic-sparkles"></i> <strong>시각적 가공</strong>: 틀 고정, 정렬, 조건부 서식으로 가독성 극대화
+                </li>
+                <li><i class="fa-solid fa-chart-pie"></i> <strong>피벗 테이블 분석</strong>: 복잡한 데이터 요약과 교차 집계 기초</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 3: Image_Right_Text_Left -->
+    <div class="slide-container" id="slide3">
+        <h2 class="slide-title">🛡️ 스팸을 거르는 고급 구글링 (1)</h2>
+        <div class="content-area">
+            <div class="two-column">
+                <div>
+                    <h3>단어 제외 연산자: <strong>- (마이너스)</strong></h3>
+                    <ul class="bullet-list" style="font-size: 20px;">
+                        <li><i class="fa-solid fa-circle-minus"></i> 검색 결과에서 불필요한 단어를 배제</li>
+                        <li><i class="fa-solid fa-ad"></i> 광고나 낚시성 기사를 거를 때 유용</li>
+                    </ul>
+                    <div style="background: #eff6ff; padding: 25px; border-radius: 15px; margin-top: 20px;">
+                        <p style="margin: 0; font-family: monospace;"><strong>예시:</strong> 커피 효능 -광고 -쇼핑몰</p>
+                    </div>
+                </div>
+                <div class="image-wrapper">
+                    <div class="placeholder-box">
+                        <i class="fa-solid fa-magnifying-glass-minus"></i>
+                        <p>[제외 검색 시각화 이미지]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Image_Right_Text_Left (수정됨) -->
+    <div class="slide-container" id="slide4">
+        <h2 class="slide-title">🛡️ 스팸을 거르는 고급 구글링 (2)</h2>
+        <div class="content-area">
+            <div class="two-column">
+                <div>
+                    <h3>출처 지정 연산자: <strong>site:</strong></h3>
+                    <ul class="bullet-list" style="font-size: 20px;">
+                        <li><i class="fa-solid fa-building-columns"></i> 특정 사이트, 도메인에서만 검색</li>
+                        <li><i class="fa-solid fa-check-double"></i> 정부, 대학 등 공신력 있는 자료만 추출</li>
+                    </ul>
+                    <div style="background: #eff6ff; padding: 25px; border-radius: 15px; margin-top: 20px;">
+                        <p style="margin: 0; font-family: monospace;"><strong>예시:</strong> 기후 변화 site:go.kr / site:ac.kr
+                        </p>
+                    </div>
+                </div>
+                <div class="image-wrapper">
+                    <div class="placeholder-box">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>[도메인 한정 검색 시각화 이미지]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: Image_Right_Text_Left -->
+    <div class="slide-container" id="slide5">
+        <h2 class="slide-title">🛡️ 스팸을 거르는 고급 구글링 (3)</h2>
+        <div class="content-area">
+            <div class="two-column">
+                <div>
+                    <h3>파일 지정 연산자: <strong>filetype:</strong></h3>
+                    <ul class="bullet-list" style="font-size: 20px;">
+                        <li><i class="fa-solid fa-file-pdf"></i> 특정 확장자 형태의 파일만 검색</li>
+                        <li><i class="fa-solid fa-microscope"></i> 논문이나 공식 발표 자료(PDF) 탐색에 최적</li>
+                    </ul>
+                    <div style="background: #eff6ff; padding: 25px; border-radius: 15px; margin-top: 20px;">
+                        <p style="margin: 0; font-family: monospace;"><strong>예시:</strong> 인공지능 트렌드 filetype:pdf</p>
+                    </div>
+                </div>
+                <div class="image-wrapper">
+                    <div class="placeholder-box">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <p>[파일 형식 검색 시각화 이미지]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Two_Column_Tiled_Text -->
+    <div class="slide-container" id="slide6">
+        <h2 class="slide-title">💡 외부 데이터 가져오기 3가지 기술</h2>
+        <div class="content-area">
+            <div class="tiled-content">
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-copy"></i></div>
+                    <h3>웹 표 복사</h3>
+                    <p style="font-size: 18px;">Ctrl+Shift+V (값만 붙여넣기)를 통해 웹의 지저분한 서식을 제거하고 순수 데이터만 추출합니다.</p>
+                </div>
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-file-csv"></i></div>
+                    <h3>CSV 업로드</h3>
+                    <p style="font-size: 18px;">[파일]-[가져오기]-[업로드]를 통해 쉼표로 구분된 데이터를 마법처럼 분할하여 로드합니다.</p>
+                </div>
+                <div class="tile">
+                    <div class="icon"><i class="fa-solid fa-file-excel"></i></div>
+                    <h3>엑셀 호환</h3>
+                    <p style="font-size: 18px;">.xlsx 파일을 구글 드라이브에 올린 뒤 [Google Sheets로 열기]로 동시 협업 환경을 구축합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: Bleed_Image_Right -->
+    <div class="slide-container bleed-image-layout" id="slide7">
+        <div class="content-container">
+            <h2 class="slide-title">🏗️ 뼈대 잡기: 틀 고정</h2>
+            <div class="content-area">
+                <h3>방대한 데이터의 길잡이</h3>
+                <p>데이터의 제목(Header)이 되는 1행을 고정하여 스크롤 중에도 항목 이름을 유지합니다.</p>
+                <ul class="bullet-list" style="font-size: 20px; margin-top: 20px;">
+                    <li><i class="fa-solid fa-thumbtack"></i> [보기] - [틀 고정] - [행 1개]</li>
+                    <li><i class="fa-solid fa-eye"></i> 항목 이름을 잃지 않고 분석 가능</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="placeholder-box" style="color: #64748b;">
+                <i class="fa-solid fa-table-list"></i>
+                <p>[틀 고정 설정 화면 예시]</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: Tiled_Text_With_Icons -->
+    <div class="slide-container" id="slide8">
+        <h2 class="slide-title">🔍 시각적 정렬 1단계: 정렬(Sort)</h2>
+        <div class="content-area">
+            <div class="tiled-content">
+                <div class="tile" style="background: #f1f5f9;">
+                    <div class="icon"><i class="fa-solid fa-sort-amount-down-alt"></i></div>
+                    <h3>오름차순 (A-Z)</h3>
+                    <p>작은 값에서 큰 값 순으로 정렬합니다.</p>
+                </div>
+                <div class="tile" style="background: #f1f5f9;">
+                    <div class="icon"><i class="fa-solid fa-sort-amount-up"></i></div>
+                    <h3>내림차순 (Z-A)</h3>
+                    <p>큰 값에서 작은 값 순으로 정렬합니다.</p>
+                </div>
+                <div class="tile" style="background: #eff6ff; border-color: #3b82f6;">
+                    <div class="icon" style="color: #1d4ed8;"><i class="fa-solid fa-ranking-star"></i></div>
+                    <h3>순위표 완성</h3>
+                    <p>특정 열을 클릭하여 수초 만에 무작위 데이터를 재배열합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: Image_Right_Text_Left -->
+    <div class="slide-container" id="slide9">
+        <h2 class="slide-title">🎨 시각적 정렬 2단계: 조건부 서식</h2>
+        <div class="content-area">
+            <div class="two-column">
+                <div>
+                    <h3>색으로 말하는 데이터</h3>
+                    <p>수치의 높고 낮음에 따라 <strong>열화상 카메라</strong>처럼 그라데이션을 적용합니다.</p>
+                    <ul class="bullet-list" style="font-size: 20px; margin-top: 15px;">
+                        <li><i class="fa-solid fa-palette"></i> [서식] - [조건부 서식] - [색상 스케일]</li>
+                        <li><i class="fa-solid fa-bolt"></i> 코딩 없이 데이터 시각화 구현</li>
+                    </ul>
+                </div>
+                <div class="image-wrapper">
+                    <div class="placeholder-box">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p>[조건부 서식 색상 스케일 예시]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Rounded_Image_and_Text -->
+    <div class="slide-container" id="slide10">
+        <h2 class="slide-title">✨ 스마트 전처리: 데이터 분리 마법</h2>
+        <div class="content-area">
+            <div class="two-column" style="grid-template-columns: 400px 1fr;">
+                <div class="image-wrapper" style="border-radius: 50%; height: 400px; width: 400px;">
+                    <div class="placeholder-box">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                </div>
+                <div style="padding-left: 40px;">
+                    <h3>스마트 자동 채우기</h3>
+                    <p>원하는 패턴을 시트가 파악하여 수백 명의 데이터를 한 번에 분리합니다.</p>
+                    <div
+                        style="background: #f8fafc; padding: 25px; border-radius: 20px; border-left: 5px solid #3b82f6;">
+                        <p style="font-size: 18px; margin: 0;">예: <strong>Name</strong> 열에서 'Mr.', 'Miss.' 호칭만 분리할 때 직접
+                            3번 정도 적으면 패턴을 파악하여 회색 미리보기를 제안합니다. (Enter!)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 11: Bar_Chart_For_Comparisons -->
+    <div class="slide-container" id="slide11">
+        <h2 class="slide-title">📊 피벗 테이블 다차원 분석 기초</h2>
+        <div class="content-area">
+            <div class="chart-container">
+                <p style="margin: 0 0 10px 0; font-weight: 700; color: #3b82f6;">통계 지표 비교 (예시)</p>
+                <div class="bar">
+                    <div class="bar-label">평균 (Average)</div>
+                    <div class="bar-inner">
+                        <div class="bar-fill" style="width: 85%;">이상치에 민감함 (85.2)</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="bar-label">중앙값 (Median)</div>
+                    <div class="bar-inner">
+                        <div class="bar-fill" style="width: 60%; background: #64748b;">이상치에 강함 (60.0)</div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 30px;">
+                <h3>클릭 몇 번으로 끝내는 데이터 요약</h3>
+                <p style="font-size: 20px;">거대한 데이터의 총합, 평균을 복잡한 수학 함수 없이 단숨에 도출합니다. [삽입] - [피벗 테이블]</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 12: Table -->
+    <div class="slide-container" id="slide12">
+        <h2 class="slide-title">🧩 교차 집계표 완성하기 (피벗 심화)</h2>
+        <div class="content-area">
+            <p style="margin-bottom: 15px;">Kaggle 타이타닉 데이터 예시: 성별 및 객실 등급별 생존 분석</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sex \ Pclass</th>
+                        <th>1등급 (High)</th>
+                        <th>2등급 (Middle)</th>
+                        <th>3등급 (Low)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Female (여성)</strong></td>
+                        <td>96.8%</td>
+                        <td>92.1%</td>
+                        <td>50.0%</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Male (남성)</strong></td>
+                        <td>36.9%</td>
+                        <td>15.7%</td>
+                        <td>13.5%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 18px; margin-top: 20px; color: #64748b; font-style: italic;">* 입체적 교차 분석표를 통해 새로운 인사이트를
+                발견할 수 있습니다.</p>
+        </div>
+    </div>
+
+    <!-- Slide 13: Styled_Bullet_Points -->
+    <div class="slide-container" id="slide13" style="background: #0f172a; color: white;">
+        <h2 class="slide-title" style="color: #3b82f6; border-color: white;">📝 Kaggle 타이타닉 실습 미션</h2>
+        <div class="content-area">
+            <div class="two-column">
+                <div>
+                    <ul class="bullet-list" style="font-size: 20px;">
+                        <li style="color: #cbd5e1;"><i class="fa-solid fa-1"></i> `train.csv` 구글 시트로
+                            <strong>가져오기</strong></li>
+                        <li style="color: #cbd5e1;"><i class="fa-solid fa-2"></i> <strong>틀 고정</strong> 및 데이터
+                            <strong>정렬</strong></li>
+                        <li style="color: #cbd5e1;"><i class="fa-solid fa-3"></i> <strong>조건부 서식</strong> 적용하기</li>
+                        <li style="color: #cbd5e1;"><i class="fa-solid fa-4"></i> <strong>스마트 자동 채우기</strong>로 호칭 분리
+                        </li>
+                        <li style="color: #cbd5e1;"><i class="fa-solid fa-5"></i> <strong>피벗 테이블</strong>: 평균/중앙값 도출
+                        </li>
+                        <li style="color: #cbd5e1;"><i class="fa-solid fa-6"></i> <strong>교차 집계표</strong> 구성 및 제출</li>
+                    </ul>
+                </div>
+                <div class="image-wrapper" style="border: none;">
+                    <div class="placeholder-box" style="color: #3b82f6;">
+                        <i class="fa-solid fa-ship"></i>
+                        <p>Titanic 실습</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
