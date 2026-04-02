@@ -36,18 +36,27 @@ Add this to your CSS to prevent boxes from resizing when you add padding or bord
    - Add `margin-bottom: 20px;` to your `h1` and `p` tags.
    - Separate your buttons by adding `margin-right: 15px;` to your button class.
 5. **Precision Debugging**: Press **F12** and verify that your margins are exactly as you intended. Check the "Computed" tab.
+6. **Submission Requirements**: Ensure your CSS file explicitly includes at least a `margin`, `padding`, and `border` property for your layout to be correctly evaluated.
 
-### [Mission 2] Information Hunter Challenge (20+ min)
-1. **Advanced Search**: Go to Google and search for your favorite topic using these operators:
-   - Example: `site:wikipedia.org "Artificial Intelligence" -robot`
-   - Goal: Find a reliable **PDF** report using `filetype:pdf`.
-2. **Data Structuring**:
-   - Open a blank **Google Sheet**.
-   - Copy a data table from a website and paste it using `Ctrl + Shift + V`.
-   - **Freeze Row 1**: Select Row 1 -> View -> Freeze -> 1 row.
-   - **Sort**: Click the column letter A/B/C -> Sort sheet (A to Z or Z to A).
-   - **Visualize**: Select numeric data -> Format -> Conditional formatting -> Color scale.
-   - **Pivot Analysis**: Select your data -> Insert -> Pivot table. Summarize the data by finding the **Average** or **Count**.
+### [Mission 2] Information Hunter Challenge (Titanic Dataset)
+1. **Import Data (Kaggle)**: Use Google search operators like `Kaggle Titanic Dataset -"ads"` to find and download the `train.csv` file from Kaggle. In a blank Google Sheet, go to [File] -> [Import] to load the data neatly into a table format. *(⚠️ If downloading fails, use the instructor's [Backup Data Link](https://docs.google.com/spreadsheets/d/1___xpsm5ie5XwWPIL8D8OaMQkQQuBazyodXdQRruQiI/edit?usp=sharing).)*
+2. **Freeze First Row**: Go to the View menu and set **'Freeze -> 1 row'** to ensure titles remain visible when scrolling through massive data.
+3. **Sort Ascending/Descending**: Select an entire column, such as `Fare` or `Age`, and apply an ascending or descending sort for basic data visualization.
+4. **Apply Conditional Formatting**: Select a numerical column like `Survived` or `Pclass`. Go to **[Format] -> [Conditional formatting] -> [Color scale]** to make the values visually distinct.
+5. **Smart Name Splitting (Extracting Titles)**: Insert a new column to the right of `Name` and title it `Title`. Extract prefixes like 'Mr.', 'Mrs.', or 'Miss.' manually for the first 3 rows. Google Sheets will detect the pattern and trigger **Smart Autofill (gray preview)** to split all 800+ names instantly.
+6. **Count Total Passengers**: Click **[Insert] -> [Pivot table]** and create it on a **'New sheet'**. Drag any data into the Values section with the summarization set to **Count (COUNTA)**.
+7. **Calculate Average Age**: Drag the `Age` column into the Values section and change summarize by to **Average (AVERAGE)**.
+8. **Calculate Median Age**: Drag the `Age` column into the Values section again, and change summarize by to **Median (MEDIAN)** to view it side-by-side with the average.
+9. **Cross-tabulation Analysis**: Drag `Sex` and `Pclass` to the Rows area, and `Survived` to the Values area to create a clear cross-tabulation table revealing survival disparities.
+10. **Share Google Sheet**: Click 'Share', change access to **'Anyone with the link can view'**, and copy the link.
+
+### [Mission 3] Google Form Submission via GitHub
+Similar to Week 05, submit via GitHub to practice real-world developer workflows.
+1. **GitHub Repository**: Go to GitHub and create a **Public Repository** for Week 06.
+2. **Commit Code**: Upload and Commit your `index.html` and `style.css` files from Mission 1.
+3. **Commit Sheet Link**: Include your **Google Sheet Link** from Mission 2 inside your repository (e.g., inside a `assignment06.md` file).
+4. **Final Submission**: Copy your latest **Commit Hash** and Repository Link, and submit them to the **designated Google Form**. 
+   *(Note: Overwriting commits after the deadline, or providing broken links, will result in a 0 score. Always double-check your links in Chrome Incognito Mode!)*
 
 ---
 
