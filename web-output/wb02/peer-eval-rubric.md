@@ -5,7 +5,7 @@
 
 | 번호 / No. | 평가 기준 (Yes/No 단위 채점) / Evaluation Criteria (Yes/No) | 배점 / Score | 확인 포인트 / Check Point |
 |:---:|:---|:---:|:---|
-| **1** | **제출 여부 / Submission Check**<br>기한 내에 과제를 제출하였는가?<br>*Did they submit the assignment within the deadline?* | **1점 / 1pt** | eCampus(또는 구글 폼)상에 빈칸이 아닌 어떤 텍스트라도 정상적으로 제출되어 있으면 1점을 부여합니다.<br>*Award 1 point if any valid text (not just blank spaces) is submitted on eCampus (or Google Forms).* |
+| **1** | **기한 내 제출 / On-time Submission**<br>과제를 기한 내에 지각하지 않고 제출하였습니까?<br>*Did they submit the assignment within the deadline?* | **5점 / 5pts** | 구글 폼, eCampus 등의 제출 기록이 마감 기한을 넘기지 않았는지 확인합니다. 지각 시 0점입니다.<br>*Check if the submission timestamp on Google Forms, eCampus, etc., is within the deadline. 0 points for late submission.* |
 | **2** | **URL에 'github' 포함 / URL contains 'github'**<br>제공된 **URL에 'github'**라는 단어가 포함되어 있는가?<br>*Does the provided URL contain the word 'github'?* | **1점 / 1pt** | 학생이 제출한 링크 주소 텍스트 안에 `github.com` 도메인이 정상적으로 포함되어 있으면 1점을 부여합니다.<br>*Award 1 point if the submitted link text properly includes the `github.com` domain.* |
 | **3** | **해쉬값(hash) 포함 / Hash included**<br>제출 내용에 **해쉬값(hash)**이 포함되어 있는가?<br>*Does the submission contain a hash value?* | **1점 / 1pt** | 링크 주소를 포함하거나 별도로 작성된 텍스트 안에 길고 복잡한 영문자/숫자 조합의 해시값이 명시되어 있으면 1점을 부여합니다.<br>*Award 1 point if a long, complex alphanumeric hash value is clearly specified either within the link URL or as separate text.* |
 

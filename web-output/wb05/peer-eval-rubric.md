@@ -12,7 +12,7 @@ Evaluators must grade the following five items simply and clearly according to t
 
 | No. / 번호 | Objective Evaluation Criteria (Yes/No) / 단답형 객관적 평가 기준 | Points / 배점 |
 |:---:|:---|:---:|
-| **1** | Is the actual timestamp of the final submitted form within the deadline? <br>*(3 points if within deadline, otherwise 0 points. No partial credit. If late, the remaining items are graded normally)*<br><br>구글 폼으로 제출된 최종 결과물의 실제 기록이 마감 기한 이내인가? <br>*(지각할 경우 나머지 항목은 정상 채점)* | 3 / 0 |
+| **1** | **기한 내 제출 / On-time Submission**<br>과제를 기한 내에 지각하지 않고 제출하였습니까?<br>*Did they submit the assignment within the deadline?* | **5점 / 5pts** |
 | **2** | Is the submitted link in the correct **GitHub URL** format?<br><br>제출된 답안의 링크가 올바른 **GitHub 링크(URL)** 형식인가? | 1 |
 | **3** | Does the submitted link clearly include a unique identifier or account name? (Assignment accessibility)<br><br>제출된 링크 주소에 고유한 식별자나 계정명이 분명하게 포함되어 있는가? (과제물 접근성) | 1 |
 | **4** | When the submitted link is clicked, does the page open without errors and clearly show that **CSS was successfully applied (e.g., brand colors, styling via Class/ID selectors)**?<br><br>제출된 링크를 클릭하여 열었을 때, 에러 없이 화면이 열리며 **CSS 스타일링(예: 브랜드 컬러 적용, Class/ID 선택자를 활용한 꾸미기 등)**이 정상적으로 적용되어 있는가? | 1 |
