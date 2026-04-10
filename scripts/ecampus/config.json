@@ -1,0 +1,33 @@
+{
+  "base_url": "https://ecampus.stu.ac.kr",
+  "selectors": {
+    "notice_board_link": "text=공지사항",
+    "write_button": "a:text-is('쓰기'), a:has-text('쓰기'), a[href*='write.php'], button:has-text('글쓰기'), a:has-text('글쓰기'), input[value*='글쓰기'], button:has-text('새 글 쓰기'), a:has-text('새 공지사항'), button:has-text('새 주제 추가'), a:has-text('새 주제 추가'), input[value*='추가']",
+    "title_input": "input[name='subject'], input.form-control[name='subject']",
+    "editor_iframe": "iframe:has(.cke_wysiwyg_frame), iframe.tox-edit-area__iframe",
+    "html_mode_button": ".tox-tbtn[title='Source code'], .cke_button__source",
+    "atto_editor": "div[contenteditable='true'].editor_atto_content",
+    "html_textarea": "textarea.tox-textarea, textarea.cke_source",
+    "html_save_button": "button:has-text('Save')",
+    "submit_button": "input[type='submit'], button[type='submit']"
+  },
+  "courses": {
+    "python": {
+      "title": "파이썬 (468)",
+      "url": "https://ecampus.stu.ac.kr/mod/ubboard/view.php?id=122842",
+      "lang": "ko"
+    },
+    "web01": {
+      "title": "웹01 (761)",
+      "url": "https://ecampus.stu.ac.kr/course/view.php?id=13971",
+      "board_url": "https://ecampus.stu.ac.kr/mod/ubboard/view.php?id=122844",
+      "lang": "en"
+    },
+    "web02": {
+      "title": "웹02 (762)",
+      "url": "https://ecampus.stu.ac.kr/course/view.php?id=13972",
+      "board_url": "https://ecampus.stu.ac.kr/mod/ubboard/view.php?id=124293",
+      "lang": "en"
+    }
+  }
+}
