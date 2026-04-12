@@ -20,6 +20,7 @@
 
 - **ipynb 무결성 검증 필수**: Jupyter Notebook(.ipynb) 파일을 생성하거나 수정할 때는 파일 깨짐(JSON 문법 오류) 현상을 방지하기 위해, 파일 저장 직후 반드시 터미널에서 `jq . <파일명> > /dev/null` 명령어를 실행하여 파싱 성공 여부를 자가 검증(Self-Validation)해야 합니다.
 - **md 정합성 및 하네스 검증 필수**: Markdown(.md) 파일 수정/생성 시, 반드시 `scripts/harness-lint.py <해당폴더>` 명령어를 실행하여 **플레이스홀더 누락, 루브릭 점수 합계, 마이크로 과제 SSOT 일치 여부**를 자가 검증해야 합니다. 이 검증을 통과하지 못하면 작업을 완료해서는 안 됩니다.
+- **학교 메일 API 연동 제약**: 학교 웹메일(`wonhyukc@stu.ac.kr` / Crinity 서버)은 보안상 IMAP/POP3 접근을 차단하며, 구글 워크스페이스 서비스 계정(`secret.json`)의 전체 도메인 권한 위임(Domain-Wide Delegation)도 불가능합니다. 추후 메일 조회 요청이 들어오면 표준 API나 구글 API 연결을 시도하지 말고, 즉시 파이썬 `requests`를 활용해 웹메일 내부 HTTP 크롤링 방식을 제안하고 진행하세요.
 
 ---
 
@@ -28,8 +29,9 @@
 에이전트는 작업 효율성과 시스템 안전성을 위해 정의된 경계 내에서만 활동하며, 이를 벗어나는 시도를 해서는 안 됩니다.
 
 **1. 수정 가능 영역 (Write Allowed)**
-- `wbXX/`, `pyXX/` 등 주차별 교육 콘텐츠 폴더
-- `docs/`, `web-output/`, `python-output/` 등 문서 및 커리큘럼 관리 폴더
+- `wbXX/` 등 주차별 E트랙 교육 콘텐츠 폴더
+- `docs/`, `web-output/` 등 문서 및 E트랙 커리큘럼 관리 폴더
+- `python-output/` (K트랙 커리큘럼 파일 및 하위의 `pyXX/` 주차별 파이썬 교육 콘텐츠 폴더)
 - 루트 디렉토리의 마크다운 파일 (`CLAUDE.md`, `README.md`, `1prd.md` 등 프로젝트 관련 문서)
 
 **2. 엄격 금지 영역 (Read/Write Prohibited or Restricted)**
@@ -70,7 +72,7 @@
 
 
 **네이밍 규칙**
-- 폴더: `wb` (웹) 또는 `py` (파이썬) + 2자리 주차 번호 (예: `wb01`, `py05`)
+- 폴더: `wb` (웹) 또는 `py` (파이썬) + 2자리 주차 번호 (예: `wb01`, `py05` — 단, **`pyXX/` 폴더는 반드시 Root가 아닌 `python-output/` 하위에 생성/위치해야 함**)
 - 파일명: 영문 ASCII kebab-case (예: `lecture-script.md`, `lab.ipynb`)
 - **커리큘럼 변경 시**: `web-output/web-curriculum.md` 또는 `python-output/python-curriculum.md` 마스터 파일을 먼저 수정한 후 주차별 파일을 수정/생성한다. 마이크로 과제(이메일 제출)의 구체적인 내용은 `docs/assignment-micro.md`를 우선적으로 수정하여 반영해야 한다.
 
