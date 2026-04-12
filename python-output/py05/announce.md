@@ -12,7 +12,7 @@ The weekly 0.x assignments previously submitted via email will now be uniformly 
 
 ## 2. 실습 과제 / 2. Assignment (eCampus/Google Form Submission)
 
-수업 내용이 포함된 메인 실습으로서, eCampus나 구글 폼을 통해 제출한 뒤 학생들 간의 상호평가(Peer Evaluation)를 진행하는 과목들은 이제 '실습 과제(Assignment)'로 부릅니다.
+수업 내용이 포함된 메인 실습으로서, 구글 폼을 통해 제출한 뒤 사설 평가 시스템(구글 시트/파이썬 코드)을 거쳐 학생들 간의 상호평가(Peer Evaluation)를 진행하는 과목들은 이제 '실습 과제(Assignment)'로 부릅니다.
 
 The main practical tasks covering the class content, which are submitted via eCampus or Google Forms and followed by student peer evaluations, will now be called 'Assignments'.
 

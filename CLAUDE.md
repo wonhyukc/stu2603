@@ -53,7 +53,7 @@
 | `lecture.md` | 강사 | 진행 순서, 시간 배분, 체크리스트 | **필수** |
 | `lecture-script.md` | 강사 | 영상 제작 기준 전체 대본 | **E트랙만 필수** (K트랙은 `lecture.md`에 통합) |
 | `handout.md` | 학생 | 개념 요약 + 실습 안내 + 과제 통합 문서 | **필수** |
-| `peer-eval-rubric.md` | 강사/학생 | eCampus 상호평가용 객관적 채점 기준 (1문항 당 단일 조건 규칙 엄수) | **필수** |
+| `peer-eval-rubric.md` | 강사/학생 | 상호평가용 채점 기준 (eCampus 워크숍 모듈 부재로 인해 구글 폼, 구글 시트, 파이썬 코드로 직접 개발하여 대체 운영됨) | **필수** |
 | `lab.ipynb` | 학생 | K트랙 전용 실습 파일 | K트랙만 필수 |
 | `lecture-demo.ipynb` 또는 `lecture-demo/` 폴더 | 강사 | 파일 내 라이브 코딩 예제들만 추출한 실습용 파일 (K트랙: .ipynb, E트랙: HTML/CSS/JS 폴더) | **필수** |
 | `slides.md` | 강사 | Google Slides 제작 기준 개요 | 선택 |
@@ -61,7 +61,7 @@
 **`handout.md` 구성 (3섹션 필수, 순서 고정)**
 
 1. **개념 참고 영역** — 핵심 개념 요약, 참고표
-2. **실습 과제 (Assignment)** — 주차별 `lecture.md`를 바탕으로 도출된 실습 항목 나열. (이 결과물은 **eCampus 또는 구글 폼에 제출 후 상호평가** 진행)
+2. **실습 과제 (Assignment)** — 주차별 `lecture.md`를 바탕으로 도출된 실습 항목 나열. (eCampus 상호평가 모듈 부재로 인해 **직접 개발한 구글 폼, 구글 시트, 파이썬 코드를 이용하여 상호평가를 대체 진행**합니다.)
    - [필수 항목]: 메인 과제 제출 방법 및 **구글 시트 Ping 작성(과제 숙지 확인)** 안내 포함.
 3. **마이크로과제 (Microassignment 0.x)** — 매주 **email로 제출** (`wonhyukc@stu.ac.kr`).
    - [필수 원칙]: **`docs/assignment-micro.md`가 모든 트랙(K/E) 마이크로과제의 유일한 원천(SSOT)입니다.** E트랙(웹)은 K트랙(파이썬)과 동일한 주차의 과제 내용을 거의 그대로 가져와서 작성하는 것을 원칙으로 합니다. 주차별 `handout.md` 작성 시 반드시 해당 파일의 해당 주차 내용과 Boilerplate 섹션을 통일성 있게 반영해야 합니다.
@@ -102,7 +102,7 @@
 | **StackBlitz** | E트랙 실습 환경 (1~8주차) |
 | **Google Colab** | K트랙 실습 환경 (1~8주차) |
 | **이메일 과제 (Microassignment)** | email로 제출 (0.x 과제) |
-| **실습 과제 (Assignment)** | eCampus/구글폼에 제출 후 상호평가 |
+| **실습 과제 (Assignment)** | 직접 개발한 구글 폼, 구글 시트, 파이썬 코드로 대체된 상호평가 |
 | **엔지니어식 질문법 (Engineer-style Question)** | 질문 및 답변 규칙 |
 
 ---

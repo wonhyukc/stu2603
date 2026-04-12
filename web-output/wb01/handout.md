@@ -393,7 +393,7 @@ Instead of uploading screenshots to eCampus, use the GitHub repository you creat
 - Click **"Commit changes..."** to save. (Commit message: `Create week01.md`)
   하단 **"Commit changes..."** 클릭하여 저장. (커밋 메시지: `Create week01.md`)
 
-**Step 2: Submit for Peer Evaluation / eCampus 제출 및 상호평가 준비**
+**Step 2: Submit for Peer Evaluation / 사설 평가 시스템 제출 및 상호평가 준비**
 - Open the `week01.md` file you just created and copy the **full URL from the browser address bar**.
   방금 만든 `week01.md` 파일 화면의 **브라우저 주소창 전체 URL**을 복사합니다.
 - Copy the **commit hash** of your latest change to the repository.
