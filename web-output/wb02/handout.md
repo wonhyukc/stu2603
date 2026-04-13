@@ -117,6 +117,6 @@ The submission should be about half an A4 page long. You do not need to write ex
 
 This micro-assignment should be submitted via email.
 
-- **Submit to:** `wonhyuk@stu.ac.kr`
+- **Submit to:** `wonhyukc@stu.ac.kr`
 - **Subject:** `Assignment 0.2 학번` (Example: `Assignment 0.2 20240001`)
 - **⚠️ Warning:** Since emails are automatically filtered by code, if you do not follow the rules, your submission will be missed during grading. You must follow them. The subject line must contain ONLY "Assignment 0.2", one or more spaces, and your "Student ID". Do not include any other characters.
