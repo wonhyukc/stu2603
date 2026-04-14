@@ -1,52 +1,53 @@
-# wb07 Handout: Flexbox & Digital Survival Skills
+# wb07 Handout: Flexbox Layouts
 
 ## 1. Concept References
 
-This week, we will conquer two critical areas: arranging layouts effortlessly using **Flexbox** and mastering the indispensable **Windows Productivity Skills** that will save your time and data.
+This week, we will conquer arranging layouts effortlessly using **Flexbox**, dive into **Refactoring**, and learn essential **Windows Survival Skills**.
 
 ### 1-1. Flexbox Layouts
 Flexbox (`display: flex`) is a powerful CSS layout module that allows you to instinctively align and distribute space among items in a container, even when their size is unknown.
-*   **Flex Container**: The parent element (e.g., `<ul>`, `<div class="container">`) where you apply `display: flex;`.
-*   **flex-direction**: Defines the direction items are placed (`row` for horizontal, `column` for vertical).
-*   **justify-content**: Aligns items along the main axis (e.g., `center`, `space-between`, `space-around`).
+*   **Flex Container**: The parent element (e.g., `<ul>`, `<div class="container">`) where you apply `display: flex;`. This instantly turns the children into flex items.
+*   **flex-direction**: Defines the direction items are placed:
+    *   `row`: Horizontal placement (left to right). Essential for making navigation bars.
+    *   `column`: Vertical placement (top to bottom).
+*   **justify-content**: Aligns items along the main axis. Useful values include:
+    *   `center`: Gathers items in the middle.
+    *   `space-between`: Distributes items evenly with the first item at the start and the last at the end.
+    *   `space-around`: Distributes items evenly with equal space around them.
 *   **align-items**: Aligns items vertically across the cross axis (e.g., `center`).
 
-### 1-2. Essential Windows Survival Skills
-A professional's speed and reliability come from mastering the computer's operating system, not just writing code.
-*   **The Desktop Curse & Search**: Saving everything on the desktop slows down your PC. Never sort endlessly into folders. Instead, use an ISO 8601 naming rule (e.g., `20261015_Portfolio_v1.html`) and rely on the powerful OS Search function.
-*   **Cloud Backup**: Physical drives can burn or get lost. Always sync your data to the cloud (Google Drive) for safe keeping.
-*   **Clipboard History (`Win + V`)**: Do not lose your previously copied text! Turn on clipboard history to store multiple texts and images you copy throughout the day, and paste exactly what you need.
-*   **Screen Capture Master (`Win + Shift + S`)**: Stop sending full-screen screenshots where the text is too small to read. Snip exactly the rectangular portion of the screen you need. It's automatically copied to your clipboard!
-*   **Virtual Desktops & Split Windows (`Win + Tab` / `Win + Arrow Keys`)**: 
-    - Press `Win + Left/Right Arrow` to snap a window perfectly to half the screen (ideal for coding on one side and viewing the browser on the other).
-    - Press `Win + Tab` to create a whole new Virtual Desktop. If you don't have multiple external monitors, virtual desktops give you infinite monitor space.
-*   **Task Manager (`Ctrl + Shift + Esc`)**: When a program freezes, do not force-shutdown the computer by holding the power button. Open the Task Manager and end the specific frozen task to protect your other unsaved documents.
-*   **The Concept of Unzipping (`.zip`)**: Double-clicking a zip file only gives you a "preview" of its contents. Browsers cannot read linked CSS and images from inside a zipped folder. You must right-click and select **Extract All...** to make the code work.
+### 1-2. Layout Refactoring & Debugging
+Writing code is only half the battle; fixing broken code (Refactoring) is equally important.
+*   **Developer Tools (F12)**: Your "stethoscope" for diagnosing layout issues. Use it to find overlapping or out-of-bounds elements.
+*   **Overflow Issues**: Often caused by fixed pixel widths on child elements ignoring their parent container's flexible size. Fix these by using relative units like `%` or `max-width: 100%` so elements can shrink flexibly.
+
+### 1-3. Windows Survival Skills (Computer Utilization)
+Beyond coding, mastering your operating system significantly improves your productivity and data safety.
+*   **Search, Don't Sort**: Stop making deep folder hierarchies. Use strong, contextual file names (e.g., `20261015_Portfolio_John_v1.html`) and rely on your OS's search function.
+*   **File Extensions**: Ensure hidden extensions (`.exe`, `.jpg`, `.pdf`) are visible in your File Explorer to avoid malicious files.
+*   **Clipboard History (`Win + V`)**: Saves multiple copied items so you can paste selectively.
+*   **Screen Capture Master (`Win + Shift + S`)**: Directly copy a specific cropped area to your clipboard instead of capturing the whole screen.
+*   **Virtual Desktops & Split Screen (`Win + Tab` / `Win + Arrow Keys`)**: Efficiently split your screen for coding on one side and documentation on the other, or use virtual desktops for more space.
+*   **Task Manager (`Ctrl + Shift + Esc`)**: Safely force-quit (Kill) unresponsive programs instead of holding the power button.
+*   **Zip Extraction**: Always unzip files completely before attempting to run their contents to avoid path errors.
 
 ---
 
 ## 2. 실습 과제 (Assignment)
 
-This week, your assignment is divided into two parts: a coding layout lab and a digital survival skills lab.
+This week, your assignment is a coding layout lab.
 
 1.  **Flexbox Portfolio (Coding)**: 
     *   Open your project in StackBlitz.
     *   Use the Flexbox properties (`display: flex; justify-content: space-around;`) to arrange your top navigation menu horizontally.
     *   Ensure that any layout overlaps from last week are fixed.
-    *   Submit the StackBlitz URL of your updated portfolio to the Google Form.
+    *   Submit the StackBlitz URL of your updated portfolio to the Google Form: [실습 상호평가 제출](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform).
 
-2.  **Digital Survival Lab (OS Skills)**:
-    *   Turn on your laptop or the lab computer. Go to the View tab in Windows File Explorer and check the box to show **File name extensions**.
-    *   Find at least 10 disorganized files floating around your Desktop or Downloads folder. (If you don't have any, download 10 random PDF files from Google by searching `filetype:pdf`).
-    *   Rename all of them using the **ISO 8601 Naming Rule** (e.g., `20260414_document.pdf`) and arrange them neatly in a single folder. Take a **Screenshot (Win+Shift+S)** of this organized folder to prove it.
-    *   Drag and drop those organized files into your **Google Drive** to back them up securely. Take another **Screenshot** proving the files are successfully uploaded natively to the cloud.
-    *   **Submit both screenshots** along with your StackBlitz link to the weekly Google Form. *(Note: Delete the files from the public lab computer after uploading to the cloud to protect your privacy.)*
-
-3.  **Ping your Checkbox**: Once you have completed all tasks, navigate to the class assignment Google Sheet and type `1` in the Ping column by your name to confirm completion.
+2.  **Ping your Checkbox**: Once you have completed all tasks, navigate to the class assignment Google Sheet and type `1` in the Ping column by your name to confirm completion.
 
 ---
 
-## Section 3: Assignment (Microassignment 0.7)
+## 3. Email Assignment (Assignment 0.7)
 
 Complete the tasks below and submit them directly in the body of your email to `wonhyukc@stu.ac.kr`. Do not attach MS Word or PDF files unless specifically requested.
 
