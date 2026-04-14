@@ -42,8 +42,8 @@ description: 특정 주차의 전체 교육 자료(강의안, 실습안, 과제,
 
 * **`handout.md`** — 학생 배포용 통합 문서. 반드시 아래 3섹션을 순서대로 포함해야 합니다:
   1. **개념 참고 영역**: 핵심 개념 요약, 참고표 (강의 내용 기반 정리)
-  2. **실습 섹션**: `lab.ipynb`(K트랙) 또는 StackBlitz 링크(E트랙)를 Google Colab/StackBlitz에서 열라는 안내 문구만 기재. 스텝·코드 나열 금지.
-  3. **과제 섹션**: 마이크로 과제 내용(수업 소감 + AI Prompt/Critique/Result + 추가 미션). **반드시 `docs/assignment-micro.md` 파일에서 해당 주차의 내용을 읽어서 반영하되, E트랙(웹)은 K트랙(파이썬)의 과제와 같은 주차 내용을 거의 동일하게 적용해야 합니다. 또한 상단의 "[공통/상시] 심화 및 발표 관련 (Boilerplate)" 섹션 내용을 세트로 필수 포함해야 하며 임의 생성은 금지합니다.** 제출 형식, 기한, 제출처(wonhyukc@stu.ac.kr) 안내 포함.
+  2. **실습 섹션**: `lab.ipynb`(K트랙) 또는 StackBlitz 링크(E트랙)를 Google Colab/StackBlitz에서 열라는 안내 문구를 기재하고, 반드시 구글 폼 제출 링크([실습 상호평가 제출](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform))를 포함하여 제출을 안내한다. 스텝·코드 나열 금지.
+  3. **이메일 과제 (과제 0.x)**: 핸드아웃 섹션 제목을 K트랙은 `## 3. 이메일 과제 (과제 0.x)`, E트랙은 `## 3. Email Assignment (Assignment 0.x)` 로 통일한다. 마이크로 과제 내용(수업 소감 + AI Prompt/Critique/Result + 추가 미션). **반드시 `docs/assignment-micro.md` 파일에서 해당 주차의 내용을 읽어서 반영하되, E트랙(웹)은 K트랙(파이썬)의 과제와 같은 주차 내용을 거의 동일하게 적용해야 합니다. 또한 상단의 "[공통/상시] 심화 및 발표 관련 (Boilerplate)" 섹션 내용을 세트로 필수 포함해야 하며 임의 생성은 금지합니다.** 제출 형식, 기한, 제출처(wonhyukc@stu.ac.kr) 안내 포함.
 * **`lab.ipynb`** (K트랙 `py**` 폴더만 필수, **단 5~7주차 파이썬 코딩 배제 기간에는 생성하지 않음**): Google Colab에서 바로 실행 가능한 실습 노트북 파일. 1~8주차는 Colab 전용, 9주차~는 로컬 Python 환경 기준으로 작성.
 * **환경 제한**: 1~8주차는 클라우드 환경(E트랙: StackBlitz / K트랙: Google Colab)에서 바로 실행 가능한 내용이어야 합니다.
 * **금지**: `lab.md`, `homework.md` 생성 금지 — 해당 내용은 모두 `handout.md` 안에 작성합니다.
