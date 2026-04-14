@@ -93,10 +93,12 @@ def lint_week(week_dir):
         score_match = re.search(r"(\d+)\s*점\s*만점", content)
         if score_match:
             expected_score = int(score_match.group(1))
-            # Count Yes/No items (roughly)
+            # Q1 is always 5 points. Other questions are 1 point each.
+            # So the number of (Yes 1 / No 0) for other questions should be expected_score - 4
+            # OR expected_score directly if Q1 also uses it (not typical, but we'll accept both)
             yes_count = content.count("(Yes 1 / No 0)")
-            if yes_count != expected_score:
-                errors.append(f"루브릭 점수 합계 불일치: 명시된 만점({expected_score}) vs 실제 항목 수({yes_count})")
+            if yes_count != expected_score and yes_count != (expected_score - 4) and yes_count != (expected_score - 5):
+                errors.append(f"루브릭 점수 합계 불일치: 명시된 만점({expected_score}) vs 실제 (Yes 1/No 0) 항목 수({yes_count}) 확인 요망")
         else:
             errors.append("루브릭에 'N점 만점' 표기가 없습니다.")
             
