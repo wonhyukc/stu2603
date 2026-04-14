@@ -76,7 +76,7 @@
    * Please enter the practice site you selected in the `my typing site` column.
 
 9. **심화 학습 (자율) (Advanced Study - Optional)**
-   * 만약 위의 과제가 자신의 수준에 너무 쉽다면, 스스로 이 과목에 적합한 다음 진도를 찾아서 제미니(Gemini)와 함께 공부하세요.
+   * 만약 위의 실습 과제가 자신의 수준에 너무 쉽다면, 스스로 이 과목에 적합한 다음 진도를 찾아서 제미니(Gemini)와 함께 공부하세요.
    * If the above assignment is too easy for your level, find the next appropriate topic for this course on your own and study it with Gemini.
    * 어떤 것을 공부했는지 메일 본문에 3줄 이내로 적어 보내주세요.
    * Please write what you studied in your email body in 3 lines or less.
