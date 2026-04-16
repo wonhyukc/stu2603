@@ -161,71 +161,98 @@ There are two core messages you should take away from this session. First, when 
 여러분! 오늘 배운 Flexbox 레이아웃과 리팩터링은 웹 페이지를 구조적으로 배치하는 핵심 무기입니다. 오늘 배운 내용을 여러분의 포트폴리오 사이트에 꼭 반영해 보시기 바랍니다.
 Everyone! The Flexbox layout and Refactoring we learned today are core weapons for structurally aligning web pages. Please make sure to reflect what you've learned today onto your own portfolio sites.
 
-## [S4] [특강] 컴퓨터 활용도 (30분)
+## [S4] [특강] 컴퓨터 활용도 (30분) / [S4] [Special Lecture] Computer Proficiency (30 min)
 
 *(Instructor Note: 화면에 바탕화면이 지저분한 예제 상태(파일들이 무질서하게 널려 있는 화면)를 미리 준비해 띄워놓습니다. 컴퓨터 활용도 특강은 딱딱한 기술 강의가 아니라, 학생들이 "아, 나 이거 몰랐는데!" 하는 재미있는 발견의 시간이 될 수 있도록 가볍고 유머 있게 진행합니다.)*
+*(Instructor Note: Prepare and display a messy desktop scenario with files scattered randomly across the screen. Keep this computer proficiency lecture light and humorous rather than a rigid technical lesson, so students can have fun discovering things they didn't know.)*
 
 자, 여기서부터는 잠깐 HTML과 CSS를 내려놓고, 우리가 매일 쓰는 컴퓨터 자체를 얼마나 잘 활용하고 있는지 점검해 보는 시간입니다. 이 특강 시간은 여러분이 앞으로 공부하고, 취업하고, 일하는 모든 환경에서 실질적으로 쓸 수 있는 내용입니다.
+Now, let's put HTML and CSS aside for a moment and take time to assess how well we are utilizing the computers we use every day. This special lecture covers practical skills you can use in any environment moving forward—whether studying, getting a job, or working.
 
 여기 제 화면을 한번 보세요. 바탕화면에 파일들이 정말 어지럽게 흩어져 있죠? 이게 여러분 컴퓨터 모습과 혹시 비슷하지 않나요? 웃음이 나오시죠? 이 상태에서 "아, 지난주에 작업했던 그 파일 어디 있지?" 하고 찾으려면 시간이 얼마나 걸릴까요?
+Take a look at my screen here. Files are scattered all over the desktop in a mess, right? Doesn't this perhaps look similar to your own computers? It makes you laugh, doesn't it? In this state, how long would it take to find "that file I worked on last week"?
 
-### 컴퓨터 활용 팁 1: Search, Don't Sort (정리하지 말고 검색하세요)
+### 컴퓨터 활용 팁 1: Search, Don't Sort (정리하지 말고 검색하세요) / Computer Tip 1: Search, Don't Sort
 
 많은 분들이 폴더를 만들고, 폴더 안에 또 폴더를 만들고, 그 안에 또 폴더를 만들어 파일을 정리하려고 합니다. "학교 > 2026 > 1학기 > 웹기초 > 7주차 > 실습" 같은 구조가 대표적입니다. 그런데 이렇게 하면 문제가 생깁니다. 다음 주가 되면 "이 파일이 7주차 폴더에 있나, 아니면 8주차에 있나?" 하고 헷갈리거든요. 폴더 구조 복잡해질수록 파일을 찾는 시간은 오히려 늘어납니다.
+Many people try to organize files by creating folders, then folders inside those folders, and more folders inside those. A structure like "School > 2026 > 1st Semester > Web Basics > Week 7 > Lab" is a classic example. But doing this causes a problem. By next week, you'll be confused: "Is this file in the Week 7 folder, or Week 8?" As the folder structure gets more complex, the time it takes to find a file actually increases.
 
 그 대신, 파일 이름을 잘 짓는 것이 훨씬 강력합니다. 예를 들어 `20261015_Portfolio_John_v1.html`처럼 날짜, 내용, 버전이 파일명에 들어 있으면, 탐색기에서 `Win + F`나 탐색기 검색창에 "Portfolio John"을 치는 것만으로 바로 찾을 수 있습니다. 폴더 구조에 기대지 말고, 검색 기능을 믿으세요. **Search, Don't Sort** — 이 네 단어가 파일 관리의 핵심입니다.
+Instead, naming your files well is much more powerful. For example, if the date, content, and version are in the filename like `20261015_Portfolio_John_v1.html`, you can find it instantly just by pressing `Win + F` in Explorer or typing "Portfolio John" in the search bar. Don't rely on folder structures; trust the search function. **Search, Don't Sort** — these four words are the core of file management.
 
 그리고 한 가지 더. 파일 탐색기에서 **파일 확장자 표시** 옵션을 반드시 켜두세요. 기본 설정으로는 `.exe`, `.jpg`, `.pdf` 같은 확장자가 숨겨져 있습니다. 이 상태에서는 "이 파일이 실행 파일인지, 그림 파일인지, 문서 파일인지"를 구분할 수 없어서 악성 파일에 속아 실행하는 사고가 생깁니다. 실제로 바이러스 감염 사례 중 많은 수가 "PDF 같아 보이는 .exe 파일"을 열면서 시작됩니다. 탐색기 > 보기 > 파일 이름 확장명 표시 체크. 지금 당장 켜두세요.
+And one more thing. Make absolutely sure to turn on the **Show File Extensions** option in File Explorer. By default, extensions like `.exe`, `.jpg`, and `.pdf` are hidden. In this state, you can't tell if "this file is an executable, an image, or a document," leading to accidents where you are tricked into running malicious files. In fact, many virus infections start by opening an ".exe file that looks like a PDF." Explorer > View > Check 'File name extensions'. Turn it on right now.
 
-### 컴퓨터 활용 팁 2: Win + V — 클립보드 히스토리
+### 컴퓨터 활용 팁 2: Win + V — 클립보드 히스토리 / Computer Tip 2: Win + V — Clipboard History
 
 *(Instructor Note: 텍스트를 두 개 이상 복사한 뒤 Win + V를 눌러 클립보드 목록이 뜨는 것을 실시간으로 시연합니다.)*
+*(Instructor Note: Copy two or more pieces of text, then press Win + V to demonstrate the clipboard history list popping up in real-time.)*
 
 여러분, 복사(`Ctrl + C`)와 붙여넣기(`Ctrl + V`)는 매일 쓰시죠? 그런데 이런 경험 없으셨나요? 링크를 복사했는데, 그 사이에 다른 걸 복사해서 원래 링크가 사라져 버린 경험. 다시 찾으러 가야 하는 그 귀찮음. 여러 곳에서 정보를 모아 붙여넣어야 하는데 한 번에 한 개씩밖에 못해서 왔다갔다 반복했던 기억.
+Everyone, you use copy (`Ctrl + C`) and paste (`Ctrl + V`) every day, right? But haven't you had this experience? You copy a link, but then copy something else in the meantime, and the original link disappears. The annoyance of having to go find it again. Remembering having to gather information from multiple places but only being able to do it one by one, going back and forth repeatedly.
 
 **Win + V** 를 누르면 복사 기록이 목록으로 나타납니다. 내가 오늘 복사한 텍스트, 링크, 이미지 등을 모두 골라서 붙여넣을 수 있습니다. 처음 쓸 때 "클립보드 기록 켜기"를 활성화해야 하는데, 한 번만 설정하면 됩니다. 이 기능 하나로 여러분의 복사-붙여넣기 효율이 눈에 띄게 올라갑니다. 특히 여러 자료에서 내용을 모아서 정리할 때 아주 편리합니다.
+Pressing **Win + V** shows your copy history as a list. You can pick and paste any text, link, or image you copied today. You have to enable "Turn on clipboard history" the first time you use it, but you only need to set it once. This single feature will noticeably skyrocket your copy-paste efficiency. It's especially convenient when collecting and organizing content from multiple sources.
 
-### 컴퓨터 활용 팁 3: Win + Shift + S — 화면 캡처 마스터
+### 컴퓨터 활용 팁 3: Win + Shift + S — 화면 캡처 마스터 / Computer Tip 3: Win + Shift + S — Screen Capture Master
 
 *(Instructor Note: 전체화면 캡처와 영역 캡처의 차이를 직접 보여줍니다. 특히 캡처 후 바로 문서나 카카오톡에 Ctrl + V로 붙여넣는 과정을 시연합니다.)*
+*(Instructor Note: Directly demonstrate the difference between full-screen capture and area capture. In particular, show the process of pasting immediately into a document or messenger with Ctrl + V right after capturing.)*
 
 화면을 캡처할 때 Print Screen 키를 눌러서 전체 화면을 찍고, 그림판에 붙여넣어서 저장하고, 다시 잘라내는 과정을 거치고 계신가요? 이건 정말 비효율적인 방법입니다. 전체 화면을 다 캡처하면 파일 크기도 크고, 필요한 부분만 전달하기 위해 또 편집해야 하죠.
+When capturing your screen, are you pressing the Print Screen key to take the whole screen, pasting it into Paint, saving it, and cropping it again? That is a very inefficient method. If you capture the whole screen, the file size is large, and you have to edit it again just to share the necessary part.
 
 **Win + Shift + S** 를 누르면 화면이 어두워지면서 원하는 영역만 드래그해서 선택할 수 있습니다. 선택이 끝나는 순간, 그 영역이 클립보드에 복사됩니다. 바로 `Ctrl + V`로 카카오톡, 이메일, 워드, 모든 곳에 붙여넣을 수 있습니다. 그림판에 거쳐서 저장할 필요가 없습니다. 오늘 이 수업에서 가장 많이 "아 이걸 몰랐다!" 하실 팁이라고 생각합니다.
+When you press **Win + Shift + S**, the screen darkens and you can drag to select just the area you want. The moment your selection ends, that area is copied to your clipboard. You can paste it straight away with `Ctrl + V` into KakaoTalk, emails, Word, anywhere. There is no need to go through Paint to save it. I think this is the tip today where most of you will say, "Ah, I didn't know this!"
 
 실제로 이 기능을 쓰면 화면에 표시된 에러 메시지를 캡처해서 AI나 선생님에게 바로 보낼 수 있습니다. "에러가 났어요" 대신 캡처된 에러 화면을 보내면 훨씬 빠르게 도움을 받을 수 있겠죠? 오늘 과제에서도 패스키 로그인 화면을 캡처할 때 이 방법을 쓰게 될 겁니다.
+In practice, if you use this feature, you can capture error messages shown on the screen and send them immediately to an AI or your teacher. Instead of saying "I got an error," sending a captured error screen will get you help much faster, right? You will also be using this method to capture your passkey login screen for today's assignment.
 
-### 컴퓨터 활용 팁 4: Win + 방향키, Win + Tab — 화면 분할과 가상 데스크톱
+### 컴퓨터 활용 팁 4: Win + 방향키, Win + Tab — 화면 분할과 가상 데스크톱 / Computer Tip 4: Win + Arrow Keys, Win + Tab — Screen Split and Virtual Desktop
 
 *(Instructor Note: 실제로 창을 두 개 띄운 뒤, Win + 왼쪽 화살표로 절반 고정, Win + 오른쪽 화살표로 나머지 절반을 다른 창으로 채우는 것을 시연합니다. 이어서 Win + Tab을 눌러 가상 데스크톱을 추가하는 것도 보여줍니다.)*
+*(Instructor Note: Actually open two windows, then demonstrate snapping one to the left half with Win + Left Arrow, and filling the remaining right half with the other window using Win + Right Arrow. Then, press Win + Tab to show adding a virtual desktop.)*
 
 노트북 화면 하나에서 StackBlitz와 핸드아웃을 동시에 봐야 할 때, 창 크기를 수동 조절하고 계신가요? 마우스로 창의 가장자리를 잡고 늘렸다 줄였다 하는 그 번거로운 작업을 매번 반복하고 계신 건 아닌가요?
+When you have to look at StackBlitz and the handout simultaneously on a single laptop screen, are you adjusting the window sizes manually? Are you repeating that cumbersome task of grabbing the window edges with the mouse to expand and shrink them every single time?
 
 **Win + 방향키** 를 쓰면 현재 활성화된 창이 화면의 절반을 차지하도록 딱 붙어버립니다. Win + 왼쪽 화살표 누르면 왼쪽 절반. Win + 오른쪽 화살표 누르면 오른쪽 절반. 그러면 자동으로 나머지 공간에 다른 창을 선택해서 붙이겠냐고 물어봅니다. 이걸 쓰면 마우스로 창 크기를 조절하는 시간이 완전히 사라집니다.
+Using **Win + Arrow Keys** snaps your currently active window nicely to take up exactly half of the screen. Press Win + Left Arrow for the left half. Press Win + Right Arrow for the right half. Then it automatically asks if you want to select another window to snap into the remaining space. Using this completely eliminates the time spent adjusting window sizes with a mouse.
 
 한발 더 나아가서, **Win + Tab** 을 누르면 **가상 데스크톱(Virtual Desktop)** 기능이 나타납니다. 데스크톱을 새로 만들면, 마치 두 번째 모니터가 생긴 것처럼 완전히 새로운 작업 공간이 생깁니다. 데스크톱 1에는 수업 자료, 데스크톱 2에는 개인 작업물처럼 공간을 분리해서 쓸 수 있습니다. 모니터 한 대로도 여러 대 모니터를 쓰는 것과 비슷한 효과를 낼 수 있습니다. 취업 후 회사에서도 이 기능을 쓰면 업무와 사적인 창을 섞지 않고 깔끔하게 분리할 수 있습니다.
+Taking it a step further, pressing **Win + Tab** brings up the **Virtual Desktop** feature. If you create a new desktop, you get an entirely new workspace as if you've obtained a second monitor. You can use the spaces separately, like having class materials on Desktop 1 and personal projects on Desktop 2. You can achieve an effect similar to using multiple monitors with just a single monitor. Even at work after getting a job, using this feature lets you cleanly separate your work and personal windows without mixing them up.
 
-### 컴퓨터 활용 팁 5: Ctrl + Shift + Esc — 작업 관리자와 강제 종료
+### 컴퓨터 활용 팁 5: Ctrl + Shift + Esc — 작업 관리자와 강제 종료 / Computer Tip 5: Ctrl + Shift + Esc — Task Manager and Force Kill
 
 *(Instructor Note: 일부러 응답 없는 프로그램 상황(또는 여러 탭을 열어 CPU 점유율이 높은 상황)을 만들어서 작업 관리자가 어떻게 보이는지 실시간으로 보여줍니다.)*
+*(Instructor Note: Deliberately create an unresponsive program situation (or open many tabs to create high CPU usage) and show in real-time what the Task Manager looks like.)*
 
 컴퓨터를 쓰다 보면 프로그램이 갑자기 멈추거나 "응답 없음"이 뜨는 경험, 다들 해보셨죠? 이럴 때 대부분의 사람들이 전원 버튼을 길게 누르거나, 그냥 기다립니다. 둘 다 좋은 방법이 아닙니다. 전원을 강제로 끄면 저장하지 않은 작업이 날아가고, 심한 경우 운영체제 파일이 손상될 수도 있습니다.
+While using a computer, everyone has experienced a program suddenly freezing or showing "Not responding", right? When this happens, most people either long-press the power button or just wait. Neither is a good method. If you force the power off, unsaved work flies away, and in severe cases, operating system files can become corrupted.
 
 **Ctrl + Shift + Esc** 를 누르면 작업 관리자가 바로 열립니다. 여기서 응답 없는 프로그램을 찾아 클릭하고, "작업 끝내기"를 누르면 그 프로그램만 깔끔하게 종료됩니다. 나머지 프로그램들은 아무런 영향을 받지 않습니다. 작업 관리자는 또한 현재 CPU와 메모리를 얼마나 쓰고 있는지도 볼 수 있어서, "왜 내 컴퓨터가 이렇게 느리지?"를 진단하는 데도 씁니다. 메모리를 많이 잡아먹는 프로그램을 찾아서 닫으면 컴퓨터가 눈에 띄게 빨라지는 경험을 하실 수 있을 거예요.
+Pressing **Ctrl + Shift + Esc** immediately opens the Task Manager. If you find the unresponsive program here, click it, and press "End task", only that program will be neatly terminated. The remaining programs are completely unaffected. The Task Manager also shows how much CPU and memory is currently being used, so you can use it to diagnose "Why is my computer so slow?". If you find a program devouring memory and close it, you'll experience your computer becoming noticeably faster.
 
-### 보너스 팁: 압축 파일(Zip)을 제대로 해제하는 법
+### 보너스 팁: 압축 파일(Zip)을 제대로 해제하는 법 / Bonus Tip: How to Extract Zip Files Properly
 
 압축 파일 관련 실수도 많이 합니다. `something.zip` 파일을 받아서 열면, 압축 프로그램이 파일 목록을 보여줍니다. 이 상태에서 안에 있는 프로그램을 그냥 실행하면, 경로가 임시 폴더를 가리키고 있어서 파일을 찾지 못하거나 실행이 안 되는 오류가 납니다. 반드시 **압축 파일 위에서 오른쪽 클릭 > "압축 풀기"** 를 해서 파일을 실제 폴더에 꺼낸 다음 실행해야 합니다. 아주 간단하지만, 이걸 몰라서 "왜 안 되지?" 하고 고생하는 경우가 정말 많습니다. 특히 학교 과제물이나 강의 자료를 내려받았을 때 이 문제가 자주 발생합니다. 파일을 받으면 항상 "먼저 압축 해제부터"를 습관화하세요.
+People make a lot of mistakes with zip files, too. When you download and open a `something.zip` file, the archiver program displays a list of files. If you just double-click to run a program from inside this state, it causes an error where it can't find files or won't run because the path is pointing to a temporary folder. You MUST **right-click on the zip file > "Extract All"** to bring the files out into an actual folder before running them. It's very simple, but there are so many cases where people struggle, asking "Why isn't it working?" because they don't know this. This problem occurs especially often when downloading school assignments or lecture materials. Make it a habit: when you download a file, "extract first."
 
 ---
 
 *(Instructor Note: 마무리 안내)*
+*(Instructor Note: Closing Remarks)*
 
 오늘 배운 내용을 정리하면: Flexbox로 레이아웃을 자유자재로 배치하는 법, 개발자 도구로 버그를 진단하고 고치는 법, 그리고 컴퓨터 활용도 5가지 팁입니다. 오늘의 팁들은 지금 당장 오늘 쓸 수 있는 것들입니다. 수업 끝나고 바로 써보세요.
+To summarize what we learned today: How to freely arrange layouts with Flexbox, how to diagnose and fix bugs using Developer Tools, and 5 computer proficiency tips. Today's tips are things you can use right this second. Please try using them immediately after class.
 
 숙제 안내드립니다. 오늘은 보안과 편리함이라는 현대 웹 개발의 중요 트렌드를 반영하여 Passkey 이메일 Microassignment가 있습니다. 과제 0.7 이메일 꼭 기억하시고, Handout을 참고하세요.
+Here is your homework announcement. Today, reflecting the important modern web development trends of security and convenience, there is a Passkey Email Microassignment. Please remember Assignment 0.7 Email, and refer to your Handout.
 
 다음 주(8주차)에는 지금까지 배운 내용을 바탕으로 중간고사와 대체 평가(타임어택 종합장)가 예정되어 있습니다. 너무 긴장하지 마세요. 지금까지 꾸준히 따라오셨다면 충분히 잘 하실 수 있습니다. 마지막으로 지금까지 7주 동안 열심히 함께해주신 여러분께 진심으로 수고했다고 전하고 싶습니다.
+Next week (Week 8), we have the midterm exam and an alternative assessment (Time Attack Comprehensive Project) scheduled based on everything we've learned so far. Please don't be too nervous. If you have been following along steadily, you will do absolutely fine. Lastly, I want to sincerely say thank you for your hard work to everyone who has been with me diligently for the past 7 weeks.
 
 수고하셨습니다. 우리는 다음 주에 또 다른 세상의 비밀을 푸는 코딩 이야기로 다시 만나겠습니다!
+Thank you for your hard work. We will meet again next week with another coding story to unlock the secrets of the world!
 *(Instructor Note: 학생들에게 따뜻하게 인사하고 강의를 마무리합니다.)*
+*(Instructor Note: Warmly greet the students and conclude the lecture.)*
