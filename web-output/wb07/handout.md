@@ -57,7 +57,7 @@ This week's lab is to refine your **Personal Profile (Name Card) page** using Fl
 ---
 
 ### [Submission Instructions]
-1.  **StackBlitz Submission**: Submit the StackBlitz URL of your updated project to the [Lab Peer Evaluation](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform) form.
+1.  **GitHub Submission**: Upload your `index.html` and `styles.css` files to your GitHub repository and submit the **GitHub repository URL** to the [Lab Peer Evaluation](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform) form.
 2.  **Ping your Checkbox**: Once completed, type `1` in the Ping column of the class Google Sheet.
 
 ---
@@ -68,14 +68,14 @@ Complete the tasks below and submit them directly in the body of your email to `
 
 **Email Subject Format**: `Assignment 0.7 StudentID` (Example: `Assignment 0.7 20240001`)
 
-1.  **Class Reflections (수업 소감)**: Write a brief (max 3 lines) reflection on both the online Flipped Learning video and the physical offline class.
-2.  **TED Video Reflection (TED 시청 소감)**: Watch Derek Sivers' TED Talk "How to start a movement" and write briefly about what you learned.
-3.  **Article Search and Reflection (아티클 검색 및 소감 작성 (AI 및 웹 검색 활용))**:
-    *   Search and read about "How Passwords Changed My Life (비밀번호가 어떻게 내 삶을 바꿨는가)". Write your thoughts.
+1.  **Class Reflections** <!-- 수업 소감 -->: Write a brief (max 3 lines) reflection on both the online Flipped Learning video and the physical offline class.
+2.  **TED Video Reflection**: Watch Derek Sivers' TED Talk "How to start a movement" and write briefly about what you learned.
+3.  **Article Search and Reflection** <!-- 아티클 검색 및 소감 작성 (AI 및 웹 검색 활용) -->:
+    *   Search and read about "How Passwords Changed My Life" <!-- 비밀번호가 어떻게 내 삶을 바꿨는가 -->. Write your thoughts.
     *   **Ebbinghaus Forgetting Curve**: Google "Ebbinghaus forgetting curve", explain what it is, and write how you can apply this to your personal study habits.
     *   Search and read articles relating to "Brain damage and Multitasking" and write your thoughts.
     *   Repeatedly search for "best job 2025" and the best/worst jobs of the year for at least four different years. Write your conclusions.
-4.  **Passkey Practice (패스키(Passkey) 실습)**:
+4.  **Passkey Practice** <!-- 패스키(Passkey) 실습 -->:
     *   Ask Gemini what a "Passkey" is, study it, and write a brief reflection on your findings.
     *   Register a Passkey on your personal smartphone first.
     *   Then, go to the public lab computer at school and attempt to log in using the Passkey you just created.
@@ -83,7 +83,7 @@ Complete the tasks below and submit them directly in the body of your email to `
 
 ---
 
-### [공통/상시] 심화 및 발표 관련 (Boilerplate)
+### Boilerplate (Optional Missions & Q&A)
 *(The following is common for all assignments)*
 
 *   **Deep Learning (Optional)**: If the assignment above is too easy for you, ask Gemini to give you the next step in web development. Study it, and summarize your findings in your email in under 3 lines.
