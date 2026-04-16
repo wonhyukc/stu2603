@@ -4,46 +4,61 @@
 
 This week, we will conquer arranging layouts effortlessly using **Flexbox**, dive into **Refactoring**, and learn essential **Windows Survival Skills**.
 
-### 1-1. Flexbox Layouts
-Flexbox (`display: flex`) is a powerful CSS layout module that allows you to instinctively align and distribute space among items in a container, even when their size is unknown.
-*   **Flex Container**: The parent element (e.g., `<ul>`, `<div class="container">`) where you apply `display: flex;`. This instantly turns the children into flex items.
-*   **flex-direction**: Defines the direction items are placed:
-    *   `row`: Horizontal placement (left to right). Essential for making navigation bars.
-    *   `column`: Vertical placement (top to bottom).
-*   **justify-content**: Aligns items along the main axis. Useful values include:
-    *   `center`: Gathers items in the middle.
-    *   `space-between`: Distributes items evenly with the first item at the start and the last at the end.
-    *   `space-around`: Distributes items evenly with equal space around them.
-*   **align-items**: Aligns items vertically across the cross axis (e.g., `center`).
+### 1-1. Flexbox Mastery: The "Alignment Manager"
+Flexbox (`display: flex`) is a powerful "Alignment Manager" for your web house. It allows you to instinctively align and distribute space among items in a container, even when their size is unknown.
+*   **The Mother Principle (Parent-Child)**: `display: flex` is ALWAYS declared on the **parent container**. This instantly turns the children into flex items. Applying it to a child only aligns that child's own descendants.
+*   **flex-direction (The Orientation)**: Determines the alignment flow. `row` (horizontal) is essential for navigation bars, while `column` (vertical) is often used for entire mobile layouts.
+*   **justify-content (Main Axis Spacing)**: Like magic, the computer finds the best spacing.
+    *   `center`: Gathers everything in the middle.
+    *   `space-between`: Pins the first/last items to the edges and distributes space in between.
+    *   `space-around`: Gives equal space on both sides of every item.
+*   **align-items (Cross Axis Alignment)**: Manages vertical alignment. 
+    *   `center`: Perfectly centers icons and text.
+    *   `flex-start`: Aligns items to the top "ceiling" of the container.
+    *   `baseline`: Aligns the bottom lines of text even when boxes have different sizes—crucial for typography.
+*   **flex-wrap (The Overflow Guard)**: Determines what happens when items run out of space.
+    *   `nowrap` (Default): Forces everything onto one line, often squashing items.
+    *   `wrap`: Naturally moves overflowing items to the next line, forming the basis of **Responsive Web Design**.
 
-### 1-2. Layout Refactoring & Debugging
-Writing code is only half the battle; fixing broken code (Refactoring) is equally important.
-*   **Developer Tools (F12)**: Your "stethoscope" for diagnosing layout issues. Use it to find overlapping or out-of-bounds elements.
-*   **Overflow Issues**: Often caused by fixed pixel widths on child elements ignoring their parent container's flexible size. Fix these by using relative units like `%` or `max-width: 100%` so elements can shrink flexibly.
+### 1-2. Layout Refactoring & Debugging: "The Stethoscope"
+Writing code is only half the battle; fixing and improving it (**Refactoring**) is the other half. Simple functioning isn't enough; we aim for code that is restructured in a better, more professional way.
+*   **Developer Tools (F12)**: This is your doctor's stethoscope. Use the **Elements** tab to view the **DOM Tree** (HTML structure) and the **Styles** panel to see real-time CSS.
+*   **Precision Debugging**: Use the Inspector icon to target an overflowing element. You'll often find that a child stands firm with a fixed `width: 1000px;` (like a piece of iron) while the parent container tries to flex like a rubber band, causing an **Overflow**.
+*   **The golden rule of F12**: Modifications in DevTools are **temporary**. Always follow the sequence: **Check in Tools → Apply to CSS File → Save**.
 
 ### 1-3. Windows Survival Skills (Computer Utilization)
-Beyond coding, mastering your operating system significantly improves your productivity and data safety.
-*   **Search, Don't Sort**: Stop making deep folder hierarchies. Use strong, contextual file names (e.g., `20261015_Portfolio_John_v1.html`) and rely on your OS's search function.
-*   **File Extensions**: Ensure hidden extensions (`.exe`, `.jpg`, `.pdf`) are visible in your File Explorer to avoid malicious files.
-*   **Clipboard History (`Win + V`)**: Saves multiple copied items so you can paste selectively.
-*   **Screen Capture Master (`Win + Shift + S`)**: Directly copy a specific cropped area to your clipboard instead of capturing the whole screen.
-*   **Virtual Desktops & Split Screen (`Win + Tab` / `Win + Arrow Keys`)**: Efficiently split your screen for coding on one side and documentation on the other, or use virtual desktops for more space.
-*   **Task Manager (`Ctrl + Shift + Esc`)**: Safely force-quit (Kill) unresponsive programs instead of holding the power button.
-*   **Zip Extraction**: Always unzip files completely before attempting to run their contents to avoid path errors.
+Mastering your operating system is as important as mastering code. It protects your data and skyrockets your productivity.
+*   **Search, Don't Sort**: Stop building deep, confusing folder hierarchies. Use strong names (e.g., `20261015_Portfolio_John_v1.html`) and rely on `Win + F`. **Search, Don't Sort** is the heart of file management.
+*   **File Extension Guard**: Enable "Show File Extensions" in Explorer. A file that looks like a PDF might actually be a dangerous `.exe` file.
+*   **Clipboard History (`Win + V`)**: Forget the frustration of losing a copied link. Enable your history to see a list of everything you've copied today and paste selectively.
+*   **Screen Capture Master (`Win + Shift + S`)**: Don't use `Print Screen` and Paint. Crop exactly what you need; it copies instantly to your clipboard so you can `Ctrl + V` directly into KakaoTalk, Email, or Slack.
+*   **Snapping & Virtual Desktops**: Use `Win + Arrow Keys` to snap windows to the half-screen instantly—no manual resizing needed. Use `Win + Tab` to create multiple Virtual Desktops (e.g., one for class, one for personal work) to mimic a multi-monitor setup on one screen.
+*   **Task Manager (`Ctrl + Shift + Esc`)**: When a program freezes, don't hold the power button (which risks data loss). Open the Task Manager to "End Task" on the specific unresponsive program and "Kill" hidden processes that are hogging your CPU.
+*   **Extraction Habit**: Never run contents directly from a `.zip` file. Always **Right-click > Extract All** first. Running from temporary paths is a leading cause of path errors and "It's not working" headaches.
 
 ---
 
-## 2. 실습 과제 (Assignment)
+## 2. Lab Assignment
 
-This week, your assignment is a coding layout lab.
+This week's lab is to refine your **Personal Profile (Name Card) page** using Flexbox. Open the files in the `lab/` folder and follow these steps:
 
-1.  **Flexbox Portfolio (Coding)**: 
-    *   Open your project in StackBlitz.
-    *   Use the Flexbox properties (`display: flex; justify-content: space-around;`) to arrange your top navigation menu horizontally.
-    *   Ensure that any layout overlaps from last week are fixed.
-    *   Submit the StackBlitz URL of your updated portfolio to the Google Form: [실습 상호평가 제출](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform).
+### [Step 1] Navigation Menu Alignment
+*   **File**: `styles.css`
+*   **Mission**: Align the vertical menu buttons horizontally by applying `display: flex;` to the navigation menu. Use the `justify-content` property to distribute space evenly between buttons.
 
-2.  **Ping your Checkbox**: Once you have completed all tasks, navigate to the class assignment Google Sheet and type `1` in the Ping column by your name to confirm completion.
+### [Step 2] Horizontal Card Layout
+*   **File**: `styles.css` (.content-wrapper)
+*   **Mission**: Apply `display: flex;` to the content wrapper to place the two stacked cards side-by-side. Also, use the `gap` property to adjust the spacing between the cards. (If you only have one card, add another one to practice horizontal alignment.)
+
+### [Step 3] Fix Image Overflow
+*   **File**: `index.html` or `styles.css`
+*   **Mission**: Using **fixed pixel (px) sizes** like `1000px` causes images to overflow on smaller screens. **Do not delete the fixed size code; comment it out (`/* ... */`)** and then write the correct code using `max-width: 100%;` below it. (If you're not sure how to 'comment out' code, ask Gemini "How to add comments in HTML/CSS" before you start!)
+
+---
+
+### [Submission Instructions]
+1.  **StackBlitz Submission**: Submit the StackBlitz URL of your updated project to the [Lab Peer Evaluation](https://docs.google.com/forms/d/e/1FAIpQLSd-WAEm3i5NjCuVmgvr8nr41mJ0o6En8xpII543oNAi44BRuw/viewform) form.
+2.  **Ping your Checkbox**: Once completed, type `1` in the Ping column of the class Google Sheet.
 
 ---
 
