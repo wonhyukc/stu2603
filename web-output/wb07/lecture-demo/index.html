@@ -1,95 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Flexbox Demo</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* 
-         * Instructor Note: 
-         * Comment out the flex properties initially during live coding 
-         * to show the 'broken' block structure, then uncomment to show the magic!
-         */
-        ul.nav-menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 20px;
-            background-color: #2c3e50;
-            
-            /* -- Flexbox Magic Starts Here -- */
-            display: flex; 
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: center;
-            /* -- Flexbox Magic Ends Here -- */
-        }
-
-        ul.nav-menu li {
-            font-size: 1.2rem;
-        }
-
-        ul.nav-menu li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        ul.nav-menu li a:hover {
-            background-color: #34495e;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-
-        /* Intentional overflow bug for debugging demo */
-        .profile-img-buggy {
-            width: 1000px; /* Too big for the container! Fixed value prevents shrinking */
-            border: 5px solid #2c3e50;
-        }
-        
-        /* 
-         * The fix for the bug (show during demo):
-         * max-width: 100%;
-         * height: auto;
-         */
-
-    </style>
+    <title>CSS Flexbox Interactive Study Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-    <!-- Target for S2: Menu bar horizontal alignment -->
-    <ul class="nav-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+<body class="h-screen flex flex-col bg-slate-50 overflow-hidden font-sans">
+    <!-- Top Frame: Preview Area (Fixed) -->
+    <section class="h-[45vh] min-h-[400px] border-b border-slate-200 bg-white shadow-sm z-50 flex flex-col p-6">
+        <header class="flex justify-between items-center mb-6">
+            <div>
+                <h1 class="text-3xl font-black text-slate-900 tracking-tight">Flexbox <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-600">Lab</span></h1>
+                <p class="text-slate-400 text-sm">Real-time Layout Simulator</p>
+            </div>
+            <div id="css-display-mini" class="bg-slate-900 rounded-xl p-4 text-xs font-mono text-indigo-300 shadow-lg flex gap-4 items-center">
+                <div><span class="text-pink-400">dir:</span> <span id="css-direction">row</span></div>
+                <div><span class="text-pink-400">just:</span> <span id="css-justify">flex-start</span></div>
+                <div><span class="text-pink-400">aln:</span> <span id="css-align">center</span></div>
+                <div><span class="text-pink-400">wrp:</span> <span id="css-wrap">nowrap</span></div>
+            </div>
+        </header>
 
-    <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is a basic portfolio site. We are learning how to use Flexbox to arrange items and how to use the Developer Tools (F12) to fix layout bugs.</p>
-        
-        <!-- Target for S3: Refactoring and Debugging overflow -->
-        <h2>About Me</h2>
-        <img src="https://placehold.co/1000x400?text=Large+Image+Overflowing" alt="Profile" class="profile-img-buggy">
-        <p>Notice how the image above breaks the layout and goes out of the box? This is because of rigid pixel widths. We will fix this during the S3 Refactoring Live Show!</p>
-    </div>
+        <div class="flex-1 flex flex-col justify-center max-w-7xl mx-auto w-full">
+            <div id="container" class="flex-container p-4 flex flex-row justify-start items-center flex-nowrap h-full max-h-[350px] w-full border-2 border-dashed border-indigo-200 bg-slate-50/50 rounded-2xl transition-all duration-500 overflow-hidden shadow-inner gap-4">
+                <div class="flex-item item-1">1</div>
+                <div class="flex-item item-2 text-4xl pt-8">2</div>
+                <div class="flex-item item-3 text-6xl">3</div>
+                <div class="flex-item item-4 text-sm pb-4">4</div>
+                <div class="flex-item item-1">5</div>
+                <div class="flex-item item-2 shadow-inner bg-opacity-80">6</div>
+                <div class="flex-item item-3 scale-90">7</div>
+                <div class="flex-item item-4 opacity-90">8</div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Bottom Frame: Controls (Scrollable) -->
+    <main class="flex-1 overflow-y-auto p-6 md:p-10 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-10">
+                <!-- Flex Direction -->
+                <div class="control-group">
+                    <h3 class="group-title text-indigo-600">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        flex-direction
+                    </h3>
+                    <div class="flex flex-col gap-2">
+                        <button onclick="updateFlex('flexDirection', 'row', this)" class="control-btn btn-active">row</button>
+                        <button onclick="updateFlex('flexDirection', 'row-reverse', this)" class="control-btn">row-reverse</button>
+                        <button onclick="updateFlex('flexDirection', 'column', this)" class="control-btn">column</button>
+                        <button onclick="updateFlex('flexDirection', 'column-reverse', this)" class="control-btn">column-reverse</button>
+                    </div>
+                </div>
+
+                <!-- Justify Content -->
+                <div class="control-group">
+                    <h3 class="group-title text-pink-600">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                        justify-content
+                    </h3>
+                    <div class="flex flex-col gap-2">
+                        <button onclick="updateFlex('justifyContent', 'flex-start', this)" class="control-btn btn-active">flex-start</button>
+                        <button onclick="updateFlex('justifyContent', 'center', this)" class="control-btn">center</button>
+                        <button onclick="updateFlex('justifyContent', 'flex-end', this)" class="control-btn">flex-end</button>
+                        <button onclick="updateFlex('justifyContent', 'space-between', this)" class="control-btn">space-between</button>
+                        <button onclick="updateFlex('justifyContent', 'space-around', this)" class="control-btn">space-around</button>
+                        <button onclick="updateFlex('justifyContent', 'space-evenly', this)" class="control-btn">space-evenly</button>
+                    </div>
+                </div>
+
+                <!-- Align Items -->
+                <div class="control-group">
+                    <h3 class="group-title text-amber-600">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        align-items
+                    </h3>
+                    <div class="flex flex-col gap-2">
+                        <button onclick="updateFlex('alignItems', 'flex-start', this)" class="control-btn">flex-start</button>
+                        <button onclick="updateFlex('alignItems', 'center', this)" class="control-btn btn-active">center</button>
+                        <button onclick="updateFlex('alignItems', 'flex-end', this)" class="control-btn">flex-end</button>
+                        <button onclick="updateFlex('alignItems', 'stretch', this)" class="control-btn">stretch</button>
+                        <button onclick="updateFlex('alignItems', 'baseline', this)" class="control-btn">baseline</button>
+                    </div>
+                </div>
+
+                <!-- Flex Wrap -->
+                <div class="control-group">
+                    <h3 class="group-title text-emerald-600">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                        flex-wrap
+                    </h3>
+                    <div class="flex flex-col gap-2">
+                        <button onclick="updateFlex('flexWrap', 'nowrap', this)" class="control-btn btn-active">nowrap</button>
+                        <button onclick="updateFlex('flexWrap', 'wrap', this)" class="control-btn">wrap</button>
+                        <button onclick="updateFlex('flexWrap', 'wrap-reverse', this)" class="control-btn">wrap-reverse</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Tip Card -->
+            <div class="bg-indigo-600 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden group">
+                <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700"></div>
+                <h4 class="text-xl font-bold mb-2 flex items-center">
+                    <span class="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center mr-3 text-sm">💡</span>
+                    Pro Tip: Understanding Axes
+                </h4>
+                <p class="text-indigo-100 leading-relaxed max-w-2xl">
+                    When the <code>flex-direction</code> changes, the <strong>Main Axis</strong> and <strong>Cross Axis</strong> switch accordingly. 
+                    The key is understanding that alignment is based on the <code>start</code> and <code>end</code> of the flow, rather than just horizontal/vertical labels.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
