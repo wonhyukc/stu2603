@@ -931,3 +931,353 @@ flex-space
 
 
 ---
+\n
+[Question name] Q30 (wb02) [Easy]
+
+## Image Tag Characteristics ##
+
+[Question type] multiple choice
+
+[Question text]
+
+In HTML, the `<img>` tag is unique compared to tags like `<h1>` or `<p>`. Which of the following statements correctly describes the `<img>` tag?
+
+[General feedback]
+
+The `<img>` tag is an "empty tag" (or "self-closing tag") and does not require a closing tag.
+
+[Choice 1 (정답 100%)]
+
+It is an empty tag and does not require a closing tag.
+
+[Choice 2]
+
+It must always be closed with `</img>`.
+
+[Choice 3]
+
+It can only be used inside the `<head>` section.
+
+[Choice 4]
+
+It automatically adds a border around the image.
+
+[Korean]
+HTML에서 `<img>` 태그는 `<h1>`이나 `<p>`와 같은 태그와 비교할 때 독특한 특징을 가집니다. 다음 중 `<img>` 태그를 올바르게 설명한 것은 무엇입니까?
+
+---
+
+[Question name] Q31 (wb02) [Easy]
+
+## HTML Skeleton Body ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When structuring an HTML document, where should you place the content (like headings, paragraphs, and images) that you actually want to be visible on the browser screen?
+
+[General feedback]
+
+The `<body>` tag holds the visible content of the web page, while the `<head>` contains metadata that operates behind the scenes.
+
+[Choice 1 (정답 100%)]
+
+Inside the `<body>` tag.
+
+[Choice 2]
+
+Inside the `<head>` tag.
+
+[Choice 3]
+
+Inside the `<html>` tag, but outside the `<body>` tag.
+
+[Choice 4]
+
+Directly at the very top of the document before any tags.
+
+[Korean]
+HTML 문서를 구조화할 때, 브라우저 화면에 실제로 표시되기를 원하는 내용(제목, 문단, 이미지 등)은 어디에 배치해야 합니까?
+
+---
+
+[Question name] Q32 (wb02) [Medium]
+
+## HTML Head Tag Purpose ##
+
+[Question type] multiple choice
+
+[Question text]
+
+What is the primary purpose of the `<head>` tag in an HTML document?
+
+[General feedback]
+
+The `<head>` tag contains metadata, the page title, and links to stylesheets, but its contents are not directly displayed on the main white canvas of the web page.
+
+[Choice 1 (정답 100%)]
+
+To hold metadata, settings, and links to stylesheets that are not directly displayed on the page canvas.
+
+[Choice 2]
+
+To display the largest and most important heading at the top of the webpage.
+
+[Choice 3]
+
+To hold all the images and multimedia files.
+
+[Choice 4]
+
+To visually separate the top section of the webpage from the bottom section.
+
+[Korean]
+HTML 문서에서 `<head>` 태그의 주요 목적은 무엇입니까?
+
+---
+
+[Question name] Q33 (wb03) [Easy]
+
+## Form Label Element ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When creating a form input (like a text box for an email), which tag is used to attach a descriptive text "name tag" next to it to improve usability and accessibility?
+
+[General feedback]
+
+The `<label>` tag is specifically used to bind a text label to a specific input field, helping users know exactly what to type.
+
+[Choice 1 (정답 100%)]
+
+<label>
+
+[Choice 2]
+
+<span>
+
+[Choice 3]
+
+<description>
+
+[Choice 4]
+
+<name>
+
+[Korean]
+폼(form) 입력을 만들 때(예: 이메일을 입력하는 텍스트 상자), 사용성 및 접근성을 높이기 위해 입력 필드 옆에 설명 텍스트("이름표")를 붙일 때 사용하는 태그는 무엇입니까?
+
+---
+
+[Question name] Q34 (wb05) [Easy]
+
+## CSS Inheritance Concept ##
+
+[Question type] multiple choice
+
+[Question text]
+
+In CSS, what is the meaning of "Inheritance"?
+
+[General feedback]
+
+Inheritance is the phenomenon where child tags naturally inherit the design (like font or color) given to a parent tag.
+
+[Choice 1 (정답 100%)]
+
+Child tags naturally receive the styling (like fonts or colors) applied to their parent tag.
+
+[Choice 2]
+
+Images automatically copy the size of the previous image.
+
+[Choice 3]
+
+HTML tags inherit the styles from a completely different website.
+
+[Choice 4]
+
+Styles are automatically passed from the bottom of the page to the top.
+
+[Korean]
+CSS에서 "상속(Inheritance)"의 의미는 무엇입니까?
+
+---
+
+[Question name] Q35 (wb05) [Medium]
+
+## CSS Class vs ID ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When applying CSS styles, when should you use an ID (`#`) instead of a Class (`.`)?
+
+[General feedback]
+
+An ID (`#`) is a unique identifier used for a specific, single element, while a Class (`.`) is a group designation used for multiple elements.
+
+[Choice 1 (정답 100%)]
+
+When you want to uniquely identify and style one specific, single element on the page.
+
+[Choice 2]
+
+When you want to apply the exact same uniform to hundreds of elements.
+
+[Choice 3]
+
+When you want to change the background color of the entire body.
+
+[Choice 4]
+
+When you want to write an HTML comment.
+
+[Korean]
+CSS 스타일을 적용할 때, 언제 클래스(`.`) 대신 아이디(`#`)를 사용해야 합니까?
+
+---
+
+[Question name] Q36 (wb06) [Easy]
+
+## Box Model Margin ##
+
+[Question type] multiple choice
+
+[Question text]
+
+In the CSS Box Model, which property is used to create "social distancing" (space outside the border) between two separate boxes?
+
+[General feedback]
+
+Margin creates space outside the border of an element, effectively pushing other nearby elements away.
+
+[Choice 1 (정답 100%)]
+
+Margin
+
+[Choice 2]
+
+Padding
+
+[Choice 3]
+
+Border
+
+[Choice 4]
+
+Content
+
+[Korean]
+CSS 박스 모델(Box Model)에서 두 개의 독립된 박스 사이에 "사회적 거리두기(social distancing)" (즉, 테두리 바깥쪽의 공간)를 만들기 위해 사용되는 속성은 무엇입니까?
+
+---
+
+[Question name] Q37 (wb06) [Medium]
+
+## Box Model Padding ##
+
+[Question type] multiple choice
+
+[Question text]
+
+In the CSS Box Model, what is the role of Padding?
+
+[General feedback]
+
+Padding acts like "bubble wrap" that protects the content. It adds space inside the box, between the content and the border.
+
+[Choice 1 (정답 100%)]
+
+It adds space inside the box, between the content and the border.
+
+[Choice 2]
+
+It pushes other boxes away from the current box.
+
+[Choice 3]
+
+It defines the physical line that surrounds the box.
+
+[Choice 4]
+
+It determines the color of the text inside the box.
+
+[Korean]
+CSS 박스 모델(Box Model)에서 패딩(Padding)의 역할은 무엇입니까?
+
+---
+
+[Question name] Q38 (wb06) [Easy]
+
+## CSS Box Sizing ##
+
+[Question type] multiple choice
+
+[Question text]
+
+Which CSS property declaration should be added to ensure that padding and border are included within an element's specified width, preventing layout breakage?
+
+[General feedback]
+
+`box-sizing: border-box;` forces the width and height properties to include the content, padding, and border, making layouts much more predictable.
+
+[Choice 1 (정답 100%)]
+
+box-sizing: border-box;
+
+[Choice 2]
+
+margin-box: include;
+
+[Choice 3]
+
+display: block;
+
+[Choice 4]
+
+overflow: hidden;
+
+[Korean]
+패딩(padding)과 테두리(border)가 요소에 지정된 너비 안에 포함되게 하여 레이아웃이 깨지는 것을 방지하려면 어떤 CSS 속성 선언을 추가해야 합니까?
+
+---
+
+[Question name] Q39 (wb07) [Medium]
+
+## Flexbox Overflow Handling ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When using Flexbox, what might happen if a child element has a fixed width (like `width: 1000px;`) but the parent container is smaller and tries to flex?
+
+[General feedback]
+
+If a child element is too rigid and large for a flexing parent container, it will break out of the container, causing an Overflow.
+
+[Choice 1 (정답 100%)]
+
+The child element will break out of the container, causing an Overflow.
+
+[Choice 2]
+
+The child element will magically disappear from the screen.
+
+[Choice 3]
+
+The parent container will automatically change into a Grid layout.
+
+[Choice 4]
+
+The child element's text will change color to red to indicate an error.
+
+[Korean]
+Flexbox를 사용할 때, 자식 요소가 고정된 너비(예: `width: 1000px;`)를 가지고 있지만 부모 컨테이너가 더 작아서 유연하게 줄어들려고 할 때 어떤 일이 발생할 수 있습니까?
+
+---
