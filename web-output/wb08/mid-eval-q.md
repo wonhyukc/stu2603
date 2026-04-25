@@ -965,6 +965,40 @@ It automatically adds a border around the image.
 [Korean]
 HTML에서 `<img>` 태그는 `<h1>`이나 `<p>`와 같은 태그와 비교할 때 독특한 특징을 가집니다. 다음 중 `<img>` 태그를 올바르게 설명한 것은 무엇입니까?
 
+[Question name] Q30 (wb07) [Medium]
+
+## Flexbox Layout Matching ##
+
+[Question type] matching
+
+[Question text]
+
+Match the given `justify-content` values with their resulting layout descriptions for items inside a Flexbox container (assuming `flex-direction: row`).
+
+[General feedback]
+
+- `center`: Packs items around the center.
+- `space-between`: Distributes items evenly, first item at start, last at end.
+- `flex-end`: Packs items toward the end line.
+
+[Match 1]
+center
+[Answer 1]
+항목들이 컨테이너의 중앙에 모입니다. (Items packed at the center)
+
+[Match 2]
+space-between
+[Answer 2]
+첫 번째 항목은 시작점에, 마지막 항목은 끝점에 배치되고 나머지는 고르게 분포됩니다. (Evenly distributed, first at start, last at end)
+
+[Match 3]
+flex-end
+[Answer 3]
+항목들이 컨테이너의 끝점(오른쪽)에 모입니다. (Items packed at the end)
+
+[Korean]
+다음 `justify-content` 속성 값들을 Flexbox 컨테이너 내의 결과 레이아웃 설명과 올바르게 짝지으세요.
+
 ---
 
 [Question name] Q31 (wb02) [Easy]
@@ -1629,5 +1663,23 @@ The Network Tab
 
 [Korean]
 StackOverflow와 같은 외국의 기술 사이트를 탐색할 때, AI를 사용하여 전체 페이지를 즉시 번역함으로써 언어 장벽을 획기적으로 줄여주는 크롬(Chrome)의 내장 기능은 무엇입니까?
+## StackBlitz Local Image Path ##
+
+[Question type] true/false
+
+[Question text]
+
+When building an HTML project on StackBlitz, if you use a local file path for an image like `<img src="C:/Users/student/images/logo.png">`, anyone visiting your StackBlitz URL will be able to see that image.
+
+[General feedback]
+
+False. A local path points to a file on your specific physical computer drive (like C:). When other people visit the StackBlitz URL, their browser will look for `C:/...` on their own computers, not yours, and the image will fail to load. Images must be hosted online or uploaded to the project.
+
+[Answer]
+
+False
+
+[Korean]
+참/거짓: StackBlitz에서 HTML 프로젝트를 만들 때, `<img src="C:/Users/student/images/logo.png">`처럼 이미지에 로컬 파일 경로를 사용하면, 다른 사람이 당신의 StackBlitz URL을 방문했을 때도 그 이미지를 볼 수 있습니다.
 
 ---
