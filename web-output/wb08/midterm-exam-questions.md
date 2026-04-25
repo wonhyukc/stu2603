@@ -15,11 +15,11 @@ If you click the **`</>` (HTML Source Edit)** button in the editor and copy/past
 
 ```html
 <h3>[Web Programming Midterm Time-Attack Mission / 웹프로그래밍 중간고사 타임어택 미션]</h3>
-<p>This quiz is a time-attack mission where the use of AI (ChatGPT, Gemini, etc.) and internet search is fully allowed. Please read the following 20 questions in order and submit all your answers within the time limit. (In case of a tie, a higher score will be given to the earlier submission.)<br>
-본 퀴즈는 AI(ChatGPT, Gemini 등) 및 인터넷 검색을 전면 허용하는 타임어택 퀴즈입니다. 아래 20개의 문항을 순서대로 읽고, 제한 시간 내에 모든 정답을 작성하여 제출해 주시기 바랍니다. (동점일 경우 제출 시각이 빠른 순으로 높은 점수가 부여됩니다.)</p>
+<p>This quiz is a time-attack mission where the use of AI (ChatGPT, Gemini, etc.) and internet search is fully allowed. Please read the following 30 questions in order and submit all your answers within the time limit. (In case of a tie, a higher score will be given to the earlier submission.)<br>
+본 퀴즈는 AI(ChatGPT, Gemini 등) 및 인터넷 검색을 전면 허용하는 타임어택 퀴즈입니다. 아래 30개의 문항을 순서대로 읽고, 제한 시간 내에 모든 정답을 작성하여 제출해 주시기 바랍니다. (동점일 경우 제출 시각이 빠른 순으로 높은 점수가 부여됩니다.)</p>
 <hr>
 
-<h4>[Multiple Choice / 객관식 - 10 Questions/문항]</h4>
+<h4>[Multiple Choice / 객관식 - 15 Questions/문항]</h4>
 <p><b>📌 Q1. Which attribute is used to specify alternate text to be displayed when an image fails to load or breaks when using the &lt;img&gt; tag? / &lt;img&gt; 태그를 사용할 때, 이미지가 깨지거나 로드되지 않을 경우 화면에 대신 표시될 텍스트를 지정하는 속성은 무엇인가?</b><br>
 ① src<br>
 ② href<br>
@@ -82,9 +82,39 @@ If you click the **`</>` (HTML Source Edit)** button in the editor and copy/past
 ③ Changes the text color of all &lt;p&gt; tag elements in the document to blue. / 문서 내의 모든 &lt;p&gt; 태그 요소의 글씨 색상을 파란색으로 변경한다.<br>
 ④ Changes the text color of only the first &lt;p&gt; tag to blue. / 첫 번째 &lt;p&gt; 태그의 글씨 색상만 파란색으로 변경한다.</p>
 
+<p><b>📌 Q21. Which HTML tag is generally used to define a block of navigation links? / 내비게이션(메뉴) 링크들의 모음을 정의할 때 주로 사용하는 HTML 태그는 무엇인가?</b><br>
+① &lt;section&gt;<br>
+② &lt;nav&gt;<br>
+③ &lt;header&gt;<br>
+④ &lt;footer&gt;</p>
+
+<p><b>📌 Q22. Which CSS property is used to change the size of the text? / 텍스트의 크기를 변경하는 데 사용하는 CSS 속성은 무엇인가?</b><br>
+① font-weight<br>
+② text-size<br>
+③ font-style<br>
+④ font-size</p>
+
+<p><b>📌 Q23. Which of the following is an example of a 'Relative Path'? / 다음 중 '상대 경로(Relative Path)'의 예시로 올바른 것은?</b><br>
+① https://www.google.com/images/logo.png<br>
+② C:\Users\Document\pic.jpg<br>
+③ ./images/pic.jpg<br>
+④ http://example.com/index.html</p>
+
+<p><b>📌 Q24. When using multiple &lt;input type="radio"&gt; elements, which attribute must be identical to group them so that only one option can be selected? / 여러 개의 라디오 버튼(&lt;input type="radio"&gt;)을 사용할 때, 하나만 선택되도록 그룹화하기 위해 반드시 동일하게 설정해야 하는 속성은 무엇인가?</b><br>
+① id<br>
+② class<br>
+③ value<br>
+④ name</p>
+
+<p><b>📌 Q25. Which tab in Chrome Developer Tools allows you to easily view the final calculated CSS values and the visual Box Model structure of an element? / Chrome 개발자 도구에서 요소의 최종 계산된 CSS 값과 박스 모델 시각화 구조를 가장 쉽게 확인할 수 있는 탭은 무엇인가?</b><br>
+① Console 탭<br>
+② Network 탭<br>
+③ Computed 탭<br>
+④ Sources 탭</p>
+
 <hr>
 
-<h4>[True / False / 참/거짓 - 5 Questions/문항]</h4>
+<h4>[True / False / 참/거짓 - 8 Questions/문항]</h4>
 
 <p><b>📌 Q11. The &lt;img&gt; tag must be written with a closing tag like &lt;/img&gt; to work properly. / &lt;img&gt; 태그는 반드시 &lt;/img&gt;와 같이 닫는 태그를 작성해야 정상적으로 동작한다.</b><br>
 - True / False</p>
@@ -101,9 +131,18 @@ If you click the **`</>` (HTML Source Edit)** button in the editor and copy/past
 <p><b>📌 Q15. In CSS, the # symbol is used before the class name when selecting a specific class to apply styles. / CSS에서 특정 클래스(class)를 선택하여 스타일을 적용할 때는 클래스명 앞에 # 기호를 사용한다.</b><br>
 - True / False</p>
 
+<p><b>📌 Q26. The `background-color` CSS property can be used to insert a background image into an element. / CSS의 `background-color` 속성을 사용하면 요소에 배경 이미지를 삽입할 수 있다.</b><br>
+- True / False</p>
+
+<p><b>📌 Q27. Unlike radio buttons, multiple checkboxes (`&lt;input type="checkbox"&gt;`) can be selected at the same time. / 라디오 버튼과 달리 체크박스(`&lt;input type="checkbox"&gt;`)는 여러 개를 동시에 선택할 수 있다.</b><br>
+- True / False</p>
+
+<p><b>📌 Q28. In Flexbox, when the main axis is horizontal (`flex-direction: row`), the `align-items` property controls the vertical alignment of the items. / Flexbox에서 메인 축이 가로일 때(`flex-direction: row`), `align-items` 속성은 항목들의 세로(수직) 정렬을 제어한다.</b><br>
+- True / False</p>
+
 <hr>
 
-<h4>[Cloze / 코드 빈칸 채우기 - 5 Questions/문항]</h4>
+<h4>[Cloze / 코드 빈칸 채우기 - 7 Questions/문항]</h4>
 
 <p><b>📌 Q16. Complete the correct HTML tag to create a single-line input field for receiving a user's ID or text. / 사용자의 아이디나 텍스트를 입력받기 위한 한 줄짜리 입력창을 만드는 올바른 HTML 태그를 완성하시오.</b><br>
 <code>&lt;input type="[ Blank / 빈칸 ]"&gt;</code></p>
@@ -119,10 +158,16 @@ If you click the **`</>` (HTML Source Edit)** button in the editor and copy/past
 
 <p><b>📌 Q20. Complete the property value used when you want to stack and arrange elements vertically (from top to bottom) in a Flexbox layout. / Flexbox 레이아웃에서 요소들을 수직 방향(위에서 아래로)으로 쌓아서 배치하고 싶을 때 사용하는 속성값을 완성하시오.</b><br>
 <code>.flex-container { display: flex; flex-direction: [ Blank / 빈칸 ]; }</code></p>
+
+<p><b>📌 Q29. Complete the missing attribute value to correctly link an external CSS file to an HTML document. / 외부 CSS 파일을 HTML 문서에 연결하기 위해 빠진 속성값을 완성하시오.</b><br>
+<code>&lt;link rel="[ Blank / 빈칸 ]" href="style.css"&gt;</code></p>
+
+<p><b>📌 Q30. Complete the property value that forces the padding and border to be included within the element's specified width and height. / 패딩과 테두리가 요소의 지정된 너비와 높이 안에 포함되도록 강제하는 속성값을 완성하시오.</b><br>
+<code>box-sizing: [ Blank / 빈칸 ];</code></p>
 ```
 
 ## 💡 Precautions for Copy/Paste / 복사/붙여넣기 시 주의사항
 1. Click the **`</>` shaped icon (HTML source editor)** on the first line of the Moodle (eCampus) editor menu. / 무들(eCampus) 편집기 메뉴에서 첫 번째 줄에 있는 **`</>` 모양 아이콘(HTML 소스 편집기)**을 클릭합니다.
 2. When a black or separate source code window opens, copy and paste the provided code from `<h3>...` to `</p>` (or `</table>`). / 검은색 혹은 별도의 소스코드 창이 열리면, 위 제공된 `<h3>...` 부터 `</p>` (혹은 `</table>`) 까지의 코드를 복사해서 붙여넣습니다.
 3. Close the source edit window to see that the line breaks, bold text, and table formatting have been perfectly applied. / 소스 편집창을 닫으면 줄바꿈과 볼드체, 테이블 서식이 완벽하게 적용된 것을 확인할 수 있습니다.
-4. Now students can see all 20 questions at a glance and submit them within 1 Quiz module! / 이제 학생들은 1개의 퀴즈 모듈 안에서 20개의 문제를 한눈에 보고 제출할 수 있습니다!
+4. Now students can see all 30 questions at a glance and submit them within 1 Quiz module! / 이제 학생들은 1개의 퀴즈 모듈 안에서 30개의 문제를 한눈에 보고 제출할 수 있습니다!
