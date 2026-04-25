@@ -1281,3 +1281,353 @@ The child element's text will change color to red to indicate an error.
 Flexbox를 사용할 때, 자식 요소가 고정된 너비(예: `width: 1000px;`)를 가지고 있지만 부모 컨테이너가 더 작아서 유연하게 줄어들려고 할 때 어떤 일이 발생할 수 있습니까?
 
 ---
+\n
+[Question name] Q40 (wb01) [Easy]
+
+## Internet vs Web ##
+
+[Question type] multiple choice
+
+[Question text]
+
+According to the Week 1 lecture, what is the primary difference between the "Internet" and the "Web"?
+
+[General feedback]
+
+The Internet is the global physical infrastructure of connected computers (the highway), while the Web (World Wide Web) is just one of the many services that run on top of it.
+
+[Choice 1 (정답 100%)]
+
+The Internet is the physical network infrastructure, and the Web is a service that runs on top of it.
+
+[Choice 2]
+
+They are exactly the same thing.
+
+[Choice 3]
+
+The Web is the physical hardware, and the Internet is a software application.
+
+[Choice 4]
+
+The Internet is only for emails, while the Web is for videos.
+
+[Korean]
+1주차 강의에 따르면, "인터넷(Internet)"과 "웹(Web)"의 가장 핵심적인 차이는 무엇입니까?
+
+---
+
+[Question name] Q41 (wb05) [Medium]
+
+## Incognito Mode Purpose ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When using a public computer (like in a library or cafe), why is it strongly recommended to use Chrome's "Incognito Mode" (시크릿 모드)?
+
+[General feedback]
+
+Incognito Mode ensures that your browsing history, cookies, and login sessions are automatically deleted when the window is closed, protecting you from hacking on public PCs.
+
+[Choice 1 (정답 100%)]
+
+To ensure that your login history, passwords, and cookies are automatically deleted when the window closes, preventing hacking.
+
+[Choice 2]
+
+To make your internet connection speed twice as fast.
+
+[Choice 3]
+
+To hide your IP address from the government.
+
+[Choice 4]
+
+To automatically translate foreign websites into Korean.
+
+[Korean]
+공용 컴퓨터(도서관이나 카페 등)를 사용할 때 크롬의 "시크릿 모드(Incognito Mode)"를 사용하는 것이 강력히 권장되는 이유는 무엇입니까?
+
+---
+
+[Question name] Q42 (wb05) [Easy]
+
+## Incognito Mode Shortcut ##
+
+[Question type] multiple choice
+
+[Question text]
+
+What is the Windows keyboard shortcut to instantly open a new Incognito window in Google Chrome?
+
+[General feedback]
+
+The shortcut for a new Incognito window is Ctrl+Shift+N (Cmd+Shift+N on Mac).
+
+[Choice 1 (정답 100%)]
+
+Ctrl + Shift + N
+
+[Choice 2]
+
+Ctrl + C
+
+[Choice 3]
+
+Alt + F4
+
+[Choice 4]
+
+Ctrl + T
+
+[Korean]
+구글 크롬에서 새로운 시크릿 창(Incognito window)을 즉시 열기 위한 윈도우(Windows) 키보드 단축키는 무엇입니까?
+
+---
+
+[Question name] Q43 (wb06) [Medium]
+
+## Paste Values Only Shortcut ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When copying text from a web page and pasting it into a document, what keyboard shortcut should you use to paste ONLY the raw text without bringing along the messy background colors, fonts, and HTML formatting?
+
+[General feedback]
+
+Ctrl+Shift+V pastes only the raw text values without the original styling.
+
+[Choice 1 (정답 100%)]
+
+Ctrl + Shift + V
+
+[Choice 2]
+
+Ctrl + V
+
+[Choice 3]
+
+Ctrl + C
+
+[Choice 4]
+
+Ctrl + Z
+
+[Korean]
+웹 페이지에서 텍스트를 복사하여 문서에 붙여넣을 때, 지저분한 배경색, 폰트, HTML 서식 등을 빼고 오직 순수한 '원시 텍스트(raw text)'만을 붙여넣으려면 어떤 키보드 단축키를 사용해야 합니까?
+
+---
+
+[Question name] Q44 (wb06) [Easy]
+
+## Google Search: Exact Match ##
+
+[Question type] multiple choice
+
+[Question text]
+
+Which Google Search operator should you use if you want to find pages that contain an exact phrase, strictly in that specific order without any missing words?
+
+[General feedback]
+
+Wrapping your search phrase in quotation marks ("") forces Google to find the exact phrase.
+
+[Choice 1 (정답 100%)]
+
+Quotation marks (e.g., "exact phrase")
+
+[Choice 2]
+
+Minus sign (e.g., -exact phrase)
+
+[Choice 3]
+
+Asterisk (e.g., *exact phrase)
+
+[Choice 4]
+
+Hashtag (e.g., #exact phrase)
+
+[Korean]
+단어 하나도 빠짐없이, 지정한 순서 그대로 '정확하게 일치하는 문구'가 포함된 페이지를 찾으려면 어떤 구글 검색 연산자를 사용해야 합니까?
+
+---
+
+[Question name] Q45 (wb06) [Easy]
+
+## Google Search: Exclude Word ##
+
+[Question type] multiple choice
+
+[Question text]
+
+You want to search for "Apple" the fruit, but your results are flooded with Apple computers and iPhones. Which Google Search operator will remove results containing the word "iPhone"?
+
+[General feedback]
+
+The minus sign (-) placed directly before a word tells Google to exclude results containing that word.
+
+[Choice 1 (정답 100%)]
+
+Apple -iPhone
+
+[Choice 2]
+
+Apple "iPhone"
+
+[Choice 3]
+
+Apple +iPhone
+
+[Choice 4]
+
+Apple exclude:iPhone
+
+[Korean]
+과일 "Apple"을 검색하고 싶은데, 애플 컴퓨터와 아이폰 결과가 너무 많이 나옵니다. 검색 결과에서 "iPhone"이라는 단어를 포함하는 문서를 제외하려면 어떤 구글 검색 연산자를 사용해야 합니까?
+
+---
+
+[Question name] Q46 (wb06) [Easy]
+
+## Google Search: Filetype ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When researching for a university paper, you want to easily find official PDF reports about "Web Design Trends". What is the fastest search query to achieve this?
+
+[General feedback]
+
+The `filetype:pdf` operator restricts search results to only PDF files.
+
+[Choice 1 (정답 100%)]
+
+Web Design Trends filetype:pdf
+
+[Choice 2]
+
+Web Design Trends "pdf"
+
+[Choice 3]
+
+Web Design Trends -pdf
+
+[Choice 4]
+
+Web Design Trends doc:pdf
+
+[Korean]
+대학 리포트 조사를 할 때, "Web Design Trends"와 관련된 공식적인 PDF 문서만 빠르게 찾고 싶습니다. 이를 위한 가장 빠른 검색어 조합은 무엇입니까?
+
+---
+
+[Question name] Q47 (wb06) [Medium]
+
+## Google Search: Site Specific ##
+
+[Question type] multiple choice
+
+[Question text]
+
+How can you use Google to search for the keyword "Scholarship" ONLY within the official Seoul Theological University website (stu.ac.kr)?
+
+[General feedback]
+
+The `site:` operator restricts search results to a specific domain.
+
+[Choice 1 (정답 100%)]
+
+Scholarship site:stu.ac.kr
+
+[Choice 2]
+
+Scholarship link:stu.ac.kr
+
+[Choice 3]
+
+Scholarship in:stu.ac.kr
+
+[Choice 4]
+
+Scholarship "stu.ac.kr"
+
+[Korean]
+오직 서울신학대학교 공식 웹사이트(stu.ac.kr) 내에서만 "장학금(Scholarship)"이라는 키워드를 검색하려면 구글을 어떻게 활용해야 합니까?
+
+---
+
+[Question name] Q48 (wb06) [Medium]
+
+## Spreadsheet Pivot Table ##
+
+[Question type] multiple choice
+
+[Question text]
+
+In Google Sheets or Excel, what feature allows you to instantly summarize thousands of rows of data (like grouping passengers by class to find their average age) without writing complex formulas?
+
+[General feedback]
+
+A Pivot Table is a powerful data summarization tool that can automatically group, count, average, or calculate the median of large datasets.
+
+[Choice 1 (정답 100%)]
+
+Pivot table
+
+[Choice 2]
+
+Conditional formatting
+
+[Choice 3]
+
+VLOOKUP
+
+[Choice 4]
+
+Find and Replace
+
+[Korean]
+구글 스프레드시트나 엑셀에서 복잡한 수식을 직접 작성하지 않고도 수천 줄의 데이터를 즉시 요약(예: 탑승객을 클래스별로 그룹화하여 평균 연령 계산)할 수 있게 해주는 기능은 무엇입니까?
+
+---
+
+[Question name] Q49 (wb05) [Medium]
+
+## Browser Language Settings ##
+
+[Question type] multiple choice
+
+[Question text]
+
+When navigating foreign technical sites like StackOverflow, what built-in Chrome feature can dramatically reduce the language barrier by using AI to instantly translate the entire page?
+
+[General feedback]
+
+Chrome's Auto-translate setting uses AI to instantly translate foreign websites into your native language.
+
+[Choice 1 (정답 100%)]
+
+The Auto-translate setting (Settings > Languages)
+
+[Choice 2]
+
+Incognito Mode
+
+[Choice 3]
+
+Developer Tools (F12)
+
+[Choice 4]
+
+The Network Tab
+
+[Korean]
+StackOverflow와 같은 외국의 기술 사이트를 탐색할 때, AI를 사용하여 전체 페이지를 즉시 번역함으로써 언어 장벽을 획기적으로 줄여주는 크롬(Chrome)의 내장 기능은 무엇입니까?
+
+---
