@@ -1,8 +1,8 @@
-# Midterm Workshop Module Questions and Rubric / 중간고사 상호평가(Workshop) 모듈용 문제 및 루브릭
+# Midterm Quiz Module Questions / 중간고사 퀴즈(Quiz) 모듈용 문제
 
-We have completely reorganized the format so that instructors can copy and paste all 20 questions into the **Moodle Workshop module** at once, avoiding the hassle of registering each question individually into the question bank. 
+We have completely reorganized the format so that instructors can copy and paste all 20 questions into the **Moodle Quiz module** at once, avoiding the hassle of registering each question individually into the question bank. 
 HTML tags have been applied to prevent line breaks (Enter) from being ignored when pasting directly into the Moodle editor.
-강사님께서 20개의 문항을 일일이 문제은행에 등록하는 번거로움을 피하고, **무들 상호평가(Workshop) 모듈**에서 한 번에 복사/붙여넣어 운영하실 수 있도록 형태를 완전히 개편했습니다. 
+강사님께서 20개의 문항을 일일이 문제은행에 등록하는 번거로움을 피하고, **무들 퀴즈(Quiz) 모듈**에서 한 번에 복사/붙여넣어 운영하실 수 있도록 형태를 개편했습니다. 
 무들의 편집기(에디터)에 바로 붙여넣었을 때 **줄바꿈(엔터)이 무시되는 현상을 방지하기 위해 HTML 태그를 적용**했습니다. 
 
 If you click the **`</>` (HTML Source Edit)** button in the editor and copy/paste the code below, the formatting will be perfectly maintained.
@@ -10,8 +10,8 @@ If you click the **`</>` (HTML Source Edit)** button in the editor and copy/past
 
 ---
 
-## 1. Instructions for submission / 제출 지시문
-> **How to use / 사용 방법**: In the Workshop settings, go to 'Submission settings' -> 'Instructions for submission' editor. Open the `</>` (HTML Source Edit) window and paste the code below exactly as it is. / 상호평가 설정의 '제출 설정' -> '제출 지시문' 에디터에서 `</>` (HTML 소스 편집) 창을 열고 아래 코드를 그대로 붙여넣으세요.
+## 1. Quiz Questions / 퀴즈 문제
+> **How to use / 사용 방법**: In the Quiz settings, go to 'Description' editor or question text. Open the `</>` (HTML Source Edit) window and paste the code below exactly as it is. / 퀴즈 설정의 '설명' 에디터나 문제의 '문제 내용'에서 `</>` (HTML 소스 편집) 창을 열고 아래 코드를 그대로 붙여넣으세요.
 
 ```html
 <h3>[Web Programming Midterm Time-Attack Mission / 웹프로그래밍 중간고사 타임어택 미션]</h3>
@@ -121,47 +121,8 @@ If you click the **`</>` (HTML Source Edit)** button in the editor and copy/past
 <code>.flex-container { display: flex; flex-direction: [ Blank / 빈칸 ]; }</code></p>
 ```
 
----
-
-## 2. Assessment settings / 평가 설정 (Rubric)
-> **How to use / 사용 방법**: Copy and paste the answer key and grading criteria below into the 'Assessment settings' (e.g., Accumulative grading strategy) section of the Workshop settings. Students will grade their peers' answers based on this rubric. / 상호평가 설정의 '평가 설정' (누적 채점 방식 등) 항목에 아래의 정답표와 채점 기준을 복사해서 붙여넣으세요. 학생들은 이 기준표를 보고 동료의 답안을 채점하게 됩니다.
-
-```html
-<h3>[Peer Grading Guidelines and Answer Key / 동료 채점 가이드라인 및 정답표]</h3>
-<p>Please objectively grade your peer's answers by comparing them with the answer key below. The total is 20 points (1 point for each question). / 동료 학생의 답안을 아래의 정답표와 대조하여 객관적으로 채점해 주시기 바랍니다. 총 20점 만점(각 문항당 1점)입니다.</p>
-
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr style="background-color: #f2f2f2;">
-    <th>Question / 문항</th>
-    <th>Answer and Explanation (1 pt each) / 정답 및 해설 (각 1점)</th>
-  </tr>
-  <tr><td><b>Q1</b></td><td><b>Answer / 정답: ③ (alt)</b></td></tr>
-  <tr><td><b>Q2</b></td><td><b>Answer / 정답: ③ (Your subjective feelings and emotions / 본인의 주관적인 감정과 느낌)</b></td></tr>
-  <tr><td><b>Q3</b></td><td><b>Answer / 정답: ② (type="submit")</b></td></tr>
-  <tr><td><b>Q4</b></td><td><b>Answer / 정답: ② (#header)</b></td></tr>
-  <tr><td><b>Q5</b></td><td><b>Answer / 정답: ② (padding)</b></td></tr>
-  <tr><td><b>Q6</b></td><td><b>Answer / 정답: ② (justify-content: center;)</b></td></tr>
-  <tr><td><b>Q7</b></td><td><b>Answer / 정답: ③ (&lt;h1&gt;)</b></td></tr>
-  <tr><td><b>Q8</b></td><td><b>Answer / 정답: ③ (Ctrl + C / Cmd + C)</b></td></tr>
-  <tr><td><b>Q9</b></td><td><b>Answer / 정답: ② (Because the parent element's display is not flex / 부모 요소의 display가 flex가 아니기 때문이다.)</b></td></tr>
-  <tr><td><b>Q10</b></td><td><b>Answer / 정답: ③ (Changes the text color of all &lt;p&gt; tag elements in the document to blue / 문서 내의 모든 &lt;p&gt; 태그 요소의 글씨 색상을 파란색으로 변경한다.)</b></td></tr>
-  <tr><td><b>Q11</b></td><td><b>Answer / 정답: False</b> (The img tag is an empty tag without a closing tag. / img 태그는 닫는 태그가 없는 빈 태그입니다.)</td></tr>
-  <tr><td><b>Q12</b></td><td><b>Answer / 정답: True</b> (The default value of flex-direction is row. / flex-direction의 기본값은 row입니다.)</td></tr>
-  <tr><td><b>Q13</b></td><td><b>Answer / 정답: True</b></td></tr>
-  <tr><td><b>Q14</b></td><td><b>Answer / 정답: True</b></td></tr>
-  <tr><td><b>Q15</b></td><td><b>Answer / 정답: False</b> (Classes use the . symbol, while # is used for id. / 클래스는 . 기호를 사용하며, #은 id에 사용합니다.)</td></tr>
-  <tr><td><b>Q16</b></td><td><b>Answer / 정답: text</b></td></tr>
-  <tr><td><b>Q17</b></td><td><b>Answer / 정답: flex</b></td></tr>
-  <tr><td><b>Q18</b></td><td><b>Answer / 정답: a</b> (Correct if 'a' is entered in both blank 1 and 2 / 빈칸 1, 2 모두 'a' 입력 시 정답)</td></tr>
-  <tr><td><b>Q19</b></td><td><b>Answer / 정답: .container</b></td></tr>
-  <tr><td><b>Q20</b></td><td><b>Answer / 정답: column</b></td></tr>
-</table>
-```
-
----
-
 ## 💡 Precautions for Copy/Paste / 복사/붙여넣기 시 주의사항
 1. Click the **`</>` shaped icon (HTML source editor)** on the first line of the Moodle (eCampus) editor menu. / 무들(eCampus) 편집기 메뉴에서 첫 번째 줄에 있는 **`</>` 모양 아이콘(HTML 소스 편집기)**을 클릭합니다.
 2. When a black or separate source code window opens, copy and paste the provided code from `<h3>...` to `</p>` (or `</table>`). / 검은색 혹은 별도의 소스코드 창이 열리면, 위 제공된 `<h3>...` 부터 `</p>` (혹은 `</table>`) 까지의 코드를 복사해서 붙여넣습니다.
 3. Close the source edit window to see that the line breaks, bold text, and table formatting have been perfectly applied. / 소스 편집창을 닫으면 줄바꿈과 볼드체, 테이블 서식이 완벽하게 적용된 것을 확인할 수 있습니다.
-4. Now students can see all 20 questions at a glance and submit them within 1 Workshop module! / 이제 학생들은 1개의 상호평가 모듈 안에서 20개의 문제를 한눈에 보고 제출할 수 있습니다!
+4. Now students can see all 20 questions at a glance and submit them within 1 Quiz module! / 이제 학생들은 1개의 퀴즈 모듈 안에서 20개의 문제를 한눈에 보고 제출할 수 있습니다!

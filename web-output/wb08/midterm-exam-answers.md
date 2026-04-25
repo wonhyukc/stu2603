@@ -1,10 +1,10 @@
-# Midterm Workshop Answer Key & Rubric / 중간고사 상호평가 정답 및 루브릭
+# Midterm Quiz Answer Key / 중간고사 퀴즈 정답표
 
-> **How to use / 사용 방법**: Copy and paste the answer key and grading criteria below into the 'Assessment settings' (e.g., Accumulative grading strategy) section of the Workshop settings. Students will grade their peers' answers based on this rubric. / 상호평가 설정의 '평가 설정' (누적 채점 방식 등) 항목에 아래의 정답표와 채점 기준을 복사해서 붙여넣으세요. 학생들은 이 기준표를 보고 동료의 답안을 채점하게 됩니다.
+> **How to use / 사용 방법**: For instructor's reference or to set up automatic grading in the Moodle Quiz settings. / 강사 참고용이거나 무들 퀴즈 자동 채점 설정 시 활용하세요.
 
 ```html
-<h3>[Peer Grading Guidelines and Answer Key / 동료 채점 가이드라인 및 정답표]</h3>
-<p>Please objectively grade your peer's answers by comparing them with the answer key below. The total is 20 points (1 point for each question). / 동료 학생의 답안을 아래의 정답표와 대조하여 객관적으로 채점해 주시기 바랍니다. 총 20점 만점(각 문항당 1점)입니다.</p>
+<h3>[Answer Key / 퀴즈 정답표]</h3>
+<p>The total is 20 points (1 point for each question). / 총 20점 만점(각 문항당 1점)입니다.</p>
 
 <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #f2f2f2;">
